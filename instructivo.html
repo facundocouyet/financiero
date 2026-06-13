@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cómo leer las planillas · Cáscara Collective</title>
+
+<link rel="stylesheet" href="ds/tokens/fonts.css">
+<link rel="stylesheet" href="ds/tokens/colors.css">
+<link rel="stylesheet" href="informe-2026.css">
+
+<style>
+  /* instructivo-specific layout */
+  .guide2{ display:grid; grid-template-columns:1fr 1fr; gap:34px; flex:1; margin-top:var(--gap-title); }
+  .gpanel{ display:flex; flex-direction:column; min-width:0; }
+  .slotcap{ font-size:23px; color:var(--muted); margin-top:18px; line-height:1.35; }
+  .slotcap b{ color:var(--ink); }
+
+  .gcard{ border:1px solid var(--line); border-radius:18px; padding:44px 46px; background:var(--cc-cream-soft);
+    display:flex; flex-direction:column; justify-content:space-between; }
+  .gcard__foot{ font-size:24px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--blue); margin-top:30px; }
+  .gcard.blue .gcard__foot{ color:rgba(255,255,255,.9); }
+
+  /* mini-mockups (built in HTML, no screenshots) */
+  .mock{ border:1px solid var(--line); border-radius:16px; overflow:hidden; background:#fff; }
+  .mock__head{ font-size:21px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
+    padding:18px 26px; background:var(--cc-cream-soft); border-bottom:1px solid var(--line); }
+  .mock__bar{ display:flex; gap:9px; padding:18px 22px; background:var(--cc-cream-soft); border-bottom:1px solid var(--line); flex-wrap:wrap; }
+  .mchip{ font-size:24px; font-weight:700; padding:6px 18px; border-radius:999px; color:var(--muted); border:1.5px solid var(--line-strong); }
+  .mchip.on{ background:var(--blue); color:#fff; border-color:var(--blue); }
+  .mock__body{ padding:26px 30px; display:flex; flex-direction:column; gap:18px; }
+  .mrow{ display:flex; justify-content:space-between; align-items:baseline; font-size:25px; }
+  .mrow span{ font-weight:700; }
+  .mrow b{ font-weight:400; color:var(--muted); font-family:"Redaction",Georgia,serif; font-style:italic; font-size:27px; }
+  .mrow.saldo{ border-top:1.5px solid var(--ink); padding-top:16px; }
+  .mrow.saldo b{ color:var(--blue); }
+  .led{ width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; }
+  .led th{ text-align:left; font-size:24px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); padding:18px 16px 12px; }
+  .led th:last-child, .led td:last-child{ text-align:right; }
+  .led td{ font-size:25px; padding:13px 16px; border-top:1px solid var(--line); }
+  .led td.pos{ color:var(--blue); font-weight:700; }
+  .led tr:last-child td{ color:var(--muted); }
+  .gcard.blue{ background:var(--blue); color:#fff; border-color:var(--blue); }
+  .gcard__k{ font-size:24px; font-weight:700; text-transform:uppercase; letter-spacing:.12em; color:var(--blue); }
+  .gcard.blue .gcard__k{ color:rgba(255,255,255,.85); }
+  .gcard__name{ font-size:48px; font-weight:700; letter-spacing:-.01em; margin-top:10px; }
+  .gcard__name .em{ color:var(--blue); }
+  .gcard.blue .gcard__name .em{ color:#fff; }
+  .gcard__txt{ font-size:25px; color:var(--muted); line-height:1.4; margin-top:16px; }
+  .gcard.blue .gcard__txt{ color:rgba(255,255,255,.85); }
+
+  /* steps list */
+  .steps{ display:flex; flex-direction:column; gap:22px; margin-top:8px; }
+  .step{ display:flex; gap:24px; align-items:flex-start; }
+  .step__n{ font-family:"Redaction", Georgia, serif; font-style:italic; font-size:44px; line-height:1; color:var(--blue);
+    flex:0 0 auto; width:54px; }
+  .step__b{ font-size:27px; line-height:1.36; }
+  .step__b b{ font-weight:700; }
+  .step__b small{ display:block; font-size:24px; color:var(--muted); margin-top:3px; }
+
+  /* tabs grid (gestión) */
+  .tabs{ display:grid; grid-template-columns:1fr 1fr; gap:22px 40px; flex:1; margin-top:var(--gap-title); align-content:center; }
+  .tab{ display:flex; gap:22px; align-items:flex-start; padding-bottom:20px; border-bottom:1px solid var(--line); }
+  .tab__no{ font-family:"Redaction", Georgia, serif; font-style:italic; font-size:40px; color:var(--blue); flex:0 0 auto; width:46px; line-height:1; }
+  .tab__name{ font-size:29px; font-weight:700; }
+  .tab__name small{ display:block; font-size:24px; font-weight:400; color:var(--muted); margin-top:5px; line-height:1.32; }
+  .tab.soft{ opacity:.72; }
+
+  .why{ display:grid; grid-template-columns:repeat(3,1fr); gap:30px; flex:1; margin-top:var(--gap-title); align-content:center; }
+  .whyc{ display:flex; flex-direction:column; }
+  .whyc__fig{ font-family:"Redaction", Georgia, serif; font-style:italic; font-size:64px; line-height:.95; color:var(--blue); }
+  .whyc__t{ font-size:29px; font-weight:700; margin-top:14px; }
+  .whyc__b{ font-size:24px; color:var(--muted); line-height:1.38; margin-top:8px; }
+</style>
+</head>
+<body>
+
+<deck-stage width="1920" height="1080">
+
+  <!-- 1 · COVER -->
+  <section data-label="Portada" data-screen-label="Instructivo">
+    <div class="frame mcover">
+      <div class="mcover__top">
+        <div class="kicker">Instructivo interno · 2026</div>
+        <img class="mcover__wm" src="assets/wordmark-stacked-blue.png" alt="Cáscara Collective">
+      </div>
+      <img class="mcover__archer" src="assets/logo-mark-black.png" alt="">
+      <div class="anim">
+        <div class="mcover__no">Antes de los números</div>
+        <div class="mcover__month" style="font-size:140px;">Cómo leer<br>las planillas</div>
+        <p class="mcover__sub">Dónde vive cada cosa, qué hace cada planilla y por qué tener la administración ordenada es lo que hace posible todo el resto.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 · DOS PLANILLAS -->
+  <section data-label="Dos planillas" data-screen-label="Instructivo">
+    <div class="frame">
+      <img class="wm" src="assets/wordmark-inline-blue.png" alt="">
+      <div class="kicker anim">01 · El mapa</div>
+      <h2 class="title anim">Dos planillas, <span class="em">dos trabajos</span></h2>
+      <div class="guide2 anim2">
+        <div class="gcard blue">
+          <div>
+            <div class="gcard__k">Planilla 1</div>
+            <div class="gcard__name">Informes 2026</div>
+            <p class="gcard__txt">El resumen. Una solapa por mes con la foto lista: lo que trabajamos y la caja. Es lo que se muestra en estos informes.</p>
+          </div>
+          <div class="gcard__foot">Para mirar cómo le fue a cada mes</div>
+        </div>
+        <div class="gcard">
+          <div>
+            <div class="gcard__k">Planilla 2</div>
+            <div class="gcard__name">Gestión 2026</div>
+            <p class="gcard__txt">El detrás de escena. El libro diario con cada movimiento y los cálculos que alimentan ese resumen.</p>
+          </div>
+          <div class="gcard__foot">Para cargar y controlar el día a día</div>
+        </div>
+      </div>
+      <div class="foot anim3"><div><b>Una se alimenta de la otra:</b> el día a día se carga en Gestión, y de ahí sale el informe de cada mes.</div></div>
+      <div class="pagenum">01</div>
+    </div>
+  </section>
+
+  <!-- 3 · INFORMES 2026 -->
+  <section data-label="Planilla · Informes 2026" data-screen-label="Instructivo">
+    <div class="frame">
+      <img class="wm" src="assets/wordmark-inline-blue.png" alt="">
+      <div class="kicker anim">02 · Planilla 1</div>
+      <h2 class="title anim">Informes 2026 · <span class="em">una solapa por mes</span></h2>
+      <div class="guide2 anim2">
+        <div class="gpanel" style="justify-content:center;">
+          <div class="steps">
+            <div class="step"><div class="step__n">1</div><div class="step__b"><b>Ingresos del mes</b><small>Cada cliente, con lo facturado y lo que entró en caja.</small></div></div>
+            <div class="step"><div class="step__n">2</div><div class="step__b"><b>Egresos del mes</b><small>Cada costo, con lo del mes y lo que se pagó.</small></div></div>
+            <div class="step"><div class="step__n">3</div><div class="step__b"><b>El cuadro de saldo</b><small>Saldo inicial → entró → salió → saldo final.</small></div></div>
+          </div>
+          <p class="slotcap" style="margin-top:30px;">Es la <b>foto del mes</b>, ya lista para armar el informe. Cada mes vive en su propia solapa: Enero, Febrero, Marzo…</p>
+        </div>
+        <div class="gpanel">
+          <div class="mock" style="margin-top:6px;">
+            <div class="mock__bar">
+              <span class="mchip on">Ene</span><span class="mchip">Feb</span><span class="mchip">Mar</span><span class="mchip">Abr</span><span class="mchip">May</span><span class="mchip">Jun</span><span class="mchip">…</span>
+            </div>
+            <div class="mock__body">
+              <div class="mrow"><span>Ingresos</span><b>facturado · cobrado</b></div>
+              <div class="mrow"><span>Egresos</span><b>costo · pagado</b></div>
+              <div class="mrow saldo"><span>Saldo</span><b>inicial → final</b></div>
+            </div>
+          </div>
+          <div class="slotcap">Cada mes, la misma estructura: <b>una solapa lista para leer.</b></div>
+        </div>
+      </div>
+      <div class="pagenum">02</div>
+    </div>
+  </section>
+
+  <!-- 4 · GESTIÓN 2026 · LAS SOLAPAS -->
+  <section data-label="Planilla · Gestión 2026" data-screen-label="Instructivo">
+    <div class="frame">
+      <img class="wm" src="assets/wordmark-inline-blue.png" alt="">
+      <div class="kicker anim">03 · Planilla 2</div>
+      <h2 class="title anim">Gestión 2026 · <span class="em">seis solapas</span></h2>
+      <div class="tabs anim2">
+        <div class="tab"><div class="tab__no">1</div><div class="tab__name">Económico<small>El resumen por cliente y por mes: lo que generó el negocio.</small></div></div>
+        <div class="tab"><div class="tab__no">2</div><div class="tab__name">Financiero · libro diario<small>Cada movimiento, día por día, con fecha, rubro y detalle.</small></div></div>
+        <div class="tab"><div class="tab__no">3</div><div class="tab__name">Cuenta de socios<small>El económico de cada socio según el trabajo del mes.</small></div></div>
+        <div class="tab soft"><div class="tab__no">4</div><div class="tab__name">Cuenta personal · Juana<small>Salvedad de 2025, ya saldada en cero.</small></div></div>
+        <div class="tab soft"><div class="tab__no">5</div><div class="tab__name">Cuenta personal · Fede<small>Salvedad de 2025, ya saldada en cero.</small></div></div>
+        <div class="tab"><div class="tab__no">6</div><div class="tab__name">Nivel 2<small>El seguimiento de la cohorte nueva, alumna por alumna.</small></div></div>
+      </div>
+      <div class="pagenum">03</div>
+    </div>
+  </section>
+
+  <!-- 5 · EL LIBRO DIARIO -->
+  <section data-label="El libro diario" data-screen-label="Instructivo">
+    <div class="frame">
+      <img class="wm" src="assets/wordmark-inline-blue.png" alt="">
+      <div class="kicker anim">04 · El corazón de todo</div>
+      <h2 class="title anim">El <span class="em">libro diario</span></h2>
+      <div class="guide2 anim2">
+        <div class="gpanel" style="justify-content:center;">
+          <div class="mock">
+            <div class="mock__head">Libro diario · solapa Financiero</div>
+            <table class="led">
+              <thead><tr><th>Fecha</th><th>Rubro</th><th>Detalle</th><th>Importe</th></tr></thead>
+              <tbody>
+                <tr><td>06/01</td><td>Ingreso</td><td>Wires · mensual</td><td class="pos">+3.398</td></tr>
+                <tr><td>07/01</td><td>Equipo</td><td>Lola · diciembre</td><td>−2.600</td></tr>
+                <tr><td>20/02</td><td>Ingreso</td><td>La cáscara · febrero</td><td class="pos">+35.896</td></tr>
+                <tr><td>…</td><td>…</td><td>cientos de movimientos al mes</td><td>…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="gpanel" style="justify-content:center;">
+          <p class="step__b" style="font-size:31px; line-height:1.4;">Cada peso que entra o sale se anota acá, con <b>fecha, rubro y detalle</b>. Son cientos de movimientos al mes.</p>
+          <p class="step__b" style="font-size:31px; line-height:1.4; margin-top:26px; color:var(--muted);">Es la <b style="color:var(--ink);">fuente de verdad</b>: de este libro sale el saldo de la cuenta, el resumen económico y los informes mensuales. Si está bien cargado, todo lo demás cierra solo.</p>
+        </div>
+      </div>
+      <div class="pagenum">04</div>
+    </div>
+  </section>
+
+  <!-- 6 · CUENTAS PERSONALES -->
+  <section data-label="Las cuentas personales" data-screen-label="Instructivo">
+    <div class="frame">
+      <img class="wm" src="assets/wordmark-inline-blue.png" alt="">
+      <div class="kicker anim">05 · Una aclaración</div>
+      <h2 class="title anim">Las cuentas personales son <span class="em">salvedades</span></h2>
+      <div class="guide2 anim2">
+        <div class="gpanel" style="justify-content:center;">
+          <p class="step__b" style="font-size:31px; line-height:1.42;">En 2025, algunos socios usaron las cuentas de Cáscara para cobrar cosas personales. Eso dejó pequeñas <b>deudas cruzadas</b> con la empresa.</p>
+          <p class="step__b" style="font-size:31px; line-height:1.42; margin-top:24px; color:var(--muted);">Las solapas <b style="color:var(--ink);">Cuenta personal de Juana y de Fede</b> existen sólo para ordenar eso. <b style="color:var(--ink);">Ya están saldadas en cero.</b></p>
+        </div>
+        <div class="gpanel" style="justify-content:center;">
+          <div class="gcard blue" style="text-align:left;">
+            <div class="gcard__k">Para tener presente</div>
+            <p class="gcard__name" style="font-size:40px; line-height:1.1;">No hay que darles<br>mucha importancia</p>
+            <p class="gcard__txt">Son ajustes del pasado, no parte del negocio del día a día. Mirá el económico y la caja; estas cuentas ya quedaron en cero.</p>
+          </div>
+        </div>
+      </div>
+      <div class="pagenum">05</div>
+    </div>
+  </section>
+
+  <!-- 7 · POR QUÉ IMPORTA -->
+  <section data-label="Por qué importa" data-screen-label="Instructivo">
+    <div class="frame">
+      <img class="wm" src="assets/wordmark-inline-blue.png" alt="">
+      <div class="kicker anim">06 · Por qué importa</div>
+      <h2 class="title anim">Por qué tener la <span class="em">administración ordenada</span></h2>
+      <div class="why anim2">
+        <div class="whyc">
+          <div class="whyc__fig">Saber</div>
+          <div class="whyc__t">Dónde estamos parados</div>
+          <p class="whyc__b">Cuánto entró, cuánto se debe y cuánto se puede retirar — sin adivinar.</p>
+        </div>
+        <div class="whyc">
+          <div class="whyc__fig">Decidir</div>
+          <div class="whyc__t">Con números, no con sensación</div>
+          <p class="whyc__b">Cuánto dejar de colchón, cuánto repartir, dónde invertir. Las decisiones se apoyan en datos.</p>
+        </div>
+        <div class="whyc">
+          <div class="whyc__fig">Confiar</div>
+          <div class="whyc__t">Entre socios y con el equipo</div>
+          <p class="whyc__b">Todo anotado y a la vista. La plata de cada uno es clara y la del negocio también.</p>
+        </div>
+      </div>
+      <div class="chart-foot" style="margin-top:30px;">
+        <div><b>Dos planillas, una sola verdad.</b> El libro diario alimenta los informes; los informes cuentan la historia. Ese orden es lo que sostiene el crecimiento.</div>
+      </div>
+      <div class="pagenum">06</div>
+    </div>
+  </section>
+
+</deck-stage>
+
+<div class="controls">
+  <a class="ctl ctl--ghost" href="index.html" aria-label="Volver al inicio">← Inicio</a>
+  <button class="ctl ctl--primary" onclick="window.print()" aria-label="Descargar en PDF">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"></path><path d="m7 11 5 5 5-5"></path><path d="M5 21h14"></path></svg>
+    Descargar
+  </button>
+</div>
+
+<script src="js/deck-stage.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+/* ============================================================
+   Cáscara Collective — Webfonts
+   Helvetica Neue LT Std (workhorse) + Redaction 10 (serif accent)
+   Italic-only Redaction is intentional: the brand uses the serif
+   exclusively for italic accent words, never upright.
+   ============================================================ */
+
+/* ---- Helvetica Neue — UltraLight (25) -> 100 ---- */
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-UltLt.otf") format("opentype");
+}
+
+/* ---- Helvetica Neue — Thin (35) -> 200 ---- */
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-Th.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-ThIt.otf") format("opentype");
+}
+
+/* ---- Helvetica Neue — Light (45) ---- */
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-Lt.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-LtIt.otf") format("opentype");
+}
+
+/* ---- Helvetica Neue — Medium (65) used as the regular text weight ---- */
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-Md.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-MdIt.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-Md.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-MdIt.otf") format("opentype");
+}
+
+/* ---- Helvetica Neue — Bold (75) ---- */
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-Bd.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-BdIt.otf") format("opentype");
+}
+
+/* ---- Helvetica Neue — Heavy (85) -> 800 ---- */
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-Hv.otf") format("opentype");
+}
+
+/* ---- Helvetica Neue — Black (95) -> 900 ---- */
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-Blk.otf") format("opentype");
+}
+
+/* ============================================================
+   Helvetica Neue Condensed — display / sticker lettering
+   The "CREATE.", "@CASCARAGRAM" stickers are set in condensed black.
+   ============================================================ */
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-HvCn.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../assets/fonts/HelveticaNeueLTStd-BlkCn.otf") format("opentype");
+}
+
+/* ============================================================
+   Redaction 10 — serif accent, italic only
+   ============================================================ */
+@font-face {
+  font-family: "Redaction";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/Redaction10-Italic.otf") format("opentype");
+}

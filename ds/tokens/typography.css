@@ -1,0 +1,58 @@
+/* ============================================================
+   Cáscara Collective — Typography tokens
+   OFFICIAL brand type system (brand book · Identidad Visual):
+     Títulos primarios   → Helvetica Neue BOLD     · tracking +25 (0.025em)
+     Títulos secundarios → Helvetica Neue REGULAR  · tracking +15 (0.015em)
+     Texto base          → Helvetica Neue LIGHT    · tracking up to +25
+     Detalles            → Helvetica Neue REGULAR ITALIC · tracking +25
+   Redaction is the brand's secondary ("tipografía 2") editorial accent.
+   ============================================================ */
+:root {
+  /* ---- Families ---- */
+  --cc-font-sans:      "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  --cc-font-condensed: "Helvetica Neue Condensed", "Helvetica Neue", Helvetica, sans-serif;
+  --cc-font-serif:     "Redaction", "Times New Roman", Georgia, serif; /* secondary / accent */
+
+  /* ---- Role weights (official) ---- */
+  --cc-w-title:   700; /* @kind font */
+  --cc-w-subtitle:400; /* @kind font */
+  --cc-w-body:    300; /* @kind font */
+
+  /* ---- Weight ramp ---- */
+  --cc-w-ultralight: 100; /* @kind font */
+  --cc-w-thin:   200; /* @kind font */
+  --cc-w-light:  300; /* @kind font */
+  --cc-w-regular:400; /* @kind font */
+  --cc-w-medium: 500; /* @kind font */
+  --cc-w-bold:   700; /* @kind font */
+  --cc-w-heavy:  800; /* @kind font */
+  --cc-w-black:  900; /* @kind font */
+
+  /* ---- Type scale (px) ---- */
+  --cc-text-xs:   11px;
+  --cc-text-sm:   13px;
+  --cc-text-base: 15px;
+  --cc-text-md:   17px;
+  --cc-text-lg:   21px;
+  --cc-text-xl:   27px;
+  --cc-text-2xl:  34px;
+  --cc-text-3xl:  46px;
+  --cc-text-4xl:  60px;
+  --cc-text-5xl:  84px;
+  --cc-text-6xl:  112px;
+
+  /* ---- Line heights ---- */
+  --cc-leading-none:  0.9;   /* display headlines      */
+  --cc-leading-tight: 1.05;  /* titles                 */
+  --cc-leading-snug:  1.3;   /* leads                  */
+  --cc-leading-body:  1.55;  /* body copy              */
+
+  /* ---- Letter spacing ---- (official: positive tracking) */
+  --cc-track-title:   0.025em; /* títulos primarios (+25)  */
+  --cc-track-subtitle:0.015em; /* títulos secundarios (+15) */
+  --cc-track-display: -0.01em; /* very large display, optical */
+  --cc-track-tight:   -0.01em; /* legacy alias              */
+  --cc-track-normal:  0;        /* @kind other */
+  --cc-track-kicker:  0.2em;   /* uppercase eyebrows        */
+  --cc-track-label:   0.16em;  /* small caps labels         */
+}

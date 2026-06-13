@@ -1,0 +1,58 @@
+/* ============================================================
+   Cáscara Collective — Color tokens
+   The OFFICIAL brand palette is exactly four colors:
+     BLUE  #10069F  ·  TIZA (chalk) #DBD7D2  ·  NEGRO #000000  ·  BLANCO #FFFFFF
+   Everything below is that core plus a few derived UI greys/tints.
+   No gradients.
+   ============================================================ */
+:root {
+  /* ---- Base · Tiza (chalk paper) ---- official COLOR 2 */
+  --cc-cream:        #DBD7D2; /* TIZA — primary background (official) */
+  --cc-cream-soft:   #E4E1DD; /* raised surfaces / cards (derived)    */
+  --cc-cream-softer: #EDEBE7; /* highest surface / inset fields (derived) */
+  --cc-paper-white:  #FFFFFF; /* BLANCO — official COLOR 4            */
+
+  /* ---- Base · Negro (text + black surfaces) ---- official COLOR 3 */
+  --cc-ink:        #000000; /* NEGRO — primary text + black surfaces (official) */
+  --cc-ink-soft:   #1A1A1C; /* secondary text (derived)           */
+  --cc-ink-muted:  #54545B; /* labels, captions, meta (derived)   */
+  --cc-ink-faint:  #9B9BA0; /* hints, disabled, placeholder (derived) */
+
+  /* ---- Base · Blue (the Cáscara signal color) ---- official COLOR 1 */
+  --cc-blue:        #10069F; /* THE Cáscara blue (official) */
+  --cc-blue-electric: #1400FF; /* electric ultramarine — secondary accent, OK to use */
+  --cc-blue-deep:   #0A0470; /* darker shade — hover / pressed states */
+  --cc-blue-soft:   #6B7AFF; /* light — LIMITED use, mainly text on dark */
+  --cc-blue-lt:     #AEB6FF; /* light — LIMITED use, accents on dark only */
+  --cc-blue-wash:   rgba(16, 6, 159, 0.06); /* tint fills, bar backgrounds */
+
+  /* ---- Hairlines (on cream) ---- */
+  --cc-line:        rgba(0, 0, 0, 0.08);
+  --cc-line-strong: rgba(0, 0, 0, 0.14);
+  /* ---- Hairlines (on ink / blue) ---- */
+  --cc-line-inv:        rgba(255, 255, 255, 0.16);
+  --cc-line-inv-strong: rgba(255, 255, 255, 0.28);
+
+  /* ---- Semantic aliases ---- */
+  --cc-bg:            var(--cc-cream);
+  --cc-surface:       var(--cc-cream-soft);
+  --cc-surface-high:  var(--cc-cream-softer);
+  --cc-surface-ink:   var(--cc-ink);
+  --cc-surface-blue:  var(--cc-blue);
+
+  --cc-text:          var(--cc-ink);
+  --cc-text-2:        var(--cc-ink-soft);
+  --cc-text-muted:    var(--cc-ink-muted);
+  --cc-text-faint:    var(--cc-ink-faint);
+  --cc-text-on-blue:  #FFFFFF;
+  --cc-text-on-ink:   var(--cc-cream);
+
+  --cc-accent:        var(--cc-blue);
+  --cc-accent-press:  var(--cc-blue-deep);
+
+  --cc-border:        var(--cc-line);
+  --cc-border-strong: var(--cc-line-strong);
+
+  --cc-selection-bg:  var(--cc-blue);
+  --cc-selection-fg:  #FFFFFF;
+}
