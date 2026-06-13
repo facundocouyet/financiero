@@ -86,6 +86,13 @@
   .bm__cap{ display:flex; justify-content:space-between; gap:18px; margin-top:12px; }
   .bm__m{ flex:1; text-align:center; font-size:15px; color:var(--muted); }
   .chartcard__foot{ font-size:14px; color:var(--muted); margin-top:14px; line-height:1.4; }
+  /* lista de montos facturados — sólo teléfono (en desktop van sobre las barras) */
+  .bml{ display:none; }
+  .bml__h{ font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin-bottom:6px; }
+  .bml__row{ display:flex; justify-content:space-between; align-items:baseline; gap:14px; padding:9px 0; border-bottom:1px solid var(--line); }
+  .bml__row:last-child{ border-bottom:none; }
+  .bml__m{ font-size:15px; color:var(--ink); }
+  .bml__v{ font-size:16px; font-weight:700; font-variant-numeric:tabular-nums; color:var(--cc-blue); }
 
   @media (max-width:1100px){ .kpis{ grid-template-columns:1fr 1fr; } }
   @media (max-width:620px){ .twodonuts{ grid-template-columns:1fr; } }
@@ -111,6 +118,7 @@
     .bm__cap{ gap:10px; }
     .bm__m{ font-size:14px; min-width:0; }
     .legend-row{ gap:18px; }
+    .bml{ display:block; margin-top:18px; }
   }
   @media (max-width:380px){
     .b-fact, .b-cob{ width:18px; }
