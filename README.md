@@ -24,7 +24,9 @@ En producción se publica con **GitHub Pages** (rama `main`, carpeta raíz).
 
 ### Responsive
 - **Desktop / tablet / teléfono en horizontal** (>700px): los reportes son **slides 16:9** (shell `deck-stage`).
-- **Teléfono en vertical** (≤700px): los reportes se renderizan como una **vista vertical scrolleable** con tipografía adaptada (sin `deck-stage`; estilos en `css/mobile.css`). El home es responsive por sí mismo.
+- **Teléfono en vertical** (≤700px): los reportes redirigen a la **versión scroll oficial del diseño** (`*-scroll.html` + `scroll-report.css`): vista vertical de una sola columna con donas de proporción y un *bottom-sheet* "Ver detalle". El redirect lo hace `report.js`/`deck-mount.js` según el ancho. El **home** es responsive por sí mismo; el **instructivo** (sin versión scroll oficial) usa el reflow propio (`css/mobile.css`).
+
+> Las páginas `*-scroll.html` son archivos del handoff de diseño (no data-driven): si cambian los números, hay que actualizarlas además del JSON. El desktop sí es 100% data-driven desde el JSON.
 
 ---
 

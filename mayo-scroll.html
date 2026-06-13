@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mayo 2026 · móvil · Cáscara</title>
+<link rel="stylesheet" href="ds/tokens/fonts.css">
+<link rel="stylesheet" href="ds/tokens/colors.css">
+<link rel="stylesheet" href="scroll-report.css">
+</head><body><div class="app">
+  <section class="hero">
+    <img class="hero__wm" src="assets/wordmark-stacked-white.png" alt="Cáscara Collective" style="height:48px">
+    <div class="kicker" style="margin-top:22px;">Informe mensual · 2026</div>
+    <div class="hero__month em">Mayo</div>
+    <div class="hero__kpis">
+      <div><span class="l">Resultado del trabajo</span><b class="num ">+US$74.259</b></div>
+      <div><span class="l">Resultado de caja</span><b class="num ">+US$21.559</b></div>
+      <div><span class="l">Saldo final</span><b class="num">US$57.875</b></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">01 · El trabajo y la caja</div>
+    <h2>Dos lecturas del mes</h2>
+    <div class="books">
+      <div class="book">
+        <div class="book__tag">El trabajo del mes</div>
+        <div class="book__io"><div><span>Facturado</span><b class="num">US$116.280</b></div><div><span>Costos</span><b class="num">US$42.021</b></div></div>
+        <div class="book__res"><span>Resultado del trabajo</span><b class="num ">+US$74.259</b></div>
+      </div>
+      <div class="book fin">
+        <div class="book__tag">La caja del mes</div>
+        <div class="book__io"><div><span>Entró</span><b class="num">US$62.835</b></div><div><span>Salió</span><b class="num">US$41.276</b></div></div>
+        <div class="book__res"><span>Resultado de caja</span><b class="num ">+US$21.559</b></div>
+      </div>
+    </div>
+    <div class="flow">
+      <div class="fstep"><span>Saldo inicial</span><b class="num">US$36.316</b></div>
+      <div class="fstep"><span style="color:var(--blue)">+ Cobros</span><b class="num" style="color:var(--blue)">US$62.835</b></div>
+      <div class="fstep"><span>− Pagos</span><b class="num">US$41.276</b></div>
+      <div class="fstep accent"><span>Saldo final</span><b class="num">US$57.875</b></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">02 · De dónde entró</div>
+    <h2>Ingresos del mes</h2>
+    <div class="donutblock">
+      <div class="donut" style="background:conic-gradient(var(--blue) 0% 83%, var(--ink) 83% 100%);"><div class="donut__c"><b class="num">US$63k</b><span>Entró</span></div></div>
+      <div class="legend">
+        <div class="lg"><span class="lg__dot" style="background:var(--blue)"></span><span class="lg__nm">Curso B2C<small>US$52.346</small></span><span class="lg__sp"></span><span class="lg__pc num">83%</span></div>
+        <div class="lg"><span class="lg__dot" style="background:var(--ink)"></span><span class="lg__nm">Servicios a clientes<small>US$10.489</small></span><span class="lg__sp"></span><span class="lg__pc num">17%</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">03 · En qué se fue</div>
+    <h2>Costos del mes</h2>
+    <div class="donutblock">
+      <div class="donut" style="background:conic-gradient(var(--ink) 0% 56%, var(--blue) 56% 97%, var(--faint) 97% 100%);"><div class="donut__c"><b class="num">US$42k</b><span>Costos</span></div></div>
+      <div class="legend">
+        <div class="lg"><span class="lg__dot" style="background:var(--ink)"></span><span class="lg__nm">Equipo y socios<small>US$23.663</small></span><span class="lg__sp"></span><span class="lg__pc num">56%</span></div>
+        <div class="lg"><span class="lg__dot" style="background:var(--blue)"></span><span class="lg__nm">Costos del curso B2C<small>US$17.189</small></span><span class="lg__sp"></span><span class="lg__pc num">41%</span></div>
+        <div class="lg"><span class="lg__dot" style="background:var(--faint)"></span><span class="lg__nm">Herramientas y otros<small>US$1.168</small></span><span class="lg__sp"></span><span class="lg__pc num">3%</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="close">
+    <div class="kicker">La lectura</div>
+    <p>El mejor mes del período. El curso B2C facturó US$97.280 (de los que entraron US$52.346 en caja) y aparece Nivel 2: la primera cohorte del nivel siguiente, 4 alumnas × US$2.000 (cobrado US$3.990, pendiente US$4.010). El resultado del trabajo (+US$74.259) es muy alto porque se facturó muchísimo; gran parte sigue por cobrar, por eso la caja (+US$21.559) es más moderada pero igual récord. El saldo trepa a US$57.875. Incluye US$3.089 del evento Cáscara (sonido, mobiliario, hoodies, stickers, impresión del diario, TV, seguridad). Los costos de contenido del mes están cargados sólo en caja.</p>
+    <a class="backlink" href="index.html">← Volver a los informes</a>
+  </section>
+</div>
+
+<button class="fab" onclick="document.getElementById('sheet').classList.add('open');document.getElementById('sheetbg').classList.add('open');">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18"/><path d="M3 12h18"/><path d="M3 19h18"/></svg> Ver detalle
+</button>
+<div class="sheet-bg" id="sheetbg" onclick="document.getElementById('sheet').classList.remove('open');this.classList.remove('open');"></div>
+<div class="sheet" id="sheet">
+  <div class="sheet__handle"></div>
+  <div class="sheet__head"><div><div class="sheet__title">Detalle · <span class="em">Mayo</span></div><div class="sheet__sub">Todas las líneas tal como figuran en la planilla. Facturado / del mes y caja.</div></div>
+    <button class="sheet__x" onclick="document.getElementById('sheet').classList.remove('open');document.getElementById('sheetbg').classList.remove('open');">×</button></div>
+  <div class="sheet__body">
+    <div class="dtbl">
+      <div class="dhead"><span>Ingresos</span><span class="num">Facturado</span><span class="num">Caja</span></div>
+      <div class="drow"><span class="drow__n">Bilbao</span><span class="drow__e num">US$2.500</span><span class="drow__f num">US$1.500</span></div>
+      <div class="drow"><span class="drow__n">Livo</span><span class="drow__e num">US$7.000</span><span class="drow__f num">US$1.912</span></div>
+      <div class="drow"><span class="drow__n">Cocos</span><span class="drow__e num">US$1.500</span><span class="drow__f num">—</span></div>
+      <div class="drow"><span class="drow__n">Acrule</span><span class="drow__e num">—</span><span class="drow__f num">US$500</span></div>
+      <div class="drow"><span class="drow__n">F3</span><span class="drow__e num">—</span><span class="drow__f num">US$779</span></div>
+      <div class="drow"><span class="drow__n">Re(in)</span><span class="drow__e num">US$0</span><span class="drow__f num">US$1.808</span></div>
+      <div class="drow"><span class="drow__n">Nivel 2</span><span class="drow__e num">US$8.000</span><span class="drow__f num">US$3.990</span></div>
+      <div class="drow"><span class="drow__n">La cáscara · B2C <span class="tg">B2C</span></span><span class="drow__e num">US$97.280</span><span class="drow__f num">US$52.346</span></div>
+      <div class="drow tot"><span class="drow__n">Total ingresos</span><span class="drow__e num">US$116.280</span><span class="drow__f num">US$62.835</span></div>
+    </div>
+    <div class="dtbl">
+      <div class="dhead"><span>Egresos</span><span class="num">Del mes</span><span class="num">Pagado</span></div>
+      <div class="drow"><span class="drow__n">Facu</span><span class="drow__e num">US$4.500</span><span class="drow__f num">US$2.000</span></div>
+      <div class="drow"><span class="drow__n">Fede</span><span class="drow__e num">US$4.500</span><span class="drow__f num">US$2.000</span></div>
+      <div class="drow"><span class="drow__n">Juana</span><span class="drow__e num">US$4.500</span><span class="drow__f num">US$2.455</span></div>
+      <div class="drow"><span class="drow__n">Teo</span><span class="drow__e num">US$4.213</span><span class="drow__f num">US$4.596</span></div>
+      <div class="drow"><span class="drow__n">Carlota</span><span class="drow__e num">US$1.350</span><span class="drow__f num">US$1.336</span></div>
+      <div class="drow"><span class="drow__n">Lola</span><span class="drow__e num">US$1.900</span><span class="drow__f num">US$1.600</span></div>
+      <div class="drow"><span class="drow__n">Azul</span><span class="drow__e num">US$1.000</span><span class="drow__f num">US$1.000</span></div>
+      <div class="drow"><span class="drow__n">Anto</span><span class="drow__e num">US$300</span><span class="drow__f num">US$300</span></div>
+      <div class="drow"><span class="drow__n">Segundo</span><span class="drow__e num">US$1.400</span><span class="drow__f num">US$600</span></div>
+      <div class="drow"><span class="drow__n">Costos de contenido</span><span class="drow__e num">—</span><span class="drow__f num">US$9.292</span></div>
+      <div class="drow"><span class="drow__n">Herramientas</span><span class="drow__e num">US$893</span><span class="drow__f num">US$48</span></div>
+      <div class="drow"><span class="drow__n">Pauta</span><span class="drow__e num">US$275</span><span class="drow__f num">US$794</span></div>
+      <div class="drow"><span class="drow__n">Evento</span><span class="drow__e num">—</span><span class="drow__f num">US$3.089</span></div>
+      <div class="drow"><span class="drow__n">Gastos de financiación</span><span class="drow__e num">—</span><span class="drow__f num">US$528</span></div>
+      <div class="drow"><span class="drow__n">La cáscara · Comercial <span class="tg">B2C</span></span><span class="drow__e num">US$9.400</span><span class="drow__f num">US$5.774</span></div>
+      <div class="drow"><span class="drow__n">La cáscara · Comercial bono <span class="tg">B2C</span></span><span class="drow__e num">US$600</span><span class="drow__f num">—</span></div>
+      <div class="drow"><span class="drow__n">La cáscara · Herramientas <span class="tg">B2C</span></span><span class="drow__e num">US$795</span><span class="drow__f num">US$795</span></div>
+      <div class="drow"><span class="drow__n">Distribución · Franco <span class="tg">B2C</span></span><span class="drow__e num">US$6.394</span><span class="drow__f num">US$3.252</span></div>
+      <div class="drow"><span class="drow__n">Distribución · La cáscara <span class="tg">B2C</span></span><span class="drow__e num">US$0</span><span class="drow__f num">—</span></div>
+      <div class="drow"><span class="drow__n">Otros gastos</span><span class="drow__e num">—</span><span class="drow__f num">US$1.816</span></div>
+      <div class="drow tot"><span class="drow__n">Total egresos</span><span class="drow__e num">US$42.021</span><span class="drow__f num">US$41.276</span></div>
+    </div>
+    <p class="sheet__note">El mejor mes del período. El curso B2C facturó US$97.280 (de los que entraron US$52.346 en caja) y aparece Nivel 2: la primera cohorte del nivel siguiente, 4 alumnas × US$2.000 (cobrado US$3.990, pendiente US$4.010). El resultado del trabajo (+US$74.259) es muy alto porque se facturó muchísimo; gran parte sigue por cobrar, por eso la caja (+US$21.559) es más moderada pero igual récord. El saldo trepa a US$57.875. Incluye US$3.089 del evento Cáscara (sonido, mobiliario, hoodies, stickers, impresión del diario, TV, seguridad). Los costos de contenido del mes están cargados sólo en caja.</p>
+  </div>
+</div>
+<script>document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.getElementById('sheet').classList.remove('open');document.getElementById('sheetbg').classList.remove('open');}});</script>
+</body></html>

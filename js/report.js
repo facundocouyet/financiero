@@ -362,20 +362,23 @@
     document.body.innerHTML = '<p style="font-family:Helvetica,Arial,sans-serif;padding:60px;color:#54545B;">' + msg + ' · <a href="index.html" style="color:#10069F;">Volver al inicio</a></p>';
   }
 
+  // En teléfono (vertical) los reportes usan la versión scroll oficial del
+  // diseñador (scroll-report.css + *-scroll.html). En desktop/horizontal,
+  // slides con deck-stage.
+  var _m = CC.query('m'), _r = CC.query('r');
+  if (IS_MOBILE && (_m || _r)) {
+    location.replace(_m ? (_m + '-scroll.html')
+      : (_r === 'cinco-meses' ? 'resumen-5-meses-scroll.html' : 'resumen-' + _r + '-scroll.html'));
+    return;
+  }
+
   CC.load().then(function (data) {
     var key = CC.query('m') || CC.query('r');
     var rep = key && data.reports ? data.reports[key] : null;
     if (!rep) { fail('Reporte no encontrado.'); return; }
     document.title = rep.title;
     var html = rep.slides.map(function (s) { return section(s, rep.screenLabel); }).join('');
-    if (IS_MOBILE) {
-      var mount = document.getElementById('deck');
-      mount.className = 'm-report';
-      mount.innerHTML = html;
-      document.body.classList.add('m-mode');
-    } else {
-      document.getElementById('deck').innerHTML = '<deck-stage width="1920" height="1080">' + html + '</deck-stage>';
-    }
+    document.getElementById('deck').innerHTML = '<deck-stage width="1920" height="1080">' + html + '</deck-stage>';
     if (rep.detail === 'month' && rep.detalle) {
       mountModal(monthModal(rep.screenLabel, rep.detalle));
     } else if (rep.detail === 'summary') {

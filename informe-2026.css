@@ -301,6 +301,17 @@ section{
 .ctl:active{ transform:scale(.97); }
 .ctl svg{ width:17px; height:17px; }
 @media print{ .controls{ display:none !important; } }
+/* Mobile: dock controls as an integrated bottom bar over the letterbox margin */
+@media (max-width:680px){
+  .controls{
+    left:0; right:0; bottom:0; gap:10px; justify-content:center;
+    padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));
+    background:rgba(10,10,12,.6); backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    border-top:1px solid rgba(255,255,255,.12);
+  }
+  .ctl{ flex:1 1 0; max-width:220px; justify-content:center; padding:14px 18px; box-shadow:none; }
+}
 
 /* ====== DETAIL MODAL (anexo) ====== */
 .modal{

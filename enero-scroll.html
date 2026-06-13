@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enero 2026 · móvil · Cáscara</title>
+<link rel="stylesheet" href="ds/tokens/fonts.css">
+<link rel="stylesheet" href="ds/tokens/colors.css">
+<link rel="stylesheet" href="scroll-report.css">
+</head><body><div class="app">
+  <section class="hero">
+    <img class="hero__wm" src="assets/wordmark-stacked-white.png" alt="Cáscara Collective" style="height:48px">
+    <div class="kicker" style="margin-top:22px;">Informe mensual · 2026</div>
+    <div class="hero__month em">Enero</div>
+    <div class="hero__kpis">
+      <div><span class="l">Resultado del trabajo</span><b class="num neg">−US$745</b></div>
+      <div><span class="l">Resultado de caja</span><b class="num ">+US$13.734</b></div>
+      <div><span class="l">Saldo final</span><b class="num">US$8.306</b></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">01 · El trabajo y la caja</div>
+    <h2>Dos lecturas del mes</h2>
+    <div class="books">
+      <div class="book">
+        <div class="book__tag">El trabajo del mes</div>
+        <div class="book__io"><div><span>Facturado</span><b class="num">US$12.669</b></div><div><span>Costos</span><b class="num">US$13.414</b></div></div>
+        <div class="book__res"><span>Resultado del trabajo</span><b class="num neg">−US$745</b></div>
+      </div>
+      <div class="book fin">
+        <div class="book__tag">La caja del mes</div>
+        <div class="book__io"><div><span>Entró</span><b class="num">US$24.777</b></div><div><span>Salió</span><b class="num">US$11.043</b></div></div>
+        <div class="book__res"><span>Resultado de caja</span><b class="num ">+US$13.734</b></div>
+      </div>
+    </div>
+    <div class="flow">
+      <div class="fstep"><span>Saldo inicial</span><b class="num">−US$5.428</b></div>
+      <div class="fstep"><span style="color:var(--blue)">+ Cobros</span><b class="num" style="color:var(--blue)">US$24.777</b></div>
+      <div class="fstep"><span>− Pagos</span><b class="num">US$11.043</b></div>
+      <div class="fstep accent"><span>Saldo final</span><b class="num">US$8.306</b></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">02 · De dónde entró</div>
+    <h2>Ingresos del mes</h2>
+    <div class="donutblock">
+      <div class="donut" style="background:conic-gradient(var(--ink) 0% 52%, var(--faint) 52% 100%);"><div class="donut__c"><b class="num">US$25k</b><span>Entró</span></div></div>
+      <div class="legend">
+        <div class="lg"><span class="lg__dot" style="background:var(--ink)"></span><span class="lg__nm">Servicios a clientes<small>US$12.777</small></span><span class="lg__sp"></span><span class="lg__pc num">52%</span></div>
+        <div class="lg"><span class="lg__dot" style="background:var(--faint)"></span><span class="lg__nm">Movimiento de socios<small>US$12.000 · no es venta a clientes</small></span><span class="lg__sp"></span><span class="lg__pc num">48%</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">03 · En qué se fue</div>
+    <h2>Costos del mes</h2>
+    <div class="donutblock">
+      <div class="donut" style="background:conic-gradient(var(--ink) 0% 86%, var(--muted) 86% 100%);"><div class="donut__c"><b class="num">US$13k</b><span>Costos</span></div></div>
+      <div class="legend">
+        <div class="lg"><span class="lg__dot" style="background:var(--ink)"></span><span class="lg__nm">Equipo y socios<small>US$11.480</small></span><span class="lg__sp"></span><span class="lg__pc num">86%</span></div>
+        <div class="lg"><span class="lg__dot" style="background:var(--muted)"></span><span class="lg__nm">Contenido<small>US$1.934</small></span><span class="lg__sp"></span><span class="lg__pc num">14%</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="close">
+    <div class="kicker">La lectura</div>
+    <p>Facturado / del mes = el trabajo de este mes y sus costos, se haya cobrado o no. Caja = lo que realmente entró y salió de la cuenta. Las líneas Juana · devolución y Fede · devolución no son ventas: son aportes que los socios hicieron desde afuera para saldar su cuenta personal con Cáscara (habían usado las cuentas de la empresa para cobrar servicios personales en 2025). Por eso la caja del mes (US$24.777) queda muy por encima de lo cobrado por trabajo (US$12.777). En enero todavía no hay actividad del curso B2C La cáscara.</p>
+    <a class="backlink" href="index.html">← Volver a los informes</a>
+  </section>
+</div>
+
+<button class="fab" onclick="document.getElementById('sheet').classList.add('open');document.getElementById('sheetbg').classList.add('open');">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18"/><path d="M3 12h18"/><path d="M3 19h18"/></svg> Ver detalle
+</button>
+<div class="sheet-bg" id="sheetbg" onclick="document.getElementById('sheet').classList.remove('open');this.classList.remove('open');"></div>
+<div class="sheet" id="sheet">
+  <div class="sheet__handle"></div>
+  <div class="sheet__head"><div><div class="sheet__title">Detalle · <span class="em">Enero</span></div><div class="sheet__sub">Todas las líneas tal como figuran en la planilla. Facturado / del mes y caja.</div></div>
+    <button class="sheet__x" onclick="document.getElementById('sheet').classList.remove('open');document.getElementById('sheetbg').classList.remove('open');">×</button></div>
+  <div class="sheet__body">
+    <div class="dtbl">
+      <div class="dhead"><span>Ingresos</span><span class="num">Facturado</span><span class="num">Caja</span></div>
+      <div class="drow"><span class="drow__n">Wires</span><span class="drow__e num">US$3.500</span><span class="drow__f num">US$3.398</span></div>
+      <div class="drow"><span class="drow__n">Walden</span><span class="drow__e num">—</span><span class="drow__f num">US$1.500</span></div>
+      <div class="drow"><span class="drow__n">Integra</span><span class="drow__e num">US$3.000</span><span class="drow__f num">US$1.500</span></div>
+      <div class="drow"><span class="drow__n">FUBA</span><span class="drow__e num">US$1.169</span><span class="drow__f num">US$1.169</span></div>
+      <div class="drow"><span class="drow__n">Facu Guerra</span><span class="drow__e num">—</span><span class="drow__f num">US$210</span></div>
+      <div class="drow"><span class="drow__n">LIVO</span><span class="drow__e num">US$5.000</span><span class="drow__f num">US$5.000</span></div>
+      <div class="drow dev"><span class="drow__n">Juana · devolución</span><span class="drow__e num">—</span><span class="drow__f num">US$9.000</span></div>
+      <div class="drow dev"><span class="drow__n">Fede · devolución</span><span class="drow__e num">—</span><span class="drow__f num">US$3.000</span></div>
+      <div class="drow tot"><span class="drow__n">Total ingresos</span><span class="drow__e num">US$12.669</span><span class="drow__f num">US$24.777</span></div>
+    </div>
+    <div class="dtbl">
+      <div class="dhead"><span>Egresos</span><span class="num">Del mes</span><span class="num">Pagado</span></div>
+      <div class="drow"><span class="drow__n">Facu</span><span class="drow__e num">US$980</span><span class="drow__f num">US$58</span></div>
+      <div class="drow"><span class="drow__n">Fede</span><span class="drow__e num">US$4.200</span><span class="drow__f num">US$680</span></div>
+      <div class="drow"><span class="drow__n">Juana</span><span class="drow__e num">US$1.400</span><span class="drow__f num">US$4.479</span></div>
+      <div class="drow"><span class="drow__n">Teo</span><span class="drow__e num">US$2.000</span><span class="drow__f num">US$950</span></div>
+      <div class="drow"><span class="drow__n">Carlota</span><span class="drow__e num">—</span><span class="drow__f num">—</span></div>
+      <div class="drow"><span class="drow__n">Lola</span><span class="drow__e num">US$2.600</span><span class="drow__f num">US$2.600</span></div>
+      <div class="drow"><span class="drow__n">Azul</span><span class="drow__e num">—</span><span class="drow__f num">—</span></div>
+      <div class="drow"><span class="drow__n">Anto</span><span class="drow__e num">US$300</span><span class="drow__f num">—</span></div>
+      <div class="drow"><span class="drow__n">Costos de contenido</span><span class="drow__e num">US$1.934</span><span class="drow__f num">US$1.515</span></div>
+      <div class="drow"><span class="drow__n">Herramientas</span><span class="drow__e num">—</span><span class="drow__f num">US$539</span></div>
+      <div class="drow"><span class="drow__n">Otros gastos</span><span class="drow__e num">—</span><span class="drow__f num">US$223</span></div>
+      <div class="drow tot"><span class="drow__n">Total egresos</span><span class="drow__e num">US$13.414</span><span class="drow__f num">US$11.043</span></div>
+    </div>
+    <p class="sheet__note">Facturado / del mes = el trabajo de este mes y sus costos, se haya cobrado o no. Caja = lo que realmente entró y salió de la cuenta. Las líneas Juana · devolución y Fede · devolución no son ventas: son aportes que los socios hicieron desde afuera para saldar su cuenta personal con Cáscara (habían usado las cuentas de la empresa para cobrar servicios personales en 2025). Por eso la caja del mes (US$24.777) queda muy por encima de lo cobrado por trabajo (US$12.777). En enero todavía no hay actividad del curso B2C La cáscara.</p>
+  </div>
+</div>
+<script>document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.getElementById('sheet').classList.remove('open');document.getElementById('sheetbg').classList.remove('open');}});</script>
+</body></html>
