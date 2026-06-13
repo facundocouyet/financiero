@@ -100,11 +100,13 @@
 
   /* ===== Teléfono: que nada empuje el ancho a los costados ===== */
   @media (max-width:620px){
-    header{ gap:16px; }
-    header img{ height:42px; flex:0 0 auto; }
-    .kicker{ font-size:15px; gap:12px; }
+    /* header en columna: el wordmark arriba (sin apretarse contra el borde)
+       y el kicker + título debajo, a todo el ancho */
+    header{ flex-direction:column-reverse; align-items:flex-start; gap:16px; margin-bottom:14px; }
+    header img{ height:34px; flex:0 0 auto; }
+    .kicker{ font-size:14px; gap:12px; }
     .kicker::before{ width:20px; }
-    h1{ font-size:clamp(42px,13vw,60px); }
+    h1{ font-size:clamp(44px,14vw,64px); }
     .charts{ min-width:0; }
     .chartcard{ padding:24px 20px; min-width:0; overflow:hidden; }
     /* barras facturado/cobrado: comparación visual, encajan siempre.
