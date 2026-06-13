@@ -8,6 +8,8 @@
   --soft:var(--cc-cream-soft); --line:var(--cc-line); --faint:var(--cc-ink-faint); --line-strong:rgba(0,0,0,.14);
 }
 html{ scroll-behavior:smooth; }
+/* nada de scroll lateral: sólo se scrollea en vertical */
+html, body{ overflow-x:hidden; overscroll-behavior-x:none; max-width:100%; }
 body{ background:var(--tiza); color:var(--ink); font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing:antialiased; }
 .em{ font-family:"Redaction", Georgia, serif; font-style:italic; font-weight:400; }
 .num{ font-variant-numeric:tabular-nums; }

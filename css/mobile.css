@@ -8,6 +8,10 @@
    ============================================================ */
 
 body.m-mode { background: var(--cc-cream); }
+/* nada de scroll lateral en la vista scrolleable de teléfono */
+@media (max-width: 700px) {
+  html, body { overflow-x: hidden; overscroll-behavior-x: none; max-width: 100%; }
+}
 
 /* ---- contenedor y secciones en flujo normal (anula el absolute del slide) ---- */
 .m-report { display: block; }
