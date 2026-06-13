@@ -1,0 +1,243 @@
+/* ============================================================
+   Informes 2026 · Cáscara Collective — vista MOBILE (scrolleable)
+   Se aplica sólo cuando el reporte se renderiza en modo scroll
+   (pantallas ≤700px): el contenedor lleva la clase .m-report y NO
+   hay <deck-stage>. Re-compone cada tipo de slide a una vista
+   vertical con tipografía adaptada. En desktop/horizontal este
+   archivo no hace nada (no existe .m-report).
+   ============================================================ */
+
+body.m-mode { background: var(--cc-cream); }
+
+/* ---- contenedor y secciones en flujo normal (anula el absolute del slide) ---- */
+.m-report { display: block; }
+.m-report section {
+  position: static !important;
+  overflow: visible !important;
+  background: transparent;
+  border-top: 1px solid var(--cc-line);
+}
+.m-report section:first-child { border-top: none; }
+.m-report .frame {
+  position: static !important;
+  inset: auto !important;
+  width: auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  display: block !important;
+  padding: 30px 20px !important;
+}
+.m-report .frame--blue, .m-report .frame--ink { border-top: none; }
+
+/* tokens de escala mobile (capturan lo tokenizado) */
+.m-report {
+  --type-title: 27px; --type-subtitle: 20px; --type-lead: 18px;
+  --type-body: 16px; --type-small: 14px; --type-kicker: 12px;
+  --pad-x: 20px; --pad-top: 30px; --pad-bottom: 30px; --gap-title: 18px;
+}
+
+/* ocultar cromo decorativo del slide */
+.m-report .wm,
+.m-report .mcover__archer,
+.m-report .pagenum { display: none !important; }
+
+/* ---- comunes ---- */
+.m-report .kicker { font-size: 12px; gap: 10px; }
+.m-report .kicker::before { width: 20px; }
+.m-report .title { font-size: 27px; margin-top: 12px; }
+.m-report .foot { font-size: 14px; flex-direction: column; gap: 10px; margin-top: 18px !important; }
+
+/* ---- portada ---- */
+.m-report .mcover { gap: 0; }
+.m-report .mcover__top { align-items: center; }
+.m-report .mcover__wm { height: 40px; }
+.m-report .mcover__no { font-size: 15px; margin-top: 22px; }
+.m-report .mcover__month { font-size: 58px !important; line-height: .92; margin-top: 4px; }
+.m-report .mcover__sub { font-size: 17px; max-width: none; margin-top: 14px; }
+.m-report .mcover__meta { flex-direction: column; gap: 12px; margin-top: 22px; font-size: 14px; }
+.m-report .mcover__meta b { font-size: 16px; margin-bottom: 2px; }
+
+/* ---- dos lecturas ---- */
+.m-report .ledger { grid-template-columns: 1fr; gap: 14px; margin-top: 16px; }
+.m-report .book { padding: 22px 22px 20px; border-radius: 14px; }
+.m-report .book__tag { font-size: 13px; }
+.m-report .book__sub { font-size: 15px; min-height: 0 !important; margin-top: 6px; }
+.m-report .book__io { gap: 30px; margin-top: 16px; }
+.m-report .io__l { font-size: 13px; }
+.m-report .io__v { font-size: 24px; }
+.m-report .book__res { margin-top: 16px !important; padding-top: 16px; }
+.m-report .res__l { font-size: 13px; }
+.m-report .res__fig { font-size: 44px !important; }
+.m-report .book__chip { font-size: 13px; padding: 6px 16px; margin-top: 12px; }
+
+/* tira de flujo → columna */
+.m-report .flow { flex-direction: column; margin-top: 16px; }
+.m-report .flow__step { border-right: none; border-bottom: 1px solid var(--cc-line); padding: 13px 18px; flex-direction: row; justify-content: space-between; align-items: baseline; }
+.m-report .flow__step:last-child { border-bottom: none; }
+.m-report .flow__l { font-size: 13px; }
+.m-report .flow__v { font-size: 20px; }
+
+/* ---- ingresos / barras horizontales ---- */
+.m-report .io-totals { gap: 22px; margin-top: 16px; }
+.m-report .io-total span { font-size: 13px; }
+.m-report .io-total b { font-size: 38px; }
+.m-report .io-total small { font-size: 13px; }
+.m-report .rows { gap: 16px !important; margin-top: 16px !important; }
+.m-report .row { display: flex; flex-direction: column; align-items: stretch; gap: 6px; }
+.m-report .row__label { font-size: 16px; }
+.m-report .row__label small { font-size: 13px; }
+.m-report .row__label .b2c { font-size: 12px; padding: 2px 10px; }
+.m-report .track { height: 22px; }
+.m-report .row__amt { text-align: left; display: flex; align-items: baseline; gap: 8px; }
+.m-report .row__amt b { font-size: 22px; display: inline; }
+.m-report .row__amt span { font-size: 13px; }
+
+/* ---- egresos / barras duales ---- */
+.m-report .legend { gap: 18px; margin-top: 14px; }
+.m-report .legend span { font-size: 13px; }
+.m-report .swatch { width: 16px; height: 16px; }
+.m-report .drow { grid-template-columns: 1fr; gap: 8px; }
+.m-report .drow__label { font-size: 16px; }
+.m-report .drow__label .pct { font-size: 15px; }
+.m-report .drow__label small { font-size: 13px; }
+.m-report .dbar { grid-template-columns: 1fr 92px; gap: 10px; }
+.m-report .dbar__track { height: 20px; }
+.m-report .dbar__v { font-size: 15px; }
+
+/* ---- socios ---- */
+.m-report .socrow { grid-template-columns: 1fr; gap: 22px; margin-top: 16px; }
+.m-report .retiros__sub { font-size: 13px; }
+.m-report .retiros__sub.eq { margin-top: 16px; }
+.m-report .pitem { padding: 11px 2px; }
+.m-report .pitem .nm { font-size: 17px; }
+.m-report .pitem .nm small { font-size: 13px; }
+.m-report .pitem .amt { font-size: 22px; }
+.m-report .psub .nm { font-size: 13px; }
+.m-report .psub .amt { font-size: 18px; }
+.m-report .ccbox { padding: 24px 22px; border-radius: 14px; }
+.m-report .ccbox__tag { font-size: 13px; }
+.m-report .ccbox__big { font-size: 42px !important; margin: 10px 0 6px; }
+.m-report .ccbox__txt { font-size: 15px; }
+.m-report .ccbox__chips { padding-top: 18px; gap: 10px; }
+.m-report .ccchip { font-size: 13px; padding: 8px 16px; }
+
+/* ---- B2C ---- */
+.m-report .b2c-grid { grid-template-columns: 1fr; gap: 14px; margin-top: 16px; }
+.m-report .b2c-hero { padding: 26px 24px; }
+.m-report .b2c-hero__tag { font-size: 13px; }
+.m-report .b2c-hero__fig { font-size: 58px; }
+.m-report .b2c-hero__sub { font-size: 15px; max-width: none; }
+.m-report .b2c-cost { padding: 20px 22px; }
+.m-report .b2c-cost__l { font-size: 13px; }
+.m-report .b2c-cost__v { font-size: 38px; }
+.m-report .b2c-cost__b { font-size: 14px; }
+
+/* ---- proporciones (donas) ---- */
+.m-report .props { grid-template-columns: 1fr; gap: 28px; margin-top: 16px; }
+.m-report .propcol__t { font-size: 18px; }
+.m-report .propcol__s { font-size: 14px; margin-bottom: 18px; }
+.m-report .propcol__body { flex-direction: column; gap: 20px; align-items: flex-start; }
+.m-report .bigdonut { width: 168px; height: 168px; }
+.m-report .bigdonut__c { width: 110px; height: 110px; }
+.m-report .bigdonut__c b { font-size: 20px; }
+.m-report .bigdonut__c span { font-size: 13px; }
+.m-report .proplegend { gap: 12px; width: 100%; }
+.m-report .pl__pc { font-size: 26px; min-width: 62px; }
+.m-report .pl__dot { width: 16px; height: 16px; }
+.m-report .pl__nm { font-size: 15px; }
+.m-report .pl__nm small { font-size: 12px; }
+.m-report .pl__amt { font-size: 14px; }
+
+/* ---- stats (resúmenes) ---- */
+.m-report .stats, .m-report .stats--3 { grid-template-columns: 1fr; gap: 14px; margin-top: 16px; }
+.m-report .stat { padding: 22px 24px; }
+.m-report .stat__label { font-size: 13px; }
+.m-report .stat__fig { font-size: 44px; }
+.m-report .stat__note { font-size: 14px; }
+
+/* ---- chart (pulso / curso mes a mes) ---- alturas de barra ya escaladas por JS ---- */
+.m-report .chart-wrap { margin-top: 16px; }
+.m-report .chart { margin-top: 12px; }
+.m-report .col__net { font-size: 12px; margin-bottom: 6px; }
+.m-report .bars { gap: 4px; }
+.m-report .bar { width: 16px; }
+.m-report .col__m { font-size: 12px; margin-top: 8px; }
+.m-report .col__saldo { font-size: 12px; }
+.m-report .col__saldo small { font-size: 9px; }
+.m-report .chart-foot { font-size: 13px; flex-direction: column; gap: 8px; margin-top: 16px !important; }
+
+/* ---- hero (motor / dividendo / nace B2C) ---- */
+.m-report .hero__fig { font-size: 78px; margin-top: 14px; }
+.m-report .hero__line { font-size: 20px; max-width: none; margin-top: 16px; }
+.m-report .hero__strip { flex-direction: column; gap: 16px; margin-top: 24px; }
+.m-report .hero__strip div b { font-size: 30px; }
+.m-report .hero__strip div span { font-size: 14px; }
+
+/* ---- cierre ---- */
+.m-report .close__big { font-size: 32px; }
+.m-report .close__row { flex-direction: column; align-items: flex-start; gap: 14px; margin-top: 18px; }
+.m-report .close__note { font-size: 15px; max-width: none; }
+.m-report .close .cover__wm { height: 44px; }
+
+/* ============================================================
+   Instructivo (clases propias) en mobile
+   ============================================================ */
+.m-report .guide2 { grid-template-columns: 1fr; gap: 18px; margin-top: 16px; }
+.m-report .gcard { padding: 24px 22px; }
+.m-report .gcard__k { font-size: 13px; }
+.m-report .gcard__name { font-size: 30px; }
+.m-report .gcard__txt { font-size: 15px; }
+.m-report .gcard__foot { font-size: 14px; margin-top: 20px; }
+.m-report .slotcap { font-size: 15px; }
+.m-report .steps { gap: 16px; }
+.m-report .step__n { font-size: 30px; width: 38px; }
+.m-report .step__b { font-size: 16px; }
+.m-report .step__b small { font-size: 14px; }
+.m-report .mock__head { font-size: 14px; padding: 14px 18px; }
+.m-report .mock__bar { padding: 14px 16px; gap: 7px; }
+.m-report .mchip { font-size: 14px; padding: 5px 12px; }
+.m-report .mock__body { padding: 18px 20px; gap: 12px; }
+.m-report .mrow { font-size: 16px; }
+.m-report .mrow b { font-size: 16px; }
+.m-report .led th { font-size: 13px; padding: 12px 8px 8px; }
+.m-report .led td { font-size: 14px; padding: 9px 8px; }
+.m-report .tabs { grid-template-columns: 1fr; gap: 14px; margin-top: 16px; }
+.m-report .tab__no { font-size: 28px; width: 34px; }
+.m-report .tab__name { font-size: 17px; }
+.m-report .tab__name small { font-size: 14px; }
+.m-report .why { grid-template-columns: 1fr; gap: 22px; margin-top: 16px; }
+.m-report .whyc__fig { font-size: 44px; }
+.m-report .whyc__t { font-size: 18px; }
+.m-report .whyc__b { font-size: 14px; }
+
+/* ============================================================
+   Controles flotantes en pantallas angostas (no se cortan)
+   ============================================================ */
+@media (max-width: 700px) {
+  .controls {
+    left: 0; right: 0; bottom: 0;
+    justify-content: center; flex-wrap: wrap;
+    gap: 8px; padding: 10px 12px;
+    background: linear-gradient(to top, rgba(219,215,210,.96), rgba(219,215,210,.0));
+  }
+  .ctl { font-size: 13px; padding: 11px 16px; box-shadow: 0 6px 18px rgba(10,10,12,.22); }
+  .ctl svg { width: 15px; height: 15px; }
+}
+
+/* ============================================================
+   Modal "Ver detalle" / "Ver por mes" en mobile
+   ============================================================ */
+@media (max-width: 700px) {
+  .modal { padding: 14px; }
+  .modal__head { padding: 22px 22px 18px; }
+  .modal__title { font-size: 26px; }
+  .modal__sub { font-size: 14px; }
+  .modal__body { padding: 20px 22px 28px; }
+  .modal__grid { grid-template-columns: 1fr; gap: 28px; }
+  .tbl th { font-size: 11px; }
+  .tbl td { font-size: 14px; padding: 8px 0 8px 12px; }
+  .tbl caption { font-size: 12px; }
+  .modal__note { font-size: 13px; }
+  /* el resumen 5 meses: tabla ancha → scroll horizontal */
+  #detalle-modal .modal__body > .tbl { display: block; overflow-x: auto; white-space: nowrap; }
+}

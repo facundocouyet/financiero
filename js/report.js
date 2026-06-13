@@ -6,6 +6,9 @@
    ============================================================ */
 (function () {
   var WM_INLINE = '<img class="wm" src="assets/wordmark-inline-blue.png" alt="">';
+  // En pantallas angostas (típicamente teléfonos en vertical) no usamos
+  // deck-stage: renderizamos los slides como una vista vertical scrolleable.
+  var IS_MOBILE = window.matchMedia('(max-width: 700px)').matches;
 
   // ---- libros (usado por "lecturas") ----
   function book(b, isFin) {
@@ -187,9 +190,11 @@
       var legend = s.legend.map(function (l) {
         return l.raw ? l.raw : '<span><span class="swatch ' + l.cls + '"></span>' + l.label + '</span>';
       }).join('');
+      var hf = IS_MOBILE ? 0.5 : 1;
       var cols = s.cols.map(function (c) {
+        var ih = Math.max(2, Math.round(c.inH * hf)), eh = Math.max(2, Math.round(c.egH * hf));
         return '<div class="col"><div class="col__net' + (c.netNeg ? ' neg' : '') + '">' + c.net + '</div>' +
-          '<div class="bars"><div class="bar in" style="height:' + c.inH + 'px"></div><div class="bar eg" style="height:' + c.egH + 'px"></div></div>' +
+          '<div class="bars"><div class="bar in" style="height:' + ih + 'px"></div><div class="bar eg" style="height:' + eh + 'px"></div></div>' +
           '<div class="col__m">' + c.m + '</div>' +
           '<div class="col__saldo num"><small>' + c.saldoLabel + '</small>' + c.saldo + '</div></div>';
       }).join('');
@@ -363,7 +368,14 @@
     if (!rep) { fail('Reporte no encontrado.'); return; }
     document.title = rep.title;
     var html = rep.slides.map(function (s) { return section(s, rep.screenLabel); }).join('');
-    document.getElementById('deck').innerHTML = '<deck-stage width="1920" height="1080">' + html + '</deck-stage>';
+    if (IS_MOBILE) {
+      var mount = document.getElementById('deck');
+      mount.className = 'm-report';
+      mount.innerHTML = html;
+      document.body.classList.add('m-mode');
+    } else {
+      document.getElementById('deck').innerHTML = '<deck-stage width="1920" height="1080">' + html + '</deck-stage>';
+    }
     if (rep.detail === 'month' && rep.detalle) {
       mountModal(monthModal(rep.screenLabel, rep.detalle));
     } else if (rep.detail === 'summary') {

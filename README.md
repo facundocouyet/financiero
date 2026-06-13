@@ -22,6 +22,10 @@ python3 -m http.server 8080
 
 En producción se publica con **GitHub Pages** (rama `main`, carpeta raíz).
 
+### Responsive
+- **Desktop / tablet / teléfono en horizontal** (>700px): los reportes son **slides 16:9** (shell `deck-stage`).
+- **Teléfono en vertical** (≤700px): los reportes se renderizan como una **vista vertical scrolleable** con tipografía adaptada (sin `deck-stage`; estilos en `css/mobile.css`). El home es responsive por sí mismo.
+
 ---
 
 ## Rutas

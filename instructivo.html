@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="ds/tokens/fonts.css">
 <link rel="stylesheet" href="ds/tokens/colors.css">
 <link rel="stylesheet" href="informe-2026.css">
+<link rel="stylesheet" href="css/mobile.css">
 
 <style>
   /* instructivo-specific layout */
@@ -75,7 +76,7 @@
 </head>
 <body>
 
-<deck-stage width="1920" height="1080">
+<div id="deck">
 
   <!-- 1 · COVER -->
   <section data-label="Portada" data-screen-label="Instructivo">
@@ -256,7 +257,7 @@
     </div>
   </section>
 
-</deck-stage>
+</div>
 
 <div class="controls">
   <a class="ctl ctl--ghost" href="index.html" aria-label="Volver al inicio">← Inicio</a>
@@ -266,6 +267,6 @@
   </button>
 </div>
 
-<script src="js/deck-stage.js"></script>
+<script src="js/deck-mount.js"></script>
 </body>
 </html>
