@@ -17,7 +17,8 @@
   "resultadoCaja": "cobrado − pagado (del mes).",
   "economicoSocios": "El económico de cada socio/persona = lo que generó su trabajo en los clientes del mes (NO un retiro fijo).",
   "cuentaPersonal": "Salvedades 2025, ya saldadas en cero. No darle importancia en la lectura del negocio.",
-  "b2c": "Curso B2C 'La cáscara' = producto propio. Costos: Comercial + Distribución (rev-share Rein 30% cruzado, luego Franco)."
+  "b2c": "Curso B2C 'La cáscara' = producto propio. Costos: Comercial + Distribución (rev-share Rein 30% cruzado, luego Franco).",
+  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$284.204 = 202.943 + 81.261). A la cuenta entran además los aportes de socios (US$12.650, no son ventas), por eso el total que entró en caja es US$215.593."
  },
  "anioInicio": {
   "saldoInicial": -5428.2
@@ -230,16 +231,14 @@
      "fin": 900
     },
     {
-     "n": "Acrule · enero (trabajo de enero)",
+     "n": "Acrule · enero (cobro de trabajo previo)",
      "eco": "",
-     "fin": 1500,
-     "tag": "dev"
+     "fin": 1500
     },
     {
-     "n": "Wires (recurrente, ya facturado)",
+     "n": "Wires · recurrente (cobro de trabajo previo)",
      "eco": "",
-     "fin": 3398,
-     "tag": "dev"
+     "fin": 3398
     },
     {
      "n": "La Cáscara · B2C",
@@ -1024,16 +1023,16 @@
     "facturado": 234970,
     "cobrado": 153893,
     "costos": 54397,
-    "porcentajeCaja": 0.71
+    "porcentajeCaja": 0.71,
+    "porCobrar": 81077
    },
    "porCobrar": {
-    "total": 45800,
+    "total": 81261,
     "detalle": {
-     "Curso B2C": 31577,
-     "LIVO": 5088,
-     "Nivel 2": 4010,
-     "Otros (Integra·Cocos·Bilbao·Wires)": 5104
-    }
+     "Curso B2C": 81077,
+     "Clientes de servicio (neto)": 184
+    },
+    "nota": "Casi todo del curso B2C, que se factura completo al venderse y se cobra en cuotas."
    },
    "costosPorCategoria": {
     "Equipo y socios": 84948,
@@ -1053,7 +1052,10 @@
     "disponibleRepartir": 150555,
     "porSocio": 50185,
     "politicaCaja": "Dejar US$3.000–5.000 de caja/mes; repartir el resto. Foto teórica."
-   }
+   },
+   "cobradoDeFacturacion": 202943,
+   "aportesSocios": 12650,
+   "entroEnCajaTotal": 215593
   }
  },
  "pulsoMensual": [
@@ -1900,16 +1902,14 @@
       "fin": 900
      },
      {
-      "n": "Acrule · enero (trabajo de enero)",
+      "n": "Acrule · enero (cobro de trabajo previo)",
       "eco": "",
-      "fin": 1500,
-      "tag": "dev"
+      "fin": 1500
      },
      {
-      "n": "Wires (recurrente, ya facturado)",
+      "n": "Wires · recurrente (cobro de trabajo previo)",
       "eco": "",
-      "fin": 3398,
-      "tag": "dev"
+      "fin": 3398
      },
      {
       "n": "La Cáscara · B2C",
@@ -3609,7 +3609,7 @@
    "screenLabel": "Resumen 5 meses",
    "title": "Resumen 5 meses 2026 · Cáscara Collective",
    "detail": "summary",
-   "summaryNote": "El <b>trabajo facturado del período (US$284.204)</b> supera a lo cobrado (US$215.593): la diferencia es trabajo ya hecho — sobre todo el curso B2C, que se vende en cuotas — que entra en caja más adelante.",
+   "summaryNote": "El <b>trabajo facturado del período (US$284.204)</b> supera a lo cobrado de facturación (US$202.943): la diferencia (≈US$81.300) es trabajo ya hecho — sobre todo el curso B2C, que se vende en cuotas — que entra en caja más adelante. A la cuenta entraron US$215.593 en total, incluyendo US$12.650 de aportes de socios.",
    "slides": [
     {
      "type": "cover",
@@ -3676,7 +3676,7 @@
       {
        "label": "Entró en caja",
        "fig": "US$215.593",
-       "note": "Lo que realmente entró a la cuenta. La diferencia con lo facturado son <b>cobros pendientes</b>."
+       "note": "Lo que realmente entró a la cuenta. Incluye <b>US$12.650 de aportes de socios</b>, que no son ventas."
       },
       {
        "label": "Resultado de caja",
@@ -3687,7 +3687,7 @@
       {
        "label": "Resultado del trabajo",
        "fig": "+US$113.154",
-       "note": "Supera al de caja: hay <b>~US$50.000 ya facturado</b> que todavía no entró (curso en cuotas)."
+       "note": "Supera al de caja: hay <b>~US$81.000 ya facturado</b> que todavía no entró (el curso se cobra en cuotas)."
       }
      ],
      "pageNum": "02"
@@ -3794,7 +3794,7 @@
       "resL": "Resultado de caja",
       "resFig": "+US$63.304"
      },
-     "foot": "<b>Facturamos US$284k de trabajo, pero entró US$216k en caja.</b> La diferencia (≈US$68k) es trabajo ya hecho que se cobra más adelante — sobre todo el curso B2C, que se vende en cuotas.",
+     "foot": "<b>De lo facturado (US$284k), ya entró US$203k y faltan US$81k.</b> Casi todo lo que falta es del curso B2C, que se vende en cuotas. A la caja además llegaron US$12.650 de aportes de socios, que no son ventas.",
      "pageNum": "04"
     },
     {
@@ -3805,33 +3805,21 @@
      "bars": [
       {
        "label": "Curso B2C",
-       "small": "Facturado y aún no entró",
+       "small": "Se factura completo y se cobra en cuotas",
        "b2c": true,
        "width": "100%",
-       "amount": "US$31.577"
+       "amount": "US$81.077"
       },
       {
-       "label": "LIVO",
-       "small": "Mensuales atrasados",
-       "width": "16%",
-       "amount": "US$5.088"
-      },
-      {
-       "label": "Nivel 2",
-       "small": "Cohorte de 4 alumnas, en cuotas",
-       "width": "13%",
-       "amount": "US$4.010"
-      },
-      {
-       "label": "Otros clientes",
-       "small": "Integra · Cocos · Bilbao · Wires",
-       "width": "16%",
-       "amount": "US$5.104"
+       "label": "Clientes de servicio",
+       "small": "Prácticamente al día (neto del período)",
+       "width": "1%",
+       "amount": "US$184"
       }
      ],
      "footClass": "chart-foot",
      "footMarginTop": "34px",
-     "foot": "<b>≈US$45.800 ya están facturados y van a entrar en los próximos meses.</b> Es el colchón de caja del segundo semestre — la tarea es ir a buscarlos.",
+     "foot": "<b>≈US$81.300 ya están facturados y van a entrar en los próximos meses.</b> Casi todo es del curso, que se vende en cuotas: lo facturamos completo al venderlo y entra a lo largo del año. Es el colchón de caja del segundo semestre.",
      "pageNum": "05"
     },
     {
@@ -4048,7 +4036,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "Cinco meses en azul, con un <span class=\"em\" style=\"color:#fff;\">producto propio</span> que cambió la escala.",
-     "note": "El saldo pasó de −US$5.428 a +US$57.875. El curso B2C trae 7 de cada 10 dólares y el costo se mantiene controlado. Quedan ≈US$45.800 facturados por cobrar: el potencial de los próximos meses ya está en marcha.",
+     "note": "El saldo pasó de −US$5.428 a +US$57.875. El curso B2C trae 7 de cada 10 dólares y el costo se mantiene controlado. Quedan ≈US$81.300 facturados por cobrar: el potencial de los próximos meses ya está en marcha.",
      "noteOpacity": ".7",
      "pageLabel": "Enero – Mayo 2026"
     }
@@ -4068,20 +4056,20 @@
      "s": "Todo el <b>trabajo facturado</b> en 5 meses, se haya cobrado o no."
     },
     {
-     "l": "Entró en caja",
-     "v": "US$215.593",
-     "s": "Lo que <b>realmente se cobró</b> en el período."
+     "l": "Cobrado de eso",
+     "v": "US$202.943",
+     "s": "La parte de esa facturación que <b>ya entró</b> a la cuenta."
     },
     {
      "l": "Falta cobrar",
-     "v": "≈US$45.800",
-     "s": "<b>Facturas pendientes</b> a fin de mayo — entra en los próximos meses."
+     "v": "US$81.261",
+     "s": "<b>Facturado que todavía no entró</b> — casi todo del curso, que se cobra en cuotas."
     },
     {
      "key": true,
-     "l": "Saldo actual",
+     "l": "Saldo en cuenta",
      "v": "US$57.875",
-     "s": "Arrancó el año en <b>−US$5.428</b>. Cinco meses en azul."
+     "s": "La plata que <b>hay hoy</b>. Arrancó el año en −US$5.428."
     }
    ],
    "donuts": [
@@ -4106,7 +4094,7 @@
       },
       {
        "dot": "var(--cc-ink-faint)",
-       "nm": "Cuenta de socios",
+       "nm": "Aporte de socios",
        "amt": "US$12.650",
        "pc": "6%"
       }
@@ -4182,7 +4170,8 @@
      }
     ],
     "foot": "Mayo marcó el récord (US$116.280 facturado). Cuando la barra llena supera a la de contorno, se facturó más de lo que se cobró: queda plata por entrar."
-   }
+   },
+   "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$284.204 = 202.943 + 81.261). A la cuenta entraron US$215.593 en total: esos US$202.943 de facturación más US$12.650 de aportes de socios, que no son ventas."
   },
   "sections": [
    {

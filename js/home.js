@@ -63,6 +63,7 @@
     var caps = f.bars.map(function (b) { return '<div class="bm__m">' + b.m + '</div>'; }).join('');
     return '<div class="dash">' +
       '<div class="kpis">' + kpis + '</div>' +
+      (dd.dashNote ? '<p class="dashnote">' + dd.dashNote + '</p>' : '') +
       '<div class="charts">' +
         '<div class="chartcard"><div class="twodonuts">' + dd.donuts.map(donutBlock).join('') + '</div></div>' +
         '<div class="chartcard full">' +
