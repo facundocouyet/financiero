@@ -34,6 +34,34 @@
     '</a>';
   }
 
+  // Franja "Caja a hoy": dato diario y en vivo, separado de los históricos.
+  // Se nutre de data/caja.json (caja, fecha, link) — lo único que actualiza update-caja.js.
+  function live(c) {
+    var hasLink = c.link && c.link !== '#';
+    var linkAttrs = hasLink
+      ? 'href="' + c.link + '" target="_blank" rel="noopener"'
+      : 'href="#"';
+    return '<div class="live">' +
+      '<div class="live__main">' +
+        '<div class="live__kick"><span class="live__dot"></span>Actualización diaria · Libro Diario · Gestión 2026</div>' +
+        '<div class="live__l">La caja que tenemos hoy</div>' +
+        '<div class="live__v num">' + c.caja + '</div>' +
+        '<div class="live__upd">Última actualización: <b>' + c.fecha + '</b> &nbsp;·&nbsp; tomada <span class="em">en vivo</span> del Libro Diario de la planilla de Gestión 2026.</div>' +
+      '</div>' +
+      '<div class="live__cta">' +
+        '<a class="live__btn" ' + linkAttrs + '>Abrir planilla de Gestión <span class="ar">→</span></a>' +
+        '<div class="live__hint">El detalle completo del día a día, en la planilla.</div>' +
+      '</div>' +
+    '</div>';
+  }
+
+  // Caja en vivo: si no se puede leer, el home se renderiza sin la franja.
+  function loadCaja() {
+    return fetch('data/caja.json?v=' + Date.now())
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; });
+  }
+
   function donutBlock(d) {
     var legend = d.legend.map(function (l) {
       return '<div class="lg"><span class="dot" style="background:' + l.dot + ';"></span>' +
@@ -84,7 +112,8 @@
     '</div>';
   }
 
-  CC.load().then(function (data) {
+  Promise.all([CC.load(), loadCaja()]).then(function (res) {
+    var data = res[0], caja = res[1];
     var h = data.home;
     document.title = h.title;
 
@@ -99,6 +128,7 @@
         '<img src="assets/wordmark-stacked-blue.png" alt="Cáscara Collective">' +
       '</header>' +
       '<p class="lede">' + h.lede + '</p>' +
+      (caja ? live(caja) : '') +
       (h.dash ? dash(h.dash) : '') + sections +
       '<footer>' + h.footer + '</footer>';
   }).catch(function (e) {

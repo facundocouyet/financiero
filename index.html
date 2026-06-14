@@ -39,8 +39,41 @@
   .band__s{ font-size:15px; color:var(--muted); margin-top:8px; line-height:1.35; }
   .band__cell.key .band__s{ color:rgba(255,255,255,.78); }
 
+  /* ===== Franja en vivo · Caja a hoy ===== */
+  .live{ margin-top:40px; background:var(--ink); color:#fff; border-radius:18px;
+    padding:30px clamp(28px,4vw,44px); display:grid; grid-template-columns:1fr auto;
+    align-items:center; gap:30px 44px; }
+  .live__main{ min-width:0; }
+  .live__kick{ display:flex; align-items:center; gap:11px; font-size:13px; font-weight:700;
+    text-transform:uppercase; letter-spacing:.14em; color:var(--cc-blue-lt); }
+  .live__dot{ width:9px; height:9px; border-radius:50%; background:var(--cc-blue-soft);
+    box-shadow:0 0 0 0 rgba(107,122,255,.55); animation:livepulse 2.4s ease-out infinite; flex:0 0 auto; }
+  @keyframes livepulse{ 0%{ box-shadow:0 0 0 0 rgba(107,122,255,.5);} 70%{ box-shadow:0 0 0 10px rgba(107,122,255,0);} 100%{ box-shadow:0 0 0 0 rgba(107,122,255,0);} }
+  @media (prefers-reduced-motion:reduce){ .live__dot{ animation:none; } }
+  .live__l{ font-size:18px; color:rgba(255,255,255,.78); margin-top:16px; }
+  .live__v{ font-family:"Redaction",Georgia,serif; font-style:italic; font-size:clamp(52px,7vw,78px);
+    line-height:.92; margin-top:6px; color:#fff; font-variant-numeric:tabular-nums; }
+  .live__upd{ font-size:15px; color:rgba(255,255,255,.6); margin-top:16px; line-height:1.45; }
+  .live__upd b{ color:#fff; font-weight:700; }
+  .live__upd .em{ color:var(--cc-blue-lt); }
+  .live__cta{ display:flex; flex-direction:column; align-items:flex-end; gap:12px; flex:0 0 auto; }
+  .live__btn{ display:inline-flex; align-items:center; gap:10px; text-decoration:none;
+    background:var(--cc-blue); color:#fff; font-size:18px; font-weight:700; letter-spacing:.005em;
+    padding:16px 28px; border-radius:999px; white-space:nowrap;
+    transition:background .18s cubic-bezier(.2,.8,.2,1), transform .12s; }
+  .live__btn:hover{ background:var(--cc-blue-electric); }
+  .live__btn:active{ background:var(--cc-blue-deep); transform:scale(.97); }
+  .live__btn .ar{ font-family:"Redaction",Georgia,serif; font-style:italic; font-size:22px; line-height:1; }
+  .live__hint{ font-size:13px; color:rgba(255,255,255,.5); text-align:right; max-width:200px; line-height:1.4; }
+  @media (max-width:760px){
+    .live{ grid-template-columns:1fr; gap:24px; }
+    .live__cta{ align-items:flex-start; }
+    .live__hint{ text-align:left; }
+    .live__btn{ width:100%; justify-content:center; }
+  }
+
   /* ===== Dashboard ===== */
-  .dash{ margin-top:40px; }
+  .dash{ margin-top:24px; }
   .dashnote{ font-size:15px; color:var(--muted); line-height:1.5; margin-top:14px; padding:14px 18px; background:var(--cc-cream-soft); border:1px solid var(--line); border-radius:12px; }
   .dashnote b{ color:var(--ink); }
   .kpis{ display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
