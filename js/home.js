@@ -34,8 +34,8 @@
     '</a>';
   }
 
-  // Link a la planilla de Gestión 2026 (mismo SHEET_ID que usa apps-script-cash.gs).
-  var PLANILLA_URL = 'https://docs.google.com/spreadsheets/d/1mrjVnVZJAbKMCMvUq7a6_RkJgDqWMyZav8emkdbdoC8/edit';
+  // Link a la planilla de Gestión 2026 (solapa "Financiero", gid=238000038).
+  var PLANILLA_URL = 'https://docs.google.com/spreadsheets/d/1mrjVnVZJAbKMCMvUq7a6_RkJgDqWMyZav8emkdbdoC8/edit?gid=238000038#gid=238000038';
 
   // ISO "2026-06-12" → "12 jun 2026" (formato de la franja).
   function fmtFecha(iso) {
