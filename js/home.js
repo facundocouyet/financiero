@@ -45,6 +45,17 @@
     return Number(m[3]) + ' ' + meses[Number(m[2]) - 1] + ' ' + m[1];
   }
 
+  // ISO UTC "2026-06-15T00:24:34Z" → "14 jun 2026, 21:24 hs" (hora Argentina, UTC−3).
+  function fmtSync(iso) {
+    var t = Date.parse(iso || '');
+    if (isNaN(t)) return '';
+    var meses = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    var d = new Date(t - 3 * 3600 * 1000); // Argentina no tiene horario de verano
+    var hh = ('0' + d.getUTCHours()).slice(-2);
+    var mm = ('0' + d.getUTCMinutes()).slice(-2);
+    return d.getUTCDate() + ' ' + meses[d.getUTCMonth()] + ' ' + d.getUTCFullYear() + ', ' + hh + ':' + mm + ' hs';
+  }
+
   // Franja "Caja a hoy": dato diario y en vivo, separado de los históricos.
   // Se nutre de data/cash.json (cash, moneda, fecha) — lo que actualiza a diario
   // la automatización (apps-script-cash.gs → col G "Financiero" de Gestión 2026).
@@ -54,7 +65,8 @@
         '<div class="live__kick"><span class="live__dot"></span>Actualización diaria · Libro Diario · Gestión 2026</div>' +
         '<div class="live__l">La caja que tenemos hoy</div>' +
         '<div class="live__v num">' + CC.money(c.cash) + '</div>' +
-        '<div class="live__upd">Última actualización: <b>' + fmtFecha(c.fecha) + '</b> &nbsp;·&nbsp; tomada <span class="em">en vivo</span> del Libro Diario de la planilla de Gestión 2026.</div>' +
+        '<div class="live__upd">Saldo al <b>' + fmtFecha(c.fecha) + '</b> &nbsp;·&nbsp; leído <span class="em">en vivo</span> del Libro Diario de la planilla de Gestión 2026.</div>' +
+        (c.actualizado ? '<div class="live__sync">Automatización · última sincronización: <b>' + fmtSync(c.actualizado) + '</b></div>' : '') +
       '</div>' +
       '<div class="live__cta">' +
         '<a class="live__btn" href="' + PLANILLA_URL + '" target="_blank" rel="noopener">Abrir planilla de Gestión <span class="ar">→</span></a>' +
