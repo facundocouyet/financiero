@@ -4140,30 +4140,35 @@
     "bars": [
      {
       "v": "US$12.669",
+      "vCob": "US$24.777",
       "factH": 16,
       "cobH": 32,
       "m": "Enero"
      },
      {
       "v": "US$53.978",
+      "vCob": "US$44.054",
       "factH": 70,
       "cobH": 57,
       "m": "Febrero"
      },
      {
       "v": "US$58.770",
+      "vCob": "US$35.466",
       "factH": 76,
       "cobH": 46,
       "m": "Marzo"
      },
      {
       "v": "US$42.507",
+      "vCob": "US$48.461",
       "factH": 55,
       "cobH": 62,
       "m": "Abril"
      },
      {
       "v": "US$116.280",
+      "vCob": "US$62.835",
       "factH": 150,
       "cobH": 81,
       "m": "Mayo"

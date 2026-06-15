@@ -106,14 +106,20 @@
     }).join('');
     var f = dd.facturacion;
     var bars = f.bars.map(function (b) {
-      return '<div class="bm"><div class="bm__v num">' + b.v + '</div>' +
+      return '<div class="bm">' +
+        '<div class="bm__vals">' +
+          '<span class="bm__val bm__val--f num">' + b.v + '</span>' +
+          '<span class="bm__val bm__val--c num">' + b.vCob + '</span>' +
+        '</div>' +
         '<div class="bm__pair"><div class="b-fact" style="height:' + b.factH + 'px;"></div><div class="b-cob" style="height:' + b.cobH + 'px;"></div></div></div>';
     }).join('');
     var caps = f.bars.map(function (b) { return '<div class="bm__m">' + b.m + '</div>'; }).join('');
-    // Lista compacta de montos facturados — sólo visible en teléfono,
-    // donde las etiquetas sobre cada barra no entran (ver index.html).
+    // Lista compacta — sólo visible en teléfono, donde las etiquetas sobre cada
+    // barra no entran (ver index.html). Muestra facturado y cobrado por mes.
     var vlist = f.bars.map(function (b) {
-      return '<div class="bml__row"><span class="bml__m">' + b.m + '</span><span class="bml__v num">' + b.v + '</span></div>';
+      return '<div class="bml__row"><span class="bml__m">' + b.m + '</span>' +
+        '<span class="bml__vals"><span class="bml__v bml__v--f num">' + b.v + '</span>' +
+        '<span class="bml__v bml__v--c num">' + b.vCob + '</span></span></div>';
     }).join('');
     return '<div class="dash">' +
       '<div class="kpis">' + kpis + '</div>' +
@@ -126,7 +132,7 @@
           '<div class="legend-row"><span><i class="sw-fact"></i>Facturado</span><span><i class="sw-cob"></i>Cobrado</span></div>' +
           '<div class="barsmini">' + bars + '</div>' +
           '<div class="bm__cap">' + caps + '</div>' +
-          '<div class="bml"><div class="bml__h">Facturado por mes</div>' + vlist + '</div>' +
+          '<div class="bml"><div class="bml__h">Facturado y cobrado, por mes</div>' + vlist + '</div>' +
           '<div class="chartcard__foot">' + f.foot + '</div>' +
         '</div>' +
       '</div>' +
