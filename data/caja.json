@@ -1,6 +1,0 @@
-{
-  "caja": "US$57.875",
-  "fecha": "14 jun 2026",
-  "link": "#",
-  "_nota": "Caja a hoy mostrada en el home. Se actualiza a diario con update-caja.js desde el Libro Diario de la planilla de Gestion 2026. 'caja' = saldo del dia; 'fecha' = fecha de esa lectura; 'link' = URL de la planilla (boton azul)."
-}

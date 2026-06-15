@@ -34,31 +34,40 @@
     '</a>';
   }
 
+  // Link a la planilla de Gestión 2026 (mismo SHEET_ID que usa apps-script-cash.gs).
+  var PLANILLA_URL = 'https://docs.google.com/spreadsheets/d/1mrjVnVZJAbKMCMvUq7a6_RkJgDqWMyZav8emkdbdoC8/edit';
+
+  // ISO "2026-06-12" → "12 jun 2026" (formato de la franja).
+  function fmtFecha(iso) {
+    var meses = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || '');
+    if (!m) return iso || '';
+    return Number(m[3]) + ' ' + meses[Number(m[2]) - 1] + ' ' + m[1];
+  }
+
   // Franja "Caja a hoy": dato diario y en vivo, separado de los históricos.
-  // Se nutre de data/caja.json (caja, fecha, link) — lo único que actualiza update-caja.js.
+  // Se nutre de data/cash.json (cash, moneda, fecha) — lo que actualiza a diario
+  // la automatización (apps-script-cash.gs → col G "Financiero" de Gestión 2026).
   function live(c) {
-    var hasLink = c.link && c.link !== '#';
-    var linkAttrs = hasLink
-      ? 'href="' + c.link + '" target="_blank" rel="noopener"'
-      : 'href="#"';
     return '<div class="live">' +
       '<div class="live__main">' +
         '<div class="live__kick"><span class="live__dot"></span>Actualización diaria · Libro Diario · Gestión 2026</div>' +
         '<div class="live__l">La caja que tenemos hoy</div>' +
-        '<div class="live__v num">' + c.caja + '</div>' +
-        '<div class="live__upd">Última actualización: <b>' + c.fecha + '</b> &nbsp;·&nbsp; tomada <span class="em">en vivo</span> del Libro Diario de la planilla de Gestión 2026.</div>' +
+        '<div class="live__v num">' + CC.money(c.cash) + '</div>' +
+        '<div class="live__upd">Última actualización: <b>' + fmtFecha(c.fecha) + '</b> &nbsp;·&nbsp; tomada <span class="em">en vivo</span> del Libro Diario de la planilla de Gestión 2026.</div>' +
       '</div>' +
       '<div class="live__cta">' +
-        '<a class="live__btn" ' + linkAttrs + '>Abrir planilla de Gestión <span class="ar">→</span></a>' +
+        '<a class="live__btn" href="' + PLANILLA_URL + '" target="_blank" rel="noopener">Abrir planilla de Gestión <span class="ar">→</span></a>' +
         '<div class="live__hint">El detalle completo del día a día, en la planilla.</div>' +
       '</div>' +
     '</div>';
   }
 
-  // Caja en vivo: si no se puede leer, el home se renderiza sin la franja.
-  function loadCaja() {
-    return fetch('data/caja.json?v=' + Date.now())
+  // Caja en vivo: si no se puede leer (o no trae cash), el home se renderiza sin la franja.
+  function loadCash() {
+    return fetch('data/cash.json?v=' + Date.now())
       .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) { return d && d.cash != null ? d : null; })
       .catch(function () { return null; });
   }
 
@@ -112,7 +121,7 @@
     '</div>';
   }
 
-  Promise.all([CC.load(), loadCaja()]).then(function (res) {
+  Promise.all([CC.load(), loadCash()]).then(function (res) {
     var data = res[0], caja = res[1];
     var h = data.home;
     document.title = h.title;
