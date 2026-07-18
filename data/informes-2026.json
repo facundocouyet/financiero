@@ -1241,53 +1241,47 @@
    "saldoFinal": 35790.45,
    "ventaB2C": 144995
   },
-  "cincoMeses": {
-   "label": "Cinco meses (Ene–May)",
-   "facturado": 284204,
-   "costos": 171050,
-   "resTrabajo": 113154,
-   "cobrado": 215593,
-   "pagado": 152289,
-   "resCaja": 63304,
+  "semestre": {
+   "label": "Primer semestre (Ene–Jun)",
+   "facturado": 305826,
+   "costos": 199822,
+   "resTrabajo": 106004,
+   "cobrado": 246879,
+   "pagado": 205660,
+   "resCaja": 41219,
    "saldoInicial": -5428.2,
-   "saldoFinal": 57875.45,
+   "saldoFinal": 35790.45,
    "b2c": {
-    "facturado": 234970,
-    "cobrado": 153893,
-    "costos": 54397,
-    "porcentajeCaja": 0.71,
-    "porCobrar": 81077
+    "facturado": 247765,
+    "cobrado": 171480,
+    "costos": 58111,
+    "porcentajeCaja": 0.69,
+    "porCobrar": 76285
    },
    "porCobrar": {
-    "total": 81261,
+    "total": 71597,
     "detalle": {
-     "Curso B2C": 81077,
-     "Clientes de servicio (neto)": 184
+     "Curso B2C": 76285,
+     "Clientes de servicio (neto)": -4688
     },
-    "nota": "Casi todo del curso B2C, que se factura completo al venderse y se cobra en cuotas."
+    "nota": "Casi todo del curso B2C, que se factura completo al venderse y se cobra en cuotas; los clientes de servicio están al día (neto adelantado)."
    },
    "costosPorCategoria": {
-    "Equipo y socios": 84948,
-    "Costos B2C": 54397,
-    "Contenido": 24979,
+    "Equipo y socios": 101922,
+    "Costos B2C": 58111,
+    "Contenido": 33063,
     "Herramientas y otros": 6726
    },
-   "socios5M": {
-    "Facu": 13480,
-    "Fede": 18300,
-    "Juana": 15300,
-    "subtotalSocios": 47080,
-    "equipo": 37868
+   "socios6M": {
+    "Facu": 16611,
+    "Fede": 21631,
+    "Juana": 17931,
+    "subtotalSocios": 56173,
+    "equipo": 45749
    },
-   "vistaGestion": {
-    "resultadoAcumulado": 167283,
-    "disponibleRepartir": 150555,
-    "porSocio": 50185,
-    "politicaCaja": "Dejar US$3.000–5.000 de caja/mes; repartir el resto. Foto teórica."
-   },
-   "cobradoDeFacturacion": 202943,
+   "cobradoDeFacturacion": 234229,
    "aportesSocios": 12650,
-   "entroEnCajaTotal": 215593
+   "entroEnCajaTotal": 246879
   }
  },
  "pulsoMensual": [
@@ -4512,32 +4506,32 @@
     }
    ]
   },
-  "cinco-meses": {
-   "screenLabel": "Resumen 5 meses",
-   "title": "Resumen 5 meses 2026 · Cáscara Collective",
+  "semestre": {
+   "screenLabel": "Resumen 6 meses",
+   "title": "Resumen Primer Semestre 2026 · Cáscara Collective",
    "detail": "summary",
-   "summaryNote": "El <b>trabajo facturado del período (US$284.204)</b> supera a lo cobrado de facturación (US$202.943): la diferencia (≈US$81.300) es trabajo ya hecho — sobre todo el curso B2C, que se vende en cuotas — que entra en caja más adelante. A la cuenta entraron US$215.593 en total, incluyendo US$12.650 de aportes de socios.",
+   "summaryNote": "El <b>trabajo facturado del semestre (US$305.826)</b> supera a lo cobrado de facturación (US$234.229): la diferencia (≈US$71.600) es trabajo ya hecho — sobre todo el curso B2C, que se vende en cuotas — que entra en caja más adelante. A la cuenta entraron US$246.879 en total, incluyendo US$12.650 de aportes de socios.",
    "slides": [
     {
      "type": "cover",
      "label": "Portada",
      "kicker": "Informe acumulado · 2026",
-     "no": "Enero – Mayo",
-     "month": "Cinco meses",
-     "monthSize": "170px",
-     "sub": "El arranque de 2026 de punta a punta: cuánto trabajamos, cuánto entró en caja y cómo creció el saldo, con el curso <span class=\"em\">B2C La cáscara</span> como motor.",
+     "no": "Enero – Junio",
+     "month": "Primer semestre",
+     "monthSize": "150px",
+     "sub": "El primer semestre de 2026 de punta a punta: cuánto trabajamos, cuánto entró en caja y cómo se movió el saldo, con el curso <span class=\"em\">B2C La cáscara</span> como motor y un junio de puesta al día.",
      "meta": [
       {
        "label": "Resultado de caja",
-       "value": "+US$63.304"
+       "value": "+US$41.219"
       },
       {
        "label": "Resultado del trabajo",
-       "value": "+US$113.154"
+       "value": "+US$106.004"
       },
       {
        "label": "Saldo",
-       "value": "−US$5.428 → +US$57.875"
+       "value": "−US$5.428 → +US$35.790"
       }
      ]
     },
@@ -4573,28 +4567,28 @@
      "type": "stats",
      "label": "Los números del período",
      "kicker": "01 · Resumen del período",
-     "title": "Los cinco meses en números",
+     "title": "El primer semestre en números",
      "items": [
       {
        "label": "Facturado por trabajo",
-       "fig": "US$284.204",
-       "note": "Todo el trabajo facturado en cinco meses. El gran motor es el curso <b>B2C La cáscara</b>."
+       "fig": "US$305.826",
+       "note": "Todo el trabajo facturado en seis meses. El gran motor es el curso <b>B2C La cáscara</b>."
       },
       {
        "label": "Entró en caja",
-       "fig": "US$215.593",
+       "fig": "US$246.879",
        "note": "Lo que realmente entró a la cuenta. Incluye <b>US$12.650 de aportes de socios</b>, que no son ventas."
       },
       {
        "label": "Resultado de caja",
-       "fig": "+US$63.304",
-       "note": "<b>El saldo creció de −US$5.428 a +US$57.875.</b> Cinco meses en azul.",
+       "fig": "+US$41.219",
+       "note": "<b>El saldo creció de −US$5.428 a +US$35.790.</b> El semestre cierra en azul.",
        "key": true
       },
       {
        "label": "Resultado del trabajo",
-       "fig": "+US$113.154",
-       "note": "Supera al de caja: hay <b>~US$81.000 ya facturado</b> que todavía no entró (el curso se cobra en cuotas)."
+       "fig": "+US$106.004",
+       "note": "Supera al de caja: hay <b>~US$71.600 ya facturado</b> que todavía no entró (el curso se cobra en cuotas)."
       }
      ],
      "pageNum": "02"
@@ -4658,9 +4652,18 @@
        "m": "Mayo",
        "saldoLabel": "Saldo",
        "saldo": "US$57.875"
+      },
+      {
+       "net": "−22.085",
+       "netNeg": true,
+       "inH": 189,
+       "egH": 323,
+       "m": "Junio",
+       "saldoLabel": "Saldo",
+       "saldo": "US$35.790"
       }
      ],
-     "foot": "Sólo marzo cerró con caja negativa, por cobros que se atrasaron. El resto, siempre en azul.",
+     "foot": "Marzo y junio cerraron con caja negativa; junio, por ponerse al día con pagos atrasados. El resto del semestre, siempre en azul.",
      "footRight": "<b>Mayo</b> es el mejor mes: +US$21.559 de caja",
      "pageNum": "03"
     },
@@ -4670,38 +4673,38 @@
      "kicker": "03 · El trabajo y la caja",
      "title": "El trabajo facturado va <span class=\"em\">por delante</span> de la caja",
      "trabajo": {
-      "tag": "El trabajo · 5 meses",
+      "tag": "El trabajo · 6 meses",
       "sub": "Lo facturado por el trabajo del período y los costos de ese trabajo.",
       "io": [
        {
         "l": "Facturado",
-        "v": "US$284.204"
+        "v": "US$305.826"
        },
        {
         "l": "Costos",
-        "v": "US$171.050"
+        "v": "US$199.822"
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$113.154"
+      "resFig": "+US$106.004"
      },
      "caja": {
-      "tag": "La caja · 5 meses",
+      "tag": "La caja · 6 meses",
       "sub": "La plata que efectivamente entró y salió de la cuenta.",
       "io": [
        {
         "l": "Entró",
-        "v": "US$215.593"
+        "v": "US$246.879"
        },
        {
         "l": "Salió",
-        "v": "US$152.289"
+        "v": "US$205.660"
        }
       ],
       "resL": "Resultado de caja",
-      "resFig": "+US$63.304"
+      "resFig": "+US$41.219"
      },
-     "foot": "<b>De lo facturado (US$284k), ya entró US$203k y faltan US$81k.</b> Casi todo lo que falta es del curso B2C, que se vende en cuotas. A la caja además llegaron US$12.650 de aportes de socios, que no son ventas.",
+     "foot": "<b>De lo facturado (US$306k), ya entró US$234k y faltan ~US$72k.</b> Casi todo lo que falta es del curso B2C, que se vende en cuotas. A la caja además llegaron US$12.650 de aportes de socios, que no son ventas.",
      "pageNum": "04"
     },
     {
@@ -4715,37 +4718,31 @@
        "small": "Se factura completo y se cobra en cuotas",
        "b2c": true,
        "width": "100%",
-       "amount": "US$81.077"
-      },
-      {
-       "label": "Clientes de servicio",
-       "small": "Prácticamente al día (neto del período)",
-       "width": "1%",
-       "amount": "US$184"
+       "amount": "US$76.285"
       }
      ],
      "footClass": "chart-foot",
      "footMarginTop": "34px",
-     "foot": "<b>≈US$81.300 ya están facturados y van a entrar en los próximos meses.</b> Casi todo es del curso, que se vende en cuotas: lo facturamos completo al venderlo y entra a lo largo del año. Es el colchón de caja del segundo semestre.",
+     "foot": "<b>US$76.285 del curso B2C ya están facturados y van a entrar en cuotas los próximos meses.</b> Los clientes de servicio están al día (adelantados en el neto), así que lo pendiente neto del semestre es ≈US$71.600. Es el colchón de caja del segundo semestre.",
      "pageNum": "05"
     },
     {
      "type": "hero",
      "label": "El motor del período",
      "kicker": "05 · El motor del período",
-     "fig": "71%",
-     "line": "De cada dólar que entró a la caja en estos cinco meses, <span class=\"em\">siete de cada diez</span> vinieron del curso <span class=\"em\">B2C La cáscara</span>: US$153.893 de US$215.593 cobrados.",
+     "fig": "69%",
+     "line": "De cada dólar que entró a la caja en el semestre, casi <span class=\"em\">siete de cada diez</span> vinieron del curso <span class=\"em\">B2C La cáscara</span>: US$171.480 de US$246.879 cobrados.",
      "strip": [
       {
-       "b": "US$234.970",
+       "b": "US$247.765",
        "span": "Facturado por el curso"
       },
       {
-       "b": "US$153.893",
+       "b": "US$171.480",
        "span": "Cobrado en caja"
       },
       {
-       "b": "US$54.397",
+       "b": "US$58.111",
        "span": "Costos del curso (comercial + distribución)"
       }
      ],
@@ -4755,7 +4752,7 @@
      "type": "chart",
      "label": "El curso, mes a mes",
      "kicker": "06 · El curso B2C, mes a mes",
-     "title": "De cero a US$97.280 en cuatro meses",
+     "title": "El récord de mayo y el respiro de junio",
      "legend": [
       {
        "cls": "sw-eco",
@@ -4807,10 +4804,18 @@
        "m": "Mayo",
        "saldoLabel": "Cobrado",
        "saldo": "US$52.346"
+      },
+      {
+       "net": "12.795",
+       "inH": 50,
+       "egH": 69,
+       "m": "Junio",
+       "saldoLabel": "Cobrado",
+       "saldo": "US$17.587"
       }
      ],
-     "foot": "El curso arranca en febrero (facturó US$49.500) y crece hasta su récord en mayo.",
-     "footRight": "<b>Mayo</b> duplica el mejor mes anterior",
+     "foot": "El curso arranca en febrero, crece hasta su récord en mayo (US$97.280) y en junio afloja el trabajo nuevo (US$12.795), aunque sigue cobrando cuotas de ventas anteriores.",
+     "footRight": "<b>Mayo</b> fue el récord del semestre",
      "pageNum": "07"
     },
     {
@@ -4823,36 +4828,36 @@
        "label": "Equipo &amp; socios",
        "small": "Retiros de socios y equipo fijo",
        "width": "100%",
-       "amount": "US$84.948",
-       "amountSpan": "49% del costo"
+       "amount": "US$101.922",
+       "amountSpan": "51% del costo"
       },
       {
        "label": "Costos del curso B2C",
        "small": "Comercial + distribución + herramientas",
        "b2c": true,
-       "width": "64%",
-       "amount": "US$54.397",
-       "amountSpan": "32% del costo"
+       "width": "57%",
+       "amount": "US$58.111",
+       "amountSpan": "29% del costo"
       },
       {
-       "label": "Contenido",
-       "small": "Producción",
-       "width": "29%",
-       "amount": "US$24.979",
-       "amountSpan": "15% del costo"
+       "label": "Contenido y diseño",
+       "small": "Producción + equipo de diseño",
+       "width": "32%",
+       "amount": "US$33.063",
+       "amountSpan": "17% del costo"
       },
       {
        "label": "Herramientas &amp; otros",
-       "small": "Software, pauta, varios",
-       "width": "8%",
+       "small": "Software, contador, varios",
+       "width": "7%",
        "amount": "US$6.726",
-       "amountSpan": "4% del costo"
+       "amountSpan": "3% del costo"
       }
      ],
      "footClass": "chart-foot",
      "footMarginTop": "34px",
      "foot": "<b>La mitad del costo va a personas</b> (socios + equipo); un tercio, a sostener el curso B2C que trae la mayor parte del ingreso.",
-     "footRight": "Costo total · <b>US$171.050</b>",
+     "footRight": "Costo total · <b>US$199.822</b>",
      "pageNum": "08"
     },
     {
@@ -4860,43 +4865,43 @@
      "label": "La cuenta de los socios",
      "kicker": "08 · Socios y equipo",
      "title": "La cuenta de los <span class=\"em\">socios</span>",
-     "sociosLabel": "Socios · económico 5 meses",
+     "sociosLabel": "Socios · económico 6 meses",
      "socios": [
       {
        "nm": "Fede",
-       "amt": "US$18.300"
+       "amt": "US$21.631"
       },
       {
        "nm": "Juana",
-       "amt": "US$15.300"
+       "amt": "US$17.931"
       },
       {
        "nm": "Facu",
-       "amt": "US$13.480"
+       "amt": "US$16.611"
       }
      ],
      "sociosSub": {
       "nm": "Subtotal socios",
-      "amt": "US$47.080"
+      "amt": "US$56.173"
      },
-     "equipoLabel": "Equipo · económico 5 meses",
+     "equipoLabel": "Equipo · económico 6 meses",
      "equipo": [
       {
        "nm": "Teo",
-       "amt": "US$12.467"
+       "amt": "US$15.098"
       },
       {
        "nm": "Lola · Carlota",
-       "amt": "US$15.166"
+       "amt": "US$18.516"
       },
       {
-       "nm": "Azul · Anto · Segundo",
-       "amt": "US$10.235"
+       "nm": "Otros del equipo",
+       "amt": "US$12.135"
       }
      ],
      "equipoSub": {
       "nm": "Subtotal equipo",
-      "amt": "US$37.868"
+      "amt": "US$45.749"
      },
      "box": {
       "tag": "El arco del período",
@@ -4913,39 +4918,15 @@
      "pageNum": "09"
     },
     {
-     "type": "hero",
-     "label": "La vista de gestión",
-     "kicker": "09 · La vista de gestión · si repartiéramos hoy",
-     "fig": "US$50.185",
-     "line": "Es lo que le correspondería a <span class=\"em\">cada socio</span> si hoy repartiéramos el resultado acumulado del año, según la planilla de gestión.",
-     "strip": [
-      {
-       "b": "US$167.283",
-       "span": "Resultado acumulado · lo cobrado menos los retiros ya hechos"
-      },
-      {
-       "b": "US$150.555",
-       "span": "Lo que quedaría para repartir, dejando un colchón en caja"
-      },
-      {
-       "b": "US$50.185",
-       "span": "Para cada uno de los tres socios"
-      }
-     ],
-     "foot": "La política de estos meses: dejar <b style=\"color:#fff;\">US$3.000–5.000 de caja por mes</b> como colchón y dejar el resto disponible para retirar. Buena parte ya se usó para devolver deudas personales de 2025. Es una foto teórica de la planilla de gestión para dimensionar el reparto, no un número a repartir hoy.",
-     "footMarginTop": "40px",
-     "pageNum": "10"
-    },
-    {
      "type": "cierre",
      "label": "Cierre",
      "variant": "ink",
      "wordmarkWhite": true,
      "bigTiza": true,
-     "big": "Cinco meses en azul, con un <span class=\"em\" style=\"color:#fff;\">producto propio</span> que cambió la escala.",
-     "note": "El saldo pasó de −US$5.428 a +US$57.875. El curso B2C trae 7 de cada 10 dólares y el costo se mantiene controlado. Quedan ≈US$81.300 facturados por cobrar: el potencial de los próximos meses ya está en marcha.",
+     "big": "El primer semestre en azul, con un <span class=\"em\" style=\"color:#fff;\">producto propio</span> que cambió la escala.",
+     "note": "El saldo pasó de −US$5.428 a +US$35.790. El curso B2C trae 7 de cada 10 dólares de caja y el costo se mantiene controlado. Junio fue un mes de puesta al día que bajó el saldo, pero quedan ≈US$71.600 facturados por cobrar: el colchón del segundo semestre ya está en marcha.",
      "noteOpacity": ".7",
-     "pageLabel": "Enero – Mayo 2026"
+     "pageLabel": "Enero – Junio 2026"
     }
    ]
   }
@@ -5270,20 +5251,20 @@
      {
       "kind": "report",
       "variant": "sum ink",
-      "href": "resumen.html?r=cinco-meses",
-      "no": "5M",
+      "href": "resumen.html?r=semestre",
+      "no": "6M",
       "noStyle": "color:var(--cc-blue-lt);",
-      "month": "Cinco meses",
-      "head": "Enero – Mayo. Todo el año hasta acá: números, gráficos, socios y lo que viene.",
+      "month": "Primer semestre",
+      "head": "Enero – Junio. Todo el año hasta acá: números, gráficos, socios y lo que viene.",
       "metrics": [
        {
         "label": "Resultado caja",
-        "value": "+US$63.304",
+        "value": "+US$41.219",
         "cls": "pos"
        },
        {
         "label": "Saldo",
-        "value": "US$57.875",
+        "value": "US$35.790",
         "cls": "num"
        }
       ]

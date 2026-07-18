@@ -303,12 +303,12 @@
       '</div>' + nota + '</div>';
   }
 
-  function summaryModal(data, note) {
-    var c = data.resumenes.cincoMeses;
+  function summaryModal(data, note, resumen) {
+    var c = resumen;
     var rows = data.months.map(function (m) {
       return '<tr><td>' + m.label + '</td><td>' + CC.money(m.facturado) + '</td><td>' + CC.moneySigned(m.resTrabajo) + '</td><td>' + CC.money(m.cobrado) + '</td><td>' + CC.money(m.pagado) + '</td><td>' + CC.moneySigned(m.resCaja) + '</td><td>' + CC.money(m.saldoFinal) + '</td></tr>';
     }).join('');
-    var total = '<tr class="total"><td>5 meses</td><td>' + CC.money(c.facturado) + '</td><td>' + CC.moneySigned(c.resTrabajo) + '</td><td>' + CC.money(c.cobrado) + '</td><td>' + CC.money(c.pagado) + '</td><td>' + CC.moneySigned(c.resCaja) + '</td><td>' + CC.money(c.saldoFinal) + '</td></tr>';
+    var total = '<tr class="total"><td>' + data.months.length + ' meses</td><td>' + CC.money(c.facturado) + '</td><td>' + CC.moneySigned(c.resTrabajo) + '</td><td>' + CC.money(c.cobrado) + '</td><td>' + CC.money(c.pagado) + '</td><td>' + CC.moneySigned(c.resCaja) + '</td><td>' + CC.money(c.saldoFinal) + '</td></tr>';
     return '<div class="modal__panel">' +
       '<div class="modal__head"><div><div class="modal__title">Resumen <span class="em">mes a mes</span></div>' +
       '<div class="modal__sub">Las cifras clave de cada mes. El detalle línea por línea está en el informe de cada mes.</div></div>' +
@@ -367,8 +367,7 @@
   // slides con deck-stage.
   var _m = CC.query('m'), _r = CC.query('r');
   if (IS_MOBILE && (_m || _r)) {
-    location.replace(_m ? (_m + '-scroll.html')
-      : (_r === 'cinco-meses' ? 'resumen-5-meses-scroll.html' : 'resumen-' + _r + '-scroll.html'));
+    location.replace(_m ? (_m + '-scroll.html') : ('resumen-' + _r + '-scroll.html'));
     return;
   }
 
@@ -382,7 +381,7 @@
     if (rep.detail === 'month' && rep.detalle) {
       mountModal(monthModal(rep.screenLabel, rep.detalle));
     } else if (rep.detail === 'summary') {
-      mountModal(summaryModal(data, rep.summaryNote));
+      mountModal(summaryModal(data, rep.summaryNote, data.resumenes[key]));
     }
     mountControls(rep);
   }).catch(function (e) {
