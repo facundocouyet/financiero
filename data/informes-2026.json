@@ -994,6 +994,226 @@
      ]
     }
    }
+  },
+  {
+   "key": "junio",
+   "label": "Junio",
+   "n": 6,
+   "facturado": 21622,
+   "costos": 28772,
+   "resTrabajo": -7150,
+   "cobrado": 31286,
+   "pagado": 53371,
+   "resCaja": -22085,
+   "saldoInicial": 57875.45,
+   "saldoFinal": 35790.45,
+   "socios": {
+    "Facu": 3131,
+    "Fede": 3331,
+    "Juana": 2631
+   },
+   "ingresos": [
+    {
+     "n": "La cáscara · B2C",
+     "eco": 12795,
+     "fin": 17587,
+     "tag": "b2c"
+    },
+    {
+     "n": "Livo",
+     "eco": 5000,
+     "fin": 5000
+    },
+    {
+     "n": "Workshop",
+     "eco": 3577,
+     "fin": 3577
+    },
+    {
+     "n": "Nivel 2",
+     "eco": "",
+     "fin": 1956
+    },
+    {
+     "n": "Cocos",
+     "eco": "",
+     "fin": 1500
+    },
+    {
+     "n": "F3",
+     "eco": "",
+     "fin": 1416
+    },
+    {
+     "n": "Mix",
+     "eco": 250,
+     "fin": 250
+    }
+   ],
+   "egresos": [
+    {
+     "n": "Facu",
+     "eco": 3131,
+     "fin": 4500
+    },
+    {
+     "n": "Fede",
+     "eco": 3331,
+     "fin": 4500
+    },
+    {
+     "n": "Juana",
+     "eco": 2631,
+     "fin": 5725
+    },
+    {
+     "n": "Teo",
+     "eco": 2631,
+     "fin": 2000
+    },
+    {
+     "n": "Carlota",
+     "eco": 2100,
+     "fin": 1950
+    },
+    {
+     "n": "Lola",
+     "eco": 1250,
+     "fin": 2200
+    },
+    {
+     "n": "Azul",
+     "eco": 1000,
+     "fin": 1000
+    },
+    {
+     "n": "Anto",
+     "eco": 300,
+     "fin": 300
+    },
+    {
+     "n": "Flor",
+     "eco": 300,
+     "fin": 200
+    },
+    {
+     "n": "Agus Dagata",
+     "eco": 300,
+     "fin": ""
+    },
+    {
+     "n": "Segundo",
+     "eco": "",
+     "fin": 1400
+    },
+    {
+     "n": "Costos de contenido",
+     "eco": 4220,
+     "fin": 4921
+    },
+    {
+     "n": "Costos de diseño",
+     "eco": 3864,
+     "fin": 4087
+    },
+    {
+     "n": "La cáscara · Comercial",
+     "eco": 3714,
+     "fin": 9352,
+     "tag": "b2c"
+    },
+    {
+     "n": "La cáscara · Comercial bono",
+     "eco": "",
+     "fin": 500,
+     "tag": "b2c"
+    },
+    {
+     "n": "La cáscara · Herramientas",
+     "eco": "",
+     "fin": 815,
+     "tag": "b2c"
+    },
+    {
+     "n": "Distribución · Franco",
+     "eco": "",
+     "fin": 6953,
+     "tag": "b2c"
+    },
+    {
+     "n": "Cowork",
+     "eco": "",
+     "fin": 184
+    },
+    {
+     "n": "Evento",
+     "eco": "",
+     "fin": 952
+    },
+    {
+     "n": "Contador y monotributo",
+     "eco": "",
+     "fin": 1201
+    },
+    {
+     "n": "Gastos de financiación",
+     "eco": "",
+     "fin": 80
+    },
+    {
+     "n": "Otros gastos",
+     "eco": "",
+     "fin": 551
+    }
+   ],
+   "totalIngresos": {
+    "facturado": 21622,
+    "cobrado": 31286
+   },
+   "totalEgresos": {
+    "costo": 28772,
+    "pagado": 53371
+   },
+   "nota": "Después del récord de mayo, junio afloja y las <b>dos lecturas dan en rojo</b>: el curso B2C facturó mucho menos trabajo nuevo (US$12.795 vs US$97.280 en mayo), por eso el resultado del trabajo cae a −US$7.150. La caja da más negativa (−US$22.085) porque se usó el colchón para <b>ponerse al día</b>: los tres socios retiraron US$14.725 (incluye US$1.225 de adelanto de Juana) y se saldó la distribución B2C atrasada (Franco US$6.953 + comercial US$9.352). Aparecen costos nuevos de formalización (contador y monotributo US$1.201) y un <b>equipo de diseño propio</b>. El saldo baja de US$57.875 a US$35.790 y sigue sólido.",
+   "proporciones": {
+    "ingresos": {
+     "base": "caja",
+     "total": 31286,
+     "partes": [
+      {
+       "cat": "Curso B2C",
+       "val": 17587,
+       "pct": 56
+      },
+      {
+       "cat": "Servicios a clientes",
+       "val": 13699,
+       "pct": 44
+      }
+     ]
+    },
+    "egresos": {
+     "base": "costo del mes",
+     "total": 28772,
+     "partes": [
+      {
+       "cat": "Equipo y socios",
+       "val": 16974,
+       "pct": 59
+      },
+      {
+       "cat": "Contenido",
+       "val": 8084,
+       "pct": 28
+      },
+      {
+       "cat": "Costos del curso B2C",
+       "val": 3714,
+       "pct": 13
+      }
+     ]
+    }
+   }
   }
  ],
  "resumenes": {
@@ -1093,6 +1313,13 @@
    "pagado": 41276,
    "resCaja": 21559,
    "saldoFinal": 57875.45
+  },
+  {
+   "mes": "Junio",
+   "cobrado": 31286,
+   "pagado": 53371,
+   "resCaja": -22085,
+   "saldoFinal": 35790.45
   }
  ],
  "cursoB2CMensual": [
@@ -1120,6 +1347,11 @@
    "mes": "Mayo",
    "facturado": 97280,
    "cobrado": 52346
+  },
+  {
+   "mes": "Junio",
+   "facturado": 12795,
+   "cobrado": 17587
   }
  ],
  "charts": {
@@ -3423,6 +3655,487 @@
     "nota": "El <b>mejor mes del período</b>. El curso B2C facturó US$97.280 (de los que entraron US$52.346 en caja) y aparece <b>Nivel 2</b>: la primera cohorte del nivel siguiente, 4 alumnas × US$2.000 (cobrado US$3.990, pendiente US$4.010). El resultado del trabajo (+US$74.259) es muy alto porque se facturó muchísimo; gran parte sigue por cobrar, por eso la caja (+US$21.559) es más moderada pero igual récord. El saldo trepa a US$57.875. Incluye US$3.089 del <b>evento Cáscara</b> (sonido, mobiliario, hoodies, stickers, impresión del diario, TV, seguridad). Los costos de contenido del mes están cargados sólo en caja."
    }
   },
+  "junio": {
+   "screenLabel": "Junio",
+   "title": "Junio 2026 · Cáscara Collective",
+   "detail": "month",
+   "slides": [
+    {
+     "type": "cover",
+     "label": "Portada · Junio",
+     "kicker": "Informe mensual · 2026",
+     "no": "Mes 06",
+     "month": "Junio",
+     "sub": "Después del récord de mayo, junio <span class=\"em\">enfría</span> y se ponen al día los pagos pendientes. Las dos lecturas dan en rojo, pero el saldo sigue <span class=\"em\">firme</span>.",
+     "meta": [
+      {
+       "label": "Resultado del trabajo",
+       "value": "−US$7.150"
+      },
+      {
+       "label": "Resultado de caja",
+       "value": "−US$22.085"
+      },
+      {
+       "label": "Saldo final",
+       "value": "US$35.790"
+      }
+     ]
+    },
+    {
+     "type": "lecturas",
+     "label": "Las dos lecturas",
+     "kicker": "01 · El mes en dos lecturas",
+     "title": "El trabajo y la <span class=\"em\">caja</span>",
+     "trabajo": {
+      "tag": "El trabajo del mes",
+      "sub": "Lo facturado por el trabajo del mes y sus costos. El curso B2C facturó mucho menos que en mayo.",
+      "io": [
+       {
+        "l": "Facturado",
+        "v": "US$21.622"
+       },
+       {
+        "l": "Costos",
+        "v": "US$28.772"
+       }
+      ],
+      "resL": "Resultado del trabajo",
+      "resFig": "−US$7.150",
+      "resNeg": true
+     },
+     "caja": {
+      "tag": "La caja del mes",
+      "sub": "La plata que realmente entró y salió. Se pagaron retiros y distribución B2C atrasados.",
+      "io": [
+       {
+        "l": "Entró",
+        "v": "US$31.286"
+       },
+       {
+        "l": "Salió",
+        "v": "US$53.371"
+       }
+      ],
+      "resL": "Resultado de caja",
+      "resFig": "−US$22.085",
+      "resNeg": true
+     },
+     "flow": [
+      {
+       "l": "Saldo inicial",
+       "v": "US$57.875"
+      },
+      {
+       "l": "+ Cobros",
+       "v": "US$31.286",
+       "blue": true
+      },
+      {
+       "l": "− Pagos",
+       "v": "US$53.371"
+      },
+      {
+       "l": "Saldo final",
+       "v": "US$35.790",
+       "accent": true
+      }
+     ],
+     "foot": "<div><b>Las dos lecturas dan en rojo.</b> Por el trabajo del mes, junio cierra en −US$7.150: se facturó poco (el curso B2C bajó de US$97.280 a US$12.795). En caja el resultado es más negativo (−US$22.085) porque se pusieron al día pagos de meses anteriores. El saldo igual sigue sólido: baja de US$57.875 a US$35.790.</div>",
+     "pageNum": "01"
+    },
+    {
+     "type": "barras",
+     "label": "De dónde entró",
+     "kicker": "02 · Ingresos",
+     "title": "De dónde entró la plata",
+     "totals": {
+      "fact": "US$21.622",
+      "factSmall": "Trabajo facturado en junio",
+      "cob": "US$31.286",
+      "cobSmall": "Incluye cobros de cuotas B2C previas"
+     },
+     "rowsMarginTop": "20px",
+     "bars": [
+      {
+       "label": "La cáscara",
+       "small": "Línea B2C propia",
+       "b2c": true,
+       "width": "100%",
+       "amount": "US$17.587",
+       "amountSpan": "56% de la caja"
+      },
+      {
+       "label": "Livo",
+       "small": "Cuenta de servicio",
+       "width": "28%",
+       "amount": "US$5.000",
+       "amountSpan": "16% de la caja"
+      },
+      {
+       "label": "Workshop",
+       "small": "Actividad propia",
+       "width": "20%",
+       "amount": "US$3.577",
+       "amountSpan": "11% de la caja"
+      },
+      {
+       "label": "Nivel 2",
+       "small": "Cuotas del nivel siguiente",
+       "width": "11%",
+       "amount": "US$1.956",
+       "amountSpan": "6% de la caja"
+      },
+      {
+       "label": "Cocos · F3 · Mix",
+       "small": "Cuentas chicas",
+       "width": "18%",
+       "amount": "US$3.166",
+       "amountSpan": "10% de la caja"
+      }
+     ],
+     "foot": "<div><b>El curso B2C sigue siendo el motor de la caja</b> (56% de lo que entró), aunque facturó poco de trabajo nuevo este mes: lo que entró son en buena parte cuotas cobradas de ventas anteriores. Aparecen <b>Workshop</b> y <b>Nivel 2</b> como líneas propias que empiezan a sumar.</div>",
+     "footMarginTop": "24px",
+     "pageNum": "02"
+    },
+    {
+     "type": "egresos",
+     "label": "En qué se fue",
+     "kicker": "03 · Egresos",
+     "title": "En qué se fue la plata",
+     "rowsGap": "26px",
+     "groups": [
+      {
+       "label": "Equipo &amp; socios",
+       "pct": "59%",
+       "small": "Retiros del equipo y los socios",
+       "eco": "US$16.974",
+       "ecoW": "100%",
+       "fin": "US$23.775",
+       "finW": "100%"
+      },
+      {
+       "label": "Contenido y diseño",
+       "pct": "28%",
+       "small": "Producción + nuevo equipo de diseño",
+       "eco": "US$8.084",
+       "ecoW": "48%",
+       "fin": "US$9.008",
+       "finW": "38%"
+      },
+      {
+       "label": "B2C · costos",
+       "pct": "13%",
+       "small": "Comercial + distribución (Franco)",
+       "eco": "US$3.714",
+       "ecoW": "22%",
+       "fin": "US$17.620",
+       "finW": "74%"
+      },
+      {
+       "label": "Herramientas &amp; otros",
+       "small": "Cowork, contador, evento, financiación",
+       "eco": "—",
+       "ecoW": "0%",
+       "fin": "US$2.968",
+       "finW": "12%"
+      }
+     ],
+     "foot": "<b>La brecha del mes está acá:</b> se pagó mucho más de lo que costó el mes (US$53.371 vs US$28.772) porque se saldaron distribución B2C y retiros atrasados. Aparecen costos nuevos de formalización (contador y monotributo) y un equipo de diseño propio.",
+     "footRight": "Costo del mes · <b>US$28.772</b> &nbsp;·&nbsp; pagado · <b>US$53.371</b>",
+     "footMarginTop": "26px",
+     "pageNum": "03"
+    },
+    {
+     "type": "socios",
+     "label": "La cuenta de los socios",
+     "kicker": "04 · Socios y equipo",
+     "title": "Socios y <span class=\"em\">equipo</span>",
+     "socios": [
+      {
+       "nm": "Fede",
+       "amt": "US$3.331"
+      },
+      {
+       "nm": "Facu",
+       "amt": "US$3.131"
+      },
+      {
+       "nm": "Juana",
+       "amt": "US$2.631"
+      }
+     ],
+     "sociosSub": {
+      "nm": "Subtotal socios",
+      "amt": "US$9.093"
+     },
+     "equipo": [
+      {
+       "nm": "Teo",
+       "amt": "US$2.631"
+      },
+      {
+       "nm": "Carlota",
+       "amt": "US$2.100"
+      },
+      {
+       "nm": "Lola",
+       "amt": "US$1.250"
+      },
+      {
+       "nm": "Azul · Anto · Flor · Agus",
+       "amt": "US$1.900"
+      }
+     ],
+     "equipoSub": {
+      "nm": "Subtotal equipo",
+      "amt": "US$7.881"
+     },
+     "box": {
+      "tag": "Puesta al día en caja",
+      "big": "US$14.725",
+      "txt": "Es lo que los <b>tres socios retiraron en efectivo</b> este mes (Facu y Fede US$4.500, Juana US$5.725 — incluye US$1.225 de adelanto). Muy por encima de su económico del mes (US$9.093): se pusieron al día retiros pendientes. Sumado a la distribución B2C atrasada (Franco US$6.953 + comercial), es lo que explica la caja negativa del mes.",
+      "chips": [
+       "Facu · US$4.500",
+       "Fede · US$4.500",
+       "Juana · US$5.725"
+      ]
+     },
+     "foot": "<div>Los montos de la izquierda son el <b>económico de cada uno</b> según el trabajo que generó en junio — no un retiro fijo. En caja los números difieren por desfasajes de pago: este mes se pagó más de lo devengado para ponerse al día.</div>",
+     "pageNum": "04"
+    },
+    {
+     "type": "proporciones",
+     "label": "La proporción del mes",
+     "kicker": "05 · En proporción",
+     "title": "El mes en <span class=\"em\">porcentajes</span>",
+     "cols": [
+      {
+       "t": "De dónde entró la plata",
+       "s": "Sobre la caja del mes (lo que entró)",
+       "donut": "conic-gradient(var(--cc-blue) 0 56.2%, var(--cc-ink) 56.2% 100%)",
+       "centerBig": "US$31.286",
+       "centerLabel": "Entró",
+       "legend": [
+        {
+         "pc": "56%",
+         "dot": "var(--cc-blue)",
+         "nm": "Curso B2C",
+         "amt": "US$17.587"
+        },
+        {
+         "pc": "44%",
+         "dot": "var(--cc-ink)",
+         "nm": "Servicios y actividades",
+         "amt": "US$13.699"
+        }
+       ]
+      },
+      {
+       "t": "En qué se fue la plata",
+       "s": "Sobre el costo del mes (lo que costó)",
+       "donut": "conic-gradient(var(--cc-ink) 0 59%, var(--cc-blue) 59% 87.1%, var(--cc-ink-muted) 87.1% 100%)",
+       "centerBig": "US$28.772",
+       "centerLabel": "Costo",
+       "legend": [
+        {
+         "pc": "59%",
+         "dot": "var(--cc-ink)",
+         "nm": "Equipo y socios",
+         "amt": "US$16.974"
+        },
+        {
+         "pc": "28%",
+         "dot": "var(--cc-blue)",
+         "nm": "Contenido y diseño",
+         "amt": "US$8.084"
+        },
+        {
+         "pc": "13%",
+         "dot": "var(--cc-ink-muted)",
+         "nm": "Costos del curso B2C",
+         "amt": "US$3.714"
+        }
+       ]
+      }
+     ],
+     "foot": "<div><b>Estructura sana pese al mes flojo:</b> más de la mitad de lo que entró sigue viniendo del producto propio, y el costo se reparte entre equipo, contenido y la línea B2C. El problema de junio no es la estructura — es el bajón puntual de facturación del curso.</div>",
+     "footMarginTop": "24px",
+     "pageNum": "05"
+    },
+    {
+     "type": "cierre",
+     "label": "Cierre · Junio",
+     "variant": "blue",
+     "kicker": "06 · La lectura del mes",
+     "big": "Un mes de <span class=\"em\" style=\"color:#fff;\">respiro y puesta al día</span>, con el saldo firme.",
+     "note": "Después del récord de mayo, junio afloja: el curso B2C facturó mucho menos trabajo nuevo (US$12.795 vs US$97.280) y las dos lecturas dan en rojo — trabajo −US$7.150, caja −US$22.085. Pero el rojo de caja es sano: se usó el colchón para ponerse al día con retiros de socios y distribución B2C atrasada. El saldo baja de US$57.875 a US$35.790 y sigue sólido. La estructura no cambió: más de la mitad de lo que entra viene del producto propio.",
+     "pageLabel": "06 · Junio 2026",
+     "noteOpacity": "0.85"
+    }
+   ],
+   "detalle": {
+    "ingresos": [
+     {
+      "n": "La cáscara · B2C",
+      "eco": 12795,
+      "fin": 17587,
+      "tag": "b2c"
+     },
+     {
+      "n": "Livo",
+      "eco": 5000,
+      "fin": 5000
+     },
+     {
+      "n": "Workshop",
+      "eco": 3577,
+      "fin": 3577
+     },
+     {
+      "n": "Nivel 2",
+      "eco": "",
+      "fin": 1956
+     },
+     {
+      "n": "Cocos",
+      "eco": "",
+      "fin": 1500
+     },
+     {
+      "n": "F3",
+      "eco": "",
+      "fin": 1416
+     },
+     {
+      "n": "Mix",
+      "eco": 250,
+      "fin": 250
+     }
+    ],
+    "egresos": [
+     {
+      "n": "Facu",
+      "eco": 3131,
+      "fin": 4500
+     },
+     {
+      "n": "Fede",
+      "eco": 3331,
+      "fin": 4500
+     },
+     {
+      "n": "Juana",
+      "eco": 2631,
+      "fin": 5725
+     },
+     {
+      "n": "Teo",
+      "eco": 2631,
+      "fin": 2000
+     },
+     {
+      "n": "Carlota",
+      "eco": 2100,
+      "fin": 1950
+     },
+     {
+      "n": "Lola",
+      "eco": 1250,
+      "fin": 2200
+     },
+     {
+      "n": "Azul",
+      "eco": 1000,
+      "fin": 1000
+     },
+     {
+      "n": "Anto",
+      "eco": 300,
+      "fin": 300
+     },
+     {
+      "n": "Flor",
+      "eco": 300,
+      "fin": 200
+     },
+     {
+      "n": "Agus Dagata",
+      "eco": 300,
+      "fin": ""
+     },
+     {
+      "n": "Segundo",
+      "eco": "",
+      "fin": 1400
+     },
+     {
+      "n": "Costos de contenido",
+      "eco": 4220,
+      "fin": 4921
+     },
+     {
+      "n": "Costos de diseño",
+      "eco": 3864,
+      "fin": 4087
+     },
+     {
+      "n": "La cáscara · Comercial",
+      "eco": 3714,
+      "fin": 9352,
+      "tag": "b2c"
+     },
+     {
+      "n": "La cáscara · Comercial bono",
+      "eco": "",
+      "fin": 500,
+      "tag": "b2c"
+     },
+     {
+      "n": "La cáscara · Herramientas",
+      "eco": "",
+      "fin": 815,
+      "tag": "b2c"
+     },
+     {
+      "n": "Distribución · Franco",
+      "eco": "",
+      "fin": 6953,
+      "tag": "b2c"
+     },
+     {
+      "n": "Cowork",
+      "eco": "",
+      "fin": 184
+     },
+     {
+      "n": "Evento",
+      "eco": "",
+      "fin": 952
+     },
+     {
+      "n": "Contador y monotributo",
+      "eco": "",
+      "fin": 1201
+     },
+     {
+      "n": "Gastos de financiación",
+      "eco": "",
+      "fin": 80
+     },
+     {
+      "n": "Otros gastos",
+      "eco": "",
+      "fin": 551
+     }
+    ],
+    "totIngEco": 21622,
+    "totIngFin": 31286,
+    "totEgrEco": 28772,
+    "totEgrFin": 53371,
+    "nota": "<b>Facturado / del mes</b> = el trabajo de junio y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió. Las líneas donde la caja supera a lo del mes (socios, Comercial B2C, Franco) son pagos de puesta al día de meses anteriores. Saldo: US$57.875 → US$35.790."
+   }
+  },
   "q1": {
    "screenLabel": "Resumen Q1",
    "title": "Resumen Primer Trimestre 2026 · Cáscara Collective",
@@ -4290,10 +5003,23 @@
       ]
      },
      {
-      "kind": "soon",
+      "kind": "report",
+      "href": "mes.html?m=junio",
       "no": "06",
       "month": "Junio",
-      "head": "El mes está en curso. El informe se arma cuando cierre la planilla."
+      "head": "Enfriamiento tras el récord: las dos lecturas en rojo por puesta al día, con el saldo firme.",
+      "metrics": [
+       {
+        "label": "Trabajo",
+        "value": "−US$7.150",
+        "cls": "neg"
+       },
+       {
+        "label": "Caja",
+        "value": "−US$22.085",
+        "cls": "neg"
+       }
+      ]
      }
     ]
    },
