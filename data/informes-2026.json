@@ -3,12 +3,13 @@
   "titulo": "Informes 2026 · Cáscara Collective",
   "moneda": "USD",
   "uso": "interno entre socios",
-  "actualizado": "2026-06",
+  "actualizado": "2026-08",
   "fuentes": [
    "Informes 2026.xlsx (resumen mensual)",
-   "Gestión 2026.xlsx (libro diario + económico + cuentas)"
+   "Gestión 2026.xlsx (libro diario + económico + cuentas)",
+   "Facturación Real - Cáscara.xlsx (curso B2C: señas y reservas caídas)"
   ],
-  "auditoria": "Números reconciliados (jun-2026): cadena de saldo exacta; ingresos/egresos/resultados cuadran. Febrero: La cáscara figura facturada por US$49.500 (cobró US$35.896 en el mes); el resto del curso se cobra en cuotas más adelante."
+  "auditoria": "Números reconciliados (ago-2026): cadena de saldo exacta; ingresos/egresos/resultados cuadran. Facturación del curso B2C en criterio REAL (Facturación Real - Cáscara.xlsx): se restan las reservas caídas y se suma el cash cobrado de sus señas. Febrero: el curso figura por US$45.244 (cobró US$35.896 en el mes); el resto se cobra en cuotas más adelante."
  },
  "glosario": {
   "trabajo": "El trabajo del mes = lo facturado por el trabajo del mes + sus costos, se haya cobrado/pagado o no. ¿El negocio da plata? NO usar 'devengado'.",
@@ -18,7 +19,7 @@
   "economicoSocios": "El económico de cada socio/persona = lo que generó su trabajo en los clientes del mes (NO un retiro fijo).",
   "cuentaPersonal": "Salvedades 2025, ya saldadas en cero. No darle importancia en la lectura del negocio.",
   "b2c": "Curso B2C 'La cáscara' = producto propio. Costos: Comercial + Distribución (rev-share Rein 30% cruzado, luego Franco).",
-  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$284.204 = 202.943 + 81.261). A la cuenta entran además los aportes de socios (US$12.650, no son ventas), por eso el total que entró en caja es US$215.593."
+  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$252.647 = 234.229 + 18.418, ya sin las reservas caídas del curso). A la cuenta entran además los aportes de socios (US$12.650, no son ventas), por eso el total que entró en caja es US$246.879."
  },
  "anioInicio": {
   "saldoInicial": -5428.2
@@ -191,9 +192,9 @@
    "key": "febrero",
    "label": "Febrero",
    "n": 2,
-   "facturado": 53978,
+   "facturado": 49722,
    "costos": 40944,
-   "resTrabajo": 13034,
+   "resTrabajo": 8778,
    "cobrado": 44054,
    "pagado": 18605,
    "resCaja": 25449,
@@ -242,7 +243,7 @@
     },
     {
      "n": "La Cáscara · B2C",
-     "eco": 49500,
+     "eco": 45244,
      "fin": 35896,
      "tag": "b2c"
     },
@@ -334,14 +335,14 @@
     }
    ],
    "totalIngresos": {
-    "facturado": 53978,
+    "facturado": 49722,
     "cobrado": 44054
    },
    "totalEgresos": {
     "costo": 40944.09,
     "pagado": 18605.09
    },
-   "nota": "El <b>resultado del trabajo (−US$36.466)</b> queda distorsionado por un desfasaje de carga: la venta del curso <b>B2C La cáscara (US$35.896)</b> entró en caja este mes pero todavía no figura como facturado de febrero (aparece más tarde), mientras que sus costos (Comercial, Distribución, Herramientas) sí están cargados. La <b>lectura fiel del mes es la caja: +US$25.449</b>. La línea de Juana (US$250) es un pago que le correspondía — movimiento de su cuenta personal, no una venta.",
+   "nota": "Con el curso <b>B2C La cáscara</b> ya facturado (US$45.244), febrero da positivo por las dos lecturas (trabajo +US$8.778). De esa venta entraron US$35.896 en caja; el resto se cobra más adelante. <b>Wires y Acrule·enero</b> entraron en caja pero su facturado corresponde a meses anteriores. La línea de Juana (US$250) es un pago que le correspondía — movimiento de su cuenta personal.",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -397,9 +398,9 @@
    "key": "marzo",
    "label": "Marzo",
    "n": 3,
-   "facturado": 58770,
+   "facturado": 45042,
    "costos": 40766,
-   "resTrabajo": 18004,
+   "resTrabajo": 4276,
    "cobrado": 35466,
    "pagado": 38593,
    "resCaja": -3127,
@@ -428,7 +429,7 @@
     },
     {
      "n": "La cáscara · B2C",
-     "eco": 53270,
+     "eco": 39542,
      "fin": 32944,
      "tag": "b2c"
     },
@@ -530,14 +531,14 @@
     }
    ],
    "totalIngresos": {
-    "facturado": 58770,
+    "facturado": 45042,
     "cobrado": 35466
    },
    "totalEgresos": {
     "costo": 40765.81,
     "pagado": 38593.38
    },
-   "nota": "Mes de <b>signos opuestos</b>: por el trabajo del mes cierra muy positivo (+US$18.004) porque el curso B2C facturó US$53.270, pero en caja sólo entraron US$32.944 de esa venta — y <b>LIVO facturó US$5.000 que no se cobraron</b>. Por eso la caja del mes da negativa (−US$3.127) y el saldo baja levemente. Es el mes que mejor muestra por qué hay que leer las dos columnas juntas. La línea de Juana (US$400) es un movimiento de su cuenta personal, no una venta.",
+   "nota": "Mes de <b>signos opuestos</b>: por el trabajo del mes cierra muy positivo (+US$4.276) porque el curso B2C facturó US$39.542, pero en caja sólo entraron US$32.944 de esa venta — y <b>LIVO facturó US$5.000 que no se cobraron</b>. Por eso la caja del mes da negativa (−US$3.127) y el saldo baja levemente. Es el mes que mejor muestra por qué hay que leer las dos columnas juntas. La línea de Juana (US$400) es un movimiento de su cuenta personal, no una venta.",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -593,9 +594,9 @@
    "key": "abril",
    "label": "Abril",
    "n": 4,
-   "facturado": 42507,
+   "facturado": 37305,
    "costos": 33905,
-   "resTrabajo": 8602,
+   "resTrabajo": 3400,
    "cobrado": 48461,
    "pagado": 42772,
    "resCaja": 5689,
@@ -624,7 +625,7 @@
     },
     {
      "n": "La cáscara · B2C",
-     "eco": 34920,
+     "eco": 29718,
      "fin": 32707,
      "tag": "b2c"
     },
@@ -726,14 +727,14 @@
     }
    ],
    "totalIngresos": {
-    "facturado": 42507,
+    "facturado": 37305,
     "cobrado": 48461
    },
    "totalEgresos": {
     "costo": 33905.11,
     "pagado": 42771.95
    },
-   "nota": "Mes equilibrado: las dos lecturas dan positivo (+US$8.602 por el trabajo del mes, +US$5.689 en caja). Se <b>cobró parte de lo que había quedado pendiente</b> de marzo — LIVO entró US$10.000 en caja. En egresos, lo pagado supera al costo del mes porque se pusieron al día pagos atrasados (Facu cobró US$5.921 en caja contra US$2.000 de sueldo del mes). La <b>distribución del curso B2C pasa a Franco</b> (antes era el revenue-share cruzado con Rein).",
+   "nota": "Mes equilibrado: las dos lecturas dan positivo (+US$3.400 por el trabajo del mes, +US$5.689 en caja). Se <b>cobró parte de lo que había quedado pendiente</b> de marzo — LIVO entró US$10.000 en caja. En egresos, lo pagado supera al costo del mes porque se pusieron al día pagos atrasados (Facu cobró US$5.921 en caja contra US$2.000 de sueldo del mes). La <b>distribución del curso B2C pasa a Franco</b> (antes era el revenue-share cruzado con Rein).",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -783,9 +784,9 @@
    "key": "mayo",
    "label": "Mayo",
    "n": 5,
-   "facturado": 116280,
+   "facturado": 94773,
    "costos": 52088,
-   "resTrabajo": 64192,
+   "resTrabajo": 42685,
    "cobrado": 62835,
    "pagado": 41276,
    "resCaja": 21559,
@@ -834,7 +835,7 @@
     },
     {
      "n": "La cáscara · B2C",
-     "eco": 97280,
+     "eco": 75773,
      "fin": 52346,
      "tag": "b2c"
     }
@@ -947,14 +948,14 @@
     }
    ],
    "totalIngresos": {
-    "facturado": 116280,
+    "facturado": 94773,
     "cobrado": 62834.7
    },
    "totalEgresos": {
     "costo": 52087.55,
     "pagado": 41275.63
    },
-   "nota": "El <b>mejor mes del período</b>. El curso B2C facturó US$97.280 (de los que entraron US$52.346 en caja) y aparece <b>Nivel 2</b>: la primera cohorte del nivel siguiente, 4 alumnas × US$2.000 (cobrado US$3.990, pendiente US$4.010). El resultado del trabajo (+US$64.192) es muy alto porque se facturó muchísimo; gran parte sigue por cobrar, por eso la caja (+US$21.559) es más moderada pero igual récord. El saldo trepa a US$57.875. Incluye US$3.089 del <b>evento Cáscara</b> (sonido, mobiliario, hoodies, stickers, impresión del diario, TV, seguridad).",
+   "nota": "El <b>mejor mes del período</b>. El curso B2C facturó US$75.773 (de los que entraron US$52.346 en caja) y aparece <b>Nivel 2</b>: la primera cohorte del nivel siguiente, 4 alumnas × US$2.000 (cobrado US$3.990, pendiente US$4.010). El resultado del trabajo (+US$42.685) es muy alto porque se facturó muchísimo; gran parte sigue por cobrar, por eso la caja (+US$21.559) es más moderada pero igual récord. El saldo trepa a US$57.875. Incluye US$3.089 del <b>evento Cáscara</b> (sonido, mobiliario, hoodies, stickers, impresión del diario, TV, seguridad).",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -1004,9 +1005,9 @@
    "key": "junio",
    "label": "Junio",
    "n": 6,
-   "facturado": 22771,
+   "facturado": 13136,
    "costos": 32751,
-   "resTrabajo": -9980,
+   "resTrabajo": -19615,
    "cobrado": 31286,
    "pagado": 55411,
    "resCaja": -24125,
@@ -1020,7 +1021,7 @@
    "ingresos": [
     {
      "n": "La cáscara · B2C",
-     "eco": 12795,
+     "eco": 3160,
      "fin": 17587,
      "tag": "b2c"
     },
@@ -1182,14 +1183,14 @@
     }
    ],
    "totalIngresos": {
-    "facturado": 22771,
+    "facturado": 13136,
     "cobrado": 31286
    },
    "totalEgresos": {
     "costo": 32750.96,
     "pagado": 55411.09
    },
-   "nota": "Después del récord de mayo, junio afloja y las <b>dos lecturas dan en rojo</b>: el curso B2C facturó mucho menos trabajo nuevo (US$12.795 vs US$97.280 en mayo), por eso el resultado del trabajo cae a −US$9.980. La caja da más negativa (−US$22.085) porque se usó el colchón para <b>ponerse al día</b>: los tres socios retiraron US$14.725 (incluye US$1.225 de adelanto de Juana) y se saldó la distribución B2C atrasada (Franco US$6.953 + comercial US$9.352). Aparecen costos nuevos de formalización (contador y monotributo US$1.201) y un <b>equipo de diseño propio</b>. El saldo baja de US$57.875 a US$33.750 y sigue sólido.",
+   "nota": "Después del récord de mayo, junio afloja y las <b>dos lecturas dan en rojo</b>: el curso B2C facturó mucho menos trabajo nuevo (US$3.160 vs US$75.773 en mayo), por eso el resultado del trabajo cae a −US$19.615. La caja da más negativa (−US$22.085) porque se usó el colchón para <b>ponerse al día</b>: los tres socios retiraron US$14.725 (incluye US$1.225 de adelanto de Juana) y se saldó la distribución B2C atrasada (Franco US$6.953 + comercial US$9.352). Aparecen costos nuevos de formalización (contador y monotributo US$1.201) y un <b>equipo de diseño propio</b>. El saldo baja de US$57.875 a US$33.750 y sigue sólido.",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -1234,9 +1235,9 @@
  "resumenes": {
   "q1": {
    "label": "Primer trimestre (Ene–Mar)",
-   "facturado": 125417,
+   "facturado": 107433,
    "costos": 95124,
-   "resTrabajo": 30293,
+   "resTrabajo": 12309,
    "cobrado": 104297,
    "pagado": 68241,
    "resCaja": 36056,
@@ -1246,9 +1247,9 @@
   },
   "q2": {
    "label": "Segundo trimestre (Abr–Jun)",
-   "facturado": 181558,
+   "facturado": 145214,
    "costos": 118744,
-   "resTrabajo": 62814,
+   "resTrabajo": 26470,
    "cobrado": 142582,
    "pagado": 139459,
    "resCaja": 3123,
@@ -1258,28 +1259,28 @@
   },
   "semestre": {
    "label": "Primer semestre (Ene–Jun)",
-   "facturado": 306975,
+   "facturado": 252647,
    "costos": 213868,
-   "resTrabajo": 93107,
+   "resTrabajo": 38779,
    "cobrado": 246879,
    "pagado": 207700,
    "resCaja": 39179,
    "saldoInicial": -5428.2,
    "saldoFinal": 33750.36,
    "b2c": {
-    "facturado": 247765,
+    "facturado": 193437,
     "cobrado": 171480,
     "costos": 61049,
     "porcentajeCaja": 0.69,
-    "porCobrar": 76285
+    "porCobrar": 21957
    },
    "porCobrar": {
-    "total": 72746,
+    "total": 18418,
     "detalle": {
-     "Curso B2C": 76285,
-     "Clientes de servicio (neto)": -4688
+     "Curso B2C": 21957,
+     "Clientes de servicio (neto)": -3539
     },
-    "nota": "Casi todo del curso B2C, que se factura completo al venderse y se cobra en cuotas; los clientes de servicio están al día (neto adelantado)."
+    "nota": "Solo facturación real (sin reservas caídas): cuotas del curso ya vendidas. Los clientes de servicio están al día."
    },
    "costosPorCategoria": {
     "Equipo y socios": 104022,
@@ -1351,27 +1352,27 @@
   },
   {
    "mes": "Febrero",
-   "facturado": 49500,
+   "facturado": 45244,
    "cobrado": 35896
   },
   {
    "mes": "Marzo",
-   "facturado": 53270,
+   "facturado": 39542,
    "cobrado": 32944
   },
   {
    "mes": "Abril",
-   "facturado": 34920,
+   "facturado": 29718,
    "cobrado": 32707
   },
   {
    "mes": "Mayo",
-   "facturado": 97280,
+   "facturado": 75773,
    "cobrado": 52346
   },
   {
    "mes": "Junio",
-   "facturado": 12795,
+   "facturado": 3160,
    "cobrado": 17587
   }
  ],
@@ -1798,11 +1799,11 @@
      "kicker": "Informe mensual · 2026",
      "no": "Mes 02",
      "month": "Febrero",
-     "sub": "El mes en que el curso <span class=\"em\">B2C La cáscara</span> arranca fuerte: factura US$49.500 y se vuelve el motor del negocio. El saldo salta de US$8.306 a US$33.755.",
+     "sub": "El mes en que el curso <span class=\"em\">B2C La cáscara</span> arranca fuerte: factura US$45.244 y se vuelve el motor del negocio. El saldo salta de US$8.306 a US$33.755.",
      "meta": [
       {
        "label": "Resultado del trabajo",
-       "value": "+US$13.034"
+       "value": "+US$8.778"
       },
       {
        "label": "Resultado de caja",
@@ -1825,7 +1826,7 @@
       "io": [
        {
         "l": "Facturado",
-        "v": "US$53.978"
+        "v": "US$49.722"
        },
        {
         "l": "Costos",
@@ -1833,7 +1834,7 @@
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$13.034"
+      "resFig": "+US$8.778"
      },
      "caja": {
       "tag": "La caja del mes",
@@ -1871,7 +1872,7 @@
        "accent": true
       }
      ],
-     "foot": "<b>Buen mes por las dos lecturas.</b> El curso B2C arranca con fuerza: facturó US$49.500 (y cobró US$35.896 en caja). Trabajo y caja, los dos en azul.",
+     "foot": "<b>Buen mes por las dos lecturas.</b> El curso B2C arranca con fuerza: facturó US$45.244 (y cobró US$35.896 en caja). Trabajo y caja, los dos en azul.",
      "pageNum": "01"
     },
     {
@@ -1880,8 +1881,8 @@
      "kicker": "02 · Ingresos",
      "title": "De dónde entró la plata",
      "totals": {
-      "fact": "US$53.978",
-      "factSmall": "Incluye el curso B2C (US$49.500)",
+      "fact": "US$49.722",
+      "factSmall": "Incluye el curso B2C (US$45.244)",
       "cob": "US$44.054",
       "cobSmall": "El 81% vino del curso B2C"
      },
@@ -1927,7 +1928,7 @@
      "kicker": "03 · Producto propio",
      "title": "La línea <span class=\"em\">B2C La cáscara</span>",
      "heroTag": "Facturado en el mes",
-     "heroFig": "US$49.500",
+     "heroFig": "US$45.244",
      "heroSub": "El curso propio de Cáscara arranca fuerte. De eso entraron <b style=\"color:#fff;\">US$35.896</b> en caja; el resto se cobra más adelante.",
      "costs": [
       {
@@ -1941,7 +1942,7 @@
        "b": "Acuerdo de revenue share con Rein (30% cruzado)."
       }
      ],
-     "foot": "<b>Costos del curso: US$14.176</b> (comercial + distribución + herramientas). Con la venta ya facturada (US$49.500), la línea es claramente rentable desde su primer mes.",
+     "foot": "<b>Costos del curso: US$14.176</b> (comercial + distribución + herramientas). Con la venta ya facturada (US$45.244), la línea es claramente rentable desde su primer mes.",
      "pageNum": "03"
     },
     {
@@ -2123,7 +2124,7 @@
      "variant": "blue",
      "kicker": "07 · La lectura del mes",
      "big": "El producto propio <span class=\"em\" style=\"color:#fff;\">cambió la escala</span> del negocio.",
-     "note": "Febrero cierra en azul por las dos lecturas: el curso B2C facturó US$49.500 (cobró US$35.896) y el saldo saltó a US$33.755. El producto propio cambió la escala del negocio en un solo mes.",
+     "note": "Febrero cierra en azul por las dos lecturas: el curso B2C facturó US$45.244 (cobró US$35.896) y el saldo saltó a US$33.755. El producto propio cambió la escala del negocio en un solo mes.",
      "pageLabel": "07 · Febrero 2026"
     }
    ],
@@ -2166,7 +2167,7 @@
      },
      {
       "n": "La Cáscara · B2C",
-      "eco": 49500,
+      "eco": 45244,
       "fin": 35896,
       "tag": "b2c"
      },
@@ -2257,11 +2258,11 @@
       "fin": 1920
      }
     ],
-    "totIngEco": 53978,
+    "totIngEco": 49722,
     "totIngFin": 44054,
     "totEgrEco": 40944.09,
     "totEgrFin": 18605.09,
-    "nota": "Con el curso <b>B2C La cáscara</b> ya facturado (US$49.500), febrero da positivo por las dos lecturas (trabajo +US$13.034). De esa venta entraron US$35.896 en caja; el resto se cobra más adelante. <b>Wires y Acrule·enero</b> entraron en caja pero su facturado corresponde a meses anteriores. La línea de Juana (US$250) es un pago que le correspondía — movimiento de su cuenta personal."
+    "nota": "Con el curso <b>B2C La cáscara</b> ya facturado (US$45.244), febrero da positivo por las dos lecturas (trabajo +US$8.778). De esa venta entraron US$35.896 en caja; el resto se cobra más adelante. <b>Wires y Acrule·enero</b> entraron en caja pero su facturado corresponde a meses anteriores. La línea de Juana (US$250) es un pago que le correspondía — movimiento de su cuenta personal."
    }
   },
   "marzo": {
@@ -2279,7 +2280,7 @@
      "meta": [
       {
        "label": "Resultado del trabajo",
-       "value": "+US$18.004"
+       "value": "+US$4.276"
       },
       {
        "label": "Resultado caja",
@@ -2302,7 +2303,7 @@
       "io": [
        {
         "l": "Facturado",
-        "v": "US$58.770"
+        "v": "US$45.042"
        },
        {
         "l": "Costos",
@@ -2310,8 +2311,8 @@
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$18.004",
-      "chip": "Quedó por cobrar · ≈US$23.300"
+      "resFig": "+US$4.276",
+      "chip": "Quedó por cobrar · ≈US$9.600"
      },
      "caja": {
       "tag": "La caja del mes",
@@ -2350,7 +2351,7 @@
        "accent": true
       }
      ],
-     "foot": "<b>Facturar no es cobrar.</b> Por trabajo fue un gran mes (+US$18.004); en caja dio negativo (−US$3.127) porque mucho de lo facturado quedó pendiente de cobro.",
+     "foot": "<b>Facturar no es cobrar.</b> Por trabajo fue un gran mes (+US$4.276); en caja dio negativo (−US$3.127) porque mucho de lo facturado quedó pendiente de cobro.",
      "pageNum": "01"
     },
     {
@@ -2359,10 +2360,10 @@
      "kicker": "02 · Ingresos",
      "title": "De dónde entró la plata",
      "totals": {
-      "fact": "US$58.770",
+      "fact": "US$45.042",
       "factSmall": "Gran mes de trabajo",
       "cob": "US$35.466",
-      "cobSmall": "≈US$23.300 quedó por cobrar"
+      "cobSmall": "≈US$9.600 quedó por cobrar"
      },
      "rowsMarginTop": "20px",
      "bars": [
@@ -2399,7 +2400,7 @@
      "kicker": "03 · Producto propio",
      "title": "La línea <span class=\"em\">B2C La cáscara</span>",
      "heroTag": "Facturado en el mes",
-     "heroFig": "US$53.270",
+     "heroFig": "US$39.542",
      "heroSub": "De eso entraron <b style=\"color:#fff;\">US$32.944</b> en caja este mes. El resto quedó por cobrar — es la brecha del mes.",
      "costs": [
       {
@@ -2597,7 +2598,7 @@
      "variant": "blue",
      "kicker": "07 · La lectura del mes",
      "big": "Un gran mes que <span class=\"em\" style=\"color:#fff;\">todavía no entró</span> a la caja.",
-     "note": "Por el trabajo del mes, marzo cierra +US$18.004 gracias al curso B2C (US$53.270 facturado), pero en caja queda −US$3.127: gran parte de lo facturado —incluido LIVO— sigue por cobrar. El saldo baja apenas, de US$33.755 a US$30.627. Hay que ir a buscar esos cobros.",
+     "note": "Por el trabajo del mes, marzo cierra +US$4.276 gracias al curso B2C (US$39.542 facturado), pero en caja queda −US$3.127: gran parte de lo facturado —incluido LIVO— sigue por cobrar. El saldo baja apenas, de US$33.755 a US$30.627. Hay que ir a buscar esos cobros.",
      "pageLabel": "07 · Marzo 2026"
     }
    ],
@@ -2620,7 +2621,7 @@
      },
      {
       "n": "La cáscara · B2C",
-      "eco": 53270,
+      "eco": 39542,
       "fin": 32944,
       "tag": "b2c"
      },
@@ -2721,11 +2722,11 @@
       "fin": 124
      }
     ],
-    "totIngEco": 58770,
+    "totIngEco": 45042,
     "totIngFin": 35466,
     "totEgrEco": 40765.81,
     "totEgrFin": 38593.38,
-    "nota": "Mes de <b>signos opuestos</b>: por el trabajo del mes cierra muy positivo (+US$18.004) porque el curso B2C facturó US$53.270, pero en caja sólo entraron US$32.944 de esa venta — y <b>LIVO facturó US$5.000 que no se cobraron</b>. Por eso la caja del mes da negativa (−US$3.127) y el saldo baja levemente. Es el mes que mejor muestra por qué hay que leer las dos columnas juntas. La línea de Juana (US$400) es un movimiento de su cuenta personal, no una venta."
+    "nota": "Mes de <b>signos opuestos</b>: por el trabajo del mes cierra muy positivo (+US$4.276) porque el curso B2C facturó US$39.542, pero en caja sólo entraron US$32.944 de esa venta — y <b>LIVO facturó US$5.000 que no se cobraron</b>. Por eso la caja del mes da negativa (−US$3.127) y el saldo baja levemente. Es el mes que mejor muestra por qué hay que leer las dos columnas juntas. La línea de Juana (US$400) es un movimiento de su cuenta personal, no una venta."
    }
   },
   "abril": {
@@ -2743,7 +2744,7 @@
      "meta": [
       {
        "label": "Resultado del trabajo",
-       "value": "+US$8.602"
+       "value": "+US$3.400"
       },
       {
        "label": "Resultado caja",
@@ -2766,7 +2767,7 @@
       "io": [
        {
         "l": "Facturado",
-        "v": "US$42.507"
+        "v": "US$37.305"
        },
        {
         "l": "Costos",
@@ -2774,7 +2775,7 @@
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$8.602"
+      "resFig": "+US$3.400"
      },
      "caja": {
       "tag": "La caja del mes",
@@ -2821,7 +2822,7 @@
      "kicker": "02 · Ingresos",
      "title": "De dónde entró la plata",
      "totals": {
-      "fact": "US$42.507",
+      "fact": "US$37.305",
       "factSmall": "Por el trabajo del mes",
       "cob": "US$48.461",
       "cobSmall": "Incluye cobros pendientes de marzo"
@@ -2868,8 +2869,8 @@
      "kicker": "03 · Producto propio",
      "title": "La línea <span class=\"em\">B2C La cáscara</span>",
      "heroTag": "Facturado en el mes",
-     "heroFig": "US$34.920",
-     "heroSub": "De eso entraron <b style=\"color:#fff;\">US$32.707</b> en caja: este mes la línea casi cobra todo lo que factura.",
+     "heroFig": "US$29.718",
+     "heroSub": "De eso entraron <b style=\"color:#fff;\">US$32.707</b> en caja: este mes la línea cobró incluso más de lo que facturó — entraron cuotas de ventas anteriores.",
      "costs": [
       {
        "l": "Costo comercial",
@@ -3058,7 +3059,7 @@
      "variant": "blue",
      "kicker": "07 · La lectura del mes",
      "big": "El mes que <span class=\"em\" style=\"color:#fff;\">ordenó las cuentas</span>.",
-     "note": "Abril cierra en azul por las dos lecturas (+US$8.602 por trabajo, +US$5.689 en caja). Entró lo facturado, se cobró lo pendiente de marzo (LIVO US$10.000) y se pusieron al día pagos atrasados. El saldo sube de US$30.627 a US$36.316. Trimestre cerrado con orden.",
+     "note": "Abril cierra en azul por las dos lecturas (+US$3.400 por trabajo, +US$5.689 en caja). Entró lo facturado, se cobró lo pendiente de marzo (LIVO US$10.000) y se pusieron al día pagos atrasados. El saldo sube de US$30.627 a US$36.316. Trimestre cerrado con orden.",
      "pageLabel": "07 · Abril 2026"
     }
    ],
@@ -3081,7 +3082,7 @@
      },
      {
       "n": "La cáscara · B2C",
-      "eco": 34920,
+      "eco": 29718,
       "fin": 32707,
       "tag": "b2c"
      },
@@ -3182,11 +3183,11 @@
       "fin": 555.1
      }
     ],
-    "totIngEco": 42507,
+    "totIngEco": 37305,
     "totIngFin": 48461,
     "totEgrEco": 33905.11,
     "totEgrFin": 42771.95,
-    "nota": "Mes equilibrado: las dos lecturas dan positivo (+US$8.602 por el trabajo del mes, +US$5.689 en caja). Se <b>cobró parte de lo que había quedado pendiente</b> de marzo — LIVO entró US$10.000 en caja. En egresos, lo pagado supera al costo del mes porque se pusieron al día pagos atrasados (Facu cobró US$5.921 en caja contra US$2.000 de sueldo del mes). La <b>distribución del curso B2C pasa a Franco</b> (antes era el revenue-share cruzado con Rein)."
+    "nota": "Mes equilibrado: las dos lecturas dan positivo (+US$3.400 por el trabajo del mes, +US$5.689 en caja). Se <b>cobró parte de lo que había quedado pendiente</b> de marzo — LIVO entró US$10.000 en caja. En egresos, lo pagado supera al costo del mes porque se pusieron al día pagos atrasados (Facu cobró US$5.921 en caja contra US$2.000 de sueldo del mes). La <b>distribución del curso B2C pasa a Franco</b> (antes era el revenue-share cruzado con Rein)."
    }
   },
   "mayo": {
@@ -3200,11 +3201,11 @@
      "kicker": "Informe mensual · 2026",
      "no": "Mes 05",
      "month": "Mayo",
-     "sub": "El mes que puso <span class=\"em\">el techo más alto</span>: la línea B2C factura US$97.280 y el saldo trepa a un récord de US$57.875.",
+     "sub": "El mes que puso <span class=\"em\">el techo más alto</span>: la línea B2C factura US$75.773 y el saldo trepa a un récord de US$57.875.",
      "meta": [
       {
        "label": "Resultado del trabajo",
-       "value": "+US$64.192"
+       "value": "+US$42.685"
       },
       {
        "label": "Resultado caja",
@@ -3227,7 +3228,7 @@
       "io": [
        {
         "l": "Facturado",
-        "v": "US$116.280"
+        "v": "US$94.773"
        },
        {
         "l": "Costos",
@@ -3235,8 +3236,8 @@
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$64.192",
-      "chip": "Quedó por cobrar · ≈US$53.400"
+      "resFig": "+US$42.685",
+      "chip": "Quedó por cobrar · ≈US$31.900"
      },
      "caja": {
       "tag": "La caja del mes",
@@ -3283,10 +3284,10 @@
      "kicker": "02 · Ingresos",
      "title": "De dónde entró la plata",
      "totals": {
-      "fact": "US$116.280",
+      "fact": "US$94.773",
       "factSmall": "Facturación récord del curso B2C",
       "cob": "US$62.835",
-      "cobSmall": "≈US$53.400 quedó por cobrar"
+      "cobSmall": "≈US$31.900 quedó por cobrar"
      },
      "rowsMarginTop": "20px",
      "bars": [
@@ -3330,7 +3331,7 @@
      "kicker": "03 · Producto propio",
      "title": "La línea <span class=\"em\">B2C La cáscara</span>",
      "heroTag": "Facturado en el mes",
-     "heroFig": "US$97.280",
+     "heroFig": "US$75.773",
      "heroSub": "De eso entraron <b style=\"color:#fff;\">US$52.346</b> en caja. La línea propia ya factura más que todo el servicio junto, por lejos.",
      "costs": [
       {
@@ -3521,7 +3522,7 @@
      "variant": "blue",
      "kicker": "07 · La lectura del mes",
      "big": "Mayo puso <span class=\"em\" style=\"color:#fff;\">el techo más alto</span> del período.",
-     "note": "El curso B2C facturó US$97.280 con el gasto casi plano: resultado del trabajo +US$64.192 y caja +US$21.559, las dos en récord. El saldo trepa a US$57.875. Queda mucho por cobrar — el potencial de caja de los próximos meses ya está facturado.",
+     "note": "El curso B2C facturó US$75.773 con el gasto casi plano: resultado del trabajo +US$42.685 y caja +US$21.559, las dos en récord. El saldo trepa a US$57.875. Queda mucho por cobrar — el potencial de caja de los próximos meses ya está facturado.",
      "pageLabel": "07 · Mayo 2026"
     }
    ],
@@ -3564,7 +3565,7 @@
      },
      {
       "n": "La cáscara · B2C",
-      "eco": 97280,
+      "eco": 75773,
       "fin": 52346,
       "tag": "b2c"
      }
@@ -3676,11 +3677,11 @@
       "fin": 1816
      }
     ],
-    "totIngEco": 116280,
+    "totIngEco": 94773,
     "totIngFin": 62834.7,
     "totEgrEco": 52087.55,
     "totEgrFin": 41275.63,
-    "nota": "El <b>mejor mes del período</b>. El curso B2C facturó US$97.280 (de los que entraron US$52.346 en caja) y aparece <b>Nivel 2</b>: la primera cohorte del nivel siguiente, 4 alumnas × US$2.000 (cobrado US$3.990, pendiente US$4.010). El resultado del trabajo (+US$64.192) es muy alto porque se facturó muchísimo; gran parte sigue por cobrar, por eso la caja (+US$21.559) es más moderada pero igual récord. El saldo trepa a US$57.875. Incluye US$3.089 del <b>evento Cáscara</b> (sonido, mobiliario, hoodies, stickers, impresión del diario, TV, seguridad)."
+    "nota": "El <b>mejor mes del período</b>. El curso B2C facturó US$75.773 (de los que entraron US$52.346 en caja) y aparece <b>Nivel 2</b>: la primera cohorte del nivel siguiente, 4 alumnas × US$2.000 (cobrado US$3.990, pendiente US$4.010). El resultado del trabajo (+US$42.685) es muy alto porque se facturó muchísimo; gran parte sigue por cobrar, por eso la caja (+US$21.559) es más moderada pero igual récord. El saldo trepa a US$57.875. Incluye US$3.089 del <b>evento Cáscara</b> (sonido, mobiliario, hoodies, stickers, impresión del diario, TV, seguridad)."
    }
   },
   "junio": {
@@ -3698,7 +3699,7 @@
      "meta": [
       {
        "label": "Resultado del trabajo",
-       "value": "−US$9.980"
+       "value": "−US$19.615"
       },
       {
        "label": "Resultado de caja",
@@ -3721,7 +3722,7 @@
       "io": [
        {
         "l": "Facturado",
-        "v": "US$22.771"
+        "v": "US$13.136"
        },
        {
         "l": "Costos",
@@ -3729,7 +3730,7 @@
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "−US$9.980",
+      "resFig": "−US$19.615",
       "resNeg": true
      },
      "caja": {
@@ -3769,7 +3770,7 @@
        "accent": true
       }
      ],
-     "foot": "<div><b>Las dos lecturas dan en rojo.</b> Por el trabajo del mes, junio cierra en −US$9.980: se facturó poco (el curso B2C bajó de US$97.280 a US$12.795). En caja el resultado es más negativo (−US$24.125) porque se pusieron al día pagos de meses anteriores. El saldo igual sigue sólido: baja de US$57.875 a US$33.750.</div>",
+     "foot": "<div><b>Las dos lecturas dan en rojo.</b> Por el trabajo del mes, junio cierra en −US$19.615: se facturó poco (el curso B2C bajó de US$75.773 a US$3.160). En caja el resultado es más negativo (−US$24.125) porque se pusieron al día pagos de meses anteriores. El saldo igual sigue sólido: baja de US$57.875 a US$33.750.</div>",
      "pageNum": "01"
     },
     {
@@ -3778,7 +3779,7 @@
      "kicker": "02 · Ingresos",
      "title": "De dónde entró la plata",
      "totals": {
-      "fact": "US$22.771",
+      "fact": "US$13.136",
       "factSmall": "Trabajo facturado en junio",
       "cob": "US$31.286",
       "cobSmall": "Incluye cobros de cuotas B2C previas"
@@ -3997,7 +3998,7 @@
      "variant": "blue",
      "kicker": "06 · La lectura del mes",
      "big": "Un mes de <span class=\"em\" style=\"color:#fff;\">respiro y puesta al día</span>, con el saldo firme.",
-     "note": "Después del récord de mayo, junio afloja: el curso B2C facturó mucho menos trabajo nuevo (US$12.795 vs US$97.280) y las dos lecturas dan en rojo — trabajo −US$9.980, caja −US$24.125. Pero el rojo de caja es sano: se usó el colchón para ponerse al día con retiros de socios y distribución B2C atrasada. El saldo baja de US$57.875 a US$33.750 y sigue sólido. La estructura no cambió: más de la mitad de lo que entra viene del producto propio.",
+     "note": "Después del récord de mayo, junio afloja: el curso B2C facturó mucho menos trabajo nuevo (US$3.160 vs US$75.773) y las dos lecturas dan en rojo — trabajo −US$19.615, caja −US$24.125. Pero el rojo de caja es sano: se usó el colchón para ponerse al día con retiros de socios y distribución B2C atrasada. El saldo baja de US$57.875 a US$33.750 y sigue sólido. La estructura no cambió: más de la mitad de lo que entra viene del producto propio.",
      "pageLabel": "06 · Junio 2026",
      "noteOpacity": "0.85"
     }
@@ -4006,7 +4007,7 @@
     "ingresos": [
      {
       "n": "La cáscara · B2C",
-      "eco": 12795,
+      "eco": 3160,
       "fin": 17587,
       "tag": "b2c"
      },
@@ -4167,7 +4168,7 @@
       "fin": 551
      }
     ],
-    "totIngEco": 22771,
+    "totIngEco": 13136,
     "totIngFin": 31286,
     "totEgrEco": 32750.96,
     "totEgrFin": 55411.09,
@@ -4292,7 +4293,7 @@
       "io": [
        {
         "l": "Facturado",
-        "v": "US$125.417"
+        "v": "US$107.433"
        },
        {
         "l": "Costos",
@@ -4300,7 +4301,7 @@
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$30.293"
+      "resFig": "+US$12.309"
      },
      "caja": {
       "tag": "La caja · Q1",
@@ -4337,7 +4338,7 @@
        "span": "Cobrado por el curso en el trimestre"
       },
       {
-       "b": "US$53.270",
+       "b": "US$15.946",
        "span": "Ya facturado y por cobrar"
       }
      ],
@@ -4350,7 +4351,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "El trimestre que <span class=\"em\" style=\"color:#fff;\">dio vuelta el saldo</span> y encontró su motor.",
-     "note": "De arrancar en −US$5.428 a cerrar en +US$30.627, con las cuentas personales de los socios saldadas y un curso B2C que en su primer trimestre ya es la fuente principal de caja. Queda lo facturado de marzo por cobrar — combustible para el segundo trimestre.",
+     "note": "De arrancar en −US$5.428 a cerrar en +US$30.627, con las cuentas personales de los socios saldadas y un curso B2C que en su primer trimestre ya es la fuente principal de caja. Quedan ≈US$15.900 del curso facturados por cobrar — combustible para el segundo trimestre.",
      "noteOpacity": ".7",
      "pageLabel": "Enero – Marzo 2026"
     }
@@ -4380,7 +4381,7 @@
       },
       {
        "label": "Resultado del trabajo",
-       "value": "+US$62.814"
+       "value": "+US$26.470"
       }
      ]
     },
@@ -4408,8 +4409,8 @@
       },
       {
        "label": "Resultado del trabajo",
-       "fig": "+US$62.814",
-       "note": "El negocio rindió fuerte: se facturó US$181.558 por US$118.744 de costos. <b>Mayo fue el techo.</b>"
+       "fig": "+US$26.470",
+       "note": "El negocio rindió fuerte: se facturó US$145.214 por US$118.744 de costos. <b>Mayo fue el techo.</b>"
       }
      ],
      "pageNum": "01"
@@ -4474,7 +4475,7 @@
       "io": [
        {
         "l": "Facturado",
-        "v": "US$181.558"
+        "v": "US$145.214"
        },
        {
         "l": "Costos",
@@ -4482,7 +4483,7 @@
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$62.814"
+      "resFig": "+US$26.470"
      },
      "caja": {
       "tag": "La caja · Q2",
@@ -4511,7 +4512,7 @@
      "line": "El curso <span class=\"em\">B2C La cáscara</span> ya es el <span class=\"em\">motor consolidado</span>: US$102.640 de los US$142.582 que entraron en el trimestre — casi <span class=\"em\">tres de cada cuatro dólares</span> de caja.",
      "strip": [
       {
-       "b": "US$144.995",
+       "b": "US$108.651",
        "span": "Facturado por el curso en el trimestre"
       },
       {
@@ -4520,7 +4521,7 @@
       },
       {
        "b": "Mayo",
-       "span": "El récord: US$97.280 facturados en un mes"
+       "span": "El récord: US$75.773 facturados en un mes"
       }
      ],
      "pageNum": "04"
@@ -4532,7 +4533,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "El trimestre del <span class=\"em\" style=\"color:#fff;\">récord</span> y la <span class=\"em\" style=\"color:#fff;\">puesta al día</span>.",
-     "note": "Mayo marcó el techo del año (US$116.280 facturados) y el trabajo del trimestre cerró en +US$62.814. La caja terminó apenas positiva (+US$3.123) porque junio usó el colchón para saldar retiros y distribución B2C atrasados. El saldo sube de US$30.627 a US$33.750: sólido, con el curso B2C ya como motor consolidado. Queda mucho facturado por cobrar — combustible para el segundo semestre.",
+     "note": "Mayo marcó el techo del año (US$94.773 facturados) y el trabajo del trimestre cerró en +US$26.470. La caja terminó apenas positiva (+US$3.123) porque junio usó el colchón para saldar retiros y distribución B2C atrasados. El saldo sube de US$30.627 a US$33.750: sólido, con el curso B2C ya como motor consolidado. Queda mucho facturado por cobrar — combustible para el segundo semestre.",
      "noteOpacity": ".7",
      "pageLabel": "Abril – Junio 2026"
     }
@@ -4542,7 +4543,7 @@
    "screenLabel": "Resumen 6 meses",
    "title": "Resumen Primer Semestre 2026 · Cáscara Collective",
    "detail": "summary",
-   "summaryNote": "El <b>trabajo facturado del semestre (US$306.975)</b> supera a lo cobrado de facturación (US$234.229): la diferencia (≈US$72.700) es trabajo ya hecho — sobre todo el curso B2C, que se vende en cuotas — que entra en caja más adelante. A la cuenta entraron US$246.879 en total, incluyendo US$12.650 de aportes de socios.",
+   "summaryNote": "El <b>trabajo facturado del semestre (US$252.647)</b> supera a lo cobrado de facturación (US$234.229): la diferencia (≈US$18.400) es trabajo ya hecho — sobre todo el curso B2C, que se vende en cuotas — que entra en caja más adelante. A la cuenta entraron US$246.879 en total, incluyendo US$12.650 de aportes de socios.",
    "slides": [
     {
      "type": "cover",
@@ -4559,7 +4560,7 @@
       },
       {
        "label": "Resultado del trabajo",
-       "value": "+US$93.107"
+       "value": "+US$38.779"
       },
       {
        "label": "Saldo",
@@ -4603,7 +4604,7 @@
      "items": [
       {
        "label": "Facturado por trabajo",
-       "fig": "US$306.975",
+       "fig": "US$252.647",
        "note": "Todo el trabajo facturado en seis meses. El gran motor es el curso <b>B2C La cáscara</b>."
       },
       {
@@ -4619,7 +4620,7 @@
       },
       {
        "label": "Resultado del trabajo",
-       "fig": "+US$93.107",
+       "fig": "+US$38.779",
        "note": "Supera al de caja: hay <b>~US$71.600 ya facturado</b> que todavía no entró (el curso se cobra en cuotas)."
       }
      ],
@@ -4710,7 +4711,7 @@
       "io": [
        {
         "l": "Facturado",
-        "v": "US$306.975"
+        "v": "US$252.647"
        },
        {
         "l": "Costos",
@@ -4718,7 +4719,7 @@
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$93.107"
+      "resFig": "+US$38.779"
      },
      "caja": {
       "tag": "La caja · 6 meses",
@@ -4736,7 +4737,7 @@
       "resL": "Resultado de caja",
       "resFig": "+US$39.179"
      },
-     "foot": "<b>De lo facturado (US$307k), ya entró US$234k y faltan ~US$73k.</b> Casi todo lo que falta es del curso B2C, que se vende en cuotas. A la caja además llegaron US$12.650 de aportes de socios, que no son ventas.",
+     "foot": "<b>De lo facturado (US$253k), ya entró US$234k y faltan ~US$18k.</b> Casi todo lo que falta es del curso B2C, que se vende en cuotas. A la caja además llegaron US$12.650 de aportes de socios, que no son ventas.",
      "pageNum": "04"
     },
     {
@@ -4750,12 +4751,12 @@
        "small": "Se factura completo y se cobra en cuotas",
        "b2c": true,
        "width": "100%",
-       "amount": "US$76.285"
+       "amount": "US$21.957"
       }
      ],
      "footClass": "chart-foot",
      "footMarginTop": "34px",
-     "foot": "<b>US$76.285 del curso B2C ya están facturados y van a entrar en cuotas los próximos meses.</b> Los clientes de servicio están al día (adelantados en el neto), así que lo pendiente neto del semestre es ≈US$72.700. Es el colchón de caja del segundo semestre.",
+     "foot": "<b>US$21.957 del curso B2C ya están facturados y van a entrar en cuotas los próximos meses.</b> Los clientes de servicio están al día (adelantados en el neto), así que lo pendiente neto del semestre es ≈US$18.400. Es el colchón de caja del segundo semestre.",
      "pageNum": "05"
     },
     {
@@ -4766,7 +4767,7 @@
      "line": "De cada dólar que entró a la caja en el semestre, casi <span class=\"em\">siete de cada diez</span> vinieron del curso <span class=\"em\">B2C La cáscara</span>: US$171.480 de US$246.879 cobrados.",
      "strip": [
       {
-       "b": "US$247.765",
+       "b": "US$193.437",
        "span": "Facturado por el curso"
       },
       {
@@ -4806,49 +4807,118 @@
        "saldo": "—"
       },
       {
-       "net": "49.500",
-       "inH": 193,
+       "net": "45.244",
+       "inH": 177,
        "egH": 140,
        "m": "Febrero",
        "saldoLabel": "Cobrado",
        "saldo": "US$35.896"
       },
       {
-       "net": "53.270",
-       "inH": 208,
+       "net": "39.542",
+       "inH": 154,
        "egH": 129,
        "m": "Marzo",
        "saldoLabel": "Cobrado",
        "saldo": "US$32.944"
       },
       {
-       "net": "34.920",
-       "inH": 136,
+       "net": "29.718",
+       "inH": 116,
        "egH": 128,
        "m": "Abril",
        "saldoLabel": "Cobrado",
        "saldo": "US$32.707"
       },
       {
-       "net": "97.280",
-       "inH": 380,
+       "net": "75.773",
+       "inH": 296,
        "egH": 204,
        "m": "Mayo",
        "saldoLabel": "Cobrado",
        "saldo": "US$52.346"
       },
       {
-       "net": "−24.125",
-       "inH": 50,
+       "net": "3.160",
+       "inH": 12,
        "egH": 335,
        "m": "Junio",
        "saldoLabel": "Cobrado",
        "saldo": "US$33.750"
       }
      ],
-     "foot": "El curso arranca en febrero, crece hasta su récord en mayo (US$97.280) y en junio afloja el trabajo nuevo (US$12.795), aunque sigue cobrando cuotas de ventas anteriores.",
+     "foot": "El curso arranca en febrero, crece hasta su récord en mayo (US$75.773) y en junio afloja el trabajo nuevo (US$3.160), aunque sigue cobrando cuotas de ventas anteriores.",
      "footRight": "<b>Mayo</b> fue el récord del semestre",
      "pageNum": "07"
+    },
+    {
+     "type": "chart",
+     "label": "Las reservas caídas",
+     "kicker": "08 · Las reservas caídas",
+     "title": "Lo que se contaba y lo <span class=\"em\">real</span>",
+     "legend": [
+      {
+       "cls": "sw-eco",
+       "label": "Facturación real"
+      },
+      {
+       "cls": "sw-fin",
+       "label": "Con señas (como se contaba)"
+      },
+      {
+       "raw": "<span style=\"color:var(--blue);font-weight:700;\">−&nbsp;&nbsp;Lo que se cayó</span>"
+      }
+     ],
+     "cols": [
+      {
+       "net": "−4.356",
+       "netNeg": true,
+       "inH": 175,
+       "egH": 192,
+       "m": "Febrero",
+       "saldoLabel": "Caídas",
+       "saldo": "3"
+      },
+      {
+       "net": "−13.728",
+       "netNeg": true,
+       "inH": 153,
+       "egH": 206,
+       "m": "Marzo",
+       "saldoLabel": "Caídas",
+       "saldo": "10"
+      },
+      {
+       "net": "−4.252",
+       "netNeg": true,
+       "inH": 115,
+       "egH": 131,
+       "m": "Abril",
+       "saldoLabel": "Caídas",
+       "saldo": "4"
+      },
+      {
+       "net": "−22.612",
+       "netNeg": true,
+       "inH": 293,
+       "egH": 380,
+       "m": "Mayo",
+       "saldoLabel": "Caídas",
+       "saldo": "16"
+      },
+      {
+       "net": "−4.235",
+       "netNeg": true,
+       "inH": 12,
+       "egH": 29,
+       "m": "Junio",
+       "saldoLabel": "Caídas",
+       "saldo": "3"
+      }
+     ],
+     "foot": "El curso se vende con seña: cuando la reserva después se cae, esa venta se resta de la facturación y queda solo el cash de la seña (US$3.402 en el semestre). La facturación real del curso: US$193.437.",
+     "footRight": "<b>36 caídas</b> · −US$49.183 de facturación",
+     "pageNum": "08"
     },
     {
      "type": "barras",
@@ -4890,7 +4960,7 @@
      "footMarginTop": "34px",
      "foot": "<b>La mitad del costo va a personas</b> (socios + equipo); un tercio, a sostener el curso B2C que trae la mayor parte del ingreso.",
      "footRight": "Costo total · <b>US$213.868</b>",
-     "pageNum": "08"
+     "pageNum": "09"
     },
     {
      "type": "socios",
@@ -4947,7 +5017,7 @@
       ]
      },
      "foot": "Retiros según el mes que corresponden. El detalle movimiento por movimiento está en la planilla de gestión (solapa Cta Socios).",
-     "pageNum": "09"
+     "pageNum": "10"
     },
     {
      "type": "cierre",
@@ -4956,7 +5026,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "El primer semestre en azul, con un <span class=\"em\" style=\"color:#fff;\">producto propio</span> que cambió la escala.",
-     "note": "El saldo pasó de −US$5.428 a +US$33.750. El curso B2C trae 7 de cada 10 dólares de caja y el costo se mantiene controlado. Junio fue un mes de puesta al día que bajó el saldo, pero quedan ≈US$72.700 facturados por cobrar: el colchón del segundo semestre ya está en marcha.",
+     "note": "El saldo pasó de −US$5.428 a +US$33.750. El curso B2C trae 7 de cada 10 dólares de caja y el costo se mantiene controlado. Junio fue un mes de puesta al día que bajó el saldo, pero quedan ≈US$18.400 facturados por cobrar — ya descontadas las 36 reservas caídas del curso.",
      "noteOpacity": ".7",
      "pageLabel": "Enero – Junio 2026"
     }
@@ -4972,8 +5042,8 @@
    "kpis": [
     {
      "l": "Facturación total",
-     "v": "US$306.975",
-     "s": "Todo el <b>trabajo facturado</b> en 6 meses, se haya cobrado o no."
+     "v": "US$252.647",
+     "s": "Todo el <b>trabajo facturado</b> en 6 meses, ya <b>sin las reservas caídas</b> del curso."
     },
     {
      "l": "Cobrado de eso",
@@ -4982,8 +5052,8 @@
     },
     {
      "l": "Falta cobrar",
-     "v": "US$72.746",
-     "s": "<b>Facturado que todavía no entró</b> — casi todo del curso, que se cobra en cuotas."
+     "v": "US$18.418",
+     "s": "<b>Facturado que todavía no entró</b> — cuotas del curso ya vendidas."
     },
     {
      "key": true,
@@ -5066,44 +5136,44 @@
       "m": "Enero"
      },
      {
-      "v": "US$53.978",
+      "v": "US$49.722",
       "vCob": "US$44.054",
-      "factH": 70,
+      "factH": 64,
       "cobH": 57,
       "m": "Febrero"
      },
      {
-      "v": "US$58.770",
+      "v": "US$45.042",
       "vCob": "US$35.466",
-      "factH": 76,
+      "factH": 58,
       "cobH": 46,
       "m": "Marzo"
      },
      {
-      "v": "US$42.507",
+      "v": "US$37.305",
       "vCob": "US$48.461",
-      "factH": 55,
+      "factH": 48,
       "cobH": 62,
       "m": "Abril"
      },
      {
-      "v": "US$116.280",
+      "v": "US$94.773",
       "vCob": "US$62.835",
-      "factH": 150,
+      "factH": 122,
       "cobH": 81,
       "m": "Mayo"
      },
      {
-      "v": "US$22.771",
+      "v": "US$13.136",
       "vCob": "US$31.286",
-      "factH": 29,
+      "factH": 17,
       "cobH": 40,
       "m": "Junio"
      }
     ],
-    "foot": "Mayo marcó el récord de facturación (US$116.280); en junio la barra de cobrado supera a la de facturado: se cobraron cuotas de meses anteriores. Cuando la barra llena supera a la de contorno, queda plata por entrar."
+    "foot": "Mayo marcó el récord de facturación (US$94.773); en junio la barra de cobrado supera a la de facturado: se cobraron cuotas de meses anteriores. Cuando la barra llena supera a la de contorno, queda plata por entrar."
    },
-   "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$306.975 = 234.229 + 72.746). A la cuenta entraron US$246.879 en total: esos US$234.229 de facturación más US$12.650 de aportes de socios, que no son ventas."
+   "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$252.647 = 234.229 + 18.418). A la cuenta entraron US$246.879 en total: esos US$234.229 de facturación más US$12.650 de aportes de socios, que no son ventas."
   },
   "sections": [
    {
@@ -5145,11 +5215,11 @@
       "href": "mes.html?m=febrero",
       "no": "02",
       "month": "Febrero",
-      "head": "El curso B2C arranca fuerte: facturó US$49.500 en su primer mes.",
+      "head": "El curso B2C arranca fuerte: facturó US$45.244 en su primer mes.",
       "metrics": [
        {
         "label": "Trabajo",
-        "value": "+US$13.034",
+        "value": "+US$8.778",
         "cls": "pos"
        },
        {
@@ -5168,7 +5238,7 @@
       "metrics": [
        {
         "label": "Trabajo",
-        "value": "+US$18.004",
+        "value": "+US$4.276",
         "cls": "pos"
        },
        {
@@ -5187,7 +5257,7 @@
       "metrics": [
        {
         "label": "Trabajo",
-        "value": "+US$8.602",
+        "value": "+US$3.400",
         "cls": "pos"
        },
        {
@@ -5202,11 +5272,11 @@
       "href": "mes.html?m=mayo",
       "no": "05",
       "month": "Mayo",
-      "head": "El techo más alto: el curso B2C factura US$97.280 y el saldo es récord.",
+      "head": "El techo más alto: el curso B2C factura US$75.773 y el saldo es récord.",
       "metrics": [
        {
         "label": "Trabajo",
-        "value": "+US$64.192",
+        "value": "+US$42.685",
         "cls": "pos"
        },
        {
@@ -5225,7 +5295,7 @@
       "metrics": [
        {
         "label": "Trabajo",
-        "value": "−US$9.980",
+        "value": "−US$19.615",
         "cls": "neg"
        },
        {
