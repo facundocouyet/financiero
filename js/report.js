@@ -355,25 +355,6 @@
     window.postMessage({ type: '__deck_rail_visible', on: !!on }, '*');
   }
 
-  /* Letterbox sin margen negro: el slide es 16:9 fijo, así que lo que sobra
-     del viewport se pinta del color del slide activo. Los slides cream quedan
-     a sangre y los azules/tinta enmarcados de su propio color. */
-  function syncLetterbox(ds) {
-    function bgOf(el) {
-      if (!el) return '';
-      var c = getComputedStyle(el).backgroundColor;
-      return (!c || c === 'transparent' || /rgba\(0, 0, 0, 0\)/.test(c)) ? '' : c;
-    }
-    function apply(slide) {
-      // .frame--blue/--ink pintan el fondo; el resto lo hereda de la <section>.
-      var bg = bgOf(slide && slide.querySelector('.frame')) || bgOf(slide);
-      if (bg) ds.style.background = bg;
-    }
-    ds.addEventListener('slidechange', function (e) { apply(e.detail.slide); });
-    // El evento 'init' puede haber salido antes de enganchar el listener.
-    apply(ds.querySelector('[data-deck-active]') || ds.querySelector('section'));
-  }
-
   function mountControls(rep) {
     var home = '<a class="ctl ctl--ghost" href="index.html" aria-label="Volver al inicio">← Inicio</a>';
     var ghost = '';
@@ -434,7 +415,7 @@
     // Antes de montar: deck-stage lee la preferencia del rail al inicializarse.
     railDefaultHidden();
     document.getElementById('deck').innerHTML = '<deck-stage width="1920" height="1080">' + html + '</deck-stage>';
-    syncLetterbox(document.querySelector('deck-stage'));
+    DeckChrome.init(document.querySelector('deck-stage'));
     if (rep.detail === 'month' && rep.detalle) {
       mountModal(monthModal(rep.screenLabel, rep.detalle));
     } else if (rep.detail === 'summary') {

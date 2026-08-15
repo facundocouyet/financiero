@@ -31,7 +31,10 @@ deck-stage:not(:defined){ visibility:hidden; }
    negro, se pinta del color del slide activo (report.js lo sincroniza en
    cada cambio) para que no se vea margen. Este valor es el de arranque y el
    fallback si el JS no corre: tiza, el fondo de la mayoría de los slides. */
-deck-stage{ background:var(--cc-cream); transition:background .18s ease; }
+deck-stage{ background:var(--cc-cream); transition:background .18s ease;
+  /* deck-chrome.js lo escala para reservar la banda de .controls: desde
+     arriba, así el espacio liberado queda abajo (donde va la barra). */
+  transform-origin:top center; }
 
 section{
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -289,14 +292,21 @@ section{
 .chart-foot{ display:flex; justify-content:space-between; margin-top:24px; font-size:24px; color:var(--muted); gap:30px; line-height:1.32; }
 .chart-foot b{ color:var(--ink); font-weight:700; }
 
-/* ====== FLOATING CONTROLS ====== */
-.controls{ position:fixed; right:24px; bottom:22px; z-index:9999; display:flex; gap:12px; }
+/* ====== BARRA DE CONTROLES (integrada) ======
+   El slide ocupa todo el alto, así que unos botones flotantes le pisaban el
+   pie. deck-chrome.js le reserva esta banda al deck (lo escala) y la barra
+   vive abajo, fuera del slide. --deck-bar es la altura de esa banda. */
+:root{ --deck-bar:72px; }
+.controls{
+  position:fixed; left:0; right:0; bottom:0; height:var(--deck-bar); z-index:9999;
+  display:flex; gap:12px; align-items:center; justify-content:center;
+}
 .ctl{
   display:inline-flex; align-items:center; gap:10px;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size:15px; font-weight:700; letter-spacing:.01em;
   border-radius:999px; padding:13px 22px; cursor:pointer; border:none;
-  box-shadow:0 8px 24px rgba(10,10,12,.28); transition:background .2s, transform .12s, color .2s;
+  transition:background .2s, transform .12s, color .2s;
 }
 .ctl--primary{ color:#fff; background:var(--blue); }
 .ctl--primary:hover{ background:var(--cc-blue-deep); }
@@ -312,7 +322,7 @@ section{
 /* Mobile: dock controls as an integrated bottom bar over the letterbox margin */
 @media (max-width:680px){
   .controls{
-    left:0; right:0; bottom:0; gap:10px; justify-content:center;
+    left:0; right:0; bottom:0; gap:10px; justify-content:center; height:auto;
     padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));
     background:rgba(10,10,12,.6); backdrop-filter:blur(12px);
     -webkit-backdrop-filter:blur(12px);
