@@ -12,6 +12,13 @@
     deck.className = 'm-report';
     document.body.classList.add('m-mode');
   } else {
+    // Miniaturas ocultas por defecto (igual que los reportes); deck-stage
+    // recuerda la preferencia, así que sólo fijamos el default la 1ª vez.
+    try {
+      if (localStorage.getItem('deck-stage.railVisible') === null) {
+        localStorage.setItem('deck-stage.railVisible', '0');
+      }
+    } catch (e) {}
     var ds = document.createElement('deck-stage');
     ds.setAttribute('width', '1920');
     ds.setAttribute('height', '1080');

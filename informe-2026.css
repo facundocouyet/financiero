@@ -300,6 +300,10 @@ section{
 .ctl--ghost:hover{ background:var(--blue); color:#fff; }
 .ctl:active{ transform:scale(.97); }
 .ctl svg{ width:17px; height:17px; }
+/* Botón sólo-ícono (miniaturas). Cuando están visibles queda "activo". */
+.ctl--icon{ padding:11px 13px; }
+.ctl--icon svg{ width:18px; height:18px; }
+.ctl--icon[aria-pressed="true"]{ background:var(--blue); color:#fff; }
 @media print{ .controls{ display:none !important; } }
 /* Mobile: dock controls as an integrated bottom bar over the letterbox margin */
 @media (max-width:680px){

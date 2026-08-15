@@ -338,6 +338,22 @@
   }
   var ICON_LIST = svg('<path d="M3 5h18"></path><path d="M3 12h18"></path><path d="M3 19h18"></path>');
   var ICON_DOWN = svg('<path d="M12 3v12"></path><path d="m7 11 5 5 5-5"></path><path d="M5 21h14"></path>');
+  var ICON_RAIL = svg('<rect x="3" y="4" width="6" height="16" rx="1.5"></rect><path d="M13 4h8"></path><path d="M13 10h8"></path><path d="M13 14h8"></path><path d="M13 20h8"></path>');
+
+  /* Miniaturas (rail de deck-stage): ocultas por defecto para leer el informe
+     a pantalla completa. El botón las muestra/oculta y deck-stage recuerda la
+     preferencia (localStorage 'deck-stage.railVisible'), así que sólo fijamos
+     el default la primera vez. */
+  var RAIL_KEY = 'deck-stage.railVisible';
+  function railPref() {
+    try { return localStorage.getItem(RAIL_KEY) !== '0'; } catch (e) { return false; }
+  }
+  function railDefaultHidden() {
+    try { if (localStorage.getItem(RAIL_KEY) === null) localStorage.setItem(RAIL_KEY, '0'); } catch (e) {}
+  }
+  function railSet(on) {
+    window.postMessage({ type: '__deck_rail_visible', on: !!on }, '*');
+  }
 
   function mountControls(rep) {
     var home = '<a class="ctl ctl--ghost" href="index.html" aria-label="Volver al inicio">← Inicio</a>';
@@ -347,14 +363,33 @@
     } else if (rep.detail === 'summary') {
       ghost = '<button class="ctl ctl--ghost" id="btn-detalle" aria-label="Ver tabla por mes">' + ICON_LIST + 'Ver por mes</button>';
     }
+    var on = railPref();
+    var rail = '<button class="ctl ctl--ghost ctl--icon" id="btn-rail" aria-pressed="' + on + '"' +
+      ' aria-label="Mostrar u ocultar las miniaturas" title="Miniaturas (T)">' + ICON_RAIL + '</button>';
     var primary = '<button class="ctl ctl--primary" id="btn-print" aria-label="Descargar en PDF">' + ICON_DOWN + 'Descargar</button>';
     var c = document.createElement('div');
     c.className = 'controls';
-    c.innerHTML = home + ghost + primary;
+    c.innerHTML = home + rail + ghost + primary;
     document.body.appendChild(c);
     c.querySelector('#btn-print').addEventListener('click', function () { window.print(); });
     var bd = c.querySelector('#btn-detalle');
     if (bd) bd.addEventListener('click', function () { if (window.openDetalle) window.openDetalle(); });
+
+    var br = c.querySelector('#btn-rail');
+    function toggleRail() {
+      var next = br.getAttribute('aria-pressed') !== 'true';
+      br.setAttribute('aria-pressed', String(next));
+      railSet(next);
+    }
+    br.addEventListener('click', toggleRail);
+    // Atajo: T. Los de deck-stage (←/→, R, 1-9) siguen intactos.
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 't' && e.key !== 'T') return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+      toggleRail();
+    });
   }
 
   // ---- arranque ----
@@ -377,6 +412,8 @@
     if (!rep) { fail('Reporte no encontrado.'); return; }
     document.title = rep.title;
     var html = rep.slides.map(function (s) { return section(s, rep.screenLabel); }).join('');
+    // Antes de montar: deck-stage lee la preferencia del rail al inicializarse.
+    railDefaultHidden();
     document.getElementById('deck').innerHTML = '<deck-stage width="1920" height="1080">' + html + '</deck-stage>';
     if (rep.detail === 'month' && rep.detalle) {
       mountModal(monthModal(rep.screenLabel, rep.detalle));
