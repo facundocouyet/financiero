@@ -27,7 +27,11 @@
 *{ box-sizing:border-box; margin:0; padding:0; }
 
 deck-stage:not(:defined){ visibility:hidden; }
-deck-stage{ background:#000; }
+/* El slide es 16:9 fijo: lo que sobra del viewport es letterbox. En vez de
+   negro, se pinta del color del slide activo (report.js lo sincroniza en
+   cada cambio) para que no se vea margen. Este valor es el de arranque y el
+   fallback si el JS no corre: tiza, el fondo de la mayoría de los slides. */
+deck-stage{ background:var(--cc-cream); transition:background .18s ease; }
 
 section{
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
