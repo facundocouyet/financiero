@@ -1419,7 +1419,7 @@
     "costo": 61448.42,
     "pagado": 34434.3
    },
-   "nota": "La <b>caja récord del año</b>: entraron US$79.513 — el curso cobró US$64.172 de cuotas y los servicios sumaron US$15.341, con <b>Juan Carrizo</b> como cuenta nueva. Salió la mitad de lo que costó el mes, así que el saldo salta de US$35.250 a <b>US$80.328, máximo histórico</b>. El trabajo también cierra bien (+US$21.438), con el curso facturando US$68.092 reales (5 reservas caídas ya descontadas) y los socios subiendo su económico (Facu US$6.000, Fede y Juana US$5.500).",
+   "nota": "El <b>mejor resultado de caja del año</b> (+US$45.079): entraron US$79.513 — el curso cobró US$64.172 de cuotas y los servicios sumaron US$15.341, con <b>Juan Carrizo</b> como cuenta nueva. Salió la mitad de lo que costó el mes, así que el saldo salta de US$35.250 a <b>US$80.328, nuevo máximo</b>. El trabajo también cierra bien (+US$21.438), con el curso facturando US$68.092 reales (5 reservas caídas ya descontadas) y los socios subiendo su económico (Facu US$6.000, Fede y Juana US$5.500).",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -4685,7 +4685,7 @@
      "kicker": "Informe mensual · 2026",
      "no": "Mes 07",
      "month": "Julio",
-     "sub": "El mes de la <span class=\"em\">caja récord</span>: el curso cobra sus cuotas, los servicios hacen su mejor mes y el saldo salta a su <span class=\"em\">máximo histórico</span>.",
+     "sub": "El mes del <span class=\"em\">mejor resultado de caja</span>: el curso cobra sus cuotas, los servicios hacen su mejor mes y el saldo salta a un <span class=\"em\">nuevo máximo</span>.",
      "meta": [
       {
        "label": "Resultado del trabajo",
@@ -4758,7 +4758,7 @@
        "accent": true
       }
      ],
-     "foot": "<div><b>Las dos lecturas en azul y la caja en récord absoluto.</b> Entraron US$79.513 — cuotas del curso vendido en meses anteriores más el mejor mes de servicios del año — y salió la mitad. El saldo pasa de US$35.250 a US$80.328.</div>",
+     "foot": "<div><b>Las dos lecturas en azul y el mejor resultado de caja del año.</b> Entraron US$79.513 — cuotas del curso vendido en meses anteriores más el mejor mes de servicios del año — y salió la mitad. El saldo pasa de US$35.250 a US$80.328.</div>",
      "pageNum": "01"
     },
     {
@@ -4992,8 +4992,8 @@
      "label": "Cierre · Julio",
      "variant": "blue",
      "kicker": "06 · La lectura del mes",
-     "big": "La <span class=\"em\" style=\"color:#fff;\">caja récord</span> del año: el saldo toca su máximo histórico.",
-     "note": "Julio junta lo mejor de los dos mundos: el curso cobra US$64.172 de cuotas y los servicios suman US$15.341, con Juan Carrizo como cuenta nueva. Entraron US$79.513 — récord absoluto — y salió la mitad: el saldo salta de US$35.250 a US$80.328. El trabajo del mes también cierra bien (+US$21.438), con la facturación real del curso en US$68.092.",
+     "big": "El mejor <span class=\"em\" style=\"color:#fff;\">resultado de caja</span> del año: el saldo toca un nuevo máximo.",
+     "note": "Julio junta lo mejor de los dos mundos: el curso cobra US$64.172 de cuotas y los servicios suman US$15.341, con Juan Carrizo como cuenta nueva. Entraron US$79.513 y salió menos de la mitad: el saldo salta de US$35.250 a US$80.328. El trabajo del mes también cierra bien (+US$21.438), con la facturación real del curso en US$68.092.",
      "pageLabel": "07 · Julio 2026",
      "noteOpacity": "0.85"
     }
@@ -6823,7 +6823,7 @@
       "href": "mes.html?m=julio",
       "no": "07",
       "month": "Julio",
-      "head": "La caja récord del año: cuotas del curso + el mejor mes de servicios. Saldo en máximo histórico.",
+      "head": "El mejor resultado de caja del año: cuotas del curso + el mejor mes de servicios. Saldo en nuevo máximo.",
       "metrics": [
        {
         "label": "Trabajo",
