@@ -9,7 +9,7 @@
    "Gestión 2026.xlsx (libro diario + económico + cuentas)",
    "Facturación Real - Cáscara.xlsx (curso B2C: señas y reservas caídas)"
   ],
-  "auditoria": "Números reconciliados (ago-2026): cadena de saldo exacta; ingresos/egresos/resultados cuadran. Facturación del curso B2C en criterio REAL (Facturación Real - Cáscara.xlsx): se restan las reservas caídas y se suma el cash cobrado de sus señas. Febrero: el curso figura por US$45.244 (cobró US$35.896 en el mes); el resto se cobra en cuotas más adelante. Agosto: la planilla abre en US$79.207 pero julio cierra en US$80.328; se corrigió al cierre de julio y la diferencia (US$1.121) queda anotada. Curso B2C de agosto provisorio (con señas). Abr–Jul: Herramientas y Pauta económico igualados a lo pagado (planilla corregida sep-2026)."
+  "auditoria": "Números reconciliados (sep-2026): cadena de saldo exacta; ingresos/egresos/resultados cuadran. Facturación del curso B2C en criterio REAL (Facturación Real - Cáscara.xlsx): se restan las reservas caídas y se suma el cash cobrado de sus señas. Febrero: el curso figura por US$45.244 (cobró US$35.896 en el mes); el resto se cobra en cuotas más adelante. Agosto: la planilla abre en US$79.207 pero julio cierra en US$80.328; se corrigió al cierre de julio y la diferencia (US$1.121) queda anotada. Curso B2C de julio y agosto en criterio real (5 y 4 reservas caídas). Abr–Jul: Herramientas y Pauta económico igualados a lo pagado (planilla corregida sep-2026)."
  },
  "glosario": {
   "trabajo": "El trabajo del mes = lo facturado por el trabajo del mes + sus costos, se haya cobrado/pagado o no. ¿El negocio da plata? NO usar 'devengado'.",
@@ -19,7 +19,7 @@
   "economicoSocios": "El económico de cada socio/persona = lo que generó su trabajo en los clientes del mes (NO un retiro fijo).",
   "cuentaPersonal": "Salvedades 2025, ya saldadas en cero. No darle importancia en la lectura del negocio.",
   "b2c": "Curso B2C 'La cáscara' = producto propio. Costos: Comercial + Distribución (rev-share Rein 30% cruzado, luego Franco).",
-  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$435.909 = 401.375 + 34.534, ya sin las reservas caídas del curso; agosto provisorio). A la cuenta entran además los aportes de socios (US$12.650, no son ventas), por eso el total que entró en caja es US$414.025."
+  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$428.633 = 401.375 + 27.258, ya sin las reservas caídas del curso). A la cuenta entran además los aportes de socios (US$12.650, no son ventas), por eso el total que entró en caja es US$414.025."
  },
  "anioInicio": {
   "saldoInicial": -5428.2
@@ -1469,9 +1469,9 @@
    "key": "agosto",
    "label": "Agosto",
    "n": 8,
-   "facturado": 100376,
+   "facturado": 93100,
    "costos": 58725,
-   "resTrabajo": 41651,
+   "resTrabajo": 34375,
    "cobrado": 86133,
    "pagado": 75265,
    "resCaja": 10868,
@@ -1482,13 +1482,10 @@
     "Fede": 5551,
     "Juana": 3822
    },
-   "provisorio": {
-    "b2c": "Facturación del curso con señas (US$54.300): falta descontar las reservas caídas de agosto."
-   },
    "ingresos": [
     {
      "n": "La cáscara · B2C",
-     "eco": 54300,
+     "eco": 47024,
      "fin": 44790,
      "tag": "b2c"
     },
@@ -1644,14 +1641,14 @@
     }
    ],
    "totalIngresos": {
-    "facturado": 100375.62,
+    "facturado": 93099.62,
     "cobrado": 86133.06
    },
    "totalEgresos": {
     "costo": 58725.42,
     "pagado": 75264.54
    },
-   "nota": "El <b>mes de más facturación del año</b>: US$100.376 de trabajo, con la nueva unidad de negocio <b>0800</b> (US$18.422) y F3 · Founder (US$17.000). El trabajo cierra en <b>+US$41.651</b>. La caja da +US$10.868: entraron US$86.133 y salieron US$75.265, que incluyen un <b>reintegro de US$10.000 a un cliente de 0800</b>. El saldo pasa de US$80.328 a <b>US$91.197, nuevo máximo</b>. Provisorio: el curso figura con señas (US$54.300); falta descontar las reservas caídas del mes. Anotación: la planilla abre agosto en US$79.207, pero julio cierra en US$80.328; se corrigió al cierre de julio (diferencia US$1.121, a revisar en Gestión).",
+   "nota": "El <b>segundo mes de más facturación del año</b> (solo mayo facturó más): US$93.100 de trabajo, con la nueva unidad de negocio <b>0800</b> (US$18.422) y F3 · Founder (US$17.000). El trabajo cierra en <b>+US$34.375</b>. La caja da +US$10.868: entraron US$86.133 y salieron US$75.265, que incluyen un <b>reintegro de US$10.000 a un cliente de 0800</b>. El saldo pasa de US$80.328 a <b>US$91.197, nuevo máximo</b>. El curso va en criterio real: US$47.024 (descuenta 4 reservas caídas y suma el cash de sus señas). Anotación: la planilla abre agosto en US$79.207, pero julio cierra en US$80.328; se corrigió al cierre de julio (diferencia US$1.121, a revisar en Gestión).",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -1867,9 +1864,8 @@
   },
   {
    "mes": "Agosto",
-   "facturado": 54300,
-   "cobrado": 44790,
-   "provisorio": true
+   "facturado": 47024,
+   "cobrado": 44790
   }
  ],
  "charts": {
@@ -5179,11 +5175,11 @@
      "kicker": "Informe mensual · 2026",
      "no": "Mes 08",
      "month": "Agosto",
-     "sub": "El mes de <span class=\"em\">más facturación</span> del año: nace la unidad 0800 y el saldo toca un nuevo <span class=\"em\">máximo</span>.",
+     "sub": "Nace la unidad <span class=\"em\">0800</span>, el segundo mes de más facturación del año y el saldo toca un nuevo <span class=\"em\">máximo</span>.",
      "meta": [
       {
        "label": "Resultado del trabajo",
-       "value": "+US$41.651"
+       "value": "+US$34.375"
       },
       {
        "label": "Resultado de caja",
@@ -5202,11 +5198,11 @@
      "title": "El trabajo y la <span class=\"em\">caja</span>",
      "trabajo": {
       "tag": "El trabajo del mes",
-      "sub": "Lo facturado por el trabajo del mes y sus costos. El curso figura provisorio, con señas.",
+      "sub": "Lo facturado por el trabajo del mes y sus costos. El curso va en criterio real, sin las reservas caídas.",
       "io": [
        {
         "l": "Facturado",
-        "v": "US$100.376"
+        "v": "US$93.100"
        },
        {
         "l": "Costos",
@@ -5214,7 +5210,7 @@
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$41.651"
+      "resFig": "+US$34.375"
      },
      "caja": {
       "tag": "La caja del mes",
@@ -5252,7 +5248,7 @@
        "accent": true
       }
      ],
-     "foot": "<div><b>Las dos lecturas en azul.</b> Récord de facturación (US$100.376) con la unidad 0800 sumando desde el primer mes. La caja crece menos (+US$10.868) porque salió un reintegro de US$10.000. Anotación: la planilla abre agosto en US$79.207; se tomó el cierre de julio (US$80.328), diferencia de US$1.121 a revisar en Gestión.</div>",
+     "foot": "<div><b>Las dos lecturas en azul.</b> US$93.100 facturados — el segundo mejor mes del año, detrás de mayo — con la unidad 0800 sumando desde el primer mes. La caja crece menos (+US$10.868) porque salió un reintegro de US$10.000. Anotación: la planilla abre agosto en US$79.207; se tomó el cierre de julio (US$80.328), diferencia de US$1.121 a revisar en Gestión.</div>",
      "pageNum": "01"
     },
     {
@@ -5261,8 +5257,8 @@
      "kicker": "02 · Ingresos",
      "title": "De dónde entró la plata",
      "totals": {
-      "fact": "US$100.376",
-      "factSmall": "Trabajo facturado en agosto (curso provisorio)",
+      "fact": "US$93.100",
+      "factSmall": "Trabajo facturado en agosto",
       "cob": "US$86.133",
       "cobSmall": "Incluye cuotas B2C de ventas previas"
      },
@@ -5305,7 +5301,7 @@
        "amountSpan": "4% de la caja"
       }
      ],
-     "foot": "<div><b>Nace 0800</b>, una unidad de negocio nueva: US$18.422 en su primer mes, facturados y cobrados completos. El curso sigue siendo la mitad de la caja (US$44.790). <b>F3 · Founder</b> factura US$17.000 y cobra US$14.129.</div>",
+     "foot": "<div><b>Nace 0800</b>, una unidad de negocio nueva: US$18.422 en su primer mes, facturados y cobrados completos. El curso sigue siendo la mitad de la caja (US$44.790). <b>F3 · Founder</b> factura US$17.000 y cobra US$14.129. La facturación real del curso en agosto: US$47.024, con 4 reservas caídas ya descontadas.</div>",
      "footMarginTop": "24px",
      "pageNum": "02"
     },
@@ -5500,8 +5496,8 @@
      "label": "Cierre · Agosto",
      "variant": "blue",
      "kicker": "06 · La lectura del mes",
-     "big": "Récord de facturación, una <span class=\"em\" style=\"color:#fff;\">unidad nueva</span> y el saldo en su máximo.",
-     "note": "Agosto factura US$100.376 — el mejor mes del año — con 0800 debutando en US$18.422. El trabajo cierra en +US$41.651. La caja suma +US$10.868 después de un reintegro de US$10.000 a un cliente de 0800, y el saldo llega a US$91.197. El curso figura provisorio (US$54.300 con señas) hasta descontar las reservas caídas del mes.",
+     "big": "Una <span class=\"em\" style=\"color:#fff;\">unidad nueva</span>, el segundo mejor mes de facturación y el saldo en su máximo.",
+     "note": "Agosto factura US$93.100 — el segundo mejor mes del año, detrás de mayo — con 0800 debutando en US$18.422. El trabajo cierra en +US$34.375. La caja suma +US$10.868 después de un reintegro de US$10.000 a un cliente de 0800, y el saldo llega a US$91.197. El curso va en criterio real: US$47.024, con 4 reservas caídas descontadas.",
      "pageLabel": "08 · Agosto 2026",
      "noteOpacity": "0.85"
     }
@@ -5510,7 +5506,7 @@
     "ingresos": [
      {
       "n": "La cáscara · B2C",
-      "eco": 54300,
+      "eco": 47024,
       "fin": 44790,
       "tag": "b2c"
      },
@@ -5665,11 +5661,11 @@
       "tag": "dev"
      }
     ],
-    "totIngEco": 100375.62,
+    "totIngEco": 93099.62,
     "totIngFin": 86133.06,
     "totEgrEco": 58725.42,
     "totEgrFin": 75264.54,
-    "nota": "<b>Facturado / del mes</b> = el trabajo de agosto y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió. <b>Provisorio:</b> el curso B2C figura con señas (US$54.300); falta descontar las reservas caídas del mes. La devolución de US$10.000 es un reintegro a un cliente de 0800. <b>Anotación:</b> la planilla abre agosto en US$79.207; se tomó el cierre de julio (US$80.328) — diferencia US$1.121 a revisar en Gestión. Saldo: US$80.328 → US$91.197."
+    "nota": "<b>Facturado / del mes</b> = el trabajo de agosto y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió. El curso B2C va en criterio <b>real</b>: US$47.024 facturados (descuenta 4 reservas caídas y suma el cash de sus señas). La devolución de US$10.000 es un reintegro a un cliente de 0800. <b>Anotación:</b> la planilla abre agosto en US$79.207; se tomó el cierre de julio (US$80.328) — diferencia US$1.121 a revisar en Gestión. Saldo: US$80.328 → US$91.197."
    }
   },
   "q1": {
@@ -6539,8 +6535,8 @@
    "kpis": [
     {
      "l": "Facturación total",
-     "v": "US$435.909",
-     "s": "Todo el <b>trabajo facturado</b> en 8 meses, ya <b>sin las reservas caídas</b> del curso (agosto, provisorio)."
+     "v": "US$428.633",
+     "s": "Todo el <b>trabajo facturado</b> en 8 meses, ya <b>sin las reservas caídas</b> del curso."
     },
     {
      "l": "Cobrado de eso",
@@ -6549,7 +6545,7 @@
     },
     {
      "l": "Falta cobrar",
-     "v": "US$34.534",
+     "v": "US$27.258",
      "s": "<b>Facturado que todavía no entró</b> — cuotas del curso ya vendidas."
     },
     {
@@ -6681,16 +6677,16 @@
       "m": "Julio"
      },
      {
-      "v": "US$100.376",
+      "v": "US$93.100",
       "vCob": "US$86.133",
-      "factH": 129,
+      "factH": 120,
       "cobH": 111,
       "m": "Agosto"
      }
     ],
-    "foot": "Agosto marcó el récord de facturación (US$100.376, con el curso provisorio) y de caja (US$86.133). Cuando la barra llena supera a la de contorno, se facturó más de lo que se cobró: queda plata por entrar."
+    "foot": "Mayo sigue siendo el récord de facturación (US$94.773), con agosto muy cerca (US$93.100); agosto marcó el récord de caja (US$86.133). Cuando la barra llena supera a la de contorno, se facturó más de lo que se cobró: queda plata por entrar."
    },
-   "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$435.909 = 401.375 + 34.534). A la cuenta entraron US$414.025 en total: esos US$401.375 de facturación más US$12.650 de aportes de socios, que no son ventas."
+   "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$428.633 = 401.375 + 27.258). A la cuenta entraron US$414.025 en total: esos US$401.375 de facturación más US$12.650 de aportes de socios, que no son ventas."
   },
   "sections": [
    {
@@ -6846,11 +6842,11 @@
       "href": "mes.html?m=agosto",
       "no": "08",
       "month": "Agosto",
-      "head": "Récord de facturación: nace la unidad 0800 y el saldo toca un nuevo máximo.",
+      "head": "Nace la unidad 0800, el segundo mejor mes de facturación y el saldo toca un nuevo máximo.",
       "metrics": [
        {
         "label": "Trabajo",
-        "value": "+US$41.651",
+        "value": "+US$34.375",
         "cls": "pos"
        },
        {
