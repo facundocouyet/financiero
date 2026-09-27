@@ -9,7 +9,10 @@ window.CC = (function () {
   // Load the single source of truth once; cached promise thereafter.
   function load() {
     if (!_data) {
-      _data = fetch('data/informes-2026.json').then(function (r) {
+      // 'no-cache' revalida siempre contra el server (304 si no cambió): el sitio
+      // muestra el dato nuevo apenas se publica, sin esperar los 10 min de caché
+      // que pone GitHub Pages.
+      _data = fetch('data/informes-2026.json', { cache: 'no-cache' }).then(function (r) {
         if (!r.ok) throw new Error('No se pudo cargar el JSON de datos (' + r.status + ')');
         return r.json();
       });
