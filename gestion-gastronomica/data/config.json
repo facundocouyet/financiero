@@ -1,0 +1,112 @@
+{
+ "titulo": "Gestión gastronómica",
+ "moneda": "$",
+ "apiUrl": "",
+ "sucursales": [
+  { "key": "palermo",  "label": "Palermo",  "diasCerrado": [] },
+  { "key": "belgrano", "label": "Belgrano", "diasCerrado": [] },
+  { "key": "centro",   "label": "Centro",   "diasCerrado": [0] }
+ ],
+ "cajas": [
+  { "key": "efectivo", "label": "Efectivo" },
+  { "key": "usd",      "label": "Caja USD (en $)" },
+  { "key": "mp",       "label": "MercadoPago" },
+  { "key": "banco",    "label": "Banco" }
+ ],
+ "saldosIniciales": {
+  "fecha": "2026-01-01",
+  "porSucursal": {
+   "palermo":  { "efectivo": 1500000, "usd": 3000000, "mp": 2000000, "banco": 25000000 },
+   "belgrano": { "efectivo": 1000000, "usd": 1500000, "mp": 1500000, "banco": 15000000 },
+   "centro":   { "efectivo":  800000, "usd":       0, "mp": 1000000, "banco": 10000000 }
+  }
+ },
+ "ventas": [
+  { "key": "local",     "label": "Local",            "ayuda": "Lo que se vende en el mostrador o en el salón. Se carga todos los días con el cierre de caja." },
+  { "key": "mayorista", "label": "Mayorista",        "ayuda": "Ventas a otros comercios (cafeterías, restaurantes). Suelen cobrarse a 15 o 30 días." },
+  { "key": "delivery",  "label": "Delivery (apps)",  "ayuda": "PedidosYa, Rappi, etc. La app liquida la plata días después de la venta." }
+ ],
+ "grupos": [
+  { "key": "sueldos", "label": "Sueldos", "rubros": [
+   { "key": "sueldos_atencion",   "label": "Atención al cliente", "persona": true, "recurrente": true, "ayuda": "Sueldo de quien atiende al público: mostrador, caja, mozos." },
+   { "key": "sueldos_produccion", "label": "Producción",          "persona": true, "recurrente": true, "ayuda": "Sueldo de quien elabora: cocina, heladería, pastelería." },
+   { "key": "sueldos_limpieza",   "label": "Limpieza",            "persona": true, "recurrente": true, "ayuda": "Sueldo del personal de limpieza propio." },
+   { "key": "sueldos_eventuales", "label": "Eventuales",          "persona": true, "ayuda": "Gente que viene por un día o una temporada (extras de fin de semana, refuerzo de verano)." }
+  ]},
+  { "key": "edilicios", "label": "Edilicios", "rubros": [
+   { "key": "alquiler", "label": "Alquileres",           "recurrente": true, "ayuda": "El alquiler del local. Va en el mes que corresponde al alquiler, aunque se pague adelantado o atrasado." },
+   { "key": "expensas", "label": "Expensas y otros",     "ayuda": "Expensas, seguridad del edificio, gastos del consorcio." }
+  ]},
+  { "key": "proveedores", "label": "Proveedores (mercadería)", "costo": true, "rubros": [
+   { "key": "almacen",       "label": "Almacén",              "ayuda": "Secos: harina, azúcar, aceite, conservas. Ej: Makro, mayoristas de almacén." },
+   { "key": "bebidas",       "label": "Bebidas sin alcohol",  "ayuda": "Gaseosas, aguas, jugos envasados para revender." },
+   { "key": "cafeteria",     "label": "Cafetería",            "ayuda": "Café, té, cacao y sus insumos. Ej: Segafredo." },
+   { "key": "congelados",    "label": "Congelados",           "ayuda": "Productos congelados: frutas, masas, productos terminados." },
+   { "key": "dietetica",     "label": "Dietética y decoración","ayuda": "Frutos secos, chips, salsas y toppings para decorar." },
+   { "key": "huevos",        "label": "Huevos",               "ayuda": "Compras de huevos." },
+   { "key": "lacteos",       "label": "Lácteos",              "ayuda": "Leche, crema, manteca, quesos. Suele ser de los rubros más grandes." },
+   { "key": "liquidos",      "label": "Líquidos",             "ayuda": "Jugos y bases líquidas para preparar (no para revender)." },
+   { "key": "papeleria",     "label": "Papelería",            "ayuda": "Rollos de impresora fiscal, servilletas impresas, etiquetas." },
+   { "key": "prefabricados", "label": "Prefabricados",        "ayuda": "Productos que se compran ya hechos para vender: tortas, alfajores, panificados." },
+   { "key": "premezcla",     "label": "Premezcla",            "ayuda": "Bases y premezclas para helado o pastelería. Ej: Alyser." },
+   { "key": "verduleria",    "label": "Verdulería",           "ayuda": "Frutas y verduras frescas." }
+  ]},
+  { "key": "servicios", "label": "Servicios públicos", "rubros": [
+   { "key": "electricidad", "label": "Electricidad",      "recurrente": true, "ayuda": "Factura de luz. El mes es el del CONSUMO que figura en la factura, no el del pago." },
+   { "key": "gas",          "label": "Gas",               "recurrente": true, "ayuda": "Factura de gas. El mes es el del consumo." },
+   { "key": "agua",         "label": "Agua",              "ayuda": "Factura de agua (AySA o la que corresponda)." },
+   { "key": "internet",     "label": "Internet y teléfono", "recurrente": true, "ayuda": "Internet, línea fija, celulares de la empresa." }
+  ]},
+  { "key": "operativos", "label": "Costos operativos", "rubros": [
+   { "key": "packaging",     "label": "Insumos y packaging",     "ayuda": "Potes, vasos, cucharitas, bolsas, cajas de delivery." },
+   { "key": "mantenimiento", "label": "Mantenimiento",           "ayuda": "Arreglos: service de máquinas y cámaras de frío, plomero, electricista." },
+   { "key": "otros_personal","label": "Otros gastos en personal","ayuda": "Uniformes, capacitaciones, viáticos, comida del personal." },
+   { "key": "otros_operativos","label": "Otros costos operativos","ayuda": "Lo operativo que no entra en otro rubro (limpieza, fumigación, etc.)." }
+  ]}
+ ],
+ "gruposDebajo": [
+  { "key": "administrativos", "label": "Gastos administrativos", "rubros": [
+   { "key": "sueldos_admin",  "label": "Sueldos administración", "persona": true, "recurrente": true, "ayuda": "Sueldos de administración y gerencia." },
+   { "key": "honorarios",     "label": "Honorarios",             "recurrente": true, "ayuda": "Contador, abogado, consultoras." },
+   { "key": "otros_admin",    "label": "Otros gastos administrativos", "ayuda": "Sistema de gestión, librería de oficina, trámites." },
+   { "key": "seguros",        "label": "Seguros y habilitaciones", "ayuda": "Seguro del local, habilitaciones municipales, matafuegos." },
+   { "key": "comisiones",     "label": "Comisiones",             "ayuda": "Comisiones de tarjetas, MercadoPago y apps de delivery." }
+  ]},
+  { "key": "marketing", "label": "Marketing y publicidad", "rubros": [
+   { "key": "rrpp",       "label": "RRPP",              "ayuda": "Canjes, influencers, eventos de prensa." },
+   { "key": "publicidad", "label": "Publicidad y redes","ayuda": "Pauta en Instagram/Meta/Google, community manager." },
+   { "key": "grafica",    "label": "Gráfica",           "ayuda": "Cartelería, menús, folletos impresos." }
+  ]},
+  { "key": "impuestos", "label": "Impuestos, tasas y contribuciones", "impuesto": true, "rubros": [
+   { "key": "f931",       "label": "Formulario 931 (cargas sociales)", "recurrente": true, "ayuda": "Aportes y contribuciones de los sueldos. Va en el mes de los sueldos, aunque se pague el mes siguiente." },
+   { "key": "sindicato",  "label": "Sindicato",           "ayuda": "Cuota sindical y aportes al gremio." },
+   { "key": "art",        "label": "ART",                 "ayuda": "Seguro de riesgos del trabajo." },
+   { "key": "ley25413",   "label": "Impuesto a los débitos y créditos (banco)", "ayuda": "El 'impuesto al cheque' que descuenta el banco. Se toma del resumen bancario." },
+   { "key": "iibb",       "label": "Ingresos Brutos",     "recurrente": true, "ayuda": "Ingresos Brutos del mes (lo que liquida el contador o retienen bancos y apps)." },
+   { "key": "iva",        "label": "IVA",                 "ayuda": "Saldo de IVA a pagar del mes." },
+   { "key": "autonomos",  "label": "Autónomos / monotributo", "ayuda": "Aportes de los socios." },
+   { "key": "tasas",      "label": "Tasas municipales",   "ayuda": "Seguridad e higiene, publicidad y propaganda, ABL." },
+   { "key": "otros_imp",  "label": "Otros impuestos",     "ayuda": "Cualquier otro impuesto o tasa." }
+  ]},
+  { "key": "reinversion", "label": "Reinversión", "rubros": [
+   { "key": "rei_edificio",   "label": "Edificio",   "ayuda": "Obras y reformas del local." },
+   { "key": "rei_produccion", "label": "Producción", "ayuda": "Máquinas y equipos nuevos: heladeras, máquinas de helado, hornos." },
+   { "key": "rei_mobiliario", "label": "Mobiliario", "ayuda": "Mesas, sillas, exhibidores, decoración permanente." }
+  ]}
+ ],
+ "medios": [
+  { "key": "efectivo", "label": "Efectivo" },
+  { "key": "mp",       "label": "MercadoPago" },
+  { "key": "banco",    "label": "Banco / transferencia / tarjeta" },
+  { "key": "usd",      "label": "Dólares (en $)" },
+  { "key": "cheque",   "label": "Cheque" }
+ ],
+ "comprobantes": [
+  { "key": "A",      "label": "Factura A" },
+  { "key": "B",      "label": "Factura B" },
+  { "key": "C",      "label": "Factura C" },
+  { "key": "ticket", "label": "Ticket" },
+  { "key": "recibo", "label": "Recibo" },
+  { "key": "sin",    "label": "Sin comprobante" }
+ ]
+}

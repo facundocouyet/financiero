@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestión gastronómica</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23184f95'/%3E%3Cpath d='M9 22V12m7 10V8m7 14v-6' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="marca" href="#tablero">Gestión <em>gastronómica</em></a>
+    <div class="filtros-top">
+      <label>Local <select id="f-suc"></select></label>
+      <label>Mes <select id="f-mes"></select></label>
+    </div>
+  </div>
+  <nav id="nav" class="nav" aria-label="Secciones"></nav>
+</header>
+
+<main id="vista" class="wrap"><section class="card"><p class="sub">Cargando…</p></section></main>
+
+<footer class="wrap pie"><span id="modo"></span></footer>
+
+<dialog id="dlg-pago">
+  <form id="form-pago" method="dialog">
+    <h2>Registrar el pago</h2>
+    <p class="sub" data-que></p>
+    <div class="fila">
+      <label>Con qué <select name="medio"></select></label>
+      <label>Cuándo (si es cheque, el vencimiento) <input type="date" name="fecha"></label>
+      <label data-si="emision" hidden>Se entregó el <input type="date" name="emision"></label>
+    </div>
+    <div class="acciones">
+      <button type="button" class="btn pri" data-accion="pago-ok">Guardar pago</button>
+      <button type="button" class="btn ghost" data-accion="pago-cancelar">Cancelar</button>
+    </div>
+  </form>
+</dialog>
+
+<div id="toasts" class="toasts" aria-live="polite"></div>
+
+<script src="js/core.js"></script>
+<script src="js/checks.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/informes.js"></script>
+<script src="js/carga.js"></script>
+<script src="js/revision.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
