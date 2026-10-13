@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestión de sucursales</title>
+<link rel="stylesheet" href="ds/tokens/fonts.css">
+<link rel="stylesheet" href="ds/tokens/colors.css">
+<link rel="stylesheet" href="ds/tokens/typography.css">
+<link rel="stylesheet" href="ds/tokens/spacing.css">
+<link rel="stylesheet" href="css/gestion.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="g-head">
+    <div>
+      <div class="kicker">Gestión gastronómica</div>
+      <h1>Lo que <span class="em">gana</span> cada local</h1>
+      <p class="lede">Cargás cada factura con su rubro y el mes al que pertenece. El sistema arma el <b>económico</b> (lo que el local ganó en el mes) y lo compara con el <b>financiero</b> (la plata que realmente entró y salió).</p>
+    </div>
+  </header>
+
+  <div class="g-bar">
+    <label>Sucursal <select id="f-suc"></select></label>
+    <label>Mes <select id="f-mes"></select></label>
+    <span class="g-mode" id="g-mode"></span>
+  </div>
+
+  <nav class="g-tabs" role="tablist">
+    <button data-tab="economico" class="on">Informe económico</button>
+    <button data-tab="comparacion">Económico vs financiero</button>
+    <button data-tab="locales">Rentabilidad por local</button>
+    <button data-tab="facturas">Cargar facturas</button>
+  </nav>
+
+  <main id="g-view"></main>
+</div>
+<script src="js/gestion.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+ "titulo": "Gestión de sucursales",
+ "moneda": "$",
+ "apiUrl": "",
+ "sucursales": [
+  { "key": "palermo",  "label": "Palermo" },
+  { "key": "belgrano", "label": "Belgrano" },
+  { "key": "centro",   "label": "Centro" }
+ ],
+ "grupos": [
+  { "key": "ventas",     "label": "Ventas",                   "signo": 1 },
+  { "key": "cmv",        "label": "Costo de mercadería (CMV)", "signo": -1 },
+  { "key": "personal",   "label": "Personal",                 "signo": -1 },
+  { "key": "operativos", "label": "Gastos operativos",        "signo": -1 }
+ ],
+ "rubros": [
+  { "key": "ventas_salon",      "label": "Ventas salón",          "grupo": "ventas",     "tipo": "ingreso" },
+  { "key": "ventas_delivery",   "label": "Ventas delivery",       "grupo": "ventas",     "tipo": "ingreso" },
+  { "key": "eventos",           "label": "Eventos",               "grupo": "ventas",     "tipo": "ingreso" },
+  { "key": "insumos_alimentos", "label": "Insumos alimentos",     "grupo": "cmv",        "tipo": "egreso" },
+  { "key": "bebidas",           "label": "Bebidas",               "grupo": "cmv",        "tipo": "egreso" },
+  { "key": "descartables",      "label": "Descartables",          "grupo": "cmv",        "tipo": "egreso" },
+  { "key": "sueldos",           "label": "Sueldos",               "grupo": "personal",   "tipo": "egreso" },
+  { "key": "cargas_sociales",   "label": "Cargas sociales",       "grupo": "personal",   "tipo": "egreso" },
+  { "key": "alquiler",          "label": "Alquiler",              "grupo": "operativos", "tipo": "egreso" },
+  { "key": "servicios",         "label": "Servicios (luz, gas, agua)", "grupo": "operativos", "tipo": "egreso" },
+  { "key": "mantenimiento",     "label": "Mantenimiento",         "grupo": "operativos", "tipo": "egreso" },
+  { "key": "marketing",         "label": "Marketing",             "grupo": "operativos", "tipo": "egreso" },
+  { "key": "comisiones",        "label": "Comisiones apps y tarjetas", "grupo": "operativos", "tipo": "egreso" },
+  { "key": "impuestos",         "label": "Impuestos y tasas",     "grupo": "operativos", "tipo": "egreso" }
+ ]
+}

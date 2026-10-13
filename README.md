@@ -97,3 +97,31 @@ Glosario que reemplaza la jerga contable (ver `glosario` en el JSON):
 ---
 
 Diseño y datos: Cáscara Collective · Planillas **Informes 2026** y **Gestión 2026**.
+
+---
+
+## Gestión de sucursales (`gestion.html`) — prototipo
+
+Sistema aparte de los informes de arriba, pensado para **sucursales de gastronomía**: se carga cada
+factura con su **rubro** y su **mes económico**, y el sistema arma el **informe económico** y lo compara
+con el **financiero**.
+
+| Criterio | Qué suma |
+|---|---|
+| **Económico** | facturas cuyo *mes económico* es el mes (se hayan pagado o no) |
+| **Financiero** | facturas cuya *fecha de pago* cae en el mes |
+
+Vistas: informe económico (estado de resultados, food cost, costo laboral) · económico vs financiero
+(lado a lado + qué facturas explican la diferencia) · rentabilidad por local (comparativa + consolidado) ·
+carga de facturas (alta, marcar pagada, borrar, exportar CSV).
+
+| Pieza | Qué hace |
+|---|---|
+| `data/gestion-config.json` | Sucursales, rubros y grupos del estado de resultados, moneda, `apiUrl`. |
+| `data/gestion-demo.json` | Facturas de ejemplo (3 locales, jul–sep 2026). |
+| `js/gestion.js` / `css/gestion.css` | Cálculo y render. |
+| `apps-script-gestion.gs` | Backend opcional en Google Sheets (leer / agregar / editar / borrar facturas). |
+
+**Datos:** con `apiUrl` vacío, las facturas se guardan en el navegador (modo demo, no se comparten).
+Para que todas las sucursales carguen en un mismo lugar, publicar `apps-script-gestion.gs` y pegar su
+URL en `apiUrl`. Esa URL no tiene login: cualquiera que la tenga puede leer y cargar.
