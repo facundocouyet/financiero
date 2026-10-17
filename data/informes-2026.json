@@ -2015,6 +2015,15 @@
      "pageNum": "02"
     },
     {
+     "type": "unidades",
+     "label": "Unidades de negocio",
+     "month": "enero",
+     "kicker": "Unidades de negocio",
+     "title": "Quién trajo cada <span class=\"em\">dólar</span>",
+     "sub": "Cada ingreso de la planilla se asigna a una unidad. El porcentaje se lee sobre lo facturado del mes.",
+     "foot": "El costo directo solo está cargado para el curso B2C (comercial, herramientas y distribución). El resto se asigna en <b>Gestión</b>."
+    },
+    {
      "type": "egresos",
      "label": "En qué se fue",
      "kicker": "03 · Egresos",
@@ -2413,6 +2422,15 @@
      "foot": "<b>La línea B2C fue 8 de cada 10 dólares que entraron.</b> Por primera vez el producto propio supera a todo el servicio junto.",
      "footMarginTop": "24px",
      "pageNum": "02"
+    },
+    {
+     "type": "unidades",
+     "label": "Unidades de negocio",
+     "month": "febrero",
+     "kicker": "Unidades de negocio",
+     "title": "Quién trajo cada <span class=\"em\">dólar</span>",
+     "sub": "Cada ingreso de la planilla se asigna a una unidad. El porcentaje se lee sobre lo facturado del mes.",
+     "foot": "El costo directo solo está cargado para el curso B2C (comercial, herramientas y distribución). El resto se asigna en <b>Gestión</b>."
     },
     {
      "type": "b2c",
@@ -2887,6 +2905,15 @@
      "pageNum": "02"
     },
     {
+     "type": "unidades",
+     "label": "Unidades de negocio",
+     "month": "marzo",
+     "kicker": "Unidades de negocio",
+     "title": "Quién trajo cada <span class=\"em\">dólar</span>",
+     "sub": "Cada ingreso de la planilla se asigna a una unidad. El porcentaje se lee sobre lo facturado del mes.",
+     "foot": "El costo directo solo está cargado para el curso B2C (comercial, herramientas y distribución). El resto se asigna en <b>Gestión</b>."
+    },
+    {
      "type": "b2c",
      "label": "La línea B2C",
      "kicker": "03 · Producto propio",
@@ -3356,6 +3383,15 @@
      "pageNum": "02"
     },
     {
+     "type": "unidades",
+     "label": "Unidades de negocio",
+     "month": "abril",
+     "kicker": "Unidades de negocio",
+     "title": "Quién trajo cada <span class=\"em\">dólar</span>",
+     "sub": "Cada ingreso de la planilla se asigna a una unidad. El porcentaje se lee sobre lo facturado del mes.",
+     "foot": "El costo directo solo está cargado para el curso B2C (comercial, herramientas y distribución). El resto se asigna en <b>Gestión</b>."
+    },
+    {
      "type": "b2c",
      "label": "La línea B2C",
      "kicker": "03 · Producto propio",
@@ -3816,6 +3852,15 @@
      "foot": "<b>El curso B2C fue el 83% de la caja.</b> Aparece <b>Nivel 2</b>: la primera cohorte del nivel siguiente — 4 alumnas × US$2.000, la mitad ya cobrada.",
      "footMarginTop": "24px",
      "pageNum": "02"
+    },
+    {
+     "type": "unidades",
+     "label": "Unidades de negocio",
+     "month": "mayo",
+     "kicker": "Unidades de negocio",
+     "title": "Quién trajo cada <span class=\"em\">dólar</span>",
+     "sub": "Cada ingreso de la planilla se asigna a una unidad. El porcentaje se lee sobre lo facturado del mes.",
+     "foot": "El costo directo solo está cargado para el curso B2C (comercial, herramientas y distribución). El resto se asigna en <b>Gestión</b>."
     },
     {
      "type": "b2c",
@@ -4320,6 +4365,15 @@
      "pageNum": "02"
     },
     {
+     "type": "unidades",
+     "label": "Unidades de negocio",
+     "month": "junio",
+     "kicker": "Unidades de negocio",
+     "title": "Quién trajo cada <span class=\"em\">dólar</span>",
+     "sub": "Cada ingreso de la planilla se asigna a una unidad. El porcentaje se lee sobre lo facturado del mes.",
+     "foot": "El costo directo solo está cargado para el curso B2C (comercial, herramientas y distribución). El resto se asigna en <b>Gestión</b>."
+    },
+    {
      "type": "egresos",
      "label": "En qué se fue",
      "kicker": "03 · Egresos",
@@ -4816,6 +4870,15 @@
      "pageNum": "02"
     },
     {
+     "type": "unidades",
+     "label": "Unidades de negocio",
+     "month": "julio",
+     "kicker": "Unidades de negocio",
+     "title": "Quién trajo cada <span class=\"em\">dólar</span>",
+     "sub": "Cada ingreso de la planilla se asigna a una unidad. El porcentaje se lee sobre lo facturado del mes.",
+     "foot": "El costo directo solo está cargado para el curso B2C (comercial, herramientas y distribución). El resto se asigna en <b>Gestión</b>."
+    },
+    {
      "type": "egresos",
      "label": "En qué se fue",
      "kicker": "03 · Egresos",
@@ -5306,6 +5369,15 @@
      "pageNum": "02"
     },
     {
+     "type": "unidades",
+     "label": "Unidades de negocio",
+     "month": "agosto",
+     "kicker": "Unidades de negocio",
+     "title": "Quién trajo cada <span class=\"em\">dólar</span>",
+     "sub": "Cada ingreso de la planilla se asigna a una unidad. El porcentaje se lee sobre lo facturado del mes.",
+     "foot": "El costo directo solo está cargado para el curso B2C (comercial, herramientas y distribución). El resto se asigna en <b>Gestión</b>."
+    },
+    {
      "type": "egresos",
      "label": "En qué se fue",
      "kicker": "03 · Egresos",
@@ -5361,6 +5433,15 @@
      "footRight": "Costo del mes · <b>US$58.725</b> &nbsp;·&nbsp; pagado · <b>US$75.265</b>",
      "footMarginTop": "26px",
      "pageNum": "03"
+    },
+    {
+     "type": "acuerdos",
+     "label": "Acuerdos económicos",
+     "month": "agosto",
+     "kicker": "Acuerdos económicos",
+     "title": "Lo que se pactó y lo que se <span class=\"em\">pagó</span>",
+     "sub": "Cada acuerdo es un anexo del informe. Al lado del pacto va lo que representó en el mes.",
+     "foot": "El % efectivo se calcula solo: monto del mes sobre la base del acuerdo. Los esquemas y los PDF firmados se cargan en el JSON."
     },
     {
      "type": "socios",
@@ -5428,28 +5509,34 @@
      "cols": [
       {
        "t": "De dónde entró la plata",
-       "s": "Sobre la caja del mes (lo que entró)",
-       "donut": "conic-gradient(var(--cc-blue) 0 52.0%, var(--cc-ink) 52.0% 78.6%, var(--cc-ink-muted) 78.6% 100%)",
+       "s": "Por unidad de negocio, sobre la caja del mes",
+       "donut": "conic-gradient(var(--cc-blue) 0.0% 52.0%, var(--cc-ink-muted) 52.0% 73.4%, var(--cc-ink) 73.4% 89.8%, var(--cc-ink-faint) 89.8% 100.0%)",
        "centerBig": "US$86.133",
        "centerLabel": "Entró",
        "legend": [
         {
          "pc": "52%",
          "dot": "var(--cc-blue)",
-         "nm": "Curso B2C",
+         "nm": "La cáscara · Curso B2C",
          "amt": "US$44.790"
-        },
-        {
-         "pc": "27%",
-         "dot": "var(--cc-ink)",
-         "nm": "Servicios a clientes",
-         "amt": "US$22.921"
         },
         {
          "pc": "21%",
          "dot": "var(--cc-ink-muted)",
          "nm": "0800",
          "amt": "US$18.422"
+        },
+        {
+         "pc": "16%",
+         "dot": "var(--cc-ink)",
+         "nm": "F3 · Founder",
+         "amt": "US$14.129"
+        },
+        {
+         "pc": "10%",
+         "dot": "var(--cc-ink-faint)",
+         "nm": "Servicios y formación",
+         "amt": "US$8.792"
         }
        ]
       },
@@ -5727,6 +5814,18 @@
      "pageNum": "01"
     },
     {
+     "type": "matriz",
+     "label": "Por unidad de negocio",
+     "months": [
+      "enero",
+      "febrero",
+      "marzo"
+     ],
+     "kicker": "La matriz del período",
+     "title": "Facturado por unidad, mes a <span class=\"em\">mes</span>",
+     "foot": "En azul, los meses en que una unidad facturó más de US$15.000."
+    },
+    {
      "type": "chart",
      "label": "El pulso del trimestre",
      "kicker": "02 · El pulso, mes a mes",
@@ -5907,6 +6006,18 @@
       }
      ],
      "pageNum": "01"
+    },
+    {
+     "type": "matriz",
+     "label": "Por unidad de negocio",
+     "months": [
+      "abril",
+      "mayo",
+      "junio"
+     ],
+     "kicker": "La matriz del período",
+     "title": "Facturado por unidad, mes a <span class=\"em\">mes</span>",
+     "foot": "En azul, los meses en que una unidad facturó más de US$15.000."
     },
     {
      "type": "chart",
@@ -6118,6 +6229,21 @@
       }
      ],
      "pageNum": "02"
+    },
+    {
+     "type": "matriz",
+     "label": "Por unidad de negocio",
+     "months": [
+      "enero",
+      "febrero",
+      "marzo",
+      "abril",
+      "mayo",
+      "junio"
+     ],
+     "kicker": "La matriz del período",
+     "title": "Facturado por unidad, mes a <span class=\"em\">mes</span>",
+     "foot": "En azul, los meses en que una unidad facturó más de US$15.000."
     },
     {
      "type": "chart",
@@ -6932,5 +7058,130 @@
    }
   ],
   "footer": "<b>Moneda:</b> dólares (US$). &nbsp;·&nbsp; <b>Cómo se lee:</b> \"trabajo\" = lo facturado por el trabajo del mes y sus costos; \"caja\" = lo que realmente entró y salió de la cuenta. &nbsp;·&nbsp; Números según planillas <b>Informes 2026</b> y <b>Gestión 2026</b> (actualizadas a agosto)."
- }
+ },
+ "unidades": [
+  {
+   "id": "b2c",
+   "n": "La cáscara · Curso B2C",
+   "corto": "B2C",
+   "d": "Línea propia de formación",
+   "ingresos": [
+    "La cáscara · B2C"
+   ],
+   "costos": [
+    "La cáscara ·",
+    "Distribución ·"
+   ]
+  },
+  {
+   "id": "servicios",
+   "n": "Servicios a clientes",
+   "corto": "servicios",
+   "d": "Cuentas de servicio y producción",
+   "resto": true,
+   "ingresos": [],
+   "costos": []
+  },
+  {
+   "id": "f3",
+   "n": "F3 · Founder",
+   "corto": "F3",
+   "d": "Aceleradora Cáscara Founders",
+   "ingresos": [
+    "F3",
+    "F3 · Founder"
+   ],
+   "costos": []
+  },
+  {
+   "id": "0800",
+   "n": "0800",
+   "corto": "0800",
+   "d": "Pedidos creativos",
+   "ingresos": [
+    "0800"
+   ],
+   "costos": []
+  },
+  {
+   "id": "formacion",
+   "n": "Formación propia",
+   "corto": "formación",
+   "d": "Workshop · Nivel 2",
+   "ingresos": [
+    "Workshop",
+    "Nivel 2"
+   ],
+   "costos": []
+  },
+  {
+   "id": "otros",
+   "n": "Movimientos de socios",
+   "corto": "socios",
+   "d": "Devoluciones y aportes, no es facturación",
+   "ingresos": [
+    "Juana · devolución",
+    "Fede · devolución",
+    "Juana · pago que le correspondía",
+    "Juana · cuenta personal"
+   ],
+   "costos": []
+  }
+ ],
+ "acuerdos": [
+  {
+   "anexo": "A.1",
+   "n": "Comercial B2C",
+   "unidad": "b2c",
+   "esquema": "",
+   "base": "unidad",
+   "conceptos": [
+    "La cáscara · Comercial",
+    "La cáscara · Comercial bono"
+   ],
+   "doc": null
+  },
+  {
+   "anexo": "A.2",
+   "n": "Distribución · Franco",
+   "unidad": "b2c",
+   "esquema": "",
+   "base": "unidad",
+   "conceptos": [
+    "Distribución · Franco"
+   ],
+   "doc": null
+  },
+  {
+   "anexo": "B",
+   "n": "0800",
+   "unidad": "0800",
+   "esquema": "",
+   "base": "unidad",
+   "conceptos": [],
+   "doc": null
+  },
+  {
+   "anexo": "C",
+   "n": "F3 · Founder",
+   "unidad": "f3",
+   "esquema": "",
+   "base": "unidad",
+   "conceptos": [],
+   "doc": null
+  },
+  {
+   "anexo": "S",
+   "n": "Retiros de los socios",
+   "unidad": "",
+   "esquema": "",
+   "base": "mes",
+   "conceptos": [
+    "Facu",
+    "Fede",
+    "Juana"
+   ],
+   "doc": null
+  }
+ ]
 }
