@@ -1,0 +1,18 @@
+/* ============================================================
+   Estética "portfolio" para las páginas fuera del deck (home,
+   versiones scroll, instructivo). Se carga después de colors.css y
+   remapea los tokens: papel #FBFAF8 en lugar de tiza, tinta #0A0A0C,
+   grises de la escala portfolio y rellenos que desaparecen (las cajas
+   quedan con borde de 1px y sin fondo).
+   ============================================================ */
+:root{
+  --cc-cream:        #FBFAF8;
+  --cc-cream-soft:   #FBFAF8;
+  --cc-cream-softer: #FBFAF8;
+  --cc-ink:          #0A0A0C;
+  --cc-ink-soft:     #26262A;
+  --cc-ink-muted:    #6A6A70;
+  --cc-ink-faint:    #AEB6FF;
+  --cc-line:         rgba(10,10,12,.16);
+  --cc-line-strong:  rgba(10,10,12,.3);
+}

@@ -62,7 +62,17 @@ La UI son funciones de render *vanilla* (sin framework) que consumen ese JSON.
 
 ### Tipos de slide (`reports[key].slides[].type`)
 
-`cover` · `lecturas` · `barras` · `b2c` · `egresos` · `socios` · `proporciones` (donas) · `stats` · `chart` · `hero` · `cierre`
+`cover` · `lecturas` · `barras` · `unidades` · `acuerdos` · `b2c` · `egresos` · `socios` · `proporciones` (donas) · `stats` · `chart` · `matriz` · `hero` · `cierre`
+
+Los tres nuevos se calculan solos desde `months[]`, sin números escritos a mano en la slide:
+
+- **`unidades`** (`month`): agrupa los ingresos del mes por unidad de negocio según `unidades` del JSON (nombre exacto de la línea de la planilla; la unidad con `resto: true` se queda con lo que no matchea). Muestra facturado, % del mes, cobrado, costo directo (líneas de egreso por prefijo en `costos`) y margen.
+- **`acuerdos`** (`month`): lista `acuerdos` del JSON. El monto del mes es la suma de sus `conceptos` (líneas de egreso) y el % efectivo se calcula sobre la base (`unidad` o `mes`). `esquema` y `doc` (link al PDF firmado, p. ej. `data/acuerdos/0800.pdf`) se cargan a mano; vacíos se muestran como *a cargar* / *Falta anexar*.
+- **`matriz`** (`months`): facturado por unidad, mes a mes, para los resúmenes.
+
+### Estética
+
+Estilo *portfolio* de Cáscara: papel `#FBFAF8` y Klein `#10069F`, Helvetica Neue + Redaction italic, cajas rectas de 1px sin relleno y anillo Klein para lo destacado. El deck lo define `informe-2026.css`; el home, el instructivo y las versiones scroll remapean los tokens con `css/portfolio-tokens.css`.
 
 Cada uno mapea al markup exacto del diseño (clases en `informe-2026.css`).
 

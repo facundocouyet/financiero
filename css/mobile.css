@@ -63,7 +63,7 @@ body.m-mode { background: var(--cc-cream); }
 
 /* ---- dos lecturas ---- */
 .m-report .ledger { grid-template-columns: 1fr; gap: 14px; margin-top: 16px; }
-.m-report .book { padding: 22px 22px 20px; border-radius: 14px; }
+.m-report .book { padding: 22px 22px 20px; border-radius:0; }
 .m-report .book__tag { font-size: 13px; }
 .m-report .book__sub { font-size: 15px; min-height: 0 !important; margin-top: 6px; }
 .m-report .book__io { gap: 30px; margin-top: 16px; }
@@ -118,7 +118,7 @@ body.m-mode { background: var(--cc-cream); }
 .m-report .pitem .amt { font-size: 22px; }
 .m-report .psub .nm { font-size: 13px; }
 .m-report .psub .amt { font-size: 18px; }
-.m-report .ccbox { padding: 24px 22px; border-radius: 14px; }
+.m-report .ccbox { padding: 24px 22px; border-radius:0; }
 .m-report .ccbox__tag { font-size: 13px; }
 .m-report .ccbox__big { font-size: 42px !important; margin: 10px 0 6px; }
 .m-report .ccbox__txt { font-size: 15px; }
