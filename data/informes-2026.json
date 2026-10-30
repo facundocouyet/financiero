@@ -10270,16 +10270,16 @@
      "sub": "Lo único del informe que mira para <span class=\"em\">adelante</span>: qué se paga en los próximos diez días, de qué depende y cómo lo <span class=\"em\">decidimos</span>.",
      "meta": [
       {
-       "label": "Saldo hoy",
-       "value": "US$82.948"
+       "label": "Saldo al 29 de octubre",
+       "value": "US$62.948"
       },
       {
        "label": "En los próximos 10 días",
-       "value": "US$6.700 – US$9.700"
+       "value": "US$5.450 – US$7.950"
       },
       {
        "label": "La tanda del 10 al 16",
-       "value": "US$31.930 – US$38.630"
+       "value": "US$22.130 – US$25.730"
       }
      ]
     },
@@ -10372,7 +10372,7 @@
          "dim": true
         },
         {
-         "v": "US$2.000",
+         "v": "US$1.250",
          "em": true
         },
         {
@@ -10390,7 +10390,7 @@
          "dim": true
         },
         {
-         "v": "US$1.000 – US$3.000",
+         "v": "US$500 – US$2.000",
          "em": true
         },
         {
@@ -10426,7 +10426,7 @@
          "dim": true
         },
         {
-         "v": "US$6.700 – US$9.700",
+         "v": "US$5.450 – US$7.950",
          "em": true
         },
         {
@@ -10521,14 +10521,14 @@
       },
       {
        "nm": "Reparto a los cinco y Segundo",
-       "s": "Sobre el resultado de octubre, atado a lo cobrado",
+       "s": "Todo de Founders: el curso no deja nada",
        "cells": [
         {
          "v": "10 – 16 nov",
          "dim": true
         },
         {
-         "v": "US$15.800 – US$20.000",
+         "v": "US$6.000 – US$7.100",
          "em": true
         },
         {
@@ -10546,7 +10546,7 @@
          "dim": true
         },
         {
-         "v": "US$31.930 – US$38.630",
+         "v": "US$22.130 – US$25.730",
          "em": true
         },
         {
@@ -10556,35 +10556,36 @@
        ]
       }
      ],
-     "foot": "<b>La tanda de noviembre va a ser casi la mitad que la de octubre.</b> En octubre se pagaron US$74.508 entre personas, contenido y comercial; en noviembre el rango va de US$38.630 a US$48.330. No es un ajuste: es el reparto siguiendo a lo cobrado.",
+     "foot": "<b>La tanda de noviembre va a ser un tercio de la de octubre.</b> En octubre se pagaron US$74.508 entre personas, contenido y comercial; en noviembre el rango va de US$27.580 a US$33.680. No es un ajuste: es el reparto siguiendo a lo cobrado.",
      "pageNum": "02"
     },
     {
      "type": "stats",
      "label": "De qué depende",
      "kicker": "03 · De qué depende",
-     "title": "Todo cuelga de lo que se <span class=\"em\">cobra</span>",
+     "title": "El curso no está dejando <span class=\"em\">nada</span>",
+     "sub": "Octubre corregido: el curso y Founders cobraron US$10.000 menos cada uno de lo que figuraba hace dos días.",
      "items": [
       {
        "label": "Cobró octubre",
-       "fig": "US$49.534",
-       "note": "Un <b>52% menos que septiembre</b> (US$104.139). El curso cayó 61% y Founders 39%."
+       "fig": "US$29.534",
+       "note": "Un <b>72% menos que septiembre</b> (US$104.139). El curso cobró US$10.299 y Founders US$10.460; 0800 puso los otros US$8.775."
       },
       {
-       "label": "Pagó octubre",
-       "fig": "US$92.371",
-       "note": "Pagando el trabajo de septiembre, que fue el mes más grande del año. Incluye <b>US$12.433 del viaje a España</b>, que no es operación."
-      },
-      {
-       "label": "Resultado de octubre",
-       "fig": "−US$42.837",
-       "note": "<b>El peor mes del año.</b> No porque se gastara de más en la operación, sino porque se pagó un mes grande con la cobranza de un mes chico.",
+       "label": "Le costó al curso",
+       "fig": "US$10.272",
+       "note": "Solo contenido y herramientas, sin comercial ni equipo. <b>Es el 100% de lo que el curso cobró en el mes.</b>",
        "key": true
       },
       {
-       "label": "Saldo hoy",
-       "fig": "US$82.948",
-       "note": "De los US$126.002 con que cerró septiembre. Alcanza para una tanda completa sin depender de lo que entre."
+       "label": "Queda para repartir",
+       "fig": "US$6.000 – US$7.100",
+       "note": "<b>Todo sale de Founders.</b> El curso cierra octubre en negativo y no aporta al reparto."
+      },
+      {
+       "label": "Saldo al 29 de octubre",
+       "fig": "US$62.948",
+       "note": "De los US$126.002 con que cerró septiembre. Octubre se llevó US$62.837, con <b>US$12.433 del viaje a España</b> adentro."
       }
      ],
      "pageNum": "03"
@@ -10599,23 +10600,23 @@
       {
        "label": "El reparto es variable por diseño",
        "fig": "01",
-       "note": "Se calcula sobre lo cobrado menos los costos directos. Si el mes cobra la mitad, el reparto es la mitad. <b>No se completa con caja.</b>"
+       "note": "Se calcula sobre lo cobrado menos los costos directos. Octubre cobró un tercio que septiembre y el reparto cae a un octavo. <b>No se completa con caja.</b>"
       },
       {
-       "label": "Hay un piso que no se toca",
+       "label": "El piso ya lo estamos tocando",
        "fig": "02",
-       "note": "Propongo <b>US$60.000</b>: una tanda completa sin depender de lo que entre. Si el saldo proyectado queda debajo, se posterga lo postergable antes que los fijos."
+       "note": "Propongo <b>US$60.000</b>: una tanda completa sin depender de lo que entre. Hoy el saldo es US$62.948. <b>Estamos en el piso, no por encima.</b>",
+       "key": true
       },
       {
        "label": "Los fijos no se discuten cada mes",
        "fig": "03",
-       "note": "Equipo, herramientas y contenido comprometido se pagan. Lo que se decide es el reparto y lo extraordinario."
+       "note": "Equipo, contenido y herramientas suman US$17.380 por mes: el <b>59% de todo lo que cobró octubre</b>. Ese es el número a mirar, no el reparto."
       },
       {
        "label": "Lo extraordinario se decide antes",
        "fig": "04",
-       "note": "Un gasto fuera de la operación —el viaje de octubre— se acuerda entre los tres socios <b>antes</b> de comprometerlo, con el saldo proyectado a la vista.",
-       "key": true
+       "note": "Un gasto fuera de la operación —el viaje de octubre— se acuerda entre los tres socios <b>antes</b> de comprometerlo, con el saldo proyectado a la vista."
       }
      ],
      "pageNum": "04"
@@ -10626,8 +10627,8 @@
      "variant": "ink",
      "wordmarkWhite": true,
      "bigTiza": true,
-     "big": "La caja <span class=\"em\" style=\"color:#fff;\">aguanta</span>. Lo que hay que decidir es el ritmo.",
-     "note": "Con US$82.948 de saldo y una tanda de entre US$38.630 y US$48.330, noviembre se paga sin problema. El punto no es si alcanza: es que octubre cobró la mitad que septiembre y el reparto todavía no refleja eso. Si el reparto sigue a lo cobrado —como está diseñado— la caja se sostiene sola. Si se completa con caja, dos meses como octubre se llevan el colchón. Esto es una proyección, no un cierre: octubre todavía no terminó y el contenido del mes no está cargado.",
+     "big": "Noviembre se paga. Lo que no <span class=\"em\" style=\"color:#fff;\">cierra</span> es el curso.",
+     "note": "Con US$62.948 de saldo y una tanda de entre US$27.580 y US$33.680, noviembre se paga sin problema: la caja no es la urgencia. La urgencia es que el curso cobró US$10.299 en octubre y su contenido y sus herramientas solos costaron US$10.272 — no deja nada para repartir, y todo el reparto del mes sale de Founders. Los costos fijos son US$17.380 por mes contra US$29.534 cobrados. Si el reparto sigue a lo cobrado, la caja se sostiene; lo que no se sostiene es el curso con esta estructura de costos. Esto es una proyección: octubre todavía no cerró y el contenido del mes no está cargado.",
      "noteOpacity": ".7",
      "pageLabel": "Proyección · 30 oct – 8 nov 2026"
     }
@@ -11227,12 +11228,12 @@
       "metrics": [
        {
         "label": "Próximos 10 días",
-        "value": "US$6.700 – US$9.700",
+        "value": "US$5.450 – US$7.950",
         "cls": "num"
        },
        {
         "label": "Saldo hoy",
-        "value": "US$82.948",
+        "value": "US$62.948",
         "cls": "num"
        }
       ]
@@ -11370,21 +11371,30 @@
  "proyeccion": {
   "generada": "2026-10-30",
   "ventana": "2026-10-30 a 2026-11-08",
-  "base": "Libro diario de Gestión 2026 al 29 de octubre y hojas de unidades de octubre",
-  "saldoHoy": 82948,
+  "base": "Libro diario de Gestión 2026 al 29 de octubre (corregido) y hojas de unidades de octubre",
+  "saldoHoy": 62948,
+  "cobradoOctubre": 29534,
+  "pagadoOctubre": 92371,
   "proximos10": {
-   "min": 6700,
-   "max": 9700
+   "min": 5450,
+   "max": 7950
   },
   "tandaDel10": {
-   "min": 31930,
-   "max": 38630
+   "min": 22130,
+   "max": 25730
   },
+  "repartoOctubre": {
+   "min": 6000,
+   "max": 7100,
+   "nota": "Todo de Founders: el curso cierra octubre en negativo."
+  },
+  "fijosMensuales": 17380,
   "supuestos": [
-   "Octubre cierra con lo cobrado al 29 (US$49.534).",
+   "Octubre cierra con lo cobrado al 29 (US$29.534).",
    "El contenido de octubre se estima en el orden de los meses anteriores: Azu todavía no cerró el mes.",
    "El viaje a España (US$12.433) no se repite en noviembre.",
-   "El reparto se calcula sobre lo cobrado de octubre menos sus costos directos."
+   "Mora y Ayelén figuran descontados en las dos hojas de unidades; se cuentan una vez.",
+   "Los US$8.775 que cobró 0800 no pasan por el reparto: la unidad todavía no tiene costos cargados."
   ]
  }
 }
