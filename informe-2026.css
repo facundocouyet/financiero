@@ -357,6 +357,26 @@ a.g-doc{ color:var(--klein); }
 .unidades .gtable__h, .unidades .gtable__r{ grid-template-columns:1.7fr 1fr 2fr 1fr 1fr 1fr 0.7fr; }
 .acuerdos .gtable__h, .acuerdos .gtable__r{ grid-template-columns:90px 1.5fr 1.2fr 1.4fr 1fr 0.9fr 1fr; }
 .matriz .gtable__h, .matriz .gtable__r{ gap:16px; }
+/* tabla genérica: mismas reglas que .gtable, un punto más compacta porque
+   estas vistas traen más filas (el detalle por persona y por cuenta). */
+.frame.tabla{ padding:88px var(--pad-x) 64px; }
+.tabla .gtable{ margin-top:26px; }
+.tabla .gtable__h, .tabla .gtable__r{ gap:20px; }
+.tabla .gtable__r{ padding:12px 0; }
+.tabla .gtable__h small{ display:block; margin-top:3px; font-size:15px; font-weight:300;
+  letter-spacing:0; text-transform:none; color:var(--note); }
+.tabla .lead{ font-size:23px; max-width:98ch; margin-top:12px; }
+.tabla .g-name b{ font-size:22px; }
+.tabla .g-name small{ font-size:16px; }
+.tabla .g-v{ font-size:23px; }
+.tabla .g-s{ font-size:21px; }
+.tabla .g-pend{ font-size:20px; }
+.tabla--dense .gtable__r{ padding:7px 0; }
+.tabla--dense .g-name b{ font-size:20px; }
+.tabla--dense .g-name small{ font-size:15px; }
+.tabla--dense .g-v{ font-size:21px; }
+.tabla--dense .g-s{ font-size:19px; }
+.tabla--dense .g-pend{ font-size:18px; }
 .matriz .g-c{ font-size:21px; font-weight:300; color:var(--body); text-align:right; }
 .matriz .g-c.hi{ font-weight:700; color:var(--klein); }
 .matriz .g-c.zero{ color:var(--meta); }

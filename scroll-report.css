@@ -118,3 +118,21 @@ h2 .em{ color:var(--blue); }
 .tg{ font-size:10px; font-weight:700; color:var(--blue); border:1px solid var(--blue); border-radius:999px; padding:1px 7px; margin-left:6px; vertical-align:middle; }
 .sheet__note{ font-size:13px; color:var(--muted); line-height:1.5; margin-top:6px; }
 .sheet__note b{ color:var(--ink); }
+
+/* ---- unidades, reparto, growth y contenido (vistas de septiembre) ----
+   Mismo lenguaje que el resto: caja de 1px, sin esquinas redondeadas. */
+.ofr{ display:flex; flex-direction:column; gap:13px; margin-top:22px; }
+.ofr__i{ border:1px solid var(--line); padding:17px 18px 16px; }
+.ofr__h{ display:flex; align-items:baseline; gap:12px; }
+.ofr__nm{ font-size:18px; font-weight:700; line-height:1.2; }
+.ofr__nm small{ display:block; font-size:13px; font-weight:400; color:var(--muted); margin-top:2px; }
+.ofr__sp{ flex:1; }
+.ofr__pc{ font-family:"Redaction",Georgia,serif; font-style:italic; font-size:28px; color:var(--blue); line-height:1; }
+.ofr__k{ display:flex; gap:16px; margin-top:14px; padding-top:13px; border-top:1px solid var(--line); }
+.ofr__k > div{ flex:1; }
+.ofr__k span{ display:block; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); }
+.ofr__k b{ font-size:18px; font-variant-numeric:tabular-nums; }
+.ofr__k b.em2{ color:var(--blue); }
+.ofr__chips{ display:flex; flex-wrap:wrap; gap:7px; margin-top:13px; }
+.chip{ font-size:13px; font-weight:700; border:1px solid var(--line); padding:6px 11px;
+       font-variant-numeric:tabular-nums; }

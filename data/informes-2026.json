@@ -3,13 +3,16 @@
   "titulo": "Informes 2026 · Cáscara Collective",
   "moneda": "USD",
   "uso": "interno entre socios",
-  "actualizado": "2026-09",
+  "actualizado": "2026-10",
   "fuentes": [
    "Informes 2026.xlsx (resumen mensual)",
-   "Gestión 2026.xlsx (libro diario + económico + cuentas)",
-   "Facturación Real - Cáscara.xlsx (curso B2C: señas y reservas caídas)"
+   "Gestión 2026.xlsx (libro diario + económico + cuentas + distribución)",
+   "Facturación Real - Cáscara.xlsx (curso B2C: señas y reservas caídas)",
+   "Unidades - Cascara.xlsx (cuenta por unidad de negocio y comisiones de growth)",
+   "Resumen de contenido Mensual (Notion) — informe de contenido por cuenta",
+   "Acuerdos principales V4 (agosto 2026) — tasas de caja central y reparto"
   ],
-  "auditoria": "Números reconciliados (sep-2026): cadena de saldo exacta; ingresos/egresos/resultados cuadran. Facturación del curso B2C en criterio REAL (Facturación Real - Cáscara.xlsx): se restan las reservas caídas y se suma el cash cobrado de sus señas. Febrero: el curso figura por US$45.244 (cobró US$35.896 en el mes); el resto se cobra en cuotas más adelante. Agosto: la planilla abre en US$79.207 pero julio cierra en US$80.328; se corrigió al cierre de julio y la diferencia (US$1.121) queda anotada. Curso B2C de julio y agosto en criterio real (5 y 4 reservas caídas). Abr–Jul: Herramientas y Pauta económico igualados a lo pagado (planilla corregida sep-2026)."
+  "auditoria": "Números reconciliados (oct-2026) contra el libro diario de Gestión 2026: la cadena de saldo cierra exacta mes a mes y los nueve meses cuadran con el ledger. Se resolvió la diferencia de US$1.121 que quedaba anotada en agosto: el libro diario paga a Teo US$2.736 en julio y la planilla de Informes tenía US$1.614, así que julio cierra en US$79.207 — justo donde abre agosto. Facturación del curso B2C en criterio REAL (reservas caídas descontadas, cash de señas sumado) hasta agosto; septiembre va provisorio con señas. Febrero: el curso figura por US$45.244 (cobró US$35.896 en el mes). El reparto por oferta sale de la hoja Distribución y suma US$27 menos que el económico de los cinco. Hay un movimiento duplicado de US$30/9 por US$217,18 en el libro diario (una vez sin rubro, otra como adelanto de Facu): se cuenta una sola vez. Desde septiembre los informes abren la cuenta por unidad de negocio (Unidades - Cascara.xlsx): el reparto se calcula sobre el resultado de cada unidad, no sobre lo facturado. La planilla de unidades registra US$33.697 cobrados por Founders y el libro diario US$32.637: quedan US$1.060 por conciliar. El equipo de contenido y diseño costó US$11.275 pagados en septiembre y la planilla de unidades sólo carga US$6.502 a las unidades: los US$4.773 restantes no tienen unidad asignada. Los US$2.482 de Cero no son facturación: son el recupero de lo que Cáscara pagó de contenido de ese proyecto."
  },
  "glosario": {
   "trabajo": "El trabajo del mes = lo facturado por el trabajo del mes + sus costos, se haya cobrado/pagado o no. ¿El negocio da plata? NO usar 'devengado'.",
@@ -19,7 +22,13 @@
   "economicoSocios": "El económico de cada socio/persona = lo que generó su trabajo en los clientes del mes (NO un retiro fijo).",
   "cuentaPersonal": "Salvedades 2025, ya saldadas en cero. No darle importancia en la lectura del negocio.",
   "b2c": "Curso B2C 'La cáscara' = producto propio. Costos: Comercial + Distribución (rev-share Rein 30% cruzado, luego Franco).",
-  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$428.633 = 401.375 + 27.258, ya sin las reservas caídas del curso). A la cuenta entran además los aportes de socios (US$12.650, no son ventas), por eso el total que entró en caja es US$414.025."
+  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$571.533 = 505.514 + 66.019; el curso sin las reservas caídas hasta agosto, septiembre provisorio). A la cuenta entran además los aportes de socios (US$12.650, no son ventas), por eso el total que entró en caja es US$518.164.",
+  "unidad": "Una unidad de negocio lleva su propia cuenta: lo que cobró menos su comercial, su contenido, sus herramientas y su equipo. Lo que queda es el resultado de la unidad, y sobre eso se reparte. Hoy son La cáscara (curso B2C), Cáscara Founders, 0800 y Board Room.",
+  "growth": "El equipo de growth son los closers y setters que venden las unidades. Cobran por comisión: closers 8% de lo que cobran sus ventas, setters 3%, y la dirección comercial un 7% sobre el total de la unidad.",
+  "reparto": "El reparto = cómo se divide el resultado de cada unidad. No es un porcentaje único: en el curso Cáscara se queda el 20% y el 80% restante se divide entre Franco, Fede, Teo, Juana, Facu y Segundo; en Founders va directo sobre el resultado, con Facu y Franco en 27,5% cada uno.",
+  "contenido": "El equipo de contenido y diseño son las personas que producen el material de las cuentas. Cobran por trabajo entregado, con un mes de desfasaje: lo que se paga en septiembre es el trabajo de agosto. El informe de contenido por cuenta reparte ese gasto entre La cáscara, 0800 (donde está Delfi Ferro), Livo, Collab, My Saint · Cero y Founders.",
+  "recupero": "Un recupero es plata que entra a la cuenta pero no es una venta: el proyecto devuelve lo que Cáscara pagó por él. En septiembre, el proyecto Cero devolvió US$2.482 de contenido y herramientas.",
+  "cajaCentral": "La caja central es la parte del resultado de cada vertical que queda en la empresa antes de repartir entre las personas. Los acuerdos de agosto la fijaron por vertical según cuánto se apoya cada una en la estructura: 30% el curso, 20% Founders, 10% growth y 20–30% 0800."
  },
  "anioInicio": {
   "saldoInicial": -5428.2
@@ -1244,10 +1253,10 @@
    "costos": 61448,
    "resTrabajo": 21438,
    "cobrado": 79513,
-   "pagado": 34434,
-   "resCaja": 45079,
+   "pagado": 35556,
+   "resCaja": 43957,
    "saldoInicial": 35250.45,
-   "saldoFinal": 80328.43,
+   "saldoFinal": 79206.99,
    "socios": {
     "Facu": 6000,
     "Fede": 5500,
@@ -1315,7 +1324,7 @@
     {
      "n": "Teo",
      "eco": 4307,
-     "fin": 1614
+     "fin": 2736
     },
     {
      "n": "Carlota",
@@ -1417,9 +1426,9 @@
    },
    "totalEgresos": {
     "costo": 61448.42,
-    "pagado": 34434.3
+    "pagado": 35556.19
    },
-   "nota": "El <b>mejor resultado de caja del año</b> (+US$45.079): entraron US$79.513 — el curso cobró US$64.172 de cuotas y los servicios sumaron US$15.341, con <b>Juan Carrizo</b> como cuenta nueva. Salió la mitad de lo que costó el mes, así que el saldo salta de US$35.250 a <b>US$80.328, nuevo máximo</b>. El trabajo también cierra bien (+US$21.438), con el curso facturando US$68.092 reales (5 reservas caídas ya descontadas) y los socios subiendo su económico (Facu US$6.000, Fede y Juana US$5.500).",
+   "nota": "El <b>mejor resultado de caja del año</b> (+US$43.957): entraron US$79.513 — el curso cobró US$64.172 de cuotas y los servicios sumaron US$15.341, con <b>Juan Carrizo</b> como cuenta nueva. Salió la mitad de lo que costó el mes, así que el saldo salta de US$35.250 a <b>US$79.207, nuevo máximo</b>. El trabajo también cierra bien (+US$21.438), con el curso facturando US$68.092 reales (5 reservas caídas ya descontadas) y los socios subiendo su económico (Facu US$6.000, Fede y Juana US$5.500).",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -1470,13 +1479,13 @@
    "label": "Agosto",
    "n": 8,
    "facturado": 93100,
-   "costos": 58725,
-   "resTrabajo": 34375,
+   "costos": 57893,
+   "resTrabajo": 35207,
    "cobrado": 86133,
-   "pagado": 75265,
-   "resCaja": 10868,
-   "saldoInicial": 80328.43,
-   "saldoFinal": 91196.95,
+   "pagado": 75462,
+   "resCaja": 10671,
+   "saldoInicial": 79206.99,
+   "saldoFinal": 89878.38,
    "socios": {
     "Facu": 6748,
     "Fede": 5551,
@@ -1563,8 +1572,13 @@
     },
     {
      "n": "Mora",
-     "eco": 400,
+     "eco": 200,
      "fin": 400
+    },
+    {
+     "n": "Aye",
+     "eco": 700,
+     "fin": 0
     },
     {
      "n": "Agus Dagata",
@@ -1573,7 +1587,7 @@
     },
     {
      "n": "Costos de contenido",
-     "eco": 7323,
+     "eco": 7239,
      "fin": 6697
     },
     {
@@ -1588,13 +1602,13 @@
     },
     {
      "n": "Pauta",
-     "eco": 1720,
-     "fin": 1720
+     "eco": 500,
+     "fin": 500
     },
     {
      "n": "Inversión",
      "eco": "",
-     "fin": 675
+     "fin": 1896
     },
     {
      "n": "Cowork",
@@ -1609,7 +1623,7 @@
     {
      "n": "Contador y monotributo",
      "eco": "",
-     "fin": 316
+     "fin": 315
     },
     {
      "n": "Comisiones de transacción",
@@ -1618,7 +1632,7 @@
     },
     {
      "n": "La cáscara · Comercial",
-     "eco": 7897,
+     "eco": 7869,
      "fin": 11788,
      "tag": "b2c"
     },
@@ -1631,7 +1645,7 @@
     {
      "n": "Otros gastos",
      "eco": "",
-     "fin": 954
+     "fin": 1151
     },
     {
      "n": "Devolución · 0800",
@@ -1645,10 +1659,10 @@
     "cobrado": 86133.06
    },
    "totalEgresos": {
-    "costo": 58725.42,
-    "pagado": 75264.54
+    "costo": 57893.01,
+    "pagado": 75461.67
    },
-   "nota": "El <b>segundo mes de más facturación del año</b> (solo mayo facturó más): US$93.100 de trabajo, con la nueva unidad de negocio <b>0800</b> (US$18.422) y F3 · Founder (US$17.000). El trabajo cierra en <b>+US$34.375</b>. La caja da +US$10.868: entraron US$86.133 y salieron US$75.265, que incluyen un <b>reintegro de US$10.000 a un cliente de 0800</b>. El saldo pasa de US$80.328 a <b>US$91.197, nuevo máximo</b>. El curso va en criterio real: US$47.024 (descuenta 4 reservas caídas y suma el cash de sus señas). Anotación: la planilla abre agosto en US$79.207, pero julio cierra en US$80.328; se corrigió al cierre de julio (diferencia US$1.121, a revisar en Gestión).",
+   "nota": "El <b>segundo mes de más facturación del año</b> (solo mayo facturó más): US$93.100 de trabajo, con la nueva unidad de negocio <b>0800</b> (US$18.422) y F3 · Founder (US$17.000). El trabajo cierra en <b>+US$35.207</b>. La caja da +US$10.671: entraron US$86.133 y salieron US$75.462, que incluyen un <b>reintegro de US$10.000 a un cliente de 0800</b>. El saldo pasa de US$79.207 a <b>US$89.878</b>. El curso va en criterio real: US$47.024 (descuenta 4 reservas caídas y suma el cash de sus señas).",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -1673,30 +1687,592 @@
     },
     "egresos": {
      "base": "costo del mes",
-     "total": 58725,
+     "total": 57893,
      "partes": [
       {
-       "cat": "Equipo y socios",
-       "val": 26646,
-       "pct": 46
+       "cat": "Reparto a los cinco",
+       "val": 29181,
+       "pct": 50
       },
       {
-       "cat": "Costos del curso B2C",
-       "val": 15932,
-       "pct": 27
+       "cat": "Comercial del curso B2C",
+       "val": 7869,
+       "pct": 14
       },
       {
        "cat": "Contenido y diseño",
-       "val": 11359,
+       "val": 11275,
        "pct": 19
       },
       {
-       "cat": "Herramientas y otros",
-       "val": 4788,
-       "pct": 8
+       "cat": "Resto del equipo y herramientas",
+       "val": 9568,
+       "pct": 17
       }
      ]
     }
+   }
+  },
+  {
+   "key": "septiembre",
+   "label": "Septiembre",
+   "n": 9,
+   "facturado": 142900,
+   "costos": 83998,
+   "resTrabajo": 58902,
+   "cobrado": 104139,
+   "pagado": 68016,
+   "resCaja": 36123,
+   "saldoInicial": 89878.38,
+   "saldoFinal": 126001.82,
+   "socios": {
+    "Facu": 10806,
+    "Fede": 10192,
+    "Juana": 7309
+   },
+   "provisorio": {
+    "b2c": "Facturación del curso con señas (US$72.205): falta descontar las reservas caídas de septiembre."
+   },
+   "ingresos": [
+    {
+     "n": "La cáscara · B2C",
+     "eco": 72205,
+     "fin": 51600,
+     "tag": "b2c"
+    },
+    {
+     "n": "F3 · Founder",
+     "eco": 48200,
+     "fin": 32637
+    },
+    {
+     "n": "0800",
+     "eco": 16271,
+     "fin": 11000
+    },
+    {
+     "n": "Livo",
+     "eco": 5000,
+     "fin": 5000
+    },
+    {
+     "n": "Board Room",
+     "eco": 1224,
+     "fin": 1225
+    },
+    {
+     "n": "Recupero de contenido · Cero",
+     "eco": 0,
+     "fin": 2482,
+     "tag": "rec"
+    },
+    {
+     "n": "Picheo · B2B",
+     "eco": 0,
+     "fin": 195
+    }
+   ],
+   "egresos": [
+    {
+     "n": "Facu",
+     "eco": 10806,
+     "fin": 5639
+    },
+    {
+     "n": "Fede",
+     "eco": 10192,
+     "fin": 6984
+    },
+    {
+     "n": "Juana",
+     "eco": 7309,
+     "fin": 3883
+    },
+    {
+     "n": "Franco",
+     "eco": 13711,
+     "fin": 9035
+    },
+    {
+     "n": "Teo",
+     "eco": 8211,
+     "fin": 7101
+    },
+    {
+     "n": "Carlota",
+     "eco": 1300,
+     "fin": 1300
+    },
+    {
+     "n": "Azul",
+     "eco": 1230,
+     "fin": 1270
+    },
+    {
+     "n": "Anto",
+     "eco": 300,
+     "fin": 800
+    },
+    {
+     "n": "Flor",
+     "eco": 300,
+     "fin": 300
+    },
+    {
+     "n": "Segundo",
+     "eco": 2000,
+     "fin": 2000
+    },
+    {
+     "n": "Mora",
+     "eco": 200,
+     "fin": 200
+    },
+    {
+     "n": "Aye",
+     "eco": 900,
+     "fin": 700
+    },
+    {
+     "n": "Costos de contenido",
+     "eco": 7322,
+     "fin": 7239
+    },
+    {
+     "n": "Costos de diseño",
+     "eco": 4378,
+     "fin": 4536
+    },
+    {
+     "n": "La cáscara · Comercial",
+     "eco": 15839,
+     "fin": 8013,
+     "tag": "b2c"
+    },
+    {
+     "n": "Herramientas",
+     "eco": 0,
+     "fin": 2472
+    },
+    {
+     "n": "Inversión",
+     "eco": 0,
+     "fin": 2470
+    },
+    {
+     "n": "Contador y monotributo",
+     "eco": 0,
+     "fin": 1736
+    },
+    {
+     "n": "Otros gastos",
+     "eco": 0,
+     "fin": 1344
+    },
+    {
+     "n": "Pauta",
+     "eco": 0,
+     "fin": 479
+    },
+    {
+     "n": "Comisiones de transacción",
+     "eco": 0,
+     "fin": 271
+    },
+    {
+     "n": "Cowork",
+     "eco": 0,
+     "fin": 244
+    }
+   ],
+   "totalIngresos": {
+    "facturado": 142900.0,
+    "cobrado": 104139.26
+   },
+   "totalEgresos": {
+    "costo": 83998.21,
+    "pagado": 68015.82
+   },
+   "nota": "El <b>mes más grande del año, por lejos</b>: US$142.900 facturados — un 51% más que mayo, el récord anterior. <b>Founder</b> factura US$48.200 (su mejor mes, casi el triple que agosto) y el curso US$72.205. El trabajo cierra en <b>+US$58.902</b>, también récord. La caja da +US$36.123: entraron US$104.139 y salieron US$68.016, y el saldo pasa de US$89.878 a <b>US$126.002, nuevo máximo</b>. Provisorio: el curso figura con señas; falta descontar las reservas caídas del mes.",
+   "proporciones": {
+    "ingresos": {
+     "base": "caja",
+     "total": 104139,
+     "partes": [
+      {
+       "cat": "Curso B2C",
+       "val": 51600,
+       "pct": 50
+      },
+      {
+       "cat": "Founder",
+       "val": 32637,
+       "pct": 31
+      },
+      {
+       "cat": "0800",
+       "val": 11000,
+       "pct": 11
+      },
+      {
+       "cat": "Otras entradas",
+       "val": 8902,
+       "pct": 8
+      }
+     ]
+    },
+    "egresos": {
+     "base": "costo del mes",
+     "total": 83998,
+     "partes": [
+      {
+       "cat": "Reparto a los cinco",
+       "val": 50229,
+       "pct": 60
+      },
+      {
+       "cat": "Comercial del curso B2C",
+       "val": 15839,
+       "pct": 19
+      },
+      {
+       "cat": "Contenido y diseño",
+       "val": 11700,
+       "pct": 14
+      },
+      {
+       "cat": "Resto del equipo",
+       "val": 6230,
+       "pct": 7
+      }
+     ]
+    }
+   },
+   "unidades": {
+    "fuente": "Unidades - Cascara.xlsx",
+    "detalle": [
+     {
+      "unidad": "La cáscara · B2C",
+      "facturado": 72205,
+      "cobrado": 51600,
+      "comercial": 9873,
+      "contenido": 6358,
+      "herramientas": 4231,
+      "equipo": 1100,
+      "resultado": 30038,
+      "margen": 58
+     },
+     {
+      "unidad": "Cáscara Founders",
+      "facturado": 48200,
+      "cobrado": 33697,
+      "comercial": 5966,
+      "contenido": 144,
+      "herramientas": 395,
+      "equipo": 0,
+      "resultado": 27192,
+      "margen": 81
+     },
+     {
+      "unidad": "0800",
+      "facturado": 16271,
+      "cobrado": 11000,
+      "clientes": [
+       {
+        "n": "Inaki",
+        "v": 10000
+       },
+       {
+        "n": "Newro",
+        "v": 3000
+       },
+       {
+        "n": "Max",
+        "v": 2500
+       },
+       {
+        "n": "Lola Berutti",
+        "v": 647
+       },
+       {
+        "n": "Francisca",
+        "v": 124
+       }
+      ],
+      "nota": "Todavía no tiene hoja de unidad con sus costos."
+     },
+     {
+      "unidad": "Board Room",
+      "facturado": 1224,
+      "cobrado": 1225,
+      "resultado": 1225,
+      "margen": 100,
+      "nota": "48 miembros a US$27."
+     }
+    ],
+    "reparto": {
+     "personas": [
+      "Franco",
+      "Facu",
+      "Fede",
+      "Cáscara",
+      "Teo",
+      "Juana",
+      "Segundo"
+     ],
+     "cascara": [
+      5527,
+      3124,
+      5287,
+      6007,
+      4806,
+      4085,
+      1202
+     ],
+     "founders": [
+      7478,
+      7478,
+      3399,
+      2719,
+      3399,
+      2719,
+      0
+     ],
+     "ochocientos": [
+      700,
+      200,
+      1500,
+      0,
+      0,
+      500,
+      0
+     ],
+     "total": [
+      13705,
+      10802,
+      10186,
+      8726,
+      8205,
+      7304,
+      1202
+     ],
+     "reglaCascara": "Cáscara se queda el 20%; el 80% restante se divide Franco 23%, Fede 22%, Teo 20%, Juana 17%, Facu 13%, Segundo 5%.",
+     "reglaFounders": "Sobre el resultado: Facu y Franco 27,5%, Teo y Fede 12,5%, Juana y Cáscara 10%."
+    },
+    "growth": {
+     "reglas": "Closers 8% de lo que cobran sus ventas, setters 3%, dirección comercial 7% sobre el total de la unidad.",
+     "filas": [
+      {
+       "n": "Scania",
+       "rol": "Closer",
+       "cerroCurso": 25476,
+       "cerroFounders": 12378,
+       "comCurso": 2074,
+       "comFounders": 990,
+       "aCobrar": 3064
+      },
+      {
+       "n": "Francisca",
+       "rol": "Closer y dirección comercial",
+       "cerroCurso": 18793,
+       "cerroFounders": 16383,
+       "comCurso": 5116,
+       "comFounders": 3669,
+       "aCobrar": 8785
+      },
+      {
+       "n": "Milagros",
+       "rol": "Closer",
+       "cerroCurso": 7331,
+       "cerroFounders": 4936,
+       "comCurso": 586,
+       "comFounders": 395,
+       "aCobrar": 981
+      },
+      {
+       "n": "Agustina",
+       "rol": "Setter",
+       "cerroCurso": 0,
+       "cerroFounders": 0,
+       "comCurso": 854,
+       "comFounders": 610,
+       "aCobrar": 1464
+      },
+      {
+       "n": "Alejandro",
+       "rol": "Setter",
+       "cerroCurso": 0,
+       "cerroFounders": 0,
+       "comCurso": 1106,
+       "comFounders": 302,
+       "aCobrar": 1408
+      },
+      {
+       "n": "Valentina",
+       "rol": "Setter",
+       "cerroCurso": 0,
+       "cerroFounders": 0,
+       "comCurso": 137,
+       "comFounders": 0,
+       "aCobrar": 137
+      }
+     ]
+    },
+    "conciliacion": "La planilla de unidades registra US$33.697 cobrados por Founders y el libro diario US$32.637: quedan US$1.060 por conciliar.",
+    "contenido": {
+     "base": "pagado en el mes (libro diario, rubros Equipo - Contenido y Equipo - Diseño)",
+     "desfasaje": "Lo pagado en septiembre corresponde al trabajo de agosto.",
+     "contenido": [
+      {
+       "n": "Milagros",
+       "v": 1500
+      },
+      {
+       "n": "Milone",
+       "v": 1467
+      },
+      {
+       "n": "Facundo Suárez",
+       "v": 1217
+      },
+      {
+       "n": "Tomás Etchandy",
+       "v": 795
+      },
+      {
+       "n": "Felipe Luna y Juna",
+       "v": 830
+      },
+      {
+       "n": "Santiago Montoya",
+       "v": 480
+      },
+      {
+       "n": "Otros seis",
+       "v": 950
+      }
+     ],
+     "diseno": [
+      {
+       "n": "Aldi",
+       "v": 2030
+      },
+      {
+       "n": "Paulina",
+       "v": 905
+      },
+      {
+       "n": "Juana Morales",
+       "v": 845
+      },
+      {
+       "n": "Valentín y Santiago Barragán",
+       "v": 256
+      }
+     ],
+     "total": 11275,
+     "pendiente": "El informe por cuenta llega al económico pero no por persona: no se sabe qué parte del pago de cada una va a cada cuenta. Los fijos de Aldi y Mila (US$3.000) no se cargan a ninguna.",
+     "recupero": {
+      "proyecto": "Cero",
+      "monto": 2482,
+      "neto": 8793,
+      "nota": "Cáscara paga el contenido del proyecto y el proyecto se lo devuelve. Entra por caja como ingreso, pero no es una venta. El recupero incluye herramientas además de contenido."
+     },
+     "porCuenta": {
+      "base": "económico del mes — informe de contenido por cuenta (Notion, lo lleva Azu)",
+      "cuentas": [
+       {
+        "cuenta": "La cáscara",
+        "quienes": "Juana, Fede y Teo",
+        "valor": 6358,
+        "pct": 73
+       },
+       {
+        "cuenta": "0800",
+        "quienes": "0800, Juan Carrizo, Delfi Ferro y Newro",
+        "valor": 1082,
+        "pct": 13
+       },
+       {
+        "cuenta": "Livo",
+        "quienes": "Cuenta de servicio",
+        "valor": 451,
+        "pct": 5
+       },
+       {
+        "cuenta": "Collab",
+        "quienes": "Lola Berutti y Francisca Irazusta",
+        "valor": 375,
+        "pct": 4
+       },
+       {
+        "cuenta": "My Saint · Cero",
+        "quienes": "La cuenta que después devuelve lo suyo",
+        "valor": 290,
+        "pct": 3
+       },
+       {
+        "cuenta": "Founders",
+        "quienes": "Franco y Facu",
+        "valor": 144,
+        "pct": 2
+       }
+      ],
+      "subtotal": 8700,
+      "fijosSinRepartir": 3000,
+      "total": 11700,
+      "delfiFerro": {
+       "dentroDe": "0800",
+       "paginaPropia": 1282,
+       "alcance": "trabajos aprobados y en curso de septiembre y octubre",
+       "personas": {
+        "Nayara": 614,
+        "Nic Mellone": 590,
+        "Pedro Principi": 78
+       }
+      }
+     }
+    }
+   },
+   "cajaEmpresa": {
+    "base": "septiembre",
+    "porVertical": [
+     {
+      "vertical": "La cáscara · B2C",
+      "regla": "20% del resultado de la unidad",
+      "hoy": 6008,
+      "conAcuerdo": 9011
+     },
+     {
+      "vertical": "Cáscara Founders",
+      "regla": "10% del resultado de la unidad",
+      "hoy": 2719,
+      "conAcuerdo": 5438
+     },
+     {
+      "vertical": "0800",
+      "regla": "Todavía sin tasa definida",
+      "hoy": 0,
+      "conAcuerdo": 0
+     },
+     {
+      "vertical": "Growth",
+      "regla": "Sin registrar en el informe",
+      "hoy": 0,
+      "conAcuerdo": 0
+     }
+    ],
+    "quedo": 8727,
+    "conAcuerdo": 14450,
+    "diferencia": 5723,
+    "saldoCierre": 126002,
+    "comprometidoSocios": 23367,
+    "saldoAlDia": {
+     "fecha": "2026-10-29",
+     "valor": 82948,
+     "mesEnCurso": -42837
+    },
+    "pendiente": "El libro diario no registra en qué cuenta bancaria está cada movimiento, así que no se puede abrir el saldo por cuenta. Tampoco está el estado del trámite de la LLC."
    }
   }
  ],
@@ -1807,23 +2383,30 @@
   {
    "mes": "Junio",
    "cobrado": 32786,
-   "pagado": 53371,
+   "pagado": 55411,
    "resCaja": -22625.09,
    "saldoFinal": 35250.45
   },
   {
    "mes": "Julio",
    "cobrado": 79512.73,
-   "pagado": 34434.3,
-   "resCaja": 45078.43,
-   "saldoFinal": 80328.43
+   "pagado": 35556.19,
+   "resCaja": 43956.54,
+   "saldoFinal": 79206.99
   },
   {
    "mes": "Agosto",
    "cobrado": 86133.06,
-   "pagado": 75264.54,
-   "resCaja": 10868.52,
-   "saldoFinal": 91196.95
+   "pagado": 75461.67,
+   "resCaja": 10671.39,
+   "saldoFinal": 89878.38
+  },
+  {
+   "mes": "Septiembre",
+   "cobrado": 104139.26,
+   "pagado": 68015.82,
+   "resCaja": 36123.44,
+   "saldoFinal": 126001.82
   }
  ],
  "cursoB2CMensual": [
@@ -1866,6 +2449,12 @@
    "mes": "Agosto",
    "facturado": 47024,
    "cobrado": 44790
+  },
+  {
+   "mes": "Septiembre",
+   "facturado": 72205,
+   "cobrado": 51600,
+   "provisorio": true
   }
  ],
  "charts": {
@@ -2060,7 +2649,7 @@
      "foot": "<b>Casi todo equipo:</b> 9 de cada 10 dólares de costo van a personas. Todavía sin inversión en el curso B2C.",
      "footRight": "Costo del mes · <b>US$13.414</b> &nbsp;·&nbsp; pagado · <b>US$11.043</b>",
      "footMarginTop": "30px",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "socios",
@@ -2113,7 +2702,7 @@
       ]
      },
      "foot": "<div>Estos montos son el <b>económico de cada uno</b> según el trabajo que hizo en los clientes del mes —no un retiro fijo—. En enero, Fede generó más por su trabajo (US$4.200). Aparte, el aporte a la cuenta personal (derecha) entró a la caja pero <b>no es resultado del negocio</b>.</div>",
-     "pageNum": "04"
+     "pageNum": "05"
     },
     {
      "type": "proporciones",
@@ -2167,7 +2756,7 @@
      ],
      "foot": "<div><b>Mes de pura estructura:</b> casi todo lo que entró fue servicios, y 9 de cada 10 dólares de costo se fueron en el equipo. Todavía sin curso B2C.</div>",
      "footMarginTop": "24px",
-     "pageNum": "05"
+     "pageNum": "06"
     },
     {
      "type": "cierre",
@@ -2453,7 +3042,7 @@
       }
      ],
      "foot": "<b>Costos del curso: US$14.176</b> (comercial + distribución + herramientas). Con la venta ya facturada (US$45.244), la línea es claramente rentable desde su primer mes.",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "egresos",
@@ -2502,7 +3091,7 @@
      "foot": "<b>Aparece el costo del curso B2C</b> como segundo gran rubro. El equipo sigue siendo el principal.",
      "footRight": "Costo del mes · <b>US$40.944</b> &nbsp;·&nbsp; pagado · <b>US$18.605</b>",
      "footMarginTop": "26px",
-     "pageNum": "04"
+     "pageNum": "05"
     },
     {
      "type": "socios",
@@ -2554,7 +3143,7 @@
       ]
      },
      "foot": "Los retiros se muestran según el mes que corresponden; en caja los montos difieren por desfasajes de pago.",
-     "pageNum": "05"
+     "pageNum": "06"
     },
     {
      "type": "proporciones",
@@ -2626,7 +3215,7 @@
      ],
      "foot": "<b>El curso B2C ya manda:</b> 8 de cada 10 dólares que entraron, y un tercio del costo se va en sostener esa línea (comercial + distribución).",
      "footMarginTop": "24px",
-     "pageNum": "06"
+     "pageNum": "07"
     },
     {
      "type": "cierre",
@@ -2934,7 +3523,7 @@
       }
      ],
      "foot": "<b>Costos de la línea: US$13.448</b> (comercial + distribución + herramientas). La línea B2C ya es el corazón del ingreso y arrastra sus propios costos.",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "egresos",
@@ -2983,7 +3572,7 @@
      "foot": "<b>Equipo y B2C, casi empatados en caja.</b> El costo de la línea propia ya pesa como el equipo entero.",
      "footRight": "Costo del mes · <b>US$40.766</b> &nbsp;·&nbsp; pagado · <b>US$38.593</b>",
      "footMarginTop": "26px",
-     "pageNum": "04"
+     "pageNum": "05"
     },
     {
      "type": "socios",
@@ -3037,7 +3626,7 @@
       ]
      },
      "foot": "Los retiros se muestran según el mes que corresponden; en caja los montos difieren por desfasajes de pago.",
-     "pageNum": "05"
+     "pageNum": "06"
     },
     {
      "type": "proporciones",
@@ -3109,7 +3698,7 @@
      ],
      "foot": "<b>El curso fue casi todo el ingreso (93%).</b> En el costo, equipo y curso pesan casi igual: el producto propio ya arrastra su propia estructura.",
      "footMarginTop": "24px",
-     "pageNum": "06"
+     "pageNum": "07"
     },
     {
      "type": "cierre",
@@ -3412,7 +4001,7 @@
       }
      ],
      "foot": "<b>Cambio en la distribución:</b> el acuerdo de revenue share cruzado con Rein se reemplaza por una distribución a Franco. Costos B2C del mes: US$9.583.",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "egresos",
@@ -3461,7 +4050,7 @@
      "foot": "<b>Se pagó más de lo que costó el mes:</b> se pusieron al día retiros y pagos atrasados.",
      "footRight": "Costo del mes · <b>US$33.730</b> &nbsp;·&nbsp; pagado · <b>US$42.772</b>",
      "footMarginTop": "26px",
-     "pageNum": "04"
+     "pageNum": "05"
     },
     {
      "type": "socios",
@@ -3514,7 +4103,7 @@
       ]
      },
      "foot": "Cuando la caja de socios supera al sueldo del mes, se están saldando retiros de meses anteriores.",
-     "pageNum": "05"
+     "pageNum": "06"
     },
     {
      "type": "proporciones",
@@ -3579,7 +4168,7 @@
      ],
      "foot": "<b>El mes más equilibrado:</b> un tercio del ingreso volvió a venir de servicios, y el costo se reparte parejo entre equipo, curso y contenido.",
      "footMarginTop": "24px",
-     "pageNum": "06"
+     "pageNum": "07"
     },
     {
      "type": "cierre",
@@ -3883,7 +4472,7 @@
       }
      ],
      "foot": "<b>Costos del curso: US$17.648</b> (del mes). Crecen con la venta, pero la línea sigue siendo enormemente rentable a esta escala.",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "egresos",
@@ -3932,7 +4521,7 @@
      "foot": "<b>El gasto se mantiene plano</b> mientras el ingreso se dispara: ahí está la rentabilidad del mes.",
      "footRight": "Costo del mes · <b>US$51.762</b> &nbsp;·&nbsp; pagado · <b>US$41.276</b>",
      "footMarginTop": "26px",
-     "pageNum": "04"
+     "pageNum": "05"
     },
     {
      "type": "socios",
@@ -3986,7 +4575,7 @@
       ]
      },
      "foot": "Sin movimientos de cuenta personal este mes: los socios cobran sueldo, ya saldadas las deudas de arranque.",
-     "pageNum": "05"
+     "pageNum": "06"
     },
     {
      "type": "proporciones",
@@ -4051,7 +4640,7 @@
      ],
      "foot": "<b>El récord del período:</b> el curso fue el 83% del ingreso. El costo se concentra en equipo (56%) y en sostener el curso (41%).",
      "footMarginTop": "24px",
-     "pageNum": "06"
+     "pageNum": "07"
     },
     {
      "type": "cierre",
@@ -4420,7 +5009,7 @@
      "foot": "<b>La brecha del mes está acá:</b> se pagó mucho más de lo que costó el mes (US$55.411 vs US$35.914) porque se saldaron distribución B2C y retiros atrasados. Aparecen costos nuevos de formalización (contador y monotributo) y un equipo de diseño propio.",
      "footRight": "Costo del mes · <b>US$35.914</b> &nbsp;·&nbsp; pagado · <b>US$55.411</b>",
      "footMarginTop": "26px",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "socios",
@@ -4478,7 +5067,7 @@
       ]
      },
      "foot": "<div>Los montos de la izquierda son el <b>económico de cada uno</b> según el trabajo que generó en junio — no un retiro fijo. En caja los números difieren por desfasajes de pago: este mes se pagó más de lo devengado para ponerse al día.</div>",
-     "pageNum": "04"
+     "pageNum": "05"
     },
     {
      "type": "proporciones",
@@ -4543,7 +5132,7 @@
      ],
      "foot": "<div><b>Estructura sana pese al mes flojo:</b> más de la mitad de lo que entró sigue viniendo del producto propio, y el costo se reparte entre equipo, contenido y la línea B2C. El problema de junio no es la estructura — es el bajón puntual de facturación del curso.</div>",
      "footMarginTop": "24px",
-     "pageNum": "05"
+     "pageNum": "06"
     },
     {
      "type": "cierre",
@@ -4747,11 +5336,11 @@
       },
       {
        "label": "Resultado de caja",
-       "value": "+US$45.079"
+       "value": "+US$43.957"
       },
       {
        "label": "Saldo final",
-       "value": "US$80.328"
+       "value": "US$79.207"
       }
      ]
     },
@@ -4786,11 +5375,11 @@
        },
        {
         "l": "Salió",
-        "v": "US$34.434"
+        "v": "US$35.556"
        }
       ],
       "resL": "Resultado de caja",
-      "resFig": "+US$45.079"
+      "resFig": "+US$43.957"
      },
      "flow": [
       {
@@ -4804,15 +5393,15 @@
       },
       {
        "l": "− Pagos",
-       "v": "US$34.434"
+       "v": "US$35.556"
       },
       {
        "l": "Saldo final",
-       "v": "US$80.328",
+       "v": "US$79.207",
        "accent": true
       }
      ],
-     "foot": "<div><b>Las dos lecturas en azul y el mejor resultado de caja del año.</b> Entraron US$79.513 — cuotas del curso vendido en meses anteriores más el mejor mes de servicios del año — y salió la mitad. El saldo pasa de US$35.250 a US$80.328.</div>",
+     "foot": "<div><b>Las dos lecturas en azul y el mejor resultado de caja del año.</b> Entraron US$79.513 — cuotas del curso vendido en meses anteriores más el mejor mes de servicios del año — y salió la mitad. El saldo pasa de US$35.250 a US$79.207.</div>",
      "pageNum": "01"
     },
     {
@@ -4922,10 +5511,10 @@
        "finW": "7%"
       }
      ],
-     "foot": "<b>Se pagó la mitad de lo que costó el mes</b> (US$34.434 vs US$61.448): los socios suben su económico (US$17.000 entre los tres) pero cobran una parte más adelante, y el costo del curso crece con la venta.",
-     "footRight": "Costo del mes · <b>US$61.448</b> &nbsp;·&nbsp; pagado · <b>US$34.434</b>",
+     "foot": "<b>Se pagó la mitad de lo que costó el mes</b> (US$35.556 vs US$61.448): los socios suben su económico (US$17.000 entre los tres) pero cobran una parte más adelante, y el costo del curso crece con la venta.",
+     "footRight": "Costo del mes · <b>US$61.448</b> &nbsp;·&nbsp; pagado · <b>US$35.556</b>",
      "footMarginTop": "26px",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "socios",
@@ -4983,7 +5572,7 @@
       ]
      },
      "foot": "<div>Los montos de la izquierda son el <b>económico de cada uno</b> según el trabajo que generó en julio — no un retiro fijo. En caja los números difieren por desfasajes de pago.</div>",
-     "pageNum": "04"
+     "pageNum": "05"
     },
     {
      "type": "proporciones",
@@ -5048,7 +5637,7 @@
      ],
      "foot": "<div><b>La máquina alineada:</b> ocho de cada diez dólares que entran vienen del producto propio, y el costo se reparte entre equipo, curso y contenido. Julio combina el motor B2C con el mejor mes de servicios.</div>",
      "footMarginTop": "24px",
-     "pageNum": "05"
+     "pageNum": "06"
     },
     {
      "type": "cierre",
@@ -5056,7 +5645,7 @@
      "variant": "blue",
      "kicker": "06 · La lectura del mes",
      "big": "El mejor <span class=\"em\" style=\"color:#fff;\">resultado de caja</span> del año: el saldo toca un nuevo máximo.",
-     "note": "Julio junta lo mejor de los dos mundos: el curso cobra US$64.172 de cuotas y los servicios suman US$15.341, con Juan Carrizo como cuenta nueva. Entraron US$79.513 y salió menos de la mitad: el saldo salta de US$35.250 a US$80.328. El trabajo del mes también cierra bien (+US$21.438), con la facturación real del curso en US$68.092.",
+     "note": "Julio junta lo mejor de los dos mundos: el curso cobra US$64.172 de cuotas y los servicios suman US$15.341, con Juan Carrizo como cuenta nueva. Entraron US$79.513 y salió menos de la mitad: el saldo salta de US$35.250 a US$79.207. El trabajo del mes también cierra bien (+US$21.438), con la facturación real del curso en US$68.092.",
      "pageLabel": "07 · Julio 2026",
      "noteOpacity": "0.85"
     }
@@ -5124,7 +5713,7 @@
      {
       "n": "Teo",
       "eco": 4307,
-      "fin": 1614
+      "fin": 2736
      },
      {
       "n": "Carlota",
@@ -5224,7 +5813,7 @@
     "totIngFin": 79512.73,
     "totEgrEco": 61448.42,
     "totEgrFin": 34434.3,
-    "nota": "<b>Facturado / del mes</b> = el trabajo de julio y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió. El curso B2C va en criterio real: US$68.092 (descuenta 5 reservas caídas y suma el cash de sus señas). Saldo: US$35.250 → US$80.328."
+    "nota": "<b>Facturado / del mes</b> = el trabajo de julio y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió. El curso B2C va en criterio real: US$68.092 (descuenta 5 reservas caídas y suma el cash de sus señas). Saldo: US$35.250 → US$79.207. Corrección oct-2026: el libro diario paga a Teo US$2.736 en el mes (la planilla de Informes tenía US$1.614), así que lo pagado del mes es US$35.556 y julio cierra en US$79.207."
    }
   },
   "agosto": {
@@ -5242,15 +5831,15 @@
      "meta": [
       {
        "label": "Resultado del trabajo",
-       "value": "+US$34.375"
+       "value": "+US$35.207"
       },
       {
        "label": "Resultado de caja",
-       "value": "+US$10.868"
+       "value": "+US$10.671"
       },
       {
        "label": "Saldo final",
-       "value": "US$91.197"
+       "value": "US$89.878"
       }
      ]
     },
@@ -5269,11 +5858,11 @@
        },
        {
         "l": "Costos",
-        "v": "US$58.725"
+        "v": "US$57.893"
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$34.375"
+      "resFig": "+US$35.207"
      },
      "caja": {
       "tag": "La caja del mes",
@@ -5285,16 +5874,16 @@
        },
        {
         "l": "Salió",
-        "v": "US$75.265"
+        "v": "US$75.462"
        }
       ],
       "resL": "Resultado de caja",
-      "resFig": "+US$10.868"
+      "resFig": "+US$10.671"
      },
      "flow": [
       {
        "l": "Saldo inicial",
-       "v": "US$80.328"
+       "v": "US$79.207"
       },
       {
        "l": "+ Cobros",
@@ -5303,15 +5892,15 @@
       },
       {
        "l": "− Pagos",
-       "v": "US$75.265"
+       "v": "US$75.462"
       },
       {
        "l": "Saldo final",
-       "v": "US$91.197",
+       "v": "US$89.878",
        "accent": true
       }
      ],
-     "foot": "<div><b>Las dos lecturas en azul.</b> US$93.100 facturados — el segundo mejor mes del año, detrás de mayo — con la unidad 0800 sumando desde el primer mes. La caja crece menos (+US$10.868) porque salió un reintegro de US$10.000. Anotación: la planilla abre agosto en US$79.207; se tomó el cierre de julio (US$80.328), diferencia de US$1.121 a revisar en Gestión.</div>",
+     "foot": "<div><b>Las dos lecturas en azul.</b> US$93.100 facturados — el segundo mejor mes del año, detrás de mayo — con la unidad 0800 sumando desde el primer mes. La caja crece menos (+US$10.671) porque salió un reintegro de US$10.000. El saldo pasa de US$79.207 a US$89.878.</div>",
      "pageNum": "01"
     },
     {
@@ -5382,43 +5971,43 @@
      "label": "En qué se fue",
      "kicker": "03 · Egresos",
      "title": "En qué se fue la plata",
-     "rowsGap": "26px",
+     "rowsGap": "18px",
      "groups": [
       {
-       "label": "Equipo &amp; socios",
-       "pct": "46%",
-       "small": "Retiros del equipo y los socios",
-       "eco": "US$26.646",
-       "ecoW": "96%",
-       "fin": "US$27.701",
-       "finW": "100%"
+       "label": "Reparto a los cinco",
+       "pct": "50%",
+       "small": "Socios, Franco y Teo",
+       "eco": "US$29.181",
+       "ecoW": "100%",
+       "fin": "US$28.270",
+       "finW": "97%"
       },
       {
-       "label": "B2C · costos",
-       "pct": "27%",
-       "small": "Comercial + distribución (Franco)",
-       "eco": "US$15.932",
-       "ecoW": "58%",
-       "fin": "US$19.440",
-       "finW": "70%"
+       "label": "Comercial · B2C",
+       "pct": "14%",
+       "small": "Comercial del curso",
+       "eco": "US$7.869",
+       "ecoW": "27%",
+       "fin": "US$11.788",
+       "finW": "40%"
       },
       {
        "label": "Contenido y diseño",
        "pct": "19%",
-       "small": "Producción + equipo de diseño",
-       "eco": "US$11.359",
-       "ecoW": "41%",
+       "small": "Producción y diseño",
+       "eco": "US$11.275",
+       "ecoW": "39%",
        "fin": "US$10.253",
-       "finW": "37%"
+       "finW": "35%"
       },
       {
-       "label": "Herramientas &amp; otros",
-       "pct": "8%",
-       "small": "Herramientas, pauta, cowork, comisiones",
-       "eco": "US$4.788",
-       "ecoW": "17%",
-       "fin": "US$7.871",
-       "finW": "28%"
+       "label": "Equipo y herramientas",
+       "pct": "17%",
+       "small": "Apoyo, herramientas y pauta",
+       "eco": "US$9.568",
+       "ecoW": "33%",
+       "fin": "US$15.151",
+       "finW": "52%"
       },
       {
        "label": "Devolución · 0800",
@@ -5426,13 +6015,13 @@
        "eco": "—",
        "ecoW": "0%",
        "fin": "US$10.000",
-       "finW": "36%"
+       "finW": "34%"
       }
      ],
-     "foot": "<b>Se pagó más de lo que costó el mes</b> (US$75.265 vs US$58.725): pesan el reintegro de US$10.000 a un cliente de 0800 y pagos del curso de meses anteriores.",
-     "footRight": "Costo del mes · <b>US$58.725</b> &nbsp;·&nbsp; pagado · <b>US$75.265</b>",
+     "foot": "<b>Se pagó más de lo que costó el mes</b> (US$75.462 vs US$57.893): pesan el reintegro de US$10.000 a un cliente de 0800 y pagos del curso de meses anteriores.",
+     "footRight": "Costo del mes · <b>US$57.893</b> &nbsp;·&nbsp; pagado · <b>US$75.462</b>",
      "footMarginTop": "26px",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "acuerdos",
@@ -5499,7 +6088,7 @@
       ]
      },
      "foot": "<div>Los montos de la izquierda son el <b>económico de cada uno</b> según el trabajo que generó en agosto — no un retiro fijo. En caja los números difieren por desfasajes de pago.</div>",
-     "pageNum": "04"
+     "pageNum": "06"
     },
     {
      "type": "proporciones",
@@ -5509,74 +6098,68 @@
      "cols": [
       {
        "t": "De dónde entró la plata",
-       "s": "Por unidad de negocio, sobre la caja del mes",
-       "donut": "conic-gradient(var(--cc-blue) 0.0% 52.0%, var(--cc-ink-muted) 52.0% 73.4%, var(--cc-ink) 73.4% 89.8%, var(--cc-ink-faint) 89.8% 100.0%)",
+       "s": "Sobre la caja del mes (lo que entró)",
+       "donut": "conic-gradient(var(--cc-blue) 0 52.0%, var(--cc-ink) 52.0% 78.6%, var(--cc-ink-muted) 78.6% 100%)",
        "centerBig": "US$86.133",
        "centerLabel": "Entró",
        "legend": [
         {
          "pc": "52%",
          "dot": "var(--cc-blue)",
-         "nm": "La cáscara · Curso B2C",
+         "nm": "Curso B2C",
          "amt": "US$44.790"
+        },
+        {
+         "pc": "27%",
+         "dot": "var(--cc-ink)",
+         "nm": "Servicios a clientes",
+         "amt": "US$22.921"
         },
         {
          "pc": "21%",
          "dot": "var(--cc-ink-muted)",
          "nm": "0800",
          "amt": "US$18.422"
-        },
-        {
-         "pc": "16%",
-         "dot": "var(--cc-ink)",
-         "nm": "F3 · Founder",
-         "amt": "US$14.129"
-        },
-        {
-         "pc": "10%",
-         "dot": "var(--cc-ink-faint)",
-         "nm": "Servicios y formación",
-         "amt": "US$8.792"
         }
        ]
       },
       {
        "t": "En qué se fue la plata",
        "s": "Sobre el costo del mes (lo que costó)",
-       "donut": "conic-gradient(var(--cc-ink) 0 45.4%, var(--cc-blue) 45.4% 72.5%, var(--cc-ink-muted) 72.5% 91.8%, var(--cc-ink-faint) 91.8% 100%)",
-       "centerBig": "US$58.725",
+       "donut": "conic-gradient(var(--cc-ink) 0 50.4%, var(--cc-blue) 50.4% 64.0%, var(--cc-ink-muted) 64.0% 83.5%, var(--cc-ink-faint) 83.5% 100%)",
+       "centerBig": "US$57.893",
        "centerLabel": "Costo",
        "legend": [
         {
-         "pc": "46%",
+         "pc": "50%",
          "dot": "var(--cc-ink)",
-         "nm": "Equipo y socios",
-         "amt": "US$26.646"
+         "nm": "Reparto a los cinco",
+         "amt": "US$29.181"
         },
         {
-         "pc": "27%",
+         "pc": "14%",
          "dot": "var(--cc-blue)",
-         "nm": "Costos del curso B2C",
-         "amt": "US$15.932"
+         "nm": "Comercial del curso B2C",
+         "amt": "US$7.869"
         },
         {
          "pc": "19%",
          "dot": "var(--cc-ink-muted)",
          "nm": "Contenido y diseño",
-         "amt": "US$11.359"
+         "amt": "US$11.275"
         },
         {
-         "pc": "8%",
+         "pc": "17%",
          "dot": "var(--cc-ink-faint)",
-         "nm": "Herramientas y otros",
-         "amt": "US$4.788"
+         "nm": "Resto del equipo y herramientas",
+         "amt": "US$9.568"
         }
        ]
       }
      ],
      "foot": "<div><b>Tres fuentes de caja por primera vez:</b> el curso sigue siendo la mitad, pero 0800 ya aporta uno de cada cinco dólares en su primer mes.</div>",
      "footMarginTop": "24px",
-     "pageNum": "05"
+     "pageNum": "07"
     },
     {
      "type": "cierre",
@@ -5584,7 +6167,7 @@
      "variant": "blue",
      "kicker": "06 · La lectura del mes",
      "big": "Una <span class=\"em\" style=\"color:#fff;\">unidad nueva</span>, el segundo mejor mes de facturación y el saldo en su máximo.",
-     "note": "Agosto factura US$93.100 — el segundo mejor mes del año, detrás de mayo — con 0800 debutando en US$18.422. El trabajo cierra en +US$34.375. La caja suma +US$10.868 después de un reintegro de US$10.000 a un cliente de 0800, y el saldo llega a US$91.197. El curso va en criterio real: US$47.024, con 4 reservas caídas descontadas.",
+     "note": "Agosto estrena 0800 como unidad de negocio (US$18.422 facturados y cobrados) y suma US$17.000 de F3 · Founder. El trabajo cierra en +US$35.207 y la caja en +US$10.671: entraron US$86.133 y salieron US$75.462, con un reintegro de US$10.000 a un cliente de 0800. El saldo pasa de US$79.207 a US$89.878. El curso va en criterio real: US$47.024, con 4 reservas caídas descontadas.",
      "pageLabel": "08 · Agosto 2026",
      "noteOpacity": "0.85"
     }
@@ -5671,8 +6254,13 @@
      },
      {
       "n": "Mora",
-      "eco": 400,
+      "eco": 200,
       "fin": 400
+     },
+     {
+      "n": "Aye",
+      "eco": 700,
+      "fin": 0
      },
      {
       "n": "Agus Dagata",
@@ -5681,7 +6269,7 @@
      },
      {
       "n": "Costos de contenido",
-      "eco": 7323,
+      "eco": 7239,
       "fin": 6697
      },
      {
@@ -5696,13 +6284,13 @@
      },
      {
       "n": "Pauta",
-      "eco": 1720,
-      "fin": 1720
+      "eco": 500,
+      "fin": 500
      },
      {
       "n": "Inversión",
       "eco": "",
-      "fin": 675
+      "fin": 1896
      },
      {
       "n": "Cowork",
@@ -5717,7 +6305,7 @@
      {
       "n": "Contador y monotributo",
       "eco": "",
-      "fin": 316
+      "fin": 315
      },
      {
       "n": "Comisiones de transacción",
@@ -5726,7 +6314,7 @@
      },
      {
       "n": "La cáscara · Comercial",
-      "eco": 7897,
+      "eco": 7869,
       "fin": 11788,
       "tag": "b2c"
      },
@@ -5739,7 +6327,7 @@
      {
       "n": "Otros gastos",
       "eco": "",
-      "fin": 954
+      "fin": 1151
      },
      {
       "n": "Devolución · 0800",
@@ -5748,11 +6336,1739 @@
       "tag": "dev"
      }
     ],
-    "totIngEco": 93099.62,
-    "totIngFin": 86133.06,
-    "totEgrEco": 58725.42,
-    "totEgrFin": 75264.54,
-    "nota": "<b>Facturado / del mes</b> = el trabajo de agosto y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió. El curso B2C va en criterio <b>real</b>: US$47.024 facturados (descuenta 4 reservas caídas y suma el cash de sus señas). La devolución de US$10.000 es un reintegro a un cliente de 0800. <b>Anotación:</b> la planilla abre agosto en US$79.207; se tomó el cierre de julio (US$80.328) — diferencia US$1.121 a revisar en Gestión. Saldo: US$80.328 → US$91.197."
+    "nota": "Re-sincronizado con la planilla corregida (oct-2026): el costo del mes es US$57.893 y lo pagado US$75.462. Con la corrección de julio (pago a Teo), agosto abre en US$79.207 — igual que la planilla — y cierra en US$89.878. La diferencia de US$1.121 que quedaba anotada está resuelta."
+   }
+  },
+  "septiembre": {
+   "screenLabel": "Septiembre",
+   "title": "Septiembre 2026 · Cáscara Collective",
+   "detail": "month",
+   "slides": [
+    {
+     "type": "cover",
+     "label": "Portada · Septiembre",
+     "kicker": "Informe mensual · 2026",
+     "no": "Mes 09",
+     "month": "Septiembre",
+     "sub": "El mes más <span class=\"em\">grande</span> del año: US$142.900 facturados, <span class=\"em\">Founder</span> en su mejor mes y el saldo arriba de US$126.000.",
+     "meta": [
+      {
+       "label": "Resultado del trabajo",
+       "value": "+US$58.902"
+      },
+      {
+       "label": "Resultado de caja",
+       "value": "+US$36.123"
+      },
+      {
+       "label": "Saldo final",
+       "value": "US$126.002"
+      }
+     ]
+    },
+    {
+     "type": "lecturas",
+     "label": "Las dos lecturas",
+     "kicker": "01 · El mes en dos lecturas",
+     "title": "El trabajo y la <span class=\"em\">caja</span>",
+     "trabajo": {
+      "tag": "El trabajo del mes",
+      "sub": "Lo facturado por el trabajo del mes y sus costos. El curso va provisorio, con señas: falta descontar las reservas caídas de septiembre.",
+      "io": [
+       {
+        "l": "Facturado",
+        "v": "US$142.900"
+       },
+       {
+        "l": "Costos",
+        "v": "US$83.998"
+       }
+      ],
+      "resL": "Resultado del trabajo",
+      "resFig": "+US$58.902"
+     },
+     "caja": {
+      "tag": "La caja del mes",
+      "sub": "La plata que realmente entró y salió de la cuenta en septiembre.",
+      "io": [
+       {
+        "l": "Entró",
+        "v": "US$104.139"
+       },
+       {
+        "l": "Salió",
+        "v": "US$68.016"
+       }
+      ],
+      "resL": "Resultado de caja",
+      "resFig": "+US$36.123"
+     },
+     "flow": [
+      {
+       "l": "Saldo inicial",
+       "v": "US$89.878"
+      },
+      {
+       "l": "+ Cobros",
+       "v": "US$104.139",
+       "blue": true
+      },
+      {
+       "l": "− Pagos",
+       "v": "US$68.016"
+      },
+      {
+       "l": "Saldo final",
+       "v": "US$126.002",
+       "accent": true
+      }
+     ],
+     "foot": "<div><b>Las dos lecturas en récord.</b> US$142.900 facturados, un 51% más que mayo — el récord anterior — y el trabajo cierra en +US$58.902. La caja crece US$36.123 y el saldo pasa de US$89.878 a US$126.002. Con este informe se cierra la diferencia de US$1.121 que quedaba anotada: el libro diario paga a Teo US$2.736 en julio, así que julio cierra en US$79.207 y la cadena de saldo queda exacta mes a mes.</div>",
+     "pageNum": "01"
+    },
+    {
+     "type": "barras",
+     "label": "De dónde entró",
+     "kicker": "02 · Ingresos",
+     "title": "De dónde entró la plata",
+     "totals": {
+      "fact": "US$142.900",
+      "factSmall": "Trabajo facturado en septiembre",
+      "cob": "US$104.139",
+      "cobSmall": "Incluye cuotas B2C de ventas previas"
+     },
+     "rowsMarginTop": "20px",
+     "bars": [
+      {
+       "label": "La cáscara",
+       "small": "Curso propio",
+       "width": "100%",
+       "amount": "US$51.600",
+       "amountSpan": "50% de la caja",
+       "b2c": true
+      },
+      {
+       "label": "F3 · Founder",
+       "small": "Programa Founder",
+       "width": "63%",
+       "amount": "US$32.637",
+       "amountSpan": "31% de la caja"
+      },
+      {
+       "label": "0800",
+       "small": "Unidad de negocio nueva",
+       "width": "21%",
+       "amount": "US$11.000",
+       "amountSpan": "11% de la caja"
+      },
+      {
+       "label": "Cuentas de servicio",
+       "small": "Livo, Board Room y Picheo",
+       "width": "12%",
+       "amount": "US$6.420",
+       "amountSpan": "6% de la caja"
+      },
+      {
+       "label": "Recupero · Cero",
+       "small": "Contenido que devolvió el proyecto",
+       "width": "5%",
+       "amount": "US$2.482",
+       "amountSpan": "2% de la caja"
+      }
+     ],
+     "foot": "<div><b>Founders hace su mejor mes</b>: factura US$48.200 — casi el triple que agosto — y cobra US$32.637. El curso factura US$72.205 y cobra US$51.600, la mitad de la caja del mes. Los US$2.482 de <b>Cero</b> no son una venta: es el recupero de lo que Cáscara pagó de contenido de ese proyecto.</div>",
+     "footMarginTop": "18px",
+     "pageNum": "02"
+    },
+    {
+     "type": "egresos",
+     "label": "En qué se fue",
+     "kicker": "03 · Egresos",
+     "title": "En qué se fue la plata",
+     "rowsGap": "18px",
+     "groups": [
+      {
+       "label": "Reparto a los cinco",
+       "pct": "60%",
+       "small": "Socios, Franco y Teo",
+       "eco": "US$50.229",
+       "ecoW": "100%",
+       "fin": "US$32.642",
+       "finW": "65%"
+      },
+      {
+       "label": "Comercial · B2C",
+       "pct": "19%",
+       "small": "Comercial del curso",
+       "eco": "US$15.839",
+       "ecoW": "32%",
+       "fin": "US$8.013",
+       "finW": "16%"
+      },
+      {
+       "label": "Contenido y diseño",
+       "pct": "14%",
+       "small": "Producción y diseño",
+       "eco": "US$11.700",
+       "ecoW": "23%",
+       "fin": "US$11.775",
+       "finW": "23%"
+      },
+      {
+       "label": "Resto del equipo",
+       "pct": "7%",
+       "small": "Equipo de apoyo",
+       "eco": "US$6.230",
+       "ecoW": "12%",
+       "fin": "US$6.570",
+       "finW": "13%"
+      },
+      {
+       "label": "Herramientas y otros",
+       "small": "Herramientas e impuestos",
+       "eco": "—",
+       "ecoW": "0%",
+       "fin": "US$9.016",
+       "finW": "18%"
+      }
+     ],
+     "foot": "<b>Se pagó mucho menos de lo que costó el mes</b> (US$68.016 contra US$83.998): el reparto a los cinco se cobra con un mes de atraso y la diferencia queda anotada en la cuenta de socios.",
+     "footRight": "Costo del mes · <b>US$83.998</b> &nbsp;·&nbsp; pagado · <b>US$68.016</b>",
+     "footMarginTop": "26px",
+     "pageNum": "03"
+    },
+    {
+     "type": "tabla",
+     "label": "Las unidades",
+     "kicker": "Las unidades",
+     "title": "Cada unidad, con su <span class=\"em\">propia cuenta</span>",
+     "sub": "Lo que cobró cada unidad en septiembre, lo que le costó y lo que quedó para repartir. Montos en dólares, sin el US$ para que la tabla se lea de un tirón.",
+     "cols": [
+      {
+       "l": "Concepto",
+       "w": "1.55fr"
+      },
+      {
+       "l": "La cáscara",
+       "w": "1fr"
+      },
+      {
+       "l": "Founders",
+       "w": "1fr"
+      },
+      {
+       "l": "0800",
+       "w": ".85fr"
+      },
+      {
+       "l": "Board Room",
+       "w": "1fr"
+      },
+      {
+       "l": "Otras cuentas",
+       "w": "1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Facturado del mes",
+       "cells": [
+        "72.205",
+        "48.200",
+        "16.271",
+        "1.224",
+        "5.000"
+       ]
+      },
+      {
+       "nm": "Cobrado en el mes",
+       "cells": [
+        "51.600",
+        "33.697",
+        "11.000",
+        "1.225",
+        "5.000"
+       ]
+      },
+      {
+       "nm": "Comercial · growth",
+       "cells": [
+        "9.873",
+        "5.966",
+        "—",
+        "—",
+        "—"
+       ]
+      },
+      {
+       "nm": "Contenido",
+       "cells": [
+        "6.358",
+        "144",
+        "1.082",
+        "—",
+        "—"
+       ]
+      },
+      {
+       "nm": "Herramientas y pauta",
+       "cells": [
+        "4.231",
+        "395",
+        "—",
+        "—",
+        "—"
+       ]
+      },
+      {
+       "nm": "Equipo de la unidad",
+       "s": "Mora y Ayelén",
+       "cells": [
+        "1.100",
+        "—",
+        "—",
+        "—",
+        "—"
+       ]
+      },
+      {
+       "nm": "Resultado de la unidad",
+       "s": "Lo que queda para repartir",
+       "cells": [
+        {
+         "v": "30.038",
+         "em": true
+        },
+        {
+         "v": "27.192",
+         "em": true
+        },
+        "—",
+        {
+         "v": "1.225",
+         "em": true
+        },
+        {
+         "v": "5.000",
+         "em": true
+        }
+       ],
+       "tot": true
+      },
+      {
+       "nm": "Margen sobre lo cobrado",
+       "cells": [
+        {
+         "v": "58%",
+         "em": true
+        },
+        {
+         "v": "81%",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        "100%",
+        "100%"
+       ]
+      }
+     ],
+     "foot": "<b>Founders deja 81 centavos de cada dólar que cobra; el curso, 58.</b> La diferencia está en growth y contenido: el curso paga US$9.873 de comercial y US$6.358 de producción, contra US$5.966 y US$144 de Founders. <b>0800</b> ya tiene su contenido (US$1.082, con Delfi Ferro adentro) pero le falta su comercial y sus herramientas para cerrar la cuenta. <b>Board Room</b> son 48 miembros a US$27.",
+     "footMarginTop": "24px",
+     "dense": true
+    },
+    {
+     "type": "tabla",
+     "label": "El reparto",
+     "kicker": "El reparto",
+     "title": "Cómo se <span class=\"em\">reparte</span> el resultado de cada unidad",
+     "sub": "El reparto no se calcula sobre lo facturado sino sobre el resultado de cada unidad, y cada unidad tiene su propio esquema. Los porcentajes están llevados a la misma base para poder compararlos.",
+     "cols": [
+      {
+       "l": "Persona",
+       "w": "1.3fr"
+      },
+      {
+       "l": "% curso",
+       "s": "del resultado",
+       "w": ".8fr"
+      },
+      {
+       "l": "La cáscara",
+       "w": ".95fr"
+      },
+      {
+       "l": "% Founders",
+       "s": "del resultado",
+       "w": ".8fr"
+      },
+      {
+       "l": "Founders",
+       "w": ".95fr"
+      },
+      {
+       "l": "0800",
+       "w": ".8fr"
+      },
+      {
+       "l": "Total del mes",
+       "w": "1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Franco",
+       "cells": [
+        {
+         "v": "18,4%",
+         "dim": true
+        },
+        "5.527",
+        {
+         "v": "27,5%",
+         "dim": true
+        },
+        "7.478",
+        "700",
+        {
+         "v": "13.705",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Facu",
+       "cells": [
+        {
+         "v": "10,4%",
+         "dim": true
+        },
+        "3.124",
+        {
+         "v": "27,5%",
+         "dim": true
+        },
+        "7.478",
+        "200",
+        {
+         "v": "10.802",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Fede",
+       "cells": [
+        {
+         "v": "17,6%",
+         "dim": true
+        },
+        "5.287",
+        {
+         "v": "12,5%",
+         "dim": true
+        },
+        "3.399",
+        "1.500",
+        {
+         "v": "10.186",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Cáscara",
+       "s": "La casa",
+       "cells": [
+        {
+         "v": "20%",
+         "dim": true
+        },
+        "6.007",
+        {
+         "v": "10%",
+         "dim": true
+        },
+        "2.719",
+        "—",
+        {
+         "v": "8.726",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Teo",
+       "cells": [
+        {
+         "v": "16%",
+         "dim": true
+        },
+        "4.806",
+        {
+         "v": "12,5%",
+         "dim": true
+        },
+        "3.399",
+        "—",
+        {
+         "v": "8.205",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Juana",
+       "cells": [
+        {
+         "v": "13,6%",
+         "dim": true
+        },
+        "4.085",
+        {
+         "v": "10%",
+         "dim": true
+        },
+        "2.719",
+        "500",
+        {
+         "v": "7.304",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Segundo",
+       "cells": [
+        {
+         "v": "4%",
+         "dim": true
+        },
+        "1.202",
+        {
+         "v": "—",
+         "dim": true
+        },
+        "—",
+        "—",
+        {
+         "v": "1.202",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Total repartido",
+       "tot": true,
+       "cells": [
+        {
+         "v": "100%",
+         "dim": true
+        },
+        "30.038",
+        {
+         "v": "100%",
+         "dim": true
+        },
+        "27.192",
+        "2.900",
+        {
+         "v": "60.130",
+         "em": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Cada unidad reparte distinto.</b> En el curso, Cáscara se queda el 20% y el 80% restante se divide Franco 23%, Fede 22%, Teo 20%, Juana 17%, Facu 13% y Segundo 5%. En Founders el reparto va directo sobre el resultado: Facu y Franco 27,5% cada uno, Teo y Fede 12,5%, Juana y Cáscara 10%. 0800 todavía reparte por monto, sin porcentaje fijo. <b>Segundo entra en el curso y Cáscara se queda US$8.726</b> entre las dos unidades.",
+     "footMarginTop": "22px",
+     "dense": true
+    },
+    {
+     "type": "tabla",
+     "label": "Las reglas del reparto",
+     "kicker": "Las reglas",
+     "title": "Lo que dice el <span class=\"em\">acuerdo</span> y lo que aplica la planilla",
+     "sub": "La caja central es el porcentaje que cada vertical le deja a la empresa antes de repartir. Los acuerdos de agosto fijaron una tasa por vertical; la planilla todavía aplica otra.",
+     "dense": true,
+     "cols": [
+      {
+       "l": "Vertical",
+       "w": "1.9fr"
+      },
+      {
+       "l": "Caja",
+       "s": "según el acuerdo",
+       "w": ".75fr"
+      },
+      {
+       "l": "Caja",
+       "s": "hoy en la planilla",
+       "w": ".85fr"
+      },
+      {
+       "l": "Al reparto",
+       "s": "según el acuerdo",
+       "w": "2.1fr"
+      },
+      {
+       "l": "Al reparto",
+       "s": "hoy en la planilla",
+       "w": "1.7fr"
+      },
+      {
+       "l": "Resultado",
+       "s": "de septiembre",
+       "w": ".85fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Nivel 1 · La cáscara",
+       "s": "Curso B2C",
+       "cells": [
+        {
+         "v": "30%",
+         "em": true
+        },
+        {
+         "v": "20%",
+         "em": true
+        },
+        {
+         "v": "65% por puntos + Segundo 5%",
+         "dim": true
+        },
+        {
+         "v": "76% entre los cinco + Segundo 4%",
+         "dim": true
+        },
+        "30.038"
+       ]
+      },
+      {
+       "nm": "Nivel 2 · Founders",
+       "s": "Aceleradora",
+       "cells": [
+        {
+         "v": "20%",
+         "em": true
+        },
+        {
+         "v": "10%",
+         "em": true
+        },
+        {
+         "v": "70% por tabla + 10% operaciones",
+         "dim": true
+        },
+        {
+         "v": "90% entre los cinco",
+         "dim": true
+        },
+        "27.192"
+       ]
+      },
+      {
+       "nm": "Nivel 3 · Growth",
+       "s": "MySaint, Delfi Ferro, Daniela",
+       "cells": [
+        {
+         "v": "10%",
+         "em": true
+        },
+        {
+         "v": "Sin definir",
+         "dim": true
+        },
+        {
+         "v": "60/40 con el partner; el 40 va 30 growth y 10 contenido",
+         "dim": true
+        },
+        {
+         "v": "Sin registrar",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "0800",
+       "s": "Estudio creativo",
+       "cells": [
+        {
+         "v": "20–30%",
+         "em": true
+        },
+        {
+         "v": "Sin definir",
+         "dim": true
+        },
+        {
+         "v": "Producción 30%, fijos por escalera, después socios",
+         "dim": true
+        },
+        {
+         "v": "Montos sueltos",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>En septiembre la diferencia son US$5.723.</b> Con las tasas de la planilla la empresa retuvo US$8.727 y con las del acuerdo le tocaban US$14.450. Toda esa diferencia fue al reparto de los cinco. <b>Growth y 0800 todavía no tienen tasa aplicada</b>: growth no está registrado en el informe y 0800 reparte por monto, sin porcentaje.",
+     "footMarginTop": "20px"
+    },
+    {
+     "type": "tabla",
+     "label": "El equipo de growth",
+     "kicker": "Growth",
+     "title": "Quién <span class=\"em\">cerró</span> y cuánto cobra por eso",
+     "sub": "El equipo comercial de las dos unidades que lo tienen. \"Cerró\" es la plata que entró por sus ventas; \"a cobrar\", su comisión del mes. Montos en dólares, sin el US$.",
+     "cols": [
+      {
+       "l": "Persona",
+       "w": "1.7fr"
+      },
+      {
+       "l": "Cerró · curso",
+       "w": ".95fr"
+      },
+      {
+       "l": "Cerró · Founders",
+       "w": "1.05fr"
+      },
+      {
+       "l": "Comisión · curso",
+       "w": "1.05fr"
+      },
+      {
+       "l": "Comisión · Founders",
+       "w": "1.15fr"
+      },
+      {
+       "l": "A cobrar",
+       "s": "en el mes",
+       "w": "1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Scania",
+       "s": "Closer",
+       "cells": [
+        {
+         "v": "25.476",
+         "dim": false
+        },
+        {
+         "v": "12.378",
+         "dim": false
+        },
+        "2.074",
+        {
+         "v": "990",
+         "dim": false
+        },
+        {
+         "v": "3.064",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Francisca",
+       "s": "Closer y dirección comercial",
+       "cells": [
+        {
+         "v": "18.793",
+         "dim": false
+        },
+        {
+         "v": "16.383",
+         "dim": false
+        },
+        "5.116",
+        {
+         "v": "3.669",
+         "dim": false
+        },
+        {
+         "v": "8.785",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Milagros",
+       "s": "Closer",
+       "cells": [
+        {
+         "v": "7.331",
+         "dim": false
+        },
+        {
+         "v": "4.936",
+         "dim": false
+        },
+        "586",
+        {
+         "v": "395",
+         "dim": false
+        },
+        {
+         "v": "981",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Agustina",
+       "s": "Setter",
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        "854",
+        {
+         "v": "610",
+         "dim": false
+        },
+        {
+         "v": "1.464",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Alejandro",
+       "s": "Setter",
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        "1.106",
+        {
+         "v": "302",
+         "dim": false
+        },
+        {
+         "v": "1.408",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Valentina",
+       "s": "Setter",
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        "137",
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "137",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "El equipo",
+       "tot": true,
+       "cells": [
+        "51.600",
+        "33.697",
+        "9.873",
+        "5.966",
+        {
+         "v": "15.839",
+         "em": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Los closers cobran el 8% de lo que cobran sus ventas y los setters el 3%; la dirección comercial suma un 7% sobre el total de cada unidad.</b> Scania cerró más volumen (US$37.854 entre las dos unidades) pero Francisca cobra casi tres veces más, porque además lleva la dirección comercial.",
+     "footMarginTop": "18px",
+     "dense": true
+    },
+    {
+     "type": "tabla",
+     "label": "El contenido",
+     "kicker": "El contenido",
+     "title": "Quién hace el <span class=\"em\">contenido</span>, y cuánto cobra",
+     "sub": "Lo que cobró cada persona en septiembre, que paga el trabajo de agosto. El reparto por cuenta va en la página siguiente. Montos en dólares, sin el US$.",
+     "dense": true,
+     "cols": [
+      {
+       "l": "Persona",
+       "w": "2.1fr"
+      },
+      {
+       "l": "Trabajo",
+       "w": "1.1fr"
+      },
+      {
+       "l": "Pagado",
+       "s": "en septiembre",
+       "w": "1.2fr"
+      },
+      {
+       "l": "% del total",
+       "w": "1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Milagros",
+       "cells": [
+        "Contenido",
+        "1.500",
+        "13%"
+       ]
+      },
+      {
+       "nm": "Milone",
+       "cells": [
+        "Contenido",
+        "1.467",
+        "13%"
+       ]
+      },
+      {
+       "nm": "Facundo Suárez",
+       "cells": [
+        "Contenido",
+        "1.217",
+        "11%"
+       ]
+      },
+      {
+       "nm": "Tomás Etchandy",
+       "cells": [
+        "Contenido",
+        "795",
+        "7%"
+       ]
+      },
+      {
+       "nm": "Otros nueve",
+       "cells": [
+        "Contenido",
+        "2.260",
+        "20%"
+       ]
+      },
+      {
+       "nm": "Subtotal contenido",
+       "tot": true,
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "7.239",
+         "em": true
+        },
+        "64%"
+       ]
+      },
+      {
+       "nm": "Aldi",
+       "cells": [
+        "Diseño",
+        "2.030",
+        "18%"
+       ]
+      },
+      {
+       "nm": "Paulina",
+       "cells": [
+        "Diseño",
+        "905",
+        "8%"
+       ]
+      },
+      {
+       "nm": "Juana Morales",
+       "cells": [
+        "Diseño",
+        "845",
+        "8%"
+       ]
+      },
+      {
+       "nm": "Valentín y Santiago Barragán",
+       "cells": [
+        "Diseño",
+        "256",
+        "2%"
+       ]
+      },
+      {
+       "nm": "Subtotal diseño",
+       "tot": true,
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "4.036",
+         "em": true
+        },
+        "36%"
+       ]
+      },
+      {
+       "nm": "Total pagado en septiembre",
+       "tot": true,
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "11.275",
+         "em": true
+        },
+        "100%"
+       ]
+      },
+      {
+       "nm": "Recupero · proyecto Cero",
+       "s": "Lo que el proyecto devolvió",
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "−2.482",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Costo neto del mes",
+       "tot": true,
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "8.793",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>El pago va un mes atrás del trabajo</b>, igual que el de los socios: las once líneas del libro diario dicen \"Agosto\". El proyecto <b>Cero</b> devuelve lo suyo — US$2.482 que bajan el costo neto a US$8.793, aunque incluyen herramientas.",
+     "footMarginTop": "16px"
+    },
+    {
+     "type": "tabla",
+     "label": "El contenido por cuenta",
+     "kicker": "El contenido por cuenta",
+     "title": "A qué <span class=\"em\">cuenta</span> va cada peso de contenido",
+     "sub": "El informe de contenido por cuenta que lleva Azu, cruzado con la planilla: es el económico del mes, no lo pagado. Montos en dólares, sin el US$.",
+     "cols": [
+      {
+       "l": "Cuenta",
+       "w": "2.9fr"
+      },
+      {
+       "l": "Económico",
+       "s": "de septiembre",
+       "w": "1.2fr"
+      },
+      {
+       "l": "% del total",
+       "w": "1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "La cáscara",
+       "s": "Juana, Fede y Teo",
+       "cells": [
+        "6.358",
+        "73%"
+       ]
+      },
+      {
+       "nm": "0800",
+       "s": "0800, Juan Carrizo, Delfi Ferro y Newro",
+       "cells": [
+        "1.082",
+        "13%"
+       ]
+      },
+      {
+       "nm": "Livo",
+       "s": "Cuenta de servicio",
+       "cells": [
+        "451",
+        "5%"
+       ]
+      },
+      {
+       "nm": "Collab",
+       "s": "Lola Berutti y Francisca Irazusta",
+       "cells": [
+        "375",
+        "4%"
+       ]
+      },
+      {
+       "nm": "My Saint · Cero",
+       "s": "La cuenta que después devuelve lo suyo",
+       "cells": [
+        "290",
+        "3%"
+       ]
+      },
+      {
+       "nm": "Founders",
+       "s": "Franco y Facu",
+       "cells": [
+        "144",
+        "2%"
+       ]
+      },
+      {
+       "nm": "Subtotal por cuenta",
+       "tot": true,
+       "cells": [
+        {
+         "v": "8.700",
+         "em": true
+        },
+        "100%"
+       ]
+      },
+      {
+       "nm": "Fijos sin repartir",
+       "s": "Aldi y Mila, que no se cargan a ninguna cuenta",
+       "cells": [
+        "3.000",
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Contenido y diseño del mes",
+       "tot": true,
+       "cells": [
+        {
+         "v": "11.700",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>El informe de Azu cuadra exacto con la planilla:</b> esos US$8.700 son los mismos US$8.700 de contenido y diseño del económico, repartidos en seis cuentas. <b>Delfi Ferro está adentro de 0800.</b> Su página propia lleva US$1.282 de trabajos aprobados y en curso —Nayara US$614, Nic Mellone US$590 y Pedro Principi US$78— pero mezcla septiembre con octubre y suma trabajo sin terminar, así que todavía no es comparable con el mes.",
+     "footMarginTop": "22px",
+     "dense": true
+    },
+    {
+     "type": "tabla",
+     "label": "Lo que cobran los cinco",
+     "kicker": "Los cinco",
+     "title": "Lo que <span class=\"em\">generaron</span> y lo que cobraron",
+     "sub": "El económico es lo que generó el trabajo de cada uno en septiembre — la suma de su reparto en las tres unidades. El cobro es la plata que realmente salió de la cuenta en el mes, que es casi toda el económico de agosto. Montos en dólares, sin el US$.",
+     "cols": [
+      {
+       "l": "Persona",
+       "w": "1.4fr"
+      },
+      {
+       "l": "Económico",
+       "s": "de septiembre",
+       "w": "1.05fr"
+      },
+      {
+       "l": "Cobró",
+       "s": "en septiembre",
+       "w": "1.05fr"
+      },
+      {
+       "l": "%",
+       "s": "cobrado",
+       "w": ".7fr"
+      },
+      {
+       "l": "La cáscara",
+       "s": "del reparto",
+       "w": ".85fr"
+      },
+      {
+       "l": "Founder",
+       "s": "del reparto",
+       "w": ".85fr"
+      },
+      {
+       "l": "0800",
+       "s": "del reparto",
+       "w": ".7fr"
+      },
+      {
+       "l": "Cuenta a favor",
+       "s": "al 9 de octubre",
+       "w": "1.1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Franco",
+       "s": "Lleva cuenta aparte",
+       "cells": [
+        "13.711",
+        "9.035",
+        "66%",
+        "5.527",
+        "7.478",
+        "700",
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Facu",
+       "cells": [
+        "10.806",
+        "5.639",
+        "52%",
+        "3.124",
+        "7.478",
+        "200",
+        {
+         "v": "10.402",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Fede",
+       "cells": [
+        "10.192",
+        "6.984",
+        "69%",
+        "5.287",
+        "3.399",
+        "1.500",
+        {
+         "v": "7.377",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Teo",
+       "s": "Lleva cuenta aparte",
+       "cells": [
+        "8.211",
+        "7.101",
+        "86%",
+        "4.806",
+        "3.399",
+        "—",
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Juana",
+       "cells": [
+        "7.309",
+        "3.883",
+        "53%",
+        "4.085",
+        "2.719",
+        "500",
+        {
+         "v": "5.588",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Los cinco",
+       "tot": true,
+       "cells": [
+        "50.229",
+        "32.642",
+        "65%",
+        "22.829",
+        "24.473",
+        "2.900",
+        {
+         "v": "23.367",
+         "em": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Los cinco generaron US$50.229 y cobraron US$32.642</b> — el 65%. La diferencia no se pierde: queda anotada en la cuenta de socios, que al 9 de octubre marca US$23.367 a favor de Facu, Fede y Juana (Franco y Teo llevan su cuenta en hojas aparte). El cobro va un mes atrás del trabajo: lo que se pagó en septiembre es, en su mayoría, el económico de agosto. El reparto de las unidades suma US$50.202 contra estos US$50.229: quedan US$27 por cuadrar.",
+     "footMarginTop": "26px",
+     "dense": true
+    },
+    {
+     "type": "tabla",
+     "label": "La caja de la empresa",
+     "kicker": "La caja de la empresa",
+     "title": "Qué quedó para la <span class=\"em\">empresa</span>, y dónde está",
+     "sub": "Lo que cada vertical le dejó a la caja central en septiembre, contra lo que le dejaría con las tasas del acuerdo. Montos en dólares, sin el US$.",
+     "dense": true,
+     "cols": [
+      {
+       "l": "Concepto",
+       "w": "2.9fr"
+      },
+      {
+       "l": "Hoy",
+       "s": "septiembre",
+       "w": "1.1fr"
+      },
+      {
+       "l": "Con el acuerdo",
+       "w": "1.2fr"
+      },
+      {
+       "l": "Diferencia",
+       "w": "1.1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "La cáscara · B2C",
+       "s": "20% del resultado de la unidad",
+       "cells": [
+        {
+         "v": "6.008",
+         "em": true
+        },
+        "9.011",
+        {
+         "v": "−3.003",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Cáscara Founders",
+       "s": "10% del resultado de la unidad",
+       "cells": [
+        {
+         "v": "2.719",
+         "em": true
+        },
+        "5.438",
+        {
+         "v": "−2.719",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "0800",
+       "s": "Todavía sin tasa definida",
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Growth",
+       "s": "Sin registrar en el informe",
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Quedó para la empresa",
+       "tot": true,
+       "cells": [
+        {
+         "v": "8.727",
+         "em": true
+        },
+        "14.450",
+        {
+         "v": "−5.723",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Saldo en la cuenta",
+       "s": "Al cierre de septiembre",
+       "cells": [
+        {
+         "v": "126.002",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "De eso, comprometido con los socios",
+       "s": "Cuenta de socios al 9 de octubre",
+       "cells": [
+        {
+         "v": "−23.367",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Saldo hoy · 29 de octubre",
+       "s": "Octubre todavía no cerró: va −US$42.837",
+       "tot": true,
+       "cells": [
+        {
+         "v": "82.948",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>El saldo no es ahorro.</b> De los US$126.002 que había al cierre de septiembre, US$23.367 ya están comprometidos con Facu, Fede y Juana en la cuenta de socios, y falta lo que se les debe a Franco y a Teo, que llevan cuenta aparte. <b>Tampoco está registrado en qué cuentas vive esa plata</b>: el libro diario anota el movimiento pero no el banco, así que hoy el informe no puede decir cuánto hay en cada una.",
+     "footMarginTop": "18px"
+    },
+    {
+     "type": "proporciones",
+     "label": "La proporción del mes",
+     "kicker": "04 · En proporción",
+     "title": "El mes en <span class=\"em\">porcentajes</span>",
+     "cols": [
+      {
+       "t": "De dónde entró la plata",
+       "s": "Sobre la caja del mes (lo que entró)",
+       "donut": "conic-gradient(var(--cc-blue) 0 49.5%, var(--cc-ink) 49.5% 80.9%, var(--cc-ink-muted) 80.9% 91.4%, var(--cc-ink-faint) 91.4% 100%)",
+       "centerBig": "US$104.139",
+       "centerLabel": "Entró",
+       "legend": [
+        {
+         "pc": "50%",
+         "dot": "var(--cc-blue)",
+         "nm": "Curso B2C",
+         "amt": "US$51.600"
+        },
+        {
+         "pc": "31%",
+         "dot": "var(--cc-ink)",
+         "nm": "Founder",
+         "amt": "US$32.637"
+        },
+        {
+         "pc": "11%",
+         "dot": "var(--cc-ink-muted)",
+         "nm": "0800",
+         "amt": "US$11.000"
+        },
+        {
+         "pc": "8%",
+         "dot": "var(--cc-ink-faint)",
+         "nm": "Otras entradas",
+         "amt": "US$8.902",
+         "nmSmall": "Incluye US$2.482 de recupero"
+        }
+       ]
+      },
+      {
+       "t": "En qué se fue la plata",
+       "s": "Sobre el costo del mes (lo que costó)",
+       "donut": "conic-gradient(var(--cc-ink) 0 59.8%, var(--cc-blue) 59.8% 78.6%, var(--cc-ink-muted) 78.6% 92.6%, var(--cc-ink-faint) 92.6% 100%)",
+       "centerBig": "US$83.998",
+       "centerLabel": "Costo",
+       "legend": [
+        {
+         "pc": "60%",
+         "dot": "var(--cc-ink)",
+         "nm": "Reparto a los cinco",
+         "amt": "US$50.229"
+        },
+        {
+         "pc": "19%",
+         "dot": "var(--cc-blue)",
+         "nm": "Comercial del curso B2C",
+         "amt": "US$15.839"
+        },
+        {
+         "pc": "14%",
+         "dot": "var(--cc-ink-muted)",
+         "nm": "Contenido y diseño",
+         "amt": "US$11.700"
+        },
+        {
+         "pc": "7%",
+         "dot": "var(--cc-ink-faint)",
+         "nm": "Resto del equipo",
+         "amt": "US$6.230"
+        }
+       ]
+      }
+     ],
+     "foot": "<div><b>Seis de cada diez dólares del costo del mes son el reparto a los cinco.</b> Del lado de la caja, el curso sigue siendo la mitad, pero Founder ya aporta uno de cada tres dólares que entran.</div>",
+     "footMarginTop": "24px",
+     "pageNum": "04"
+    },
+    {
+     "type": "cierre",
+     "label": "Cierre · Septiembre",
+     "variant": "blue",
+     "kicker": "05 · La lectura del mes",
+     "big": "El mes más <span class=\"em\" style=\"color:#fff;\">grande</span> del año: US$142.900 facturados y el saldo arriba de US$126.000.",
+     "note": "Septiembre factura un 51% más que mayo, el récord anterior. Founder hace su mejor mes (US$48.200, casi el triple que agosto) y el curso suma US$72.205. El trabajo cierra en +US$58.902 y la caja en +US$36.123: entraron US$104.139 y salieron US$68.016. Los cinco generaron US$50.229 y cobraron US$32.642; el resto queda anotado en la cuenta de socios. El curso va provisorio, con señas.",
+     "pageLabel": "09 · Septiembre 2026",
+     "noteOpacity": "0.85",
+     "pageNum": "05"
+    }
+   ],
+   "detalle": {
+    "ingresos": [
+     {
+      "n": "La cáscara · B2C",
+      "eco": 72205,
+      "fin": 51600,
+      "tag": "b2c"
+     },
+     {
+      "n": "F3 · Founder",
+      "eco": 48200,
+      "fin": 32637
+     },
+     {
+      "n": "0800",
+      "eco": 16271,
+      "fin": 11000
+     },
+     {
+      "n": "Livo",
+      "eco": 5000,
+      "fin": 5000
+     },
+     {
+      "n": "Board Room",
+      "eco": 1224,
+      "fin": 1225
+     },
+     {
+      "n": "Recupero de contenido · Cero",
+      "eco": 0,
+      "fin": 2482,
+      "tag": "rec"
+     },
+     {
+      "n": "Picheo · B2B",
+      "eco": 0,
+      "fin": 195
+     }
+    ],
+    "egresos": [
+     {
+      "n": "Facu",
+      "eco": 10806,
+      "fin": 5639
+     },
+     {
+      "n": "Fede",
+      "eco": 10192,
+      "fin": 6984
+     },
+     {
+      "n": "Juana",
+      "eco": 7309,
+      "fin": 3883
+     },
+     {
+      "n": "Franco",
+      "eco": 13711,
+      "fin": 9035
+     },
+     {
+      "n": "Teo",
+      "eco": 8211,
+      "fin": 7101
+     },
+     {
+      "n": "Carlota",
+      "eco": 1300,
+      "fin": 1300
+     },
+     {
+      "n": "Azul",
+      "eco": 1230,
+      "fin": 1270
+     },
+     {
+      "n": "Anto",
+      "eco": 300,
+      "fin": 800
+     },
+     {
+      "n": "Flor",
+      "eco": 300,
+      "fin": 300
+     },
+     {
+      "n": "Segundo",
+      "eco": 2000,
+      "fin": 2000
+     },
+     {
+      "n": "Mora",
+      "eco": 200,
+      "fin": 200
+     },
+     {
+      "n": "Aye",
+      "eco": 900,
+      "fin": 700
+     },
+     {
+      "n": "Costos de contenido",
+      "eco": 7322,
+      "fin": 7239
+     },
+     {
+      "n": "Costos de diseño",
+      "eco": 4378,
+      "fin": 4536
+     },
+     {
+      "n": "La cáscara · Comercial",
+      "eco": 15839,
+      "fin": 8013,
+      "tag": "b2c"
+     },
+     {
+      "n": "Herramientas",
+      "eco": 0,
+      "fin": 2472
+     },
+     {
+      "n": "Inversión",
+      "eco": 0,
+      "fin": 2470
+     },
+     {
+      "n": "Contador y monotributo",
+      "eco": 0,
+      "fin": 1736
+     },
+     {
+      "n": "Otros gastos",
+      "eco": 0,
+      "fin": 1344
+     },
+     {
+      "n": "Pauta",
+      "eco": 0,
+      "fin": 479
+     },
+     {
+      "n": "Comisiones de transacción",
+      "eco": 0,
+      "fin": 271
+     },
+     {
+      "n": "Cowork",
+      "eco": 0,
+      "fin": 244
+     }
+    ],
+    "nota": "Reconciliado contra el libro diario de Gestión 2026: entraron US$104.139,26 y salieron US$68.015,82. El reparto por oferta sale de la hoja Distribución. El curso figura provisorio con señas (US$72.205): falta descontar las reservas caídas del mes. La cuenta por unidad sale de Unidades - Cascara.xlsx; el reparto se calcula sobre el resultado de cada unidad. Cero no es una venta: es el recupero de lo que Cáscara pagó de contenido de ese proyecto."
    }
   },
   "q1": {
@@ -5872,7 +8188,7 @@
      ],
      "foot": "Febrero dispara la caja con la primera venta del curso B2C; marzo paga atrasos y cierra apenas en rojo, sin tocar el saldo saneado.",
      "footRight": "<b>+US$36.056</b> de caja en el trimestre",
-     "pageNum": "02"
+     "pageNum": "03"
     },
     {
      "type": "lecturas",
@@ -5912,7 +8228,7 @@
       "resFig": "+US$36.056"
      },
      "foot": "<b>Los dos números cierran en azul.</b> El trimestre fue bueno se mire como se mire; la diferencia es trabajo ya facturado que todavía está por cobrar.",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "hero",
@@ -5934,7 +8250,7 @@
        "span": "Ya facturado y por cobrar"
       }
      ],
-     "pageNum": "04"
+     "pageNum": "05"
     },
     {
      "type": "cierre",
@@ -6066,7 +8382,7 @@
      ],
      "foot": "Mayo dispara la caja al récord; junio la devuelve para ponerse al día con pagos atrasados. El neto del trimestre queda apenas positivo.",
      "footRight": "<b>+US$4.623</b> de caja en el trimestre",
-     "pageNum": "02"
+     "pageNum": "03"
     },
     {
      "type": "lecturas",
@@ -6106,7 +8422,7 @@
       "resFig": "+US$4.623"
      },
      "foot": "<b>El trabajo rinde mucho más que la caja.</b> Se facturó fuerte (mayo récord), pero gran parte sigue por cobrar y la caja se usó para saldar pagos atrasados. La brecha es trabajo por cobrar, no una pérdida.",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "hero",
@@ -6128,7 +8444,7 @@
        "span": "El récord: US$75.773 facturados en un mes"
       }
      ],
-     "pageNum": "04"
+     "pageNum": "05"
     },
     {
      "type": "cierre",
@@ -6317,7 +8633,7 @@
      ],
      "foot": "Marzo y junio cerraron con caja negativa; junio, por ponerse al día con pagos atrasados. El resto del semestre, siempre en azul.",
      "footRight": "<b>Mayo</b> es el mejor mes: +US$21.559 de caja",
-     "pageNum": "03"
+     "pageNum": "04"
     },
     {
      "type": "lecturas",
@@ -6357,7 +8673,7 @@
       "resFig": "+US$40.679"
      },
      "foot": "<b>De lo facturado (US$253k), ya entró US$234k y faltan ~US$18k.</b> Casi todo lo que falta es del curso B2C, que se vende en cuotas. A la caja además llegaron US$12.650 de aportes de socios, que no son ventas.",
-     "pageNum": "04"
+     "pageNum": "05"
     },
     {
      "type": "barras",
@@ -6376,7 +8692,7 @@
      "footClass": "chart-foot",
      "footMarginTop": "34px",
      "foot": "<b>US$21.957 del curso B2C ya están facturados y van a entrar en cuotas los próximos meses.</b> Los clientes de servicio están al día (adelantados en el neto), así que lo pendiente neto del semestre es ≈US$16.900. Es el colchón de caja del segundo semestre.",
-     "pageNum": "05"
+     "pageNum": "06"
     },
     {
      "type": "hero",
@@ -6398,7 +8714,7 @@
        "span": "Costos del curso (comercial + distribución)"
       }
      ],
-     "pageNum": "06"
+     "pageNum": "07"
     },
     {
      "type": "chart",
@@ -6468,7 +8784,7 @@
      ],
      "foot": "El curso arranca en febrero, crece hasta su récord en mayo (US$75.773) y en junio afloja el trabajo nuevo (US$3.160), aunque sigue cobrando cuotas de ventas anteriores.",
      "footRight": "<b>Mayo</b> fue el récord del semestre",
-     "pageNum": "07"
+     "pageNum": "08"
     },
     {
      "type": "chart",
@@ -6537,7 +8853,7 @@
      ],
      "foot": "El curso se vende con seña: cuando la reserva después se cae, esa venta se resta de la facturación y queda solo el cash de la seña (US$3.402 en el semestre). La facturación real del curso: US$193.437.",
      "footRight": "<b>36 caídas</b> · −US$49.183 de facturación",
-     "pageNum": "08"
+     "pageNum": "09"
     },
     {
      "type": "barras",
@@ -6579,7 +8895,7 @@
      "footMarginTop": "34px",
      "foot": "<b>La mitad del costo va a personas</b> (socios + equipo); un tercio, a sostener el curso B2C que trae la mayor parte del ingreso.",
      "footRight": "Costo total · <b>US$216.530</b>",
-     "pageNum": "09"
+     "pageNum": "10"
     },
     {
      "type": "socios",
@@ -6636,7 +8952,7 @@
       ]
      },
      "foot": "Retiros según el mes que corresponden. El detalle movimiento por movimiento está en la planilla de gestión (solapa Cta Socios).",
-     "pageNum": "10"
+     "pageNum": "11"
     },
     {
      "type": "cierre",
@@ -6656,95 +8972,95 @@
   "title": "Informes 2026 · Cáscara Collective",
   "kicker": "Reporte interno · Uso entre socios",
   "h1": "Informes <span class=\"em\">2026</span>",
-  "lede": "Los primeros ocho meses del año, mes a mes y en conjunto. Cada informe se lee con dos números — <b>el trabajo del mes</b> (lo facturado y sus costos) y <b>la caja</b> (lo que realmente entró y salió) — con el detalle completo de la planilla a un clic.",
+  "lede": "Los primeros nueve meses del año, mes a mes y en conjunto. Cada informe se lee con dos números — <b>el trabajo del mes</b> (lo facturado y sus costos) y <b>la caja</b> (lo que realmente entró y salió) — con el detalle completo de la planilla a un clic.",
   "dash": {
    "kpis": [
     {
      "l": "Facturación total",
-     "v": "US$428.633",
-     "s": "Todo el <b>trabajo facturado</b> en 8 meses, ya <b>sin las reservas caídas</b> del curso."
+     "v": "US$571.533",
+     "s": "Todo el <b>trabajo facturado</b> en 9 meses. Hasta agosto, <b>sin las reservas caídas</b> del curso; septiembre va provisorio."
     },
     {
      "l": "Cobrado de eso",
-     "v": "US$401.375",
+     "v": "US$505.514",
      "s": "La parte de esa facturación que <b>ya entró</b> a la cuenta."
     },
     {
      "l": "Falta cobrar",
-     "v": "US$27.258",
-     "s": "<b>Facturado que todavía no entró</b> — cuotas del curso ya vendidas."
+     "v": "US$66.019",
+     "s": "<b>Facturado que todavía no entró</b> — cuotas del curso y de Founder ya vendidas."
     },
     {
      "key": true,
      "l": "Saldo en cuenta",
-     "v": "US$91.197",
-     "s": "La plata que <b>hay al cierre de agosto</b> — máximo histórico. Arrancó el año en −US$5.428."
+     "v": "US$126.002",
+     "s": "La plata que <b>hay al cierre de septiembre</b> — máximo histórico. Arrancó el año en −US$5.428."
     }
    ],
    "donuts": [
     {
      "t": "De dónde vino la caja",
-     "sub": "US$414.025 cobrados · 8 meses",
-     "donut": "conic-gradient(var(--cc-blue) 0 67.7%, var(--cc-ink) 67.7% 92.5%, var(--cc-ink-muted) 92.5% 96.9%, var(--cc-ink-faint) 96.9% 100%)",
-     "centerBig": "US$414k",
+     "sub": "US$518.164 cobrados · 9 meses",
+     "donut": "conic-gradient(var(--cc-blue) 0 64.1%, var(--cc-ink) 64.1% 91.9%, var(--cc-ink-muted) 91.9% 97.6%, var(--cc-ink-faint) 97.6% 100%)",
+     "centerBig": "US$518k",
      "centerLabel": "Cobrado",
      "legend": [
       {
        "dot": "var(--cc-blue)",
        "nm": "Curso B2C",
-       "amt": "US$280.442",
-       "pc": "68%"
+       "amt": "US$332.042",
+       "pc": "64%"
       },
       {
        "dot": "var(--cc-ink)",
        "nm": "Servicios a clientes",
-       "amt": "US$102.511",
-       "pc": "25%"
+       "amt": "US$144.050",
+       "pc": "28%"
       },
       {
        "dot": "var(--cc-ink-muted)",
        "nm": "0800",
-       "amt": "US$18.422",
-       "pc": "4%"
+       "amt": "US$29.422",
+       "pc": "6%"
       },
       {
        "dot": "var(--cc-ink-faint)",
        "nm": "Aporte de socios",
        "amt": "US$12.650",
-       "pc": "3%"
+       "pc": "2%"
       }
      ]
     },
     {
      "t": "En qué se fue la plata",
-     "sub": "US$336.703 de costos · 8 meses",
-     "donut": "conic-gradient(var(--cc-ink) 0 47.1%, var(--cc-blue) 47.1% 76.1%, var(--cc-ink-muted) 76.1% 95.8%, var(--cc-ink-faint) 95.8% 100%)",
-     "centerBig": "US$337k",
+     "sub": "US$419.869 de costos · 9 meses",
+     "donut": "conic-gradient(var(--cc-ink) 0 46.3%, var(--cc-ink-muted) 46.3% 76.6%, var(--cc-blue) 76.6% 96.9%, var(--cc-ink-faint) 96.9% 100%)",
+     "centerBig": "US$420k",
      "centerLabel": "Costos",
      "legend": [
       {
        "dot": "var(--cc-ink)",
-       "nm": "Equipo y socios",
-       "amt": "US$158.697",
+       "nm": "Reparto a los cinco",
+       "amt": "US$194.538",
        "pc": "47%"
       },
       {
-       "dot": "var(--cc-blue)",
-       "nm": "Costos del curso B2C",
-       "amt": "US$97.652",
-       "pc": "29%"
+       "dot": "var(--cc-ink-muted)",
+       "nm": "Equipo y producción",
+       "amt": "US$127.260",
+       "pc": "30%"
       },
       {
-       "dot": "var(--cc-ink-muted)",
-       "nm": "Contenido y diseño",
-       "amt": "US$66.242",
+       "dot": "var(--cc-blue)",
+       "nm": "Comercial del curso B2C",
+       "amt": "US$85.178",
        "pc": "20%"
       },
       {
        "dot": "var(--cc-ink-faint)",
        "nm": "Herramientas y otros",
-       "amt": "US$14.112",
-       "pc": "4%"
+       "amt": "US$12.892",
+       "pc": "3%"
       }
      ]
     }
@@ -6756,63 +9072,70 @@
      {
       "v": "US$12.669",
       "vCob": "US$24.777",
-      "factH": 16,
-      "cobH": 32,
+      "factH": 13,
+      "cobH": 26,
       "m": "Enero"
      },
      {
       "v": "US$49.722",
       "vCob": "US$44.054",
-      "factH": 64,
-      "cobH": 57,
+      "factH": 52,
+      "cobH": 46,
       "m": "Febrero"
      },
      {
       "v": "US$45.042",
       "vCob": "US$35.466",
-      "factH": 58,
-      "cobH": 46,
+      "factH": 47,
+      "cobH": 37,
       "m": "Marzo"
      },
      {
       "v": "US$37.305",
       "vCob": "US$48.461",
-      "factH": 48,
-      "cobH": 62,
+      "factH": 39,
+      "cobH": 51,
       "m": "Abril"
      },
      {
       "v": "US$94.773",
       "vCob": "US$62.835",
-      "factH": 122,
-      "cobH": 81,
+      "factH": 99,
+      "cobH": 66,
       "m": "Mayo"
      },
      {
       "v": "US$13.136",
       "vCob": "US$32.786",
-      "factH": 17,
-      "cobH": 42,
+      "factH": 14,
+      "cobH": 34,
       "m": "Junio"
      },
      {
       "v": "US$82.886",
       "vCob": "US$79.513",
-      "factH": 107,
-      "cobH": 103,
+      "factH": 87,
+      "cobH": 83,
       "m": "Julio"
      },
      {
       "v": "US$93.100",
       "vCob": "US$86.133",
-      "factH": 120,
-      "cobH": 111,
+      "factH": 98,
+      "cobH": 90,
       "m": "Agosto"
+     },
+     {
+      "v": "US$142.900",
+      "vCob": "US$104.139",
+      "factH": 150,
+      "cobH": 109,
+      "m": "Septiembre"
      }
     ],
-    "foot": "Mayo sigue siendo el récord de facturación (US$94.773), con agosto muy cerca (US$93.100); agosto marcó el récord de caja (US$86.133). Cuando la barra llena supera a la de contorno, se facturó más de lo que se cobró: queda plata por entrar."
+    "foot": "Septiembre es el récord absoluto de facturación (US$142.900) y también de cobros (US$104.139): facturó un 51% más que mayo, que venía siendo el techo del año. Cuando la barra llena supera a la de contorno, se facturó más de lo que se cobró: queda plata por entrar."
    },
-   "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$428.633 = 401.375 + 27.258). A la cuenta entraron US$414.025 en total: esos US$401.375 de facturación más US$12.650 de aportes de socios, que no son ventas."
+   "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$571.533 = 505.514 + 66.019). A la cuenta entraron US$518.164 en total: esos US$505.514 de facturación más US$12.650 de aportes de socios, que no son ventas."
   },
   "sections": [
    {
@@ -6949,7 +9272,7 @@
       "href": "mes.html?m=julio",
       "no": "07",
       "month": "Julio",
-      "head": "El mejor resultado de caja del año: cuotas del curso + el mejor mes de servicios. Saldo en nuevo máximo.",
+      "head": "Facturar y cobrar al mismo tiempo: el mejor resultado de caja hasta ese momento.",
       "metrics": [
        {
         "label": "Trabajo",
@@ -6958,7 +9281,7 @@
        },
        {
         "label": "Caja",
-        "value": "+US$45.079",
+        "value": "+US$43.957",
         "cls": "pos"
        }
       ]
@@ -6972,12 +9295,31 @@
       "metrics": [
        {
         "label": "Trabajo",
-        "value": "+US$34.375",
+        "value": "+US$35.207",
         "cls": "pos"
        },
        {
         "label": "Caja",
-        "value": "+US$10.868",
+        "value": "+US$10.671",
+        "cls": "pos"
+       }
+      ]
+     },
+     {
+      "kind": "report",
+      "href": "mes.html?m=septiembre",
+      "no": "09",
+      "month": "Septiembre",
+      "head": "El mes más grande del año: récord de facturación y de cobros, con Founder en su mejor mes.",
+      "metrics": [
+       {
+        "label": "Trabajo",
+        "value": "+US$58.902",
+        "cls": "pos"
+       },
+       {
+        "label": "Caja",
+        "value": "+US$36.123",
         "cls": "pos"
        }
       ]
@@ -7057,7 +9399,7 @@
     ]
    }
   ],
-  "footer": "<b>Moneda:</b> dólares (US$). &nbsp;·&nbsp; <b>Cómo se lee:</b> \"trabajo\" = lo facturado por el trabajo del mes y sus costos; \"caja\" = lo que realmente entró y salió de la cuenta. &nbsp;·&nbsp; Números según planillas <b>Informes 2026</b> y <b>Gestión 2026</b> (actualizadas a agosto)."
+  "footer": "<b>Moneda:</b> dólares (US$). &nbsp;·&nbsp; <b>Cómo se lee:</b> \"trabajo\" = lo facturado por el trabajo del mes y sus costos; \"caja\" = lo que realmente entró y salió de la cuenta. &nbsp;·&nbsp; Números según planillas <b>Informes 2026</b> y <b>Gestión 2026</b> (actualizadas a septiembre)."
  },
  "unidades": [
   {

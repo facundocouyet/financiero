@@ -421,6 +421,33 @@
     '</div>';
   };
 
+  // Tabla genérica: una fila por concepto y las columnas que defina el JSON.
+  // La usan las vistas de septiembre (unidades, reparto, reglas, growth,
+  // contenido y caja). Reusa la grilla .gtable del resto del informe; el ancho
+  // de cada columna viene del dato porque cambia de tabla en tabla.
+  R.tabla = function (s) {
+    var tpl = 'grid-template-columns:' + s.cols.map(function (c) { return c.w || '1fr'; }).join(' ');
+    var head = s.cols.map(function (c, i) {
+      return '<span' + (i ? ' class="r"' : '') + '>' + c.l +
+        (c.s ? '<small>' + c.s + '</small>' : '') + '</span>';
+    }).join('');
+    var body = s.rows.map(function (r) {
+      var cells = r.cells.map(function (c) {
+        var o = (typeof c === 'string') ? { v: c } : c;
+        return '<div class="' + (o.dim ? 'g-pend' : (o.em ? 'g-v' : 'g-s')) + ' r">' + o.v + '</div>';
+      }).join('');
+      return '<div class="gtable__r' + (r.tot ? ' tot' : '') + '" style="' + tpl + '">' +
+        '<div class="g-name"><b>' + r.nm + '</b>' + (r.s ? '<small>' + r.s + '</small>' : '') + '</div>' +
+        cells +
+      '</div>';
+    }).join('');
+    return '<div class="frame tabla' + (s.dense ? ' tabla--dense' : '') + '">' + head2(s) +
+      '<div class="gtable">' +
+        '<div class="gtable__h" style="' + tpl + '">' + head + '</div>' + body +
+      '</div>' + side(s) +
+    '</div>';
+  };
+
   var KLEIN = { cover: 1, cierre: 1, hero: 1 };
   function section(s, rep, i, n) {
     var frame = (R[s.type] || function () { return '<div class="frame"></div>'; })(s);
