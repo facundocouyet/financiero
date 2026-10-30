@@ -10254,6 +10254,384 @@
      "pageLabel": "Enero – Junio 2026"
     }
    ]
+  },
+  "caja": {
+   "screenLabel": "La caja que viene",
+   "title": "La caja que viene · Cáscara Collective",
+   "detail": "none",
+   "slides": [
+    {
+     "type": "cover",
+     "label": "Portada",
+     "kicker": "Proyección · noviembre 2026",
+     "no": "30 de octubre – 8 de noviembre",
+     "month": "La caja que viene",
+     "monthSize": "116px",
+     "sub": "Lo único del informe que mira para <span class=\"em\">adelante</span>: qué se paga en los próximos diez días, de qué depende y cómo lo <span class=\"em\">decidimos</span>.",
+     "meta": [
+      {
+       "label": "Saldo hoy",
+       "value": "US$82.948"
+      },
+      {
+       "label": "En los próximos 10 días",
+       "value": "US$6.700 – US$9.700"
+      },
+      {
+       "label": "La tanda del 10 al 16",
+       "value": "US$31.930 – US$38.630"
+      }
+     ]
+    },
+    {
+     "type": "tabla",
+     "label": "Los próximos 10 días",
+     "kicker": "01 · Del 30 al 8",
+     "title": "Qué se paga en los <span class=\"em\">próximos diez días</span>",
+     "sub": "La primera parte del mes es la chica: suscripciones, comisiones y algún adelanto. La tanda grande llega después del 10.",
+     "dense": true,
+     "cols": [
+      {
+       "l": "Concepto",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Cuándo",
+       "w": "1.2fr"
+      },
+      {
+       "l": "Estimado",
+       "w": "1.5fr"
+      },
+      {
+       "l": "Qué tan firme",
+       "w": "1.1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Herramientas y suscripciones",
+       "s": "Débitos automáticos",
+       "cells": [
+        {
+         "v": "1 – 8 nov",
+         "dim": true
+        },
+        {
+         "v": "US$1.300",
+         "em": true
+        },
+        {
+         "v": "Firme",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Pauta",
+       "s": "Meta, presupuesto del mes",
+       "cells": [
+        {
+         "v": "1 – 8 nov",
+         "dim": true
+        },
+        {
+         "v": "US$500",
+         "em": true
+        },
+        {
+         "v": "Firme",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Comisiones y gastos de financiación",
+       "s": "Stripe, transferencias",
+       "cells": [
+        {
+         "v": "todo el período",
+         "dim": true
+        },
+        {
+         "v": "US$400",
+         "em": true
+        },
+        {
+         "v": "Firme",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Dirección comercial · octubre",
+       "s": "6% de lo que cobró cada unidad",
+       "cells": [
+        {
+         "v": "5 – 8 nov",
+         "dim": true
+        },
+        {
+         "v": "US$2.000",
+         "em": true
+        },
+        {
+         "v": "Firme",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Comisiones de closers y setters",
+       "s": "Octubre vendió 13 unidades, contra 115 en septiembre",
+       "cells": [
+        {
+         "v": "7 – 8 nov",
+         "dim": true
+        },
+        {
+         "v": "US$1.000 – US$3.000",
+         "em": true
+        },
+        {
+         "v": "Variable",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Adelantos a socios",
+       "s": "A cuenta del reparto de octubre",
+       "cells": [
+        {
+         "v": "1 – 8 nov",
+         "dim": true
+        },
+        {
+         "v": "US$1.500 – US$2.500",
+         "em": true
+        },
+        {
+         "v": "Variable",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "En los próximos 10 días",
+       "tot": true,
+       "cells": [
+        {
+         "v": "30 oct – 8 nov",
+         "dim": true
+        },
+        {
+         "v": "US$6.700 – US$9.700",
+         "em": true
+        },
+        {
+         "v": "",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Nada de esto es discrecional.</b> Las suscripciones y la dirección comercial salen solas; lo único que se decide son los adelantos a socios, que son a cuenta del reparto de octubre.",
+     "pageNum": "01"
+    },
+    {
+     "type": "tabla",
+     "label": "La tanda del 10",
+     "kicker": "02 · Del 10 al 16",
+     "title": "La tanda grande, <span class=\"em\">justo después</span>",
+     "sub": "Paga el trabajo de octubre. Cae fuera de los diez días, pero es la que define el mes.",
+     "dense": true,
+     "cols": [
+      {
+       "l": "Concepto",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Cuándo",
+       "w": "1.2fr"
+      },
+      {
+       "l": "Estimado",
+       "w": "1.5fr"
+      },
+      {
+       "l": "Qué tan firme",
+       "w": "1.1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Equipo fijo",
+       "s": "Segundo, Carlota, Azul, Mila, Ayelén, Anto y Mora",
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        {
+         "v": "US$7.630",
+         "em": true
+        },
+        {
+         "v": "Firme",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Contenido de octubre",
+       "s": "Azu todavía no cerró el mes",
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        {
+         "v": "US$6.000 – US$7.500",
+         "em": true
+        },
+        {
+         "v": "Estimado",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Diseño de octubre",
+       "s": "Aldi, Paulina y el resto",
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        {
+         "v": "US$2.500 – US$3.500",
+         "em": true
+        },
+        {
+         "v": "Estimado",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Reparto a los cinco y Segundo",
+       "s": "Sobre el resultado de octubre, atado a lo cobrado",
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        {
+         "v": "US$15.800 – US$20.000",
+         "em": true
+        },
+        {
+         "v": "Atado al cobro",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "La tanda del 10",
+       "tot": true,
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        {
+         "v": "US$31.930 – US$38.630",
+         "em": true
+        },
+        {
+         "v": "",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>La tanda de noviembre va a ser casi la mitad que la de octubre.</b> En octubre se pagaron US$74.508 entre personas, contenido y comercial; en noviembre el rango va de US$38.630 a US$48.330. No es un ajuste: es el reparto siguiendo a lo cobrado.",
+     "pageNum": "02"
+    },
+    {
+     "type": "stats",
+     "label": "De qué depende",
+     "kicker": "03 · De qué depende",
+     "title": "Todo cuelga de lo que se <span class=\"em\">cobra</span>",
+     "items": [
+      {
+       "label": "Cobró octubre",
+       "fig": "US$49.534",
+       "note": "Un <b>52% menos que septiembre</b> (US$104.139). El curso cayó 61% y Founders 39%."
+      },
+      {
+       "label": "Pagó octubre",
+       "fig": "US$92.371",
+       "note": "Pagando el trabajo de septiembre, que fue el mes más grande del año. Incluye <b>US$12.433 del viaje a España</b>, que no es operación."
+      },
+      {
+       "label": "Resultado de octubre",
+       "fig": "−US$42.837",
+       "note": "<b>El peor mes del año.</b> No porque se gastara de más en la operación, sino porque se pagó un mes grande con la cobranza de un mes chico.",
+       "key": true
+      },
+      {
+       "label": "Saldo hoy",
+       "fig": "US$82.948",
+       "note": "De los US$126.002 con que cerró septiembre. Alcanza para una tanda completa sin depender de lo que entre."
+      }
+     ],
+     "pageNum": "03"
+    },
+    {
+     "type": "stats",
+     "label": "Cómo decidimos",
+     "kicker": "04 · Propuesta",
+     "title": "Cómo lo <span class=\"em\">decidimos</span> juntos",
+     "sub": "Cuatro reglas para discutir y ratificar. Ninguna está acordada todavía.",
+     "items": [
+      {
+       "label": "El reparto es variable por diseño",
+       "fig": "01",
+       "note": "Se calcula sobre lo cobrado menos los costos directos. Si el mes cobra la mitad, el reparto es la mitad. <b>No se completa con caja.</b>"
+      },
+      {
+       "label": "Hay un piso que no se toca",
+       "fig": "02",
+       "note": "Propongo <b>US$60.000</b>: una tanda completa sin depender de lo que entre. Si el saldo proyectado queda debajo, se posterga lo postergable antes que los fijos."
+      },
+      {
+       "label": "Los fijos no se discuten cada mes",
+       "fig": "03",
+       "note": "Equipo, herramientas y contenido comprometido se pagan. Lo que se decide es el reparto y lo extraordinario."
+      },
+      {
+       "label": "Lo extraordinario se decide antes",
+       "fig": "04",
+       "note": "Un gasto fuera de la operación —el viaje de octubre— se acuerda entre los tres socios <b>antes</b> de comprometerlo, con el saldo proyectado a la vista.",
+       "key": true
+      }
+     ],
+     "pageNum": "04"
+    },
+    {
+     "type": "cierre",
+     "label": "Cierre",
+     "variant": "ink",
+     "wordmarkWhite": true,
+     "bigTiza": true,
+     "big": "La caja <span class=\"em\" style=\"color:#fff;\">aguanta</span>. Lo que hay que decidir es el ritmo.",
+     "note": "Con US$82.948 de saldo y una tanda de entre US$38.630 y US$48.330, noviembre se paga sin problema. El punto no es si alcanza: es que octubre cobró la mitad que septiembre y el reparto todavía no refleja eso. Si el reparto sigue a lo cobrado —como está diseñado— la caja se sostiene sola. Si se completa con caja, dos meses como octubre se llevan el colchón. Esto es una proyección, no un cierre: octubre todavía no terminó y el contenido del mes no está cargado.",
+     "noteOpacity": ".7",
+     "pageLabel": "Proyección · 30 oct – 8 nov 2026"
+    }
+   ]
   }
  },
  "home": {
@@ -10837,6 +11215,27 @@
         "cls": "num"
        }
       ]
+     },
+     {
+      "kind": "report",
+      "variant": "sum ink",
+      "href": "resumen.html?r=caja",
+      "no": "→",
+      "noStyle": "color:var(--cc-blue-lt);",
+      "month": "La caja que viene",
+      "head": "Proyección a diez días: qué se paga, de qué depende y la propuesta de cómo decidirlo entre los socios.",
+      "metrics": [
+       {
+        "label": "Próximos 10 días",
+        "value": "US$6.700 – US$9.700",
+        "cls": "num"
+       },
+       {
+        "label": "Saldo hoy",
+        "value": "US$82.948",
+        "cls": "num"
+       }
+      ]
      }
     ]
    }
@@ -10967,5 +11366,25 @@
    ],
    "doc": null
   }
- ]
+ ],
+ "proyeccion": {
+  "generada": "2026-10-30",
+  "ventana": "2026-10-30 a 2026-11-08",
+  "base": "Libro diario de Gestión 2026 al 29 de octubre y hojas de unidades de octubre",
+  "saldoHoy": 82948,
+  "proximos10": {
+   "min": 6700,
+   "max": 9700
+  },
+  "tandaDel10": {
+   "min": 31930,
+   "max": 38630
+  },
+  "supuestos": [
+   "Octubre cierra con lo cobrado al 29 (US$49.534).",
+   "El contenido de octubre se estima en el orden de los meses anteriores: Azu todavía no cerró el mes.",
+   "El viaje a España (US$12.433) no se repite en noviembre.",
+   "El reparto se calcula sobre lo cobrado de octubre menos sus costos directos."
+  ]
+ }
 }

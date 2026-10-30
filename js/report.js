@@ -181,6 +181,7 @@
       return '<div class="frame">' + WM_INLINE +
         '<div class="kicker anim">' + s.kicker + '</div>' +
         '<h2 class="title anim">' + s.title + '</h2>' +
+        (s.sub ? '<p class="lead anim">' + s.sub + '</p>' : '') +
         '<div class="stats anim2">' + items + '</div>' +
         '<div class="pagenum">' + s.pageNum + '</div>' +
       '</div>';
