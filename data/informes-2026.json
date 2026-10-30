@@ -10,7 +10,8 @@
    "Facturación Real - Cáscara.xlsx (curso B2C: señas y reservas caídas)",
    "Unidades - Cascara.xlsx (cuenta por unidad de negocio y comisiones de growth)",
    "Resumen de contenido Mensual (Notion) — informe de contenido por cuenta",
-   "Acuerdos principales V4 (agosto 2026) — tasas de caja central y reparto"
+   "Acuerdos principales V4 (agosto 2026) — tasas de caja central y reparto",
+   "Airtable · Reporte de Venta (unidades vendidas por producto)"
   ],
   "auditoria": "Números reconciliados (oct-2026) contra el libro diario de Gestión 2026: la cadena de saldo cierra exacta mes a mes y los nueve meses cuadran con el ledger. Se resolvió la diferencia de US$1.121 que quedaba anotada en agosto: el libro diario paga a Teo US$2.736 en julio y la planilla de Informes tenía US$1.614, así que julio cierra en US$79.207 — justo donde abre agosto. Facturación del curso B2C en criterio REAL (reservas caídas descontadas, cash de señas sumado) hasta agosto; septiembre va provisorio con señas. Febrero: el curso figura por US$45.244 (cobró US$35.896 en el mes). El reparto por oferta sale de la hoja Distribución y suma US$27 menos que el económico de los cinco. Hay un movimiento duplicado de US$30/9 por US$217,18 en el libro diario (una vez sin rubro, otra como adelanto de Facu): se cuenta una sola vez. Desde septiembre los informes abren la cuenta por unidad de negocio (Unidades - Cascara.xlsx): el reparto se calcula sobre el resultado de cada unidad, no sobre lo facturado. La planilla de unidades registra US$33.697 cobrados por Founders y el libro diario US$32.637: quedan US$1.060 por conciliar. El equipo de contenido y diseño costó US$11.275 pagados en septiembre y la planilla de unidades sólo carga US$6.502 a las unidades: los US$4.773 restantes no tienen unidad asignada. Los US$2.482 de Cero no son facturación: son el recupero de lo que Cáscara pagó de contenido de ese proyecto."
  },
@@ -28,7 +29,8 @@
   "reparto": "El reparto = cómo se divide el resultado de cada unidad. No es un porcentaje único: en el curso Cáscara se queda el 20% y el 80% restante se divide entre Franco, Fede, Teo, Juana, Facu y Segundo; en Founders va directo sobre el resultado, con Facu y Franco en 27,5% cada uno.",
   "contenido": "El equipo de contenido y diseño son las personas que producen el material de las cuentas. Cobran por trabajo entregado, con un mes de desfasaje: lo que se paga en septiembre es el trabajo de agosto. El informe de contenido por cuenta reparte ese gasto entre La cáscara, 0800 (donde está Delfi Ferro), Livo, Collab, My Saint · Cero y Founders.",
   "recupero": "Un recupero es plata que entra a la cuenta pero no es una venta: el proyecto devuelve lo que Cáscara pagó por él. En septiembre, el proyecto Cero devolvió US$2.482 de contenido y herramientas.",
-  "cajaCentral": "La caja central es la parte del resultado de cada vertical que queda en la empresa antes de repartir entre las personas. Los acuerdos de agosto la fijaron por vertical según cuánto se apoya cada una en la estructura: 30% el curso, 20% Founders, 10% growth y 20–30% 0800."
+  "cajaCentral": "La caja central es la parte del resultado de cada vertical que queda en la empresa antes de repartir entre las personas. Los acuerdos de agosto la fijaron por vertical según cuánto se apoya cada una en la estructura: 30% el curso, 20% Founders, 10% growth y 20–30% 0800.",
+  "unidadesVendidas": "Las unidades vendidas son los contratos cerrados en el mes, uno por alumno o miembro, según la fecha de cierre en Airtable. No coinciden con lo facturado: la planilla descuenta las reservas caídas y los planes de pago reparten el cobro en cuotas."
  },
  "anioInicio": {
   "saldoInicial": -5428.2
@@ -401,6 +403,20 @@
       }
      ]
     }
+   },
+   "unidadesVendidas": {
+    "fuente": "Airtable · Reporte de Venta, por fecha de cierre",
+    "nota": "El valor de contrato es lo vendido, no lo facturado del mes: la planilla usa el criterio real (sin reservas caídas) y los planes de pago reparten el cobro.",
+    "productos": [
+     {
+      "producto": "La cáscara · B2C",
+      "unidades": 32,
+      "valorContrato": 49600,
+      "moneda": "USD",
+      "ticket": 1550
+     }
+    ],
+    "total": 32
    }
   },
   {
@@ -597,6 +613,27 @@
       }
      ]
     }
+   },
+   "unidadesVendidas": {
+    "fuente": "Airtable · Reporte de Venta, por fecha de cierre",
+    "nota": "El valor de contrato es lo vendido, no lo facturado del mes: la planilla usa el criterio real (sin reservas caídas) y los planes de pago reparten el cobro.",
+    "productos": [
+     {
+      "producto": "La cáscara · B2C",
+      "unidades": 32,
+      "valorContrato": 50195,
+      "moneda": "USD",
+      "ticket": 1569
+     },
+     {
+      "producto": "La Cascarita · DS",
+      "unidades": 6,
+      "valorContrato": 3075,
+      "moneda": "USD",
+      "ticket": 512
+     }
+    ],
+    "total": 38
    }
   },
   {
@@ -787,6 +824,27 @@
       }
      ]
     }
+   },
+   "unidadesVendidas": {
+    "fuente": "Airtable · Reporte de Venta, por fecha de cierre",
+    "nota": "El valor de contrato es lo vendido, no lo facturado del mes: la planilla usa el criterio real (sin reservas caídas) y los planes de pago reparten el cobro.",
+    "productos": [
+     {
+      "producto": "La cáscara · B2C",
+      "unidades": 18,
+      "valorContrato": 27500,
+      "moneda": "USD",
+      "ticket": 1528
+     },
+     {
+      "producto": "La Cascarita · DS",
+      "unidades": 12,
+      "valorContrato": 6470,
+      "moneda": "USD",
+      "ticket": 539
+     }
+    ],
+    "total": 30
    }
   },
   {
@@ -1008,6 +1066,27 @@
       }
      ]
     }
+   },
+   "unidadesVendidas": {
+    "fuente": "Airtable · Reporte de Venta, por fecha de cierre",
+    "nota": "El valor de contrato es lo vendido, no lo facturado del mes: la planilla usa el criterio real (sin reservas caídas) y los planes de pago reparten el cobro.",
+    "productos": [
+     {
+      "producto": "La cáscara · B2C",
+      "unidades": 60,
+      "valorContrato": 94200,
+      "moneda": "USD",
+      "ticket": 1570
+     },
+     {
+      "producto": "La Cascarita · DS",
+      "unidades": 8,
+      "valorContrato": 4185,
+      "moneda": "USD",
+      "ticket": 523
+     }
+    ],
+    "total": 68
    }
   },
   {
@@ -1243,6 +1322,34 @@
       }
      ]
     }
+   },
+   "unidadesVendidas": {
+    "fuente": "Airtable · Reporte de Venta, por fecha de cierre",
+    "nota": "El valor de contrato es lo vendido, no lo facturado del mes: la planilla usa el criterio real (sin reservas caídas) y los planes de pago reparten el cobro.",
+    "productos": [
+     {
+      "producto": "Workshop · junio",
+      "unidades": 214,
+      "valorContrato": 3376208,
+      "moneda": "ARS",
+      "ticket": 15777
+     },
+     {
+      "producto": "La cáscara · B2C",
+      "unidades": 4,
+      "valorContrato": 6900,
+      "moneda": "USD",
+      "ticket": 1725
+     },
+     {
+      "producto": "La Cascarita · DS",
+      "unidades": 2,
+      "valorContrato": 1095,
+      "moneda": "USD",
+      "ticket": 548
+     }
+    ],
+    "total": 220
    }
   },
   {
@@ -1472,6 +1579,34 @@
       }
      ]
     }
+   },
+   "unidadesVendidas": {
+    "fuente": "Airtable · Reporte de Venta, por fecha de cierre",
+    "nota": "El valor de contrato es lo vendido, no lo facturado del mes: la planilla usa el criterio real (sin reservas caídas) y los planes de pago reparten el cobro.",
+    "productos": [
+     {
+      "producto": "La cáscara · B2C",
+      "unidades": 67,
+      "valorContrato": 74995,
+      "moneda": "USD",
+      "ticket": 1119
+     },
+     {
+      "producto": "Upsell Aceleradora",
+      "unidades": 1,
+      "valorContrato": 2000,
+      "moneda": "USD",
+      "ticket": 2000
+     },
+     {
+      "producto": "La Cascarita · DS",
+      "unidades": 1,
+      "valorContrato": 495,
+      "moneda": "USD",
+      "ticket": 495
+     }
+    ],
+    "total": 69
    }
   },
   {
@@ -1504,7 +1639,7 @@
      "fin": 18422
     },
     {
-     "n": "F3 · Founder",
+     "n": "Cáscara Founders",
      "eco": 17000,
      "fin": 14129
     },
@@ -1662,7 +1797,7 @@
     "costo": 57893.01,
     "pagado": 75461.67
    },
-   "nota": "El <b>segundo mes de más facturación del año</b> (solo mayo facturó más): US$93.100 de trabajo, con la nueva unidad de negocio <b>0800</b> (US$18.422) y F3 · Founder (US$17.000). El trabajo cierra en <b>+US$35.207</b>. La caja da +US$10.671: entraron US$86.133 y salieron US$75.462, que incluyen un <b>reintegro de US$10.000 a un cliente de 0800</b>. El saldo pasa de US$79.207 a <b>US$89.878</b>. El curso va en criterio real: US$47.024 (descuenta 4 reservas caídas y suma el cash de sus señas).",
+   "nota": "El <b>segundo mes de más facturación del año</b> (solo mayo facturó más): US$93.100 de trabajo, con la nueva unidad de negocio <b>0800</b> (US$18.422) y Cáscara Founders (US$17.000). El trabajo cierra en <b>+US$35.207</b>. La caja da +US$10.671: entraron US$86.133 y salieron US$75.462, que incluyen un <b>reintegro de US$10.000 a un cliente de 0800</b>. El saldo pasa de US$79.207 a <b>US$89.878</b>. El curso va en criterio real: US$47.024 (descuenta 4 reservas caídas y suma el cash de sus señas).",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -1711,6 +1846,34 @@
       }
      ]
     }
+   },
+   "unidadesVendidas": {
+    "fuente": "Airtable · Reporte de Venta, por fecha de cierre",
+    "nota": "El valor de contrato es lo vendido, no lo facturado del mes: la planilla usa el criterio real (sin reservas caídas) y los planes de pago reparten el cobro.",
+    "productos": [
+     {
+      "producto": "Workshop · agosto",
+      "unidades": 136,
+      "valorContrato": 3672,
+      "moneda": "USD",
+      "ticket": 27
+     },
+     {
+      "producto": "La cáscara · B2C",
+      "unidades": 22,
+      "valorContrato": 37400,
+      "moneda": "USD",
+      "ticket": 1700
+     },
+     {
+      "producto": "Cáscara Founders",
+      "unidades": 5,
+      "valorContrato": 17000,
+      "moneda": "USD",
+      "ticket": 3400
+     }
+    ],
+    "total": 163
    }
   },
   {
@@ -1741,7 +1904,7 @@
      "tag": "b2c"
     },
     {
-     "n": "F3 · Founder",
+     "n": "Cáscara Founders",
      "eco": 48200,
      "fin": 32637
     },
@@ -1893,7 +2056,7 @@
     "costo": 83998.21,
     "pagado": 68015.82
    },
-   "nota": "El <b>mes más grande del año, por lejos</b>: US$142.900 facturados — un 51% más que mayo, el récord anterior. <b>Founder</b> factura US$48.200 (su mejor mes, casi el triple que agosto) y el curso US$72.205. El trabajo cierra en <b>+US$58.902</b>, también récord. La caja da +US$36.123: entraron US$104.139 y salieron US$68.016, y el saldo pasa de US$89.878 a <b>US$126.002, nuevo máximo</b>. Provisorio: el curso figura con señas; falta descontar las reservas caídas del mes.",
+   "nota": "El <b>mes más grande del año, por lejos</b>: US$142.900 facturados — un 51% más que mayo, el récord anterior. <b>Founders</b> factura US$48.200 (su mejor mes, casi el triple que agosto) y el curso US$72.205. El trabajo cierra en <b>+US$58.902</b>, también récord. La caja da +US$36.123: entraron US$104.139 y salieron US$68.016, y el saldo pasa de US$89.878 a <b>US$126.002, nuevo máximo</b>. Provisorio: el curso figura con señas; falta descontar las reservas caídas del mes.",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -1905,7 +2068,7 @@
        "pct": 50
       },
       {
-       "cat": "Founder",
+       "cat": "Founders",
        "val": 32637,
        "pct": 31
       },
@@ -2273,6 +2436,55 @@
      "mesEnCurso": -42837
     },
     "pendiente": "El libro diario no registra en qué cuenta bancaria está cada movimiento, así que no se puede abrir el saldo por cuenta. Tampoco está el estado del trámite de la LLC."
+   },
+   "unidadesVendidas": {
+    "fuente": "Airtable · Reporte de Venta, por fecha de cierre",
+    "nota": "El valor de contrato es lo vendido, no lo facturado del mes: la planilla usa el criterio real (sin reservas caídas) y los planes de pago reparten el cobro.",
+    "productos": [
+     {
+      "producto": "Board Room",
+      "unidades": 49,
+      "valorContrato": 1323,
+      "moneda": "USD",
+      "ticket": 27
+     },
+     {
+      "producto": "La cáscara · B2C",
+      "unidades": 47,
+      "valorContrato": 88305,
+      "moneda": "USD",
+      "ticket": 1879
+     },
+     {
+      "producto": "Cáscara Founders",
+      "unidades": 12,
+      "valorContrato": 41200,
+      "moneda": "USD",
+      "ticket": 3433
+     },
+     {
+      "producto": "Upsell Aceleradora",
+      "unidades": 3,
+      "valorContrato": 7500,
+      "moneda": "USD",
+      "ticket": 2500
+     },
+     {
+      "producto": "Workshop · agosto",
+      "unidades": 3,
+      "valorContrato": 81,
+      "moneda": "USD",
+      "ticket": 27
+     },
+     {
+      "producto": "Founders Group",
+      "unidades": 1,
+      "valorContrato": 2000,
+      "moneda": "USD",
+      "ticket": 2000
+     }
+    ],
+    "total": 115
    }
   }
  ],
@@ -3025,6 +3237,55 @@
      "pageNum": "02"
     },
     {
+     "type": "tabla",
+     "label": "Lo que se vendió",
+     "kicker": "Unidades vendidas",
+     "title": "Cuántas <span class=\"em\">unidades</span> se vendieron",
+     "sub": "Las ventas cerradas en el mes, por producto, con su ticket promedio.",
+     "cols": [
+      {
+       "l": "Producto",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Unidades",
+       "w": "1fr"
+      },
+      {
+       "l": "Ticket promedio",
+       "w": "1.3fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "La cáscara · B2C",
+       "s": "Curso propio",
+       "cells": [
+        {
+         "v": "32",
+         "em": true
+        },
+        "US$1.550"
+       ]
+      },
+      {
+       "nm": "Unidades del mes",
+       "tot": true,
+       "cells": [
+        {
+         "v": "32",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades; la planilla factura con el criterio real (sin reservas caídas) y los planes de pago reparten el cobro en cuotas. Sale de Airtable, por fecha de cierre."
+    },
+    {
      "type": "unidades",
      "label": "Unidades de negocio",
      "month": "febrero",
@@ -3506,6 +3767,66 @@
      "pageNum": "02"
     },
     {
+     "type": "tabla",
+     "label": "Lo que se vendió",
+     "kicker": "Unidades vendidas",
+     "title": "Cuántas <span class=\"em\">unidades</span> se vendieron",
+     "sub": "Las ventas cerradas en el mes, por producto, con su ticket promedio.",
+     "cols": [
+      {
+       "l": "Producto",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Unidades",
+       "w": "1fr"
+      },
+      {
+       "l": "Ticket promedio",
+       "w": "1.3fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "La cáscara · B2C",
+       "s": "Curso propio",
+       "cells": [
+        {
+         "v": "32",
+         "em": true
+        },
+        "US$1.569"
+       ]
+      },
+      {
+       "nm": "La Cascarita · DS",
+       "s": "Entrada al curso",
+       "cells": [
+        {
+         "v": "6",
+         "em": true
+        },
+        "US$512"
+       ]
+      },
+      {
+       "nm": "Unidades del mes",
+       "tot": true,
+       "cells": [
+        {
+         "v": "38",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades; la planilla factura con el criterio real (sin reservas caídas) y los planes de pago reparten el cobro en cuotas. Sale de Airtable, por fecha de cierre."
+    },
+    {
      "type": "unidades",
      "label": "Unidades de negocio",
      "month": "marzo",
@@ -3984,6 +4305,66 @@
      "pageNum": "02"
     },
     {
+     "type": "tabla",
+     "label": "Lo que se vendió",
+     "kicker": "Unidades vendidas",
+     "title": "Cuántas <span class=\"em\">unidades</span> se vendieron",
+     "sub": "Las ventas cerradas en el mes, por producto, con su ticket promedio.",
+     "cols": [
+      {
+       "l": "Producto",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Unidades",
+       "w": "1fr"
+      },
+      {
+       "l": "Ticket promedio",
+       "w": "1.3fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "La cáscara · B2C",
+       "s": "Curso propio",
+       "cells": [
+        {
+         "v": "18",
+         "em": true
+        },
+        "US$1.528"
+       ]
+      },
+      {
+       "nm": "La Cascarita · DS",
+       "s": "Entrada al curso",
+       "cells": [
+        {
+         "v": "12",
+         "em": true
+        },
+        "US$539"
+       ]
+      },
+      {
+       "nm": "Unidades del mes",
+       "tot": true,
+       "cells": [
+        {
+         "v": "30",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades; la planilla factura con el criterio real (sin reservas caídas) y los planes de pago reparten el cobro en cuotas. Sale de Airtable, por fecha de cierre."
+    },
+    {
      "type": "unidades",
      "label": "Unidades de negocio",
      "month": "abril",
@@ -4453,6 +4834,66 @@
      "foot": "<b>El curso B2C fue el 83% de la caja.</b> Aparece <b>Nivel 2</b>: la primera cohorte del nivel siguiente — 4 alumnas × US$2.000, la mitad ya cobrada.",
      "footMarginTop": "24px",
      "pageNum": "02"
+    },
+    {
+     "type": "tabla",
+     "label": "Lo que se vendió",
+     "kicker": "Unidades vendidas",
+     "title": "Cuántas <span class=\"em\">unidades</span> se vendieron",
+     "sub": "Las ventas cerradas en el mes, por producto, con su ticket promedio.",
+     "cols": [
+      {
+       "l": "Producto",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Unidades",
+       "w": "1fr"
+      },
+      {
+       "l": "Ticket promedio",
+       "w": "1.3fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "La cáscara · B2C",
+       "s": "Curso propio",
+       "cells": [
+        {
+         "v": "60",
+         "em": true
+        },
+        "US$1.570"
+       ]
+      },
+      {
+       "nm": "La Cascarita · DS",
+       "s": "Entrada al curso",
+       "cells": [
+        {
+         "v": "8",
+         "em": true
+        },
+        "US$523"
+       ]
+      },
+      {
+       "nm": "Unidades del mes",
+       "tot": true,
+       "cells": [
+        {
+         "v": "68",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades; la planilla factura con el criterio real (sin reservas caídas) y los planes de pago reparten el cobro en cuotas. Sale de Airtable, por fecha de cierre."
     },
     {
      "type": "unidades",
@@ -4966,6 +5407,77 @@
      "pageNum": "02"
     },
     {
+     "type": "tabla",
+     "label": "Lo que se vendió",
+     "kicker": "Unidades vendidas",
+     "title": "Cuántas <span class=\"em\">unidades</span> se vendieron",
+     "sub": "Las ventas cerradas en el mes, por producto, con su ticket promedio.",
+     "cols": [
+      {
+       "l": "Producto",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Unidades",
+       "w": "1fr"
+      },
+      {
+       "l": "Ticket promedio",
+       "w": "1.3fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Workshop · junio",
+       "s": "Actividad puntual",
+       "cells": [
+        {
+         "v": "214",
+         "em": true
+        },
+        "ARS 15.777"
+       ]
+      },
+      {
+       "nm": "La cáscara · B2C",
+       "s": "Curso propio",
+       "cells": [
+        {
+         "v": "4",
+         "em": true
+        },
+        "US$1.725"
+       ]
+      },
+      {
+       "nm": "La Cascarita · DS",
+       "s": "Entrada al curso",
+       "cells": [
+        {
+         "v": "2",
+         "em": true
+        },
+        "US$548"
+       ]
+      },
+      {
+       "nm": "Unidades del mes",
+       "tot": true,
+       "cells": [
+        {
+         "v": "220",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades; la planilla factura con el criterio real (sin reservas caídas) y los planes de pago reparten el cobro en cuotas. Sale de Airtable, por fecha de cierre. El workshop se vendió en pesos."
+    },
+    {
      "type": "unidades",
      "label": "Unidades de negocio",
      "month": "junio",
@@ -5471,6 +5983,77 @@
      "pageNum": "02"
     },
     {
+     "type": "tabla",
+     "label": "Lo que se vendió",
+     "kicker": "Unidades vendidas",
+     "title": "Cuántas <span class=\"em\">unidades</span> se vendieron",
+     "sub": "Las ventas cerradas en el mes, por producto, con su ticket promedio.",
+     "cols": [
+      {
+       "l": "Producto",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Unidades",
+       "w": "1fr"
+      },
+      {
+       "l": "Ticket promedio",
+       "w": "1.3fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "La cáscara · B2C",
+       "s": "Curso propio",
+       "cells": [
+        {
+         "v": "67",
+         "em": true
+        },
+        "US$1.119"
+       ]
+      },
+      {
+       "nm": "Upsell Aceleradora",
+       "s": "Alumnos que ascienden",
+       "cells": [
+        {
+         "v": "1",
+         "em": true
+        },
+        "US$2.000"
+       ]
+      },
+      {
+       "nm": "La Cascarita · DS",
+       "s": "Entrada al curso",
+       "cells": [
+        {
+         "v": "1",
+         "em": true
+        },
+        "US$495"
+       ]
+      },
+      {
+       "nm": "Unidades del mes",
+       "tot": true,
+       "cells": [
+        {
+         "v": "69",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades; la planilla factura con el criterio real (sin reservas caídas) y los planes de pago reparten el cobro en cuotas. Sale de Airtable, por fecha de cierre."
+    },
+    {
      "type": "unidades",
      "label": "Unidades de negocio",
      "month": "julio",
@@ -5944,8 +6527,8 @@
        "amountSpan": "21% de la caja"
       },
       {
-       "label": "F3 · Founder",
-       "small": "Programa Founder",
+       "label": "Cáscara Founders",
+       "small": "Aceleradora",
        "width": "32%",
        "amount": "US$14.129",
        "amountSpan": "17% de la caja"
@@ -5965,9 +6548,80 @@
        "amountSpan": "4% de la caja"
       }
      ],
-     "foot": "<div><b>Nace 0800</b>, una unidad de negocio nueva: US$18.422 en su primer mes, facturados y cobrados completos. El curso sigue siendo la mitad de la caja (US$44.790). <b>F3 · Founder</b> factura US$17.000 y cobra US$14.129. La facturación real del curso en agosto: US$47.024, con 4 reservas caídas ya descontadas.</div>",
+     "foot": "<div><b>Nace 0800</b>, una unidad de negocio nueva: US$18.422 en su primer mes, facturados y cobrados completos. El curso sigue siendo la mitad de la caja (US$44.790). <b>Cáscara Founders</b> factura US$17.000 y cobra US$14.129. La facturación real del curso en agosto: US$47.024, con 4 reservas caídas ya descontadas.</div>",
      "footMarginTop": "24px",
      "pageNum": "02"
+    },
+    {
+     "type": "tabla",
+     "label": "Lo que se vendió",
+     "kicker": "Unidades vendidas",
+     "title": "Cuántas <span class=\"em\">unidades</span> se vendieron",
+     "sub": "Las ventas cerradas en el mes, por producto, con su ticket promedio.",
+     "cols": [
+      {
+       "l": "Producto",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Unidades",
+       "w": "1fr"
+      },
+      {
+       "l": "Ticket promedio",
+       "w": "1.3fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Workshop · agosto",
+       "s": "Actividad puntual",
+       "cells": [
+        {
+         "v": "136",
+         "em": true
+        },
+        "US$27"
+       ]
+      },
+      {
+       "nm": "La cáscara · B2C",
+       "s": "Curso propio",
+       "cells": [
+        {
+         "v": "22",
+         "em": true
+        },
+        "US$1.700"
+       ]
+      },
+      {
+       "nm": "Cáscara Founders",
+       "s": "Aceleradora",
+       "cells": [
+        {
+         "v": "5",
+         "em": true
+        },
+        "US$3.400"
+       ]
+      },
+      {
+       "nm": "Unidades del mes",
+       "tot": true,
+       "cells": [
+        {
+         "v": "163",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades; la planilla factura con el criterio real (sin reservas caídas) y los planes de pago reparten el cobro en cuotas. Sale de Airtable, por fecha de cierre."
     },
     {
      "type": "unidades",
@@ -6179,7 +6833,7 @@
      "variant": "blue",
      "kicker": "06 · La lectura del mes",
      "big": "Una <span class=\"em\" style=\"color:#fff;\">unidad nueva</span>, el segundo mejor mes de facturación y el saldo en su máximo.",
-     "note": "Agosto estrena 0800 como unidad de negocio (US$18.422 facturados y cobrados) y suma US$17.000 de F3 · Founder. El trabajo cierra en +US$35.207 y la caja en +US$10.671: entraron US$86.133 y salieron US$75.462, con un reintegro de US$10.000 a un cliente de 0800. El saldo pasa de US$79.207 a US$89.878. El curso va en criterio real: US$47.024, con 4 reservas caídas descontadas.",
+     "note": "Agosto estrena 0800 como unidad de negocio (US$18.422 facturados y cobrados) y suma US$17.000 de Cáscara Founders. El trabajo cierra en +US$35.207 y la caja en +US$10.671: entraron US$86.133 y salieron US$75.462, con un reintegro de US$10.000 a un cliente de 0800. El saldo pasa de US$79.207 a US$89.878. El curso va en criterio real: US$47.024, con 4 reservas caídas descontadas.",
      "pageLabel": "08 · Agosto 2026",
      "noteOpacity": "0.85"
     }
@@ -6198,7 +6852,7 @@
       "fin": 18422
      },
      {
-      "n": "F3 · Founder",
+      "n": "Cáscara Founders",
       "eco": 17000,
       "fin": 14129
      },
@@ -6362,7 +7016,7 @@
      "kicker": "Informe mensual · 2026",
      "no": "Mes 09",
      "month": "Septiembre",
-     "sub": "El mes más <span class=\"em\">grande</span> del año: US$142.900 facturados, <span class=\"em\">Founder</span> en su mejor mes y el saldo arriba de US$126.000.",
+     "sub": "El mes más <span class=\"em\">grande</span> del año: US$142.900 facturados, <span class=\"em\">Founders</span> en su mejor mes y el saldo arriba de US$126.000.",
      "meta": [
       {
        "label": "Resultado del trabajo",
@@ -6460,8 +7114,8 @@
        "b2c": true
       },
       {
-       "label": "F3 · Founder",
-       "small": "Programa Founder",
+       "label": "Cáscara Founders",
+       "small": "Aceleradora",
        "width": "63%",
        "amount": "US$32.637",
        "amountSpan": "31% de la caja"
@@ -6491,6 +7145,110 @@
      "foot": "<div><b>Founders hace su mejor mes</b>: factura US$48.200 — casi el triple que agosto — y cobra US$32.637. El curso factura US$72.205 y cobra US$51.600, la mitad de la caja del mes. Los US$2.482 de <b>Cero</b> no son una venta: es el recupero de lo que Cáscara pagó de contenido de ese proyecto.</div>",
      "footMarginTop": "18px",
      "pageNum": "02"
+    },
+    {
+     "type": "tabla",
+     "label": "Lo que se vendió",
+     "kicker": "Unidades vendidas",
+     "title": "Cuántas <span class=\"em\">unidades</span> se vendieron",
+     "sub": "Las ventas cerradas en el mes, por producto, con su ticket promedio.",
+     "cols": [
+      {
+       "l": "Producto",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Unidades",
+       "w": "1fr"
+      },
+      {
+       "l": "Ticket promedio",
+       "w": "1.3fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Board Room",
+       "s": "Membresía mensual",
+       "cells": [
+        {
+         "v": "49",
+         "em": true
+        },
+        "US$27"
+       ]
+      },
+      {
+       "nm": "La cáscara · B2C",
+       "s": "Curso propio",
+       "cells": [
+        {
+         "v": "47",
+         "em": true
+        },
+        "US$1.879"
+       ]
+      },
+      {
+       "nm": "Cáscara Founders",
+       "s": "Aceleradora",
+       "cells": [
+        {
+         "v": "12",
+         "em": true
+        },
+        "US$3.433"
+       ]
+      },
+      {
+       "nm": "Upsell Aceleradora",
+       "s": "Alumnos que ascienden",
+       "cells": [
+        {
+         "v": "3",
+         "em": true
+        },
+        "US$2.500"
+       ]
+      },
+      {
+       "nm": "Workshop · agosto",
+       "s": "Actividad puntual",
+       "cells": [
+        {
+         "v": "3",
+         "em": true
+        },
+        "US$27"
+       ]
+      },
+      {
+       "nm": "Founders Group",
+       "s": "Aceleradora",
+       "cells": [
+        {
+         "v": "1",
+         "em": true
+        },
+        "US$2.000"
+       ]
+      },
+      {
+       "nm": "Unidades del mes",
+       "tot": true,
+       "cells": [
+        {
+         "v": "115",
+         "em": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades; la planilla factura con el criterio real (sin reservas caídas) y los planes de pago reparten el cobro en cuotas. Sale de Airtable, por fecha de cierre."
     },
     {
      "type": "egresos",
@@ -7556,7 +8314,7 @@
        "w": ".85fr"
       },
       {
-       "l": "Founder",
+       "l": "Founders",
        "s": "del reparto",
        "w": ".85fr"
       },
@@ -7859,7 +8617,7 @@
         {
          "pc": "31%",
          "dot": "var(--cc-ink)",
-         "nm": "Founder",
+         "nm": "Founders",
          "amt": "US$32.637"
         },
         {
@@ -7911,7 +8669,7 @@
        ]
       }
      ],
-     "foot": "<div><b>Seis de cada diez dólares del costo del mes son el reparto a los cinco.</b> Del lado de la caja, el curso sigue siendo la mitad, pero Founder ya aporta uno de cada tres dólares que entran.</div>",
+     "foot": "<div><b>Seis de cada diez dólares del costo del mes son el reparto a los cinco.</b> Del lado de la caja, el curso sigue siendo la mitad, pero Founders ya aporta uno de cada tres dólares que entran.</div>",
      "footMarginTop": "24px",
      "pageNum": "04"
     },
@@ -7921,7 +8679,7 @@
      "variant": "blue",
      "kicker": "05 · La lectura del mes",
      "big": "El mes más <span class=\"em\" style=\"color:#fff;\">grande</span> del año: US$142.900 facturados y el saldo arriba de US$126.000.",
-     "note": "Septiembre factura un 51% más que mayo, el récord anterior. Founder hace su mejor mes (US$48.200, casi el triple que agosto) y el curso suma US$72.205. El trabajo cierra en +US$58.902 y la caja en +US$36.123: entraron US$104.139 y salieron US$68.016. Los cinco generaron US$50.229 y cobraron US$32.642; el resto queda anotado en la cuenta de socios. El curso va provisorio, con señas.",
+     "note": "Septiembre factura un 51% más que mayo, el récord anterior. Founders hace su mejor mes (US$48.200, casi el triple que agosto) y el curso suma US$72.205. El trabajo cierra en +US$58.902 y la caja en +US$36.123: entraron US$104.139 y salieron US$68.016. Los cinco generaron US$50.229 y cobraron US$32.642; el resto queda anotado en la cuenta de socios. El curso va provisorio, con señas.",
      "pageLabel": "09 · Septiembre 2026",
      "noteOpacity": "0.85",
      "pageNum": "05"
@@ -7936,7 +8694,7 @@
       "tag": "b2c"
      },
      {
-      "n": "F3 · Founder",
+      "n": "Cáscara Founders",
       "eco": 48200,
       "fin": 32637
      },
@@ -8626,7 +9384,7 @@
       "resL": "Resultado de caja",
       "resFig": "+US$90.751"
      },
-     "foot": "<b>Por primera vez el trabajo y la caja crecen juntos.</b> En el Q2 el trabajo rendía pero la caja se iba en pagos atrasados; acá entró US$269.785 y salió US$179.034. Quedan US$49.101 facturados sin cobrar — cuotas del curso y de Founder ya vendidas.",
+     "foot": "<b>Por primera vez el trabajo y la caja crecen juntos.</b> En el Q2 el trabajo rendía pero la caja se iba en pagos atrasados; acá entró US$269.785 y salió US$179.034. Quedan US$49.101 facturados sin cobrar — cuotas del curso y de Founders ya vendidas.",
      "pageNum": "04"
     },
     {
@@ -8634,7 +9392,7 @@
      "label": "El motor se reparte",
      "kicker": "04 · Ya no depende de una sola cosa",
      "fig": "60%",
-     "line": "El curso <span class=\"em\">B2C</span> sigue siendo el motor, pero bajó del 72% al <span class=\"em\">60%</span> de la caja: <span class=\"em\">Founder</span> y <span class=\"em\">0800</span> ya aportan uno de cada tres dólares que entran.",
+     "line": "El curso <span class=\"em\">B2C</span> sigue siendo el motor, pero bajó del 72% al <span class=\"em\">60%</span> de la caja: <span class=\"em\">Founders</span> y <span class=\"em\">0800</span> ya aportan uno de cada tres dólares que entran.",
      "strip": [
       {
        "b": "US$160.562",
@@ -8642,7 +9400,7 @@
       },
       {
        "b": "US$48.313",
-       "span": "Cobrado por Founder · 18% de la caja"
+       "span": "Cobrado por Founders · 18% de la caja"
       },
       {
        "b": "US$29.422",
@@ -8658,7 +9416,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "El trimestre que cambió la <span class=\"em\" style=\"color:#fff;\">escala</span>.",
-     "note": "Q3 facturó US$318.886 — más que todo el primer semestre (US$252.647) — y el trabajo cerró en +US$115.547. La caja sumó +US$90.751 y el saldo pasó de US$35.250 a US$126.002. Los tres meses cerraron en azul, algo que no había pasado en el año. Y el motor se repartió: el curso bajó del 72% al 60% de la caja porque Founder y 0800 crecieron. El curso de septiembre va provisorio, con señas.",
+     "note": "Q3 facturó US$318.886 — más que todo el primer semestre (US$252.647) — y el trabajo cerró en +US$115.547. La caja sumó +US$90.751 y el saldo pasó de US$35.250 a US$126.002. Los tres meses cerraron en azul, algo que no había pasado en el año. Y el motor se repartió: el curso bajó del 72% al 60% de la caja porque Founders y 0800 crecieron. El curso de septiembre va provisorio, con señas.",
      "noteOpacity": ".7",
      "pageLabel": "Julio – Septiembre 2026"
     }
@@ -9193,7 +9951,7 @@
     {
      "l": "Falta cobrar",
      "v": "US$66.019",
-     "s": "<b>Facturado que todavía no entró</b> — cuotas del curso y de Founder ya vendidas."
+     "s": "<b>Facturado que todavía no entró</b> — cuotas del curso y de Founders ya vendidas."
     },
     {
      "key": true,
@@ -9515,7 +10273,7 @@
       "href": "mes.html?m=septiembre",
       "no": "09",
       "month": "Septiembre",
-      "head": "El mes más grande del año: récord de facturación y de cobros, con Founder en su mejor mes.",
+      "head": "El mes más grande del año: récord de facturación y de cobros, con Founders en su mejor mes.",
       "metrics": [
        {
         "label": "Trabajo",
@@ -9645,12 +10403,12 @@
   },
   {
    "id": "f3",
-   "n": "F3 · Founder",
-   "corto": "F3",
+   "n": "Cáscara Founders",
+   "corto": "Founders",
    "d": "Aceleradora Cáscara Founders",
    "ingresos": [
     "F3",
-    "F3 · Founder"
+    "Cáscara Founders"
    ],
    "costos": []
   },
@@ -9724,7 +10482,7 @@
   },
   {
    "anexo": "C",
-   "n": "F3 · Founder",
+   "n": "Cáscara Founders",
    "unidad": "f3",
    "esquema": "",
    "base": "unidad",
