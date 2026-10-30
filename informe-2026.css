@@ -357,6 +357,11 @@ a.g-doc{ color:var(--klein); }
 .unidades .gtable__h, .unidades .gtable__r{ grid-template-columns:1.7fr 1fr 2fr 1fr 1fr 1fr 0.7fr; }
 .acuerdos .gtable__h, .acuerdos .gtable__r{ grid-template-columns:90px 1.5fr 1.2fr 1.4fr 1fr 0.9fr 1fr; }
 .matriz .gtable__h, .matriz .gtable__r{ gap:16px; }
+/* la bajada de egresos aclara el desfasaje entre lo devengado y lo pagado:
+   va más chica y a todo el ancho para no empujar las filas. */
+.egresos .lead{ font-size:23px; max-width:none; margin-top:12px; }
+.egresos .rows{ margin-top:24px; }
+
 /* tabla genérica: mismas reglas que .gtable, un punto más compacta porque
    estas vistas traen más filas (el detalle por persona y por cuenta). */
 .frame.tabla{ padding:88px var(--pad-x) 64px; }

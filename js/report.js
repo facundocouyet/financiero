@@ -112,12 +112,13 @@
           '</div>' +
         '</div>';
       }).join('');
-      return '<div class="frame">' + WM_INLINE +
+      return '<div class="frame egresos">' + WM_INLINE +
         '<div class="kicker anim">' + s.kicker + '</div>' +
         '<h2 class="title anim">' + s.title + '</h2>' +
+        (s.sub ? '<p class="lead anim">' + s.sub + '</p>' : '') +
         '<div class="legend anim2">' +
-          '<span><span class="swatch sw-eco"></span>Costo del mes</span>' +
-          '<span><span class="swatch sw-fin"></span>Pagado en el mes</span>' +
+          '<span><span class="swatch sw-eco"></span>' + (s.legendEco || 'Costo del mes') + '</span>' +
+          '<span><span class="swatch sw-fin"></span>' + (s.legendFin || 'Pagado en el mes') + '</span>' +
         '</div>' +
         '<div class="rows anim2" style="gap:' + s.rowsGap + ';">' + groups + '</div>' +
         '<div class="foot" style="margin-top:' + s.footMarginTop + ';"><div>' + s.foot + '</div><div>' + s.footRight + '</div></div>' +

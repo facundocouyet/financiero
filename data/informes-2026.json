@@ -1535,7 +1535,7 @@
     "costo": 61448.42,
     "pagado": 35556.19
    },
-   "nota": "El <b>mejor resultado de caja del año</b> (+US$43.957): entraron US$79.513 — el curso cobró US$64.172 de cuotas y los servicios sumaron US$15.341, con <b>Juan Carrizo</b> como cuenta nueva. Salió la mitad de lo que costó el mes, así que el saldo salta de US$35.250 a <b>US$79.207, nuevo máximo</b>. El trabajo también cierra bien (+US$21.438), con el curso facturando US$68.092 reales (5 reservas caídas ya descontadas) y los socios subiendo su económico (Facu US$6.000, Fede y Juana US$5.500).",
+   "nota": "Facturado US$82.886 con US$61.448 de costos: resultado del trabajo +US$21.438. Entraron US$79.513 — el curso cobró US$64.172 de cuotas y los servicios US$15.341, con <b>Juan Carrizo</b> como cuenta nueva — y salieron US$35.556: resultado de caja +US$43.957. El saldo pasa de US$35.250 a US$79.207. El curso facturó US$68.092 reales, con 5 reservas caídas descontadas.",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -1797,7 +1797,7 @@
     "costo": 57893.01,
     "pagado": 75461.67
    },
-   "nota": "El <b>segundo mes de más facturación del año</b> (solo mayo facturó más): US$93.100 de trabajo, con la nueva unidad de negocio <b>0800</b> (US$18.422) y Cáscara Founders (US$17.000). El trabajo cierra en <b>+US$35.207</b>. La caja da +US$10.671: entraron US$86.133 y salieron US$75.462, que incluyen un <b>reintegro de US$10.000 a un cliente de 0800</b>. El saldo pasa de US$79.207 a <b>US$89.878</b>. El curso va en criterio real: US$47.024 (descuenta 4 reservas caídas y suma el cash de sus señas).",
+   "nota": "Facturado US$93.100 con US$57.893 de costos: resultado del trabajo +US$35.207. Entraron US$86.133 y salieron US$75.462, que incluyen un <b>reintegro de US$10.000 a un cliente de 0800</b>: resultado de caja +US$10.671. El saldo pasa de US$79.207 a US$89.878. Aparece la unidad <b>0800</b> con US$18.422 facturados y Cáscara Founders con US$17.000. El curso va en criterio real: US$47.024, con 4 reservas caídas descontadas.",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -2056,7 +2056,7 @@
     "costo": 83998.21,
     "pagado": 68015.82
    },
-   "nota": "El <b>mes más grande del año, por lejos</b>: US$142.900 facturados — un 51% más que mayo, el récord anterior. <b>Founders</b> factura US$48.200 (su mejor mes, casi el triple que agosto) y el curso US$72.205. El trabajo cierra en <b>+US$58.902</b>, también récord. La caja da +US$36.123: entraron US$104.139 y salieron US$68.016, y el saldo pasa de US$89.878 a <b>US$126.002, nuevo máximo</b>. Provisorio: el curso figura con señas; falta descontar las reservas caídas del mes.",
+   "nota": "Facturado US$142.900 con US$83.998 de costos: resultado del trabajo +US$58.902. Entraron US$104.139 y salieron US$68.016: resultado de caja +US$36.123. El saldo pasa de US$89.878 a US$126.002. <b>Cáscara Founders</b> facturó US$48.200 y el curso US$72.205. La facturación del curso va provisoria, con señas: falta descontar las reservas caídas del mes.",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -2841,7 +2841,7 @@
      "label": "En qué se fue",
      "kicker": "03 · Egresos",
      "title": "En qué se fue la plata",
-     "rowsGap": "34px",
+     "rowsGap": "12px",
      "groups": [
       {
        "label": "Equipo & socios ",
@@ -2873,7 +2873,10 @@
      "foot": "<b>Casi todo equipo:</b> 9 de cada 10 dólares de costo van a personas. Todavía sin inversión en el curso B2C.",
      "footRight": "Costo del mes · <b>US$13.414</b> &nbsp;·&nbsp; pagado · <b>US$11.043</b>",
      "footMarginTop": "30px",
-     "pageNum": "04"
+     "pageNum": "04",
+     "sub": "El <b>costo de enero</b> se paga en la primera quincena de febrero. Lo <b>pagado durante enero</b> corresponde al trabajo de diciembre.",
+     "legendEco": "Costo de enero",
+     "legendFin": "Pagado durante enero"
     },
     {
      "type": "socios",
@@ -3322,7 +3325,7 @@
      "label": "En qué se fue",
      "kicker": "04 · Egresos",
      "title": "En qué se fue la plata",
-     "rowsGap": "26px",
+     "rowsGap": "12px",
      "groups": [
       {
        "label": "Equipo &amp; socios",
@@ -3364,7 +3367,10 @@
      "foot": "<b>Aparece el costo del curso B2C</b> como segundo gran rubro. El equipo sigue siendo el principal.",
      "footRight": "Costo del mes · <b>US$40.944</b> &nbsp;·&nbsp; pagado · <b>US$18.605</b>",
      "footMarginTop": "26px",
-     "pageNum": "05"
+     "pageNum": "05",
+     "sub": "El <b>costo de febrero</b> se paga en la primera quincena de marzo. Lo <b>pagado durante febrero</b> corresponde al trabajo de enero.",
+     "legendEco": "Costo de febrero",
+     "legendFin": "Pagado durante febrero"
     },
     {
      "type": "socios",
@@ -3863,7 +3869,7 @@
      "label": "En qué se fue",
      "kicker": "04 · Egresos",
      "title": "En qué se fue la plata",
-     "rowsGap": "30px",
+     "rowsGap": "12px",
      "groups": [
       {
        "label": "Equipo &amp; socios",
@@ -3905,7 +3911,10 @@
      "foot": "<b>Equipo y B2C, casi empatados en caja.</b> El costo de la línea propia ya pesa como el equipo entero.",
      "footRight": "Costo del mes · <b>US$40.766</b> &nbsp;·&nbsp; pagado · <b>US$38.593</b>",
      "footMarginTop": "26px",
-     "pageNum": "05"
+     "pageNum": "05",
+     "sub": "El <b>costo de marzo</b> se paga en la primera quincena de abril. Lo <b>pagado durante marzo</b> corresponde al trabajo de febrero.",
+     "legendEco": "Costo de marzo",
+     "legendFin": "Pagado durante marzo"
     },
     {
      "type": "socios",
@@ -4401,7 +4410,7 @@
      "label": "En qué se fue",
      "kicker": "04 · Egresos",
      "title": "En qué se fue la plata",
-     "rowsGap": "30px",
+     "rowsGap": "12px",
      "groups": [
       {
        "label": "Equipo &amp; socios",
@@ -4443,7 +4452,10 @@
      "foot": "<b>Se pagó más de lo que costó el mes:</b> se pusieron al día retiros y pagos atrasados.",
      "footRight": "Costo del mes · <b>US$33.730</b> &nbsp;·&nbsp; pagado · <b>US$42.772</b>",
      "footMarginTop": "26px",
-     "pageNum": "05"
+     "pageNum": "05",
+     "sub": "El <b>costo de abril</b> se paga en la primera quincena de mayo. Lo <b>pagado durante abril</b> corresponde al trabajo de marzo.",
+     "legendEco": "Costo de abril",
+     "legendFin": "Pagado durante abril"
     },
     {
      "type": "socios",
@@ -4932,7 +4944,7 @@
      "label": "En qué se fue",
      "kicker": "04 · Egresos",
      "title": "En qué se fue la plata",
-     "rowsGap": "30px",
+     "rowsGap": "12px",
      "groups": [
       {
        "label": "Equipo &amp; socios",
@@ -4974,7 +4986,10 @@
      "foot": "<b>El gasto se mantiene plano</b> mientras el ingreso se dispara: ahí está la rentabilidad del mes.",
      "footRight": "Costo del mes · <b>US$51.762</b> &nbsp;·&nbsp; pagado · <b>US$41.276</b>",
      "footMarginTop": "26px",
-     "pageNum": "05"
+     "pageNum": "05",
+     "sub": "El <b>costo de mayo</b> se paga en la primera quincena de junio. Lo <b>pagado durante mayo</b> corresponde al trabajo de abril.",
+     "legendEco": "Costo de mayo",
+     "legendFin": "Pagado durante mayo"
     },
     {
      "type": "socios",
@@ -5491,7 +5506,7 @@
      "label": "En qué se fue",
      "kicker": "03 · Egresos",
      "title": "En qué se fue la plata",
-     "rowsGap": "26px",
+     "rowsGap": "12px",
      "groups": [
       {
        "label": "Equipo &amp; socios",
@@ -5533,7 +5548,10 @@
      "foot": "<b>La brecha del mes está acá:</b> se pagó mucho más de lo que costó el mes (US$55.411 vs US$35.914) porque se saldaron distribución B2C y retiros atrasados. Aparecen costos nuevos de formalización (contador y monotributo) y un equipo de diseño propio.",
      "footRight": "Costo del mes · <b>US$35.914</b> &nbsp;·&nbsp; pagado · <b>US$55.411</b>",
      "footMarginTop": "26px",
-     "pageNum": "04"
+     "pageNum": "04",
+     "sub": "El <b>costo de junio</b> se paga en la primera quincena de julio. Lo <b>pagado durante junio</b> corresponde al trabajo de mayo.",
+     "legendEco": "Costo de junio",
+     "legendFin": "Pagado durante junio"
     },
     {
      "type": "socios",
@@ -6067,7 +6085,7 @@
      "label": "En qué se fue",
      "kicker": "03 · Egresos",
      "title": "En qué se fue la plata",
-     "rowsGap": "26px",
+     "rowsGap": "12px",
      "groups": [
       {
        "label": "Equipo &amp; socios",
@@ -6109,7 +6127,10 @@
      "foot": "<b>Se pagó la mitad de lo que costó el mes</b> (US$35.556 vs US$61.448): los socios suben su económico (US$17.000 entre los tres) pero cobran una parte más adelante, y el costo del curso crece con la venta.",
      "footRight": "Costo del mes · <b>US$61.448</b> &nbsp;·&nbsp; pagado · <b>US$35.556</b>",
      "footMarginTop": "26px",
-     "pageNum": "04"
+     "pageNum": "04",
+     "sub": "El <b>costo de julio</b> se paga en la primera quincena de agosto. Lo <b>pagado durante julio</b> corresponde al trabajo de junio.",
+     "legendEco": "Costo de julio",
+     "legendFin": "Pagado durante julio"
     },
     {
      "type": "socios",
@@ -6637,7 +6658,7 @@
      "label": "En qué se fue",
      "kicker": "03 · Egresos",
      "title": "En qué se fue la plata",
-     "rowsGap": "18px",
+     "rowsGap": "12px",
      "groups": [
       {
        "label": "Reparto a los cinco",
@@ -6687,7 +6708,10 @@
      "foot": "<b>Se pagó más de lo que costó el mes</b> (US$75.462 vs US$57.893): pesan el reintegro de US$10.000 a un cliente de 0800 y pagos del curso de meses anteriores.",
      "footRight": "Costo del mes · <b>US$57.893</b> &nbsp;·&nbsp; pagado · <b>US$75.462</b>",
      "footMarginTop": "26px",
-     "pageNum": "04"
+     "pageNum": "04",
+     "sub": "El <b>costo de agosto</b> se paga en la primera quincena de septiembre. Lo <b>pagado durante agosto</b> corresponde al trabajo de julio.",
+     "legendEco": "Costo de agosto",
+     "legendFin": "Pagado durante agosto"
     },
     {
      "type": "acuerdos",
@@ -6823,7 +6847,7 @@
        ]
       }
      ],
-     "foot": "<div><b>Tres fuentes de caja por primera vez:</b> el curso sigue siendo la mitad, pero 0800 ya aporta uno de cada cinco dólares en su primer mes.</div>",
+     "foot": "<div>El curso aportó el 52% de la caja del mes, los servicios a clientes el 27% y 0800 el 21%, en su primer mes.</div>",
      "footMarginTop": "24px",
      "pageNum": "07"
     },
@@ -7016,7 +7040,7 @@
      "kicker": "Informe mensual · 2026",
      "no": "Mes 09",
      "month": "Septiembre",
-     "sub": "El mes más <span class=\"em\">grande</span> del año: US$142.900 facturados, <span class=\"em\">Founders</span> en su mejor mes y el saldo arriba de US$126.000.",
+     "sub": "Los números de septiembre: lo facturado y sus costos, lo que entró y salió de la cuenta, y el detalle por unidad de negocio.",
      "meta": [
       {
        "label": "Resultado del trabajo",
@@ -7089,7 +7113,7 @@
        "accent": true
       }
      ],
-     "foot": "<div><b>Las dos lecturas en récord.</b> US$142.900 facturados, un 51% más que mayo — el récord anterior — y el trabajo cierra en +US$58.902. La caja crece US$36.123 y el saldo pasa de US$89.878 a US$126.002. Con este informe se cierra la diferencia de US$1.121 que quedaba anotada: el libro diario paga a Teo US$2.736 en julio, así que julio cierra en US$79.207 y la cadena de saldo queda exacta mes a mes.</div>",
+     "foot": "<div>US$142.900 facturados contra US$83.998 de costos dan +US$58.902 de resultado del trabajo. Entraron US$104.139 y salieron US$68.016, y el saldo pasa de US$89.878 a US$126.002. Julio cierra en US$79.207: el libro diario paga a Teo US$2.736 y la planilla de Informes tenía US$1.614. El curso figura provisorio, con señas.</div>",
      "pageNum": "01"
     },
     {
@@ -7142,7 +7166,7 @@
        "amountSpan": "2% de la caja"
       }
      ],
-     "foot": "<div><b>Founders hace su mejor mes</b>: factura US$48.200 — casi el triple que agosto — y cobra US$32.637. El curso factura US$72.205 y cobra US$51.600, la mitad de la caja del mes. Los US$2.482 de <b>Cero</b> no son una venta: es el recupero de lo que Cáscara pagó de contenido de ese proyecto.</div>",
+     "foot": "<div>Cáscara Founders facturó US$48.200 y cobró US$32.637. El curso facturó US$72.205 y cobró US$51.600. 0800 facturó US$16.271 y cobró US$11.000. Los US$2.482 de <b>Cero</b> no son una venta: es el recupero de lo que Cáscara pagó de contenido de ese proyecto. La facturación del curso va provisoria, con señas.</div>",
      "footMarginTop": "18px",
      "pageNum": "02"
     },
@@ -7248,14 +7272,14 @@
        ]
       }
      ],
-     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades; la planilla factura con el criterio real (sin reservas caídas) y los planes de pago reparten el cobro en cuotas. Sale de Airtable, por fecha de cierre."
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades. La planilla factura con el criterio real, sin las reservas caídas, y los planes de pago reparten el cobro en cuotas. Sale de Airtable, por fecha de cierre."
     },
     {
      "type": "egresos",
      "label": "En qué se fue",
      "kicker": "03 · Egresos",
      "title": "En qué se fue la plata",
-     "rowsGap": "18px",
+     "rowsGap": "12px",
      "groups": [
       {
        "label": "Reparto a los cinco",
@@ -7302,17 +7326,20 @@
        "finW": "18%"
       }
      ],
-     "foot": "<b>Se pagó mucho menos de lo que costó el mes</b> (US$68.016 contra US$83.998): el reparto a los cinco se cobra con un mes de atraso y la diferencia queda anotada en la cuenta de socios.",
+     "foot": "Durante septiembre se pagaron US$68.016, que corresponden al trabajo de agosto.",
      "footRight": "Costo del mes · <b>US$83.998</b> &nbsp;·&nbsp; pagado · <b>US$68.016</b>",
      "footMarginTop": "26px",
-     "pageNum": "03"
+     "pageNum": "03",
+     "sub": "El <b>costo de septiembre</b> se paga en la primera quincena de octubre. Lo <b>pagado durante septiembre</b> corresponde al trabajo de agosto.",
+     "legendEco": "Costo de septiembre",
+     "legendFin": "Pagado durante septiembre"
     },
     {
      "type": "tabla",
      "label": "Las unidades",
      "kicker": "Las unidades",
      "title": "Cada unidad, con su <span class=\"em\">propia cuenta</span>",
-     "sub": "Lo que cobró cada unidad en septiembre, lo que le costó y lo que quedó para repartir. Montos en dólares, sin el US$ para que la tabla se lea de un tirón.",
+     "sub": "Lo que cobró cada unidad en septiembre y los costos que esa cobranza genera, que se pagan en la primera quincena de octubre. Montos en dólares, sin el US$.",
      "cols": [
       {
        "l": "Concepto",
@@ -7445,7 +7472,7 @@
        ]
       }
      ],
-     "foot": "<b>Founders deja 81 centavos de cada dólar que cobra; el curso, 58.</b> La diferencia está en growth y contenido: el curso paga US$9.873 de comercial y US$6.358 de producción, contra US$5.966 y US$144 de Founders. <b>0800</b> ya tiene su contenido (US$1.082, con Delfi Ferro adentro) pero le falta su comercial y sus herramientas para cerrar la cuenta. <b>Board Room</b> son 48 miembros a US$27.",
+     "foot": "<b>Lo cobrado entró en septiembre; los costos de al lado se pagaron en la primera quincena de octubre.</b> El comercial de septiembre salió el 7 de octubre. 0800 tiene cargado su contenido (US$1.082, con Delfi Ferro adentro) y le faltan su comercial y sus herramientas. Board Room son 48 miembros a US$27.",
      "footMarginTop": "24px",
      "dense": true
     },
@@ -7454,7 +7481,7 @@
      "label": "El reparto",
      "kicker": "El reparto",
      "title": "Cómo se <span class=\"em\">reparte</span> el resultado de cada unidad",
-     "sub": "El reparto no se calcula sobre lo facturado sino sobre el resultado de cada unidad, y cada unidad tiene su propio esquema. Los porcentajes están llevados a la misma base para poder compararlos.",
+     "sub": "Todo en económico: es el trabajo de septiembre, que se pagó en la primera quincena de octubre. El reparto se calcula sobre el resultado de cada unidad, no sobre lo facturado.",
      "cols": [
       {
        "l": "Persona",
@@ -7651,7 +7678,7 @@
        ]
       }
      ],
-     "foot": "<b>Cada unidad reparte distinto.</b> En el curso, Cáscara se queda el 20% y el 80% restante se divide Franco 23%, Fede 22%, Teo 20%, Juana 17%, Facu 13% y Segundo 5%. En Founders el reparto va directo sobre el resultado: Facu y Franco 27,5% cada uno, Teo y Fede 12,5%, Juana y Cáscara 10%. 0800 todavía reparte por monto, sin porcentaje fijo. <b>Segundo entra en el curso y Cáscara se queda US$8.726</b> entre las dos unidades.",
+     "foot": "<b>De dónde salen los porcentajes.</b> En el curso, del tablero de puntos de los acuerdos: cada uno se puntúa por growth y estrategia comercial (40%), impacto del departamento (30%), marca personal (15%) y gerencia (15%), y eso da Franco 24, Fede 23, Teo 21, Juana 18 y Facu 14. La planilla reserva un 5% para Segundo y reparte el resto en esa misma proporción, después de que Cáscara se queda el 20%. <b>En Founders no hay puntaje</b>: es una tabla fija por rol — Facu y Franco 27,5% cada uno por producto y monetización, Teo y Fede 12,5%, Juana y Cáscara 10%.",
      "footMarginTop": "22px",
      "dense": true
     },
@@ -7793,7 +7820,7 @@
        ]
       }
      ],
-     "foot": "<b>En septiembre la diferencia son US$5.723.</b> Con las tasas de la planilla la empresa retuvo US$8.727 y con las del acuerdo le tocaban US$14.450. Toda esa diferencia fue al reparto de los cinco. <b>Growth y 0800 todavía no tienen tasa aplicada</b>: growth no está registrado en el informe y 0800 reparte por monto, sin porcentaje.",
+     "foot": "Con las tasas de la planilla la empresa retuvo US$8.727 en septiembre; con las del acuerdo serían US$14.450. La diferencia, US$5.723, quedó en el reparto. Growth y 0800 no tienen tasa aplicada: growth no está registrado en el informe y 0800 reparte por monto.",
      "footMarginTop": "20px"
     },
     {
@@ -7983,7 +8010,7 @@
        ]
       }
      ],
-     "foot": "<b>Los closers cobran el 8% de lo que cobran sus ventas y los setters el 3%; la dirección comercial suma un 7% sobre el total de cada unidad.</b> Scania cerró más volumen (US$37.854 entre las dos unidades) pero Francisca cobra casi tres veces más, porque además lleva la dirección comercial.",
+     "foot": "Los closers cobran el 8% de lo que cobran sus ventas, los setters el 3% y la dirección comercial un 7% sobre el total de cada unidad. Los US$15.839 de comercial son las dos unidades juntas: en la planilla de Informes figuran en una sola línea rotulada \"La cáscara · Comercial\".",
      "footMarginTop": "18px",
      "dense": true
     },
@@ -8278,154 +8305,8 @@
        ]
       }
      ],
-     "foot": "<b>El informe de Azu cuadra exacto con la planilla:</b> esos US$8.700 son los mismos US$8.700 de contenido y diseño del económico, repartidos en seis cuentas. <b>Delfi Ferro está adentro de 0800.</b> Su página propia lleva US$1.282 de trabajos aprobados y en curso —Nayara US$614, Nic Mellone US$590 y Pedro Principi US$78— pero mezcla septiembre con octubre y suma trabajo sin terminar, así que todavía no es comparable con el mes.",
+     "foot": "El informe de contenido por cuenta suma US$8.700,10, los mismos US$8.700,10 de contenido y diseño del económico de septiembre. <b>Delfi Ferro está adentro de 0800.</b> Su página propia lleva US$1.282 de trabajos aprobados y en curso —Nayara US$614, Nic Mellone US$590 y Pedro Principi US$78— que mezclan septiembre con octubre e incluyen trabajo sin terminar.",
      "footMarginTop": "22px",
-     "dense": true
-    },
-    {
-     "type": "tabla",
-     "label": "Lo que cobran los cinco",
-     "kicker": "Los cinco",
-     "title": "Lo que <span class=\"em\">generaron</span> y lo que cobraron",
-     "sub": "El económico es lo que generó el trabajo de cada uno en septiembre — la suma de su reparto en las tres unidades. El cobro es la plata que realmente salió de la cuenta en el mes, que es casi toda el económico de agosto. Montos en dólares, sin el US$.",
-     "cols": [
-      {
-       "l": "Persona",
-       "w": "1.4fr"
-      },
-      {
-       "l": "Económico",
-       "s": "de septiembre",
-       "w": "1.05fr"
-      },
-      {
-       "l": "Cobró",
-       "s": "en septiembre",
-       "w": "1.05fr"
-      },
-      {
-       "l": "%",
-       "s": "cobrado",
-       "w": ".7fr"
-      },
-      {
-       "l": "La cáscara",
-       "s": "del reparto",
-       "w": ".85fr"
-      },
-      {
-       "l": "Founders",
-       "s": "del reparto",
-       "w": ".85fr"
-      },
-      {
-       "l": "0800",
-       "s": "del reparto",
-       "w": ".7fr"
-      },
-      {
-       "l": "Cuenta a favor",
-       "s": "al 9 de octubre",
-       "w": "1.1fr"
-      }
-     ],
-     "rows": [
-      {
-       "nm": "Franco",
-       "s": "Lleva cuenta aparte",
-       "cells": [
-        "13.711",
-        "9.035",
-        "66%",
-        "5.527",
-        "7.478",
-        "700",
-        {
-         "v": "—",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Facu",
-       "cells": [
-        "10.806",
-        "5.639",
-        "52%",
-        "3.124",
-        "7.478",
-        "200",
-        {
-         "v": "10.402",
-         "em": true
-        }
-       ]
-      },
-      {
-       "nm": "Fede",
-       "cells": [
-        "10.192",
-        "6.984",
-        "69%",
-        "5.287",
-        "3.399",
-        "1.500",
-        {
-         "v": "7.377",
-         "em": true
-        }
-       ]
-      },
-      {
-       "nm": "Teo",
-       "s": "Lleva cuenta aparte",
-       "cells": [
-        "8.211",
-        "7.101",
-        "86%",
-        "4.806",
-        "3.399",
-        "—",
-        {
-         "v": "—",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Juana",
-       "cells": [
-        "7.309",
-        "3.883",
-        "53%",
-        "4.085",
-        "2.719",
-        "500",
-        {
-         "v": "5.588",
-         "em": true
-        }
-       ]
-      },
-      {
-       "nm": "Los cinco",
-       "tot": true,
-       "cells": [
-        "50.229",
-        "32.642",
-        "65%",
-        "22.829",
-        "24.473",
-        "2.900",
-        {
-         "v": "23.367",
-         "em": true
-        }
-       ]
-      }
-     ],
-     "foot": "<b>Los cinco generaron US$50.229 y cobraron US$32.642</b> — el 65%. La diferencia no se pierde: queda anotada en la cuenta de socios, que al 9 de octubre marca US$23.367 a favor de Facu, Fede y Juana (Franco y Teo llevan su cuenta en hojas aparte). El cobro va un mes atrás del trabajo: lo que se pagó en septiembre es, en su mayoría, el económico de agosto. El reparto de las unidades suma US$50.202 contra estos US$50.229: quedan US$27 por cuadrar.",
-     "footMarginTop": "26px",
      "dense": true
     },
     {
@@ -8592,7 +8473,7 @@
        ]
       }
      ],
-     "foot": "<b>El saldo no es ahorro.</b> De los US$126.002 que había al cierre de septiembre, US$23.367 ya están comprometidos con Facu, Fede y Juana en la cuenta de socios, y falta lo que se les debe a Franco y a Teo, que llevan cuenta aparte. <b>Tampoco está registrado en qué cuentas vive esa plata</b>: el libro diario anota el movimiento pero no el banco, así que hoy el informe no puede decir cuánto hay en cada una.",
+     "foot": "De los US$126.002 al cierre de septiembre, US$23.367 figuran en la cuenta de socios a favor de Facu, Fede y Juana; Franco y Teo llevan cuenta aparte. El libro diario registra el movimiento pero no el banco, así que el saldo no se puede abrir por cuenta.",
      "footMarginTop": "18px"
     },
     {
@@ -8669,7 +8550,7 @@
        ]
       }
      ],
-     "foot": "<div><b>Seis de cada diez dólares del costo del mes son el reparto a los cinco.</b> Del lado de la caja, el curso sigue siendo la mitad, pero Founders ya aporta uno de cada tres dólares que entran.</div>",
+     "foot": "<div>El reparto a los cinco es el 60% del costo del mes. Del lado de la caja, el curso aporta el 50% y Cáscara Founders el 31%.</div>",
      "footMarginTop": "24px",
      "pageNum": "04"
     },
@@ -8678,8 +8559,8 @@
      "label": "Cierre · Septiembre",
      "variant": "blue",
      "kicker": "05 · La lectura del mes",
-     "big": "El mes más <span class=\"em\" style=\"color:#fff;\">grande</span> del año: US$142.900 facturados y el saldo arriba de US$126.000.",
-     "note": "Septiembre factura un 51% más que mayo, el récord anterior. Founders hace su mejor mes (US$48.200, casi el triple que agosto) y el curso suma US$72.205. El trabajo cierra en +US$58.902 y la caja en +US$36.123: entraron US$104.139 y salieron US$68.016. Los cinco generaron US$50.229 y cobraron US$32.642; el resto queda anotado en la cuenta de socios. El curso va provisorio, con señas.",
+     "big": "Septiembre en <span class=\"em\" style=\"color:#fff;\">cuatro</span> números.",
+     "note": "Facturado US$142.900 contra US$83.998 de costos: resultado del trabajo +US$58.902. Entraron US$104.139 y salieron US$68.016: resultado de caja +US$36.123. El saldo pasa de US$89.878 a US$126.002. El reparto del mes es US$50.229 entre los cinco, US$8.726 para Cáscara y US$1.201 para Segundo. La facturación del curso va provisoria: falta descontar las reservas caídas de septiembre.",
      "pageLabel": "09 · Septiembre 2026",
      "noteOpacity": "0.85",
      "pageNum": "05"
@@ -8990,7 +8871,7 @@
        ]
       }
      ],
-     "foot": "El curso arranca en febrero y manda solo: 64 de las 70 unidades del trimestre."
+     "foot": "El curso registra sus primeras ventas en febrero: 64 de las 70 unidades del trimestre."
     },
     {
      "type": "chart",
@@ -9271,7 +9152,7 @@
        ]
       }
      ],
-     "foot": "El <b>workshop de junio</b> mete 214 entradas de bajo ticket y dispara el conteo, pero el peso en facturación lo sigue poniendo el curso."
+     "foot": "El workshop de junio aporta 214 de las 318 unidades del trimestre, a un ticket de ARS 15.777."
     },
     {
      "type": "chart",
@@ -9409,7 +9290,7 @@
      "no": "Julio – Septiembre",
      "month": "Tercer trimestre",
      "monthSize": "150px",
-     "sub": "El trimestre que cambió la <span class=\"em\">escala</span>: se facturó más que en todo el primer semestre y el saldo se <span class=\"em\">triplicó</span>.",
+     "sub": "Julio, agosto y septiembre: lo facturado y sus costos, lo que entró y salió, y el detalle por unidad y por producto.",
      "meta": [
       {
        "label": "Resultado de caja",
@@ -9434,23 +9315,23 @@
       {
        "label": "Entró en caja",
        "fig": "US$269.785",
-       "note": "Más que el <b>primer semestre entero</b> (US$248.379), en tres meses."
+       "note": "Entre julio y septiembre. El primer semestre entero había cobrado US$248.379."
       },
       {
        "label": "Salió de la caja",
        "fig": "US$179.034",
-       "note": "Subió mucho menos que lo que entró: el gasto <b>no acompañó</b> a la facturación."
+       "note": "Pagando el trabajo del mes anterior en cada caso."
       },
       {
        "label": "Resultado de caja",
        "fig": "+US$90.751",
-       "note": "<b>El saldo pasa de US$35.250 a US$126.002.</b> Más del doble que los +US$40.679 de todo el primer semestre.",
+       "note": "El saldo pasa de US$35.250 a US$126.002. El primer semestre había cerrado en +US$40.679.",
        "key": true
       },
       {
        "label": "Resultado del trabajo",
        "fig": "+US$115.547",
-       "note": "Se facturó US$318.886 por US$203.339 de costos. <b>Septiembre fue el techo del año.</b>"
+       "note": "Se facturó US$318.886 contra US$203.339 de costos. Septiembre aportó US$142.900."
       }
      ],
      "pageNum": "01"
@@ -9622,7 +9503,7 @@
       }
      ],
      "dense": true,
-     "foot": "El trimestre con más productos vendiéndose a la vez: <b>siete</b>, contra dos en el Q1. Board Room y Cáscara Founders entran recién en agosto y septiembre."
+     "foot": "En el trimestre se vendieron siete productos distintos. Board Room y Cáscara Founders registran sus primeras ventas en agosto y septiembre."
     },
     {
      "type": "chart",
@@ -9668,7 +9549,7 @@
        "saldo": "US$126.002"
       }
      ],
-     "foot": "Los tres meses cierran en azul. Julio es el salto, agosto frena por el reintegro de US$10.000 y septiembre vuelve a estirar.",
+     "foot": "Resultado de caja por mes: julio +US$43.957, agosto +US$10.671 y septiembre +US$36.123. Agosto incluye un reintegro de US$10.000 a un cliente de 0800.",
      "footRight": "<b>+US$90.751</b> de caja en el trimestre",
      "pageNum": "03"
     },
@@ -9709,15 +9590,15 @@
       "resL": "Resultado de caja",
       "resFig": "+US$90.751"
      },
-     "foot": "<b>Por primera vez el trabajo y la caja crecen juntos.</b> En el Q2 el trabajo rendía pero la caja se iba en pagos atrasados; acá entró US$269.785 y salió US$179.034. Quedan US$49.101 facturados sin cobrar — cuotas del curso y de Founders ya vendidas.",
+     "foot": "Entraron US$269.785 y salieron US$179.034. Quedan US$49.101 facturados sin cobrar: cuotas del curso y de Cáscara Founders ya vendidas.",
      "pageNum": "04"
     },
     {
      "type": "hero",
-     "label": "El motor se reparte",
-     "kicker": "04 · Ya no depende de una sola cosa",
+     "label": "De dónde vino la caja",
+     "kicker": "04 · De dónde vino la caja",
      "fig": "60%",
-     "line": "El curso <span class=\"em\">B2C</span> sigue siendo el motor, pero bajó del 72% al <span class=\"em\">60%</span> de la caja: <span class=\"em\">Founders</span> y <span class=\"em\">0800</span> ya aportan uno de cada tres dólares que entran.",
+     "line": "El curso <span class=\"em\">B2C</span> aporta el <span class=\"em\">60%</span> de la caja del trimestre. <span class=\"em\">Cáscara Founders</span> el 18% y <span class=\"em\">0800</span> el 11%.",
      "strip": [
       {
        "b": "US$160.562",
@@ -9740,8 +9621,8 @@
      "variant": "ink",
      "wordmarkWhite": true,
      "bigTiza": true,
-     "big": "El trimestre que cambió la <span class=\"em\" style=\"color:#fff;\">escala</span>.",
-     "note": "Q3 facturó US$318.886 — más que todo el primer semestre (US$252.647) — y el trabajo cerró en +US$115.547. La caja sumó +US$90.751 y el saldo pasó de US$35.250 a US$126.002. Los tres meses cerraron en azul, algo que no había pasado en el año. Y el motor se repartió: el curso bajó del 72% al 60% de la caja porque Founders y 0800 crecieron. El curso de septiembre va provisorio, con señas.",
+     "big": "El trimestre en <span class=\"em\" style=\"color:#fff;\">cuatro</span> números.",
+     "note": "Facturado US$318.886 contra US$203.339 de costos: resultado del trabajo +US$115.547. Entraron US$269.785 y salieron US$179.034: resultado de caja +US$90.751. El saldo pasa de US$35.250 a US$126.002. El curso aportó el 60% de la caja del trimestre, Cáscara Founders el 18% y 0800 el 11%. La facturación del curso de septiembre va provisoria.",
      "noteOpacity": ".7",
      "pageLabel": "Julio – Septiembre 2026"
     }
@@ -10267,7 +10148,7 @@
      "no": "30 de octubre – 8 de noviembre",
      "month": "La caja que viene",
      "monthSize": "116px",
-     "sub": "Lo único del informe que mira para <span class=\"em\">adelante</span>: qué se paga en los próximos diez días, de qué depende y cómo lo <span class=\"em\">decidimos</span>.",
+     "sub": "Qué se paga en los próximos diez días, con qué calendario, y qué queda por definir. Es una proyección, no un cierre.",
      "meta": [
       {
        "label": "Saldo al 29 de octubre",
@@ -10288,7 +10169,7 @@
      "label": "Los próximos 10 días",
      "kicker": "01 · Del 30 al 8",
      "title": "Qué se paga en los <span class=\"em\">próximos diez días</span>",
-     "sub": "La primera parte del mes es la chica: suscripciones, comisiones y algún adelanto. La tanda grande llega después del 10.",
+     "sub": "Los pagos siguen el mismo calendario todos los meses: lo chico en los primeros días y la tanda grande entre el 10 y el 16.",
      "dense": true,
      "cols": [
       {
@@ -10436,7 +10317,7 @@
        ]
       }
      ],
-     "foot": "<b>Nada de esto es discrecional.</b> Las suscripciones y la dirección comercial salen solas; lo único que se decide son los adelantos a socios, que son a cuenta del reparto de octubre.",
+     "foot": "Las suscripciones, la pauta y la dirección comercial son débitos y porcentajes fijos. Los adelantos a socios son a cuenta del reparto de octubre.",
      "pageNum": "01"
     },
     {
@@ -10444,7 +10325,7 @@
      "label": "La tanda del 10",
      "kicker": "02 · Del 10 al 16",
      "title": "La tanda grande, <span class=\"em\">justo después</span>",
-     "sub": "Paga el trabajo de octubre. Cae fuera de los diez días, pero es la que define el mes.",
+     "sub": "Paga el trabajo de octubre. Cae fuera de los diez días.",
      "dense": true,
      "cols": [
       {
@@ -10521,7 +10402,7 @@
       },
       {
        "nm": "Reparto a los cinco y Segundo",
-       "s": "Todo de Founders: el curso no deja nada",
+       "s": "Calculado sobre el resultado de octubre de cada unidad",
        "cells": [
         {
          "v": "10 – 16 nov",
@@ -10556,67 +10437,66 @@
        ]
       }
      ],
-     "foot": "<b>La tanda de noviembre va a ser un tercio de la de octubre.</b> En octubre se pagaron US$74.508 entre personas, contenido y comercial; en noviembre el rango va de US$27.580 a US$33.680. No es un ajuste: es el reparto siguiendo a lo cobrado.",
+     "foot": "En octubre se pagaron US$74.508 entre personas, contenido y comercial, correspondientes al trabajo de septiembre. Para noviembre el rango estimado va de US$27.580 a US$33.680, calculado sobre lo que cobró octubre.",
      "pageNum": "02"
     },
     {
      "type": "stats",
      "label": "De qué depende",
      "kicker": "03 · De qué depende",
-     "title": "El curso no está dejando <span class=\"em\">nada</span>",
-     "sub": "Octubre corregido: el curso y Founders cobraron US$10.000 menos cada uno de lo que figuraba hace dos días.",
+     "title": "De qué se calcula el <span class=\"em\">reparto</span>",
+     "sub": "Octubre corregido el 30: el curso y Cáscara Founders cobraron US$10.000 menos cada uno de lo que figuraba antes.",
      "items": [
       {
        "label": "Cobró octubre",
        "fig": "US$29.534",
-       "note": "Un <b>72% menos que septiembre</b> (US$104.139). El curso cobró US$10.299 y Founders US$10.460; 0800 puso los otros US$8.775."
+       "note": "El curso cobró US$10.299, Cáscara Founders US$10.460 y 0800 US$8.775. Septiembre había cobrado US$104.139."
       },
       {
-       "label": "Le costó al curso",
+       "label": "Costó el contenido y las herramientas del curso",
        "fig": "US$10.272",
-       "note": "Solo contenido y herramientas, sin comercial ni equipo. <b>Es el 100% de lo que el curso cobró en el mes.</b>",
+       "note": "Contenido US$6.548 y herramientas US$3.724, sin comercial ni equipo, sobre los US$10.299 que cobró el curso.",
        "key": true
       },
       {
        "label": "Queda para repartir",
        "fig": "US$6.000 – US$7.100",
-       "note": "<b>Todo sale de Founders.</b> El curso cierra octubre en negativo y no aporta al reparto."
+       "note": "Calculado sobre el resultado de cada unidad. El curso cierra octubre en negativo, así que el reparto sale de Cáscara Founders."
       },
       {
        "label": "Saldo al 29 de octubre",
        "fig": "US$62.948",
-       "note": "De los US$126.002 con que cerró septiembre. Octubre se llevó US$62.837, con <b>US$12.433 del viaje a España</b> adentro."
+       "note": "Al 29 de octubre. Septiembre había cerrado en US$126.002. Octubre incluye US$12.433 de pasajes, hospedaje y traslados del viaje a España."
       }
      ],
      "pageNum": "03"
     },
     {
      "type": "stats",
-     "label": "Cómo decidimos",
-     "kicker": "04 · Propuesta",
-     "title": "Cómo lo <span class=\"em\">decidimos</span> juntos",
-     "sub": "Cuatro reglas para discutir y ratificar. Ninguna está acordada todavía.",
+     "label": "Lo que falta definir",
+     "kicker": "04 · Lo que falta definir",
+     "title": "Lo que todavía <span class=\"em\">no está definido</span>",
+     "sub": "Cuatro puntos abiertos, tal como están hoy en las planillas y en los acuerdos.",
      "items": [
       {
-       "label": "El reparto es variable por diseño",
+       "label": "La tasa de caja central",
        "fig": "01",
-       "note": "Se calcula sobre lo cobrado menos los costos directos. Octubre cobró un tercio que septiembre y el reparto cae a un octavo. <b>No se completa con caja.</b>"
+       "note": "Los acuerdos de agosto fijan 30% para el curso y 20% para Cáscara Founders. La planilla aplica 20% y 10%."
       },
       {
-       "label": "El piso ya lo estamos tocando",
+       "label": "0800",
        "fig": "02",
-       "note": "Propongo <b>US$60.000</b>: una tanda completa sin depender de lo que entre. Hoy el saldo es US$62.948. <b>Estamos en el piso, no por encima.</b>",
-       "key": true
+       "note": "Cobró US$8.775 en octubre. No tiene hoja de unidad con costos ni tasa de caja asignada, así que no pasa por el reparto."
       },
       {
-       "label": "Los fijos no se discuten cada mes",
+       "label": "Growth",
        "fig": "03",
-       "note": "Equipo, contenido y herramientas suman US$17.380 por mes: el <b>59% de todo lo que cobró octubre</b>. Ese es el número a mirar, no el reparto."
+       "note": "MySaint, Delfi Ferro y Daniela no figuran en el informe: ni facturación, ni costos, ni reparto."
       },
       {
-       "label": "Lo extraordinario se decide antes",
+       "label": "El mínimo de caja",
        "fig": "04",
-       "note": "Un gasto fuera de la operación —el viaje de octubre— se acuerda entre los tres socios <b>antes</b> de comprometerlo, con el saldo proyectado a la vista."
+       "note": "No hay un piso definido. El saldo al 29 de octubre es US$62.948 y los costos fijos del mes —equipo, contenido y diseño— suman US$17.380."
       }
      ],
      "pageNum": "04"
@@ -10627,8 +10507,8 @@
      "variant": "ink",
      "wordmarkWhite": true,
      "bigTiza": true,
-     "big": "Noviembre se paga. Lo que no <span class=\"em\" style=\"color:#fff;\">cierra</span> es el curso.",
-     "note": "Con US$62.948 de saldo y una tanda de entre US$27.580 y US$33.680, noviembre se paga sin problema: la caja no es la urgencia. La urgencia es que el curso cobró US$10.299 en octubre y su contenido y sus herramientas solos costaron US$10.272 — no deja nada para repartir, y todo el reparto del mes sale de Founders. Los costos fijos son US$17.380 por mes contra US$29.534 cobrados. Si el reparto sigue a lo cobrado, la caja se sostiene; lo que no se sostiene es el curso con esta estructura de costos. Esto es una proyección: octubre todavía no cerró y el contenido del mes no está cargado.",
+     "big": "Noviembre en <span class=\"em\" style=\"color:#fff;\">tres</span> números.",
+     "note": "Saldo al 29 de octubre: US$62.948. En los próximos diez días se pagan entre US$5.450 y US$7.950. La tanda del 10 al 16 va de US$22.130 a US$25.730, de los cuales entre US$6.000 y US$7.100 son el reparto de octubre. Octubre cobró US$29.534 y pagó US$92.371. Es una proyección: octubre todavía no cerró y el contenido del mes no está cargado.",
      "noteOpacity": ".7",
      "pageLabel": "Proyección · 30 oct – 8 nov 2026"
     }
@@ -10800,7 +10680,7 @@
       "m": "Septiembre"
      }
     ],
-    "foot": "Septiembre es el récord absoluto de facturación (US$142.900) y también de cobros (US$104.139): facturó un 51% más que mayo, que venía siendo el techo del año. Cuando la barra llena supera a la de contorno, se facturó más de lo que se cobró: queda plata por entrar."
+    "foot": "Septiembre facturó US$142.900 y cobró US$104.139. La barra llena es lo facturado por el trabajo del mes; la de contorno, lo que se cobró."
    },
    "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$571.533 = 505.514 + 66.019). A la cuenta entraron US$518.164 en total: esos US$505.514 de facturación más US$12.650 de aportes de socios, que no son ventas.",
    "unidades": {
@@ -10941,7 +10821,7 @@
      115
     ],
     "total": 735,
-    "foot": "<b>735 unidades en nueve meses.</b> El curso B2C explica 282 y los dos workshops otras 353, pero a un ticket mucho más bajo: por eso pesan poco en la facturación. No es lo mismo que lo facturado — la planilla descuenta las reservas caídas y los planes de pago reparten el cobro en cuotas."
+    "foot": "735 unidades entre febrero y septiembre. El curso suma 282 y los dos workshops 353, a un ticket de US$27. Son ventas cerradas por fecha de cierre, no facturación: la planilla descuenta las reservas caídas y los planes de pago reparten el cobro en cuotas."
    }
   },
   "sections": [
@@ -11098,7 +10978,7 @@
       "href": "mes.html?m=agosto",
       "no": "08",
       "month": "Agosto",
-      "head": "Nace la unidad 0800, el segundo mejor mes de facturación y el saldo toca un nuevo máximo.",
+      "head": "Nace la unidad 0800. Facturado US$93.100 y saldo US$89.878.",
       "metrics": [
        {
         "label": "Trabajo",
@@ -11117,7 +10997,7 @@
       "href": "mes.html?m=septiembre",
       "no": "09",
       "month": "Septiembre",
-      "head": "El mes más grande del año: récord de facturación y de cobros, con Founders en su mejor mes.",
+      "head": "Facturado US$142.900, trabajo +US$58.902 y saldo US$126.002.",
       "metrics": [
        {
         "label": "Trabajo",
@@ -11182,7 +11062,7 @@
       "href": "resumen.html?r=q3",
       "no": "Q3",
       "month": "Tercer trimestre",
-      "head": "Julio – Septiembre. El trimestre que cambió la escala: facturó más que todo el primer semestre.",
+      "head": "Julio – Septiembre. Facturado US$318.886, caja +US$90.751 y saldo US$126.002.",
       "metrics": [
        {
         "label": "Resultado caja",
@@ -11224,7 +11104,7 @@
       "no": "→",
       "noStyle": "color:var(--cc-blue-lt);",
       "month": "La caja que viene",
-      "head": "Proyección a diez días: qué se paga, de qué depende y la propuesta de cómo decidirlo entre los socios.",
+      "head": "Proyección a diez días: qué se paga, con qué calendario y qué queda por definir.",
       "metrics": [
        {
         "label": "Próximos 10 días",
