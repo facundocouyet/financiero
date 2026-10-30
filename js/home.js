@@ -121,6 +121,33 @@
         '<span class="bml__vals"><span class="bml__v bml__v--f num">' + b.v + '</span>' +
         '<span class="bml__v bml__v--c num">' + b.vCob + '</span></span></div>';
     }).join('');
+    // Cuadro de unidades: una fila por producto, una columna por mes. En
+    // teléfono las columnas de mes no entran, así que quedan sólo producto y
+    // total (ver index.html).
+    var u = dd.unidades;
+    var utbl = '';
+    if (u) {
+      var cols = 'grid-template-columns:1.9fr repeat(' + u.meses.length + ',1fr) .9fr;';
+      var head = '<div class="ut__r ut__h" style="' + cols + '"><span>Producto</span>' +
+        u.meses.map(function (m) { return '<span class="ut__m">' + m + '</span>'; }).join('') +
+        '<span>Total</span></div>';
+      var body = u.filas.map(function (f) {
+        return '<div class="ut__r" style="' + cols + '"><span class="ut__p">' + f.p + '</span>' +
+          f.v.map(function (v) {
+            return '<span class="ut__m num' + (v ? '' : ' ut__z') + '">' + (v || '—') + '</span>';
+          }).join('') +
+          '<span class="ut__t num">' + f.t + '</span></div>';
+      }).join('');
+      var tot = '<div class="ut__r ut__tot" style="' + cols + '"><span class="ut__p">Unidades</span>' +
+        u.totales.map(function (v) { return '<span class="ut__m num">' + v + '</span>'; }).join('') +
+        '<span class="ut__t num">' + u.total + '</span></div>';
+      utbl = '<div class="chartcard full">' +
+        '<div class="chartcard__t">' + u.t + '</div>' +
+        '<div class="chartcard__sub">' + u.sub + '</div>' +
+        '<div class="ut">' + head + body + tot + '</div>' +
+        '<div class="chartcard__foot">' + u.foot + '</div>' +
+      '</div>';
+    }
     return '<div class="dash">' +
       '<div class="kpis">' + kpis + '</div>' +
       (dd.dashNote ? '<p class="dashnote">' + dd.dashNote + '</p>' : '') +
@@ -135,6 +162,7 @@
           '<div class="bml"><div class="bml__h">Facturado y cobrado, por mes</div>' + vlist + '</div>' +
           '<div class="chartcard__foot">' + f.foot + '</div>' +
         '</div>' +
+        utbl +
       '</div>' +
     '</div>';
   }

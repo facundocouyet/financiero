@@ -126,6 +126,24 @@
   .legend-row .sw-cob{ background:transparent; border:2px solid var(--cc-ink); }
   .bm__cap{ display:flex; justify-content:space-between; gap:18px; margin-top:12px; }
   .bm__m{ flex:1; text-align:center; font-size:15px; color:var(--muted); }
+  /* cuadro de unidades vendidas */
+  .ut{ margin-top:20px; font-variant-numeric:tabular-nums; }
+  .ut__r{ display:grid; gap:10px; align-items:baseline; padding:10px 0; border-bottom:1px solid var(--line); }
+  .ut__h{ padding-bottom:9px; border-bottom:1px solid var(--cc-ink); font-size:12px; font-weight:700;
+          letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+  .ut__h span{ text-align:right; }
+  .ut__h span:first-child{ text-align:left; }
+  .ut__p{ font-size:15px; font-weight:700; }
+  .ut__m{ text-align:right; font-size:15px; color:var(--muted); }
+  .ut__z{ color:var(--cc-ink-faint); }
+  .ut__t{ text-align:right; font-size:15px; font-weight:700; }
+  .ut__tot{ border-bottom:none; border-top:1px solid var(--cc-ink); font-weight:700; }
+  .ut__tot .ut__m{ color:var(--ink); font-weight:700; }
+  /* debajo de 900px las ocho columnas de mes no entran: queda producto y total */
+  @media (max-width:900px){
+    .ut__r{ grid-template-columns:1fr auto !important; gap:14px; }
+    .ut__m{ display:none; }
+  }
   .chartcard__foot{ font-size:14px; color:var(--muted); margin-top:14px; line-height:1.4; }
   /* lista de montos facturados — sólo teléfono (en desktop van sobre las barras) */
   .bml{ display:none; }
