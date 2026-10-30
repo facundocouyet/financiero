@@ -29,8 +29,8 @@
   "reparto": "El reparto = cómo se divide el resultado de cada unidad. No es un porcentaje único: en el curso Cáscara se queda el 20% y el 80% restante se divide entre Franco, Fede, Teo, Juana, Facu y Segundo; en Founders va directo sobre el resultado, con Facu y Franco en 27,5% cada uno.",
   "contenido": "El equipo de contenido y diseño son las personas que producen el material de las cuentas. Cobran por trabajo entregado, con un mes de desfasaje: lo que se paga en septiembre es el trabajo de agosto. El informe de contenido por cuenta reparte ese gasto entre La cáscara, 0800 (donde está Delfi Ferro), Livo, Collab, My Saint · Cero y Founders.",
   "recupero": "Un recupero es plata que entra a la cuenta pero no es una venta: el proyecto devuelve lo que Cáscara pagó por él. En septiembre, el proyecto Cero devolvió US$2.482 de contenido y herramientas.",
-  "cajaCentral": "La caja central es la parte del resultado de cada vertical que queda en la empresa antes de repartir entre las personas. Los acuerdos de agosto la fijaron por vertical según cuánto se apoya cada una en la estructura: 30% el curso, 20% Founders, 10% growth y 20–30% 0800.",
-  "unidadesVendidas": "Las unidades vendidas son los contratos cerrados en el mes, uno por alumno o miembro, según la fecha de cierre en Airtable. No coinciden con lo facturado: la planilla descuenta las reservas caídas y los planes de pago reparten el cobro en cuotas."
+  "unidadesVendidas": "Las unidades vendidas son los contratos cerrados en el mes, uno por alumno o miembro, según la fecha de cierre en Airtable. No coinciden con lo facturado: la planilla descuenta las reservas caídas y los planes de pago reparten el cobro en cuotas.",
+  "cajaCentral": "La caja central es la parte del resultado de cada unidad que no se reparte y queda en la empresa. En septiembre fue el 20% del curso y el 10% de Cáscara Founders: US$8.727 en total. 0800 y growth todavía no tienen tasa asignada."
  },
  "anioInicio": {
   "saldoInicial": -5428.2
@@ -7678,150 +7678,9 @@
        ]
       }
      ],
-     "foot": "<b>De dónde salen los porcentajes.</b> En el curso, del tablero de puntos de los acuerdos: cada uno se puntúa por growth y estrategia comercial (40%), impacto del departamento (30%), marca personal (15%) y gerencia (15%), y eso da Franco 24, Fede 23, Teo 21, Juana 18 y Facu 14. La planilla reserva un 5% para Segundo y reparte el resto en esa misma proporción, después de que Cáscara se queda el 20%. <b>En Founders no hay puntaje</b>: es una tabla fija por rol — Facu y Franco 27,5% cada uno por producto y monetización, Teo y Fede 12,5%, Juana y Cáscara 10%.",
+     "foot": "<b>De dónde salen los porcentajes.</b> El curso usa un tablero de puntos: los acuerdos puntúan a cada uno en cuatro ejes —growth y estrategia comercial (40%), impacto del departamento (30%), marca personal (15%) y gerencia (15%)— y el tablero vigente da Franco 24, Fede 23, Teo 21, Juana 18 y Facu 14. La planilla reserva un 5% para Segundo y reparte el resto en esa misma proporción, después de que Cáscara se queda el 20%: por eso en septiembre figura 23/22/20/17/13 + Segundo 5. <b>Cáscara Founders no tiene puntaje</b>: es una tabla fija por rol — Facu y Franco 27,5% cada uno, Teo y Fede 12,5%, Juana y Cáscara 10%.",
      "footMarginTop": "22px",
      "dense": true
-    },
-    {
-     "type": "tabla",
-     "label": "Las reglas del reparto",
-     "kicker": "Las reglas",
-     "title": "Lo que dice el <span class=\"em\">acuerdo</span> y lo que aplica la planilla",
-     "sub": "La caja central es el porcentaje que cada vertical le deja a la empresa antes de repartir. Los acuerdos de agosto fijaron una tasa por vertical; la planilla todavía aplica otra.",
-     "dense": true,
-     "cols": [
-      {
-       "l": "Vertical",
-       "w": "1.9fr"
-      },
-      {
-       "l": "Caja",
-       "s": "según el acuerdo",
-       "w": ".75fr"
-      },
-      {
-       "l": "Caja",
-       "s": "hoy en la planilla",
-       "w": ".85fr"
-      },
-      {
-       "l": "Al reparto",
-       "s": "según el acuerdo",
-       "w": "2.1fr"
-      },
-      {
-       "l": "Al reparto",
-       "s": "hoy en la planilla",
-       "w": "1.7fr"
-      },
-      {
-       "l": "Resultado",
-       "s": "de septiembre",
-       "w": ".85fr"
-      }
-     ],
-     "rows": [
-      {
-       "nm": "Nivel 1 · La cáscara",
-       "s": "Curso B2C",
-       "cells": [
-        {
-         "v": "30%",
-         "em": true
-        },
-        {
-         "v": "20%",
-         "em": true
-        },
-        {
-         "v": "65% por puntos + Segundo 5%",
-         "dim": true
-        },
-        {
-         "v": "76% entre los cinco + Segundo 4%",
-         "dim": true
-        },
-        "30.038"
-       ]
-      },
-      {
-       "nm": "Nivel 2 · Founders",
-       "s": "Aceleradora",
-       "cells": [
-        {
-         "v": "20%",
-         "em": true
-        },
-        {
-         "v": "10%",
-         "em": true
-        },
-        {
-         "v": "70% por tabla + 10% operaciones",
-         "dim": true
-        },
-        {
-         "v": "90% entre los cinco",
-         "dim": true
-        },
-        "27.192"
-       ]
-      },
-      {
-       "nm": "Nivel 3 · Growth",
-       "s": "MySaint, Delfi Ferro, Daniela",
-       "cells": [
-        {
-         "v": "10%",
-         "em": true
-        },
-        {
-         "v": "Sin definir",
-         "dim": true
-        },
-        {
-         "v": "60/40 con el partner; el 40 va 30 growth y 10 contenido",
-         "dim": true
-        },
-        {
-         "v": "Sin registrar",
-         "dim": true
-        },
-        {
-         "v": "—",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "0800",
-       "s": "Estudio creativo",
-       "cells": [
-        {
-         "v": "20–30%",
-         "em": true
-        },
-        {
-         "v": "Sin definir",
-         "dim": true
-        },
-        {
-         "v": "Producción 30%, fijos por escalera, después socios",
-         "dim": true
-        },
-        {
-         "v": "Montos sueltos",
-         "dim": true
-        },
-        {
-         "v": "—",
-         "dim": true
-        }
-       ]
-      }
-     ],
-     "foot": "Con las tasas de la planilla la empresa retuvo US$8.727 en septiembre; con las del acuerdo serían US$14.450. La diferencia, US$5.723, quedó en el reparto. Growth y 0800 no tienen tasa aplicada: growth no está registrado en el informe y 0800 reparte por monto.",
-     "footMarginTop": "20px"
     },
     {
      "type": "tabla",
@@ -8313,69 +8172,57 @@
      "type": "tabla",
      "label": "La caja de la empresa",
      "kicker": "La caja de la empresa",
-     "title": "Qué quedó para la <span class=\"em\">empresa</span>, y dónde está",
-     "sub": "Lo que cada vertical le dejó a la caja central en septiembre, contra lo que le dejaría con las tasas del acuerdo. Montos en dólares, sin el US$.",
-     "dense": true,
+     "title": "Cuánta plata queda en <span class=\"em\">Cáscara</span>",
+     "sub": "La parte del resultado de cada unidad que no se reparte y queda en la empresa. Montos en dólares, sin el US$.",
      "cols": [
       {
-       "l": "Concepto",
-       "w": "2.9fr"
+       "l": "Unidad",
+       "w": "2.6fr"
       },
       {
-       "l": "Hoy",
-       "s": "septiembre",
-       "w": "1.1fr"
+       "l": "Qué queda en Cáscara",
+       "w": "1.6fr"
       },
       {
-       "l": "Con el acuerdo",
+       "l": "Septiembre",
        "w": "1.2fr"
-      },
-      {
-       "l": "Diferencia",
-       "w": "1.1fr"
       }
      ],
      "rows": [
       {
        "nm": "La cáscara · B2C",
-       "s": "20% del resultado de la unidad",
+       "s": "Curso propio",
        "cells": [
+        {
+         "v": "20% del resultado",
+         "dim": true
+        },
         {
          "v": "6.008",
          "em": true
-        },
-        "9.011",
-        {
-         "v": "−3.003",
-         "dim": true
         }
        ]
       },
       {
        "nm": "Cáscara Founders",
-       "s": "10% del resultado de la unidad",
+       "s": "Aceleradora",
        "cells": [
+        {
+         "v": "10% del resultado",
+         "dim": true
+        },
         {
          "v": "2.719",
          "em": true
-        },
-        "5.438",
-        {
-         "v": "−2.719",
-         "dim": true
         }
        ]
       },
       {
        "nm": "0800",
-       "s": "Todavía sin tasa definida",
+       "s": "Estudio creativo",
        "cells": [
         {
-         "v": "—",
-         "dim": true
-        },
-        {
-         "v": "—",
+         "v": "Sin definir",
          "dim": true
         },
         {
@@ -8386,14 +8233,10 @@
       },
       {
        "nm": "Growth",
-       "s": "Sin registrar en el informe",
+       "s": "MySaint, Delfi Ferro y Daniela",
        "cells": [
         {
-         "v": "—",
-         "dim": true
-        },
-        {
-         "v": "—",
+         "v": "Sin registrar en el informe",
          "dim": true
         },
         {
@@ -8407,13 +8250,12 @@
        "tot": true,
        "cells": [
         {
+         "v": "",
+         "dim": true
+        },
+        {
          "v": "8.727",
          "em": true
-        },
-        "14.450",
-        {
-         "v": "−5.723",
-         "dim": true
         }
        ]
       },
@@ -8422,16 +8264,12 @@
        "s": "Al cierre de septiembre",
        "cells": [
         {
+         "v": "",
+         "dim": true
+        },
+        {
          "v": "126.002",
          "em": true
-        },
-        {
-         "v": "—",
-         "dim": true
-        },
-        {
-         "v": "—",
-         "dim": true
         }
        ]
       },
@@ -8440,34 +8278,11 @@
        "s": "Cuenta de socios al 9 de octubre",
        "cells": [
         {
+         "v": "",
+         "dim": true
+        },
+        {
          "v": "−23.367",
-         "dim": true
-        },
-        {
-         "v": "—",
-         "dim": true
-        },
-        {
-         "v": "—",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Saldo hoy · 29 de octubre",
-       "s": "Octubre todavía no cerró: va −US$42.837",
-       "tot": true,
-       "cells": [
-        {
-         "v": "82.948",
-         "em": true
-        },
-        {
-         "v": "—",
-         "dim": true
-        },
-        {
-         "v": "—",
          "dim": true
         }
        ]
@@ -10479,9 +10294,9 @@
      "sub": "Cuatro puntos abiertos, tal como están hoy en las planillas y en los acuerdos.",
      "items": [
       {
-       "label": "La tasa de caja central",
+       "label": "El contenido por persona",
        "fig": "01",
-       "note": "Los acuerdos de agosto fijan 30% para el curso y 20% para Cáscara Founders. La planilla aplica 20% y 10%."
+       "note": "El informe de contenido llega al total por cuenta pero no por persona: no se sabe qué parte del pago de cada una va a cada unidad."
       },
       {
        "label": "0800",
