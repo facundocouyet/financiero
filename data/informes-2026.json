@@ -2342,6 +2342,18 @@
    "cobradoDeFacturacion": 235729,
    "aportesSocios": 12650,
    "entroEnCajaTotal": 248379
+  },
+  "q3": {
+   "label": "Tercer trimestre (Jul–Sep)",
+   "facturado": 318886,
+   "costos": 203339,
+   "resTrabajo": 115547,
+   "cobrado": 269785,
+   "pagado": 179034,
+   "resCaja": 90751,
+   "saldoInicial": 35250.45,
+   "saldoFinal": 126001.82,
+   "ventaB2C": 187321
   }
  },
  "pulsoMensual": [
@@ -8459,6 +8471,199 @@
     }
    ]
   },
+  "q3": {
+   "screenLabel": "Resumen Q3",
+   "title": "Resumen Tercer Trimestre 2026 · Cáscara Collective",
+   "detail": "none",
+   "slides": [
+    {
+     "type": "cover",
+     "label": "Portada",
+     "kicker": "Informe trimestral · 2026",
+     "no": "Julio – Septiembre",
+     "month": "Tercer trimestre",
+     "monthSize": "150px",
+     "sub": "El trimestre que cambió la <span class=\"em\">escala</span>: se facturó más que en todo el primer semestre y el saldo se <span class=\"em\">triplicó</span>.",
+     "meta": [
+      {
+       "label": "Resultado de caja",
+       "value": "+US$90.751"
+      },
+      {
+       "label": "Saldo",
+       "value": "US$35.250 → US$126.002"
+      },
+      {
+       "label": "Resultado del trabajo",
+       "value": "+US$115.547"
+      }
+     ]
+    },
+    {
+     "type": "stats",
+     "label": "Los números del trimestre",
+     "kicker": "01 · Resumen del trimestre",
+     "title": "El trimestre en números",
+     "items": [
+      {
+       "label": "Entró en caja",
+       "fig": "US$269.785",
+       "note": "Más que el <b>primer semestre entero</b> (US$248.379), en tres meses."
+      },
+      {
+       "label": "Salió de la caja",
+       "fig": "US$179.034",
+       "note": "Subió mucho menos que lo que entró: el gasto <b>no acompañó</b> a la facturación."
+      },
+      {
+       "label": "Resultado de caja",
+       "fig": "+US$90.751",
+       "note": "<b>El saldo pasa de US$35.250 a US$126.002.</b> Más del doble que los +US$40.679 de todo el primer semestre.",
+       "key": true
+      },
+      {
+       "label": "Resultado del trabajo",
+       "fig": "+US$115.547",
+       "note": "Se facturó US$318.886 por US$203.339 de costos. <b>Septiembre fue el techo del año.</b>"
+      }
+     ],
+     "pageNum": "01"
+    },
+    {
+     "type": "matriz",
+     "label": "Por unidad de negocio",
+     "months": [
+      "julio",
+      "agosto",
+      "septiembre"
+     ],
+     "kicker": "La matriz del período",
+     "title": "Facturado por unidad, mes a <span class=\"em\">mes</span>",
+     "foot": "En azul, los meses en que una unidad facturó más de US$15.000."
+    },
+    {
+     "type": "chart",
+     "label": "El pulso del trimestre",
+     "kicker": "02 · El pulso, mes a mes",
+     "title": "Caja que entra, caja que sale",
+     "legend": [
+      {
+       "cls": "sw-eco",
+       "label": "Entró (cobros)"
+      },
+      {
+       "cls": "sw-fin",
+       "label": "Salió (pagos)"
+      },
+      {
+       "raw": "<span style=\"color:var(--blue);font-weight:700;\">+ / −&nbsp;&nbsp;Resultado de caja</span>"
+      }
+     ],
+     "cols": [
+      {
+       "net": "+43.957",
+       "inH": 290,
+       "egH": 130,
+       "m": "Julio",
+       "saldoLabel": "Saldo",
+       "saldo": "US$79.207"
+      },
+      {
+       "net": "+10.671",
+       "inH": 314,
+       "egH": 275,
+       "m": "Agosto",
+       "saldoLabel": "Saldo",
+       "saldo": "US$89.878"
+      },
+      {
+       "net": "+36.123",
+       "inH": 380,
+       "egH": 248,
+       "m": "Septiembre",
+       "saldoLabel": "Saldo",
+       "saldo": "US$126.002"
+      }
+     ],
+     "foot": "Los tres meses cierran en azul. Julio es el salto, agosto frena por el reintegro de US$10.000 y septiembre vuelve a estirar.",
+     "footRight": "<b>+US$90.751</b> de caja en el trimestre",
+     "pageNum": "03"
+    },
+    {
+     "type": "lecturas",
+     "label": "El trabajo y la caja",
+     "kicker": "03 · El trabajo y la caja",
+     "title": "El trabajo y la <span class=\"em\">caja</span>",
+     "trabajo": {
+      "tag": "El trabajo · Q3",
+      "sub": "Lo facturado por el trabajo del trimestre y sus costos. Septiembre facturó más que todo el Q2.",
+      "io": [
+       {
+        "l": "Facturado",
+        "v": "US$318.886"
+       },
+       {
+        "l": "Costos",
+        "v": "US$203.339"
+       }
+      ],
+      "resL": "Resultado del trabajo",
+      "resFig": "+US$115.547"
+     },
+     "caja": {
+      "tag": "La caja · Q3",
+      "sub": "Lo que realmente entró y salió de la cuenta en los tres meses.",
+      "io": [
+       {
+        "l": "Entró",
+        "v": "US$269.785"
+       },
+       {
+        "l": "Salió",
+        "v": "US$179.034"
+       }
+      ],
+      "resL": "Resultado de caja",
+      "resFig": "+US$90.751"
+     },
+     "foot": "<b>Por primera vez el trabajo y la caja crecen juntos.</b> En el Q2 el trabajo rendía pero la caja se iba en pagos atrasados; acá entró US$269.785 y salió US$179.034. Quedan US$49.101 facturados sin cobrar — cuotas del curso y de Founder ya vendidas.",
+     "pageNum": "04"
+    },
+    {
+     "type": "hero",
+     "label": "El motor se reparte",
+     "kicker": "04 · Ya no depende de una sola cosa",
+     "fig": "60%",
+     "line": "El curso <span class=\"em\">B2C</span> sigue siendo el motor, pero bajó del 72% al <span class=\"em\">60%</span> de la caja: <span class=\"em\">Founder</span> y <span class=\"em\">0800</span> ya aportan uno de cada tres dólares que entran.",
+     "strip": [
+      {
+       "b": "US$160.562",
+       "span": "Cobrado por el curso · 60% de la caja"
+      },
+      {
+       "b": "US$48.313",
+       "span": "Cobrado por Founder · 18% de la caja"
+      },
+      {
+       "b": "US$29.422",
+       "span": "Cobrado por 0800 · 11% de la caja"
+      }
+     ],
+     "pageNum": "05"
+    },
+    {
+     "type": "cierre",
+     "label": "Cierre",
+     "variant": "ink",
+     "wordmarkWhite": true,
+     "bigTiza": true,
+     "big": "El trimestre que cambió la <span class=\"em\" style=\"color:#fff;\">escala</span>.",
+     "note": "Q3 facturó US$318.886 — más que todo el primer semestre (US$252.647) — y el trabajo cerró en +US$115.547. La caja sumó +US$90.751 y el saldo pasó de US$35.250 a US$126.002. Los tres meses cerraron en azul, algo que no había pasado en el año. Y el motor se repartió: el curso bajó del 72% al 60% de la caja porque Founder y 0800 crecieron. El curso de septiembre va provisorio, con señas.",
+     "noteOpacity": ".7",
+     "pageLabel": "Julio – Septiembre 2026"
+    }
+   ]
+  },
   "semestre": {
    "screenLabel": "Resumen 6 meses",
    "title": "Resumen Primer Semestre 2026 · Cáscara Collective",
@@ -9370,10 +9575,24 @@
       ]
      },
      {
-      "kind": "soon",
+      "kind": "report",
+      "variant": "sum",
+      "href": "resumen.html?r=q3",
       "no": "Q3",
       "month": "Tercer trimestre",
-      "head": "Julio – Septiembre. Se completa cuando cierre septiembre."
+      "head": "Julio – Septiembre. El trimestre que cambió la escala: facturó más que todo el primer semestre.",
+      "metrics": [
+       {
+        "label": "Resultado caja",
+        "value": "+US$90.751",
+        "cls": "pos"
+       },
+       {
+        "label": "Saldo",
+        "value": "US$126.002",
+        "cls": "num"
+       }
+      ]
      },
      {
       "kind": "report",
