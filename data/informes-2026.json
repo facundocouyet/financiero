@@ -6,14 +6,14 @@
   "actualizado": "2026-11",
   "fuentes": [
    "Informes 2026 (4).xlsx (resumen mensual, octubre cerrado)",
-   "Gestión 2026 (3).xlsx (libro diario al 29 de octubre + económico + cuentas + distribución)",
+   "Gestión 2026 (4).xlsx (libro diario al 6 de noviembre + económico + cuentas + distribución)",
    "Facturación Real - Cáscara.xlsx (curso B2C: señas y reservas caídas)",
    "Unidades - Cascara.xlsx (cuenta por unidad de negocio y comisiones de growth, hasta septiembre)",
    "Resumen de contenido Mensual (Notion) — informe de contenido por cuenta",
    "Acuerdos principales V4 (agosto 2026) — tasas de caja central y reparto",
    "Airtable · Reporte de Venta (unidades vendidas por producto)"
   ],
-  "auditoria": "Auditoría de noviembre 2026 contra Informes 2026 (4) y el libro diario de Gestión 2026. <b>Octubre:</b> facturado US$45.875, costo del mes US$68.312, cobrado US$62.428, pagado US$95.825; el saldo pasa de US$125.784 a US$92.387 y la cuenta cierra exacta contra sus propios ingresos y egresos. El libro diario, en cambio, cierra octubre en US$95.387,82: quedan US$3.000,47 por conciliar en los dos últimos días del mes. El diario llega al 29 de octubre (US$62.948 ese día): los últimos dos días del mes suman US$32.894 de cobros y US$3.454 de pagos. <b>Septiembre:</b> la planilla corrigió el contenido (US$5.822 → US$7.917) y el diseño (US$2.878 → US$3.393), así que el costo del mes pasó de US$83.998 a US$86.608 y el resultado del trabajo de +US$58.902 a +US$56.292. El informe de contenido por cuenta de Azu sigue sumando US$8.700,10: quedan US$2.610 sin asignar a una cuenta. <b>Diferencias abiertas en las planillas:</b> (1) el libro diario cierra septiembre en US$125.784,35 y la hoja de Informes en US$126.000,52 — la diferencia son US$217,18 de un movimiento del 30/9 que figura dos veces en el diario, una como “Vivienne Westwood S.R.L.” y otra como “adelanto a Facu”; octubre arranca del diario. (2) Julio cierra en US$80.328,43 en la hoja de Informes y agosto abre en US$79.207: el libro diario paga a Teo US$2.736 en julio y la hoja tiene US$1.614, así que faltan US$1.121,43 de egreso en julio. El sitio ya usa la cifra corregida; la planilla todavía no. (3) Septiembre no tiene económico cargado en Herramientas (fin US$2.472), Pauta (US$479) ni Inversión (US$2.470). (4) El reparto por oferta de la hoja Distribución suma US$27 menos que el económico de los cinco. <b>Facturación:</b> el sitio usa criterio REAL para el curso B2C (reservas caídas descontadas) hasta agosto; septiembre va provisorio con señas (US$72.205) y octubre toma los US$13.100 de la planilla. Por eso la facturación del sitio (US$617.408 en diez meses) no coincide con la suma de “Total facturado” de la planilla (US$689.310): los US$71.902 de diferencia son las reservas caídas del curso y dos cobros de trabajo previo de febrero (Acrule US$3.000 y Wires US$3.500) que no se cuentan como facturación del mes. Airtable, por fecha de cierre, da otra cifra más: en octubre el curso cerró US$16.600 contra los US$13.100 de la planilla. <b>Pendiente de cargar:</b> el reparto de octubre por unidad, el contenido por persona, los costos por unidad, 0800, growth, el saldo por cuenta bancaria y el trámite de la LLC."
+  "auditoria": "Auditoría de noviembre 2026 contra Informes 2026 (4) y el libro diario de Gestión 2026. <b>Octubre:</b> facturado US$45.875, costo del mes US$68.312, cobrado US$62.428, pagado US$95.825; el saldo pasa de US$125.784 a US$92.387. El libro diario cierra octubre en US$92.387,82: el mes cuadra exacto entre las dos planillas. El reparto del mes sale de la hoja Distribución (US$28.479 a los cinco, US$4.143 a Cáscara y US$339 a Segundo, sobre US$32.961 de resultado) y el contenido por persona de la hoja Equipo (23 personas, US$19.615). Al 6 de noviembre el saldo es US$91.387. <b>Septiembre:</b> la planilla corrigió el contenido (US$5.822 → US$7.917) y el diseño (US$2.878 → US$3.393), así que el costo del mes pasó de US$83.998 a US$86.608 y el resultado del trabajo de +US$58.902 a +US$56.292. El informe de contenido por cuenta de Azu sigue sumando US$8.700,10: quedan US$2.610 sin asignar a una cuenta. <b>Diferencias abiertas en las planillas:</b> (1) el libro diario cierra septiembre en US$125.784,35 y la hoja de Informes en US$126.000,52 — la diferencia son US$217,18 de un movimiento del 30/9 que figura dos veces en el diario, una como “Vivienne Westwood S.R.L.” y otra como “adelanto a Facu”; octubre arranca del diario. (2) Julio cierra en US$80.328,43 en la hoja de Informes y agosto abre en US$79.207: el libro diario paga a Teo US$2.736 en julio y la hoja tiene US$1.614, así que faltan US$1.121,43 de egreso en julio. El sitio ya usa la cifra corregida; la planilla todavía no. (3) Septiembre no tiene económico cargado en Herramientas (fin US$2.472), Pauta (US$479) ni Inversión (US$2.470). (4) El reparto por oferta de la hoja Distribución suma US$27 menos que el económico de los cinco. <b>Facturación:</b> el sitio usa criterio REAL para el curso B2C (reservas caídas descontadas) hasta agosto; septiembre va provisorio con señas (US$72.205) y octubre toma los US$13.100 de la planilla. Por eso la facturación del sitio (US$617.408 en diez meses) no coincide con la suma de “Total facturado” de la planilla (US$689.310): los US$71.902 de diferencia son las reservas caídas del curso y dos cobros de trabajo previo de febrero (Acrule US$3.000 y Wires US$3.500) que no se cuentan como facturación del mes. Airtable, por fecha de cierre, da otra cifra más: en octubre el curso cerró US$16.600 contra los US$13.100 de la planilla. <b>Pendiente de cargar:</b> el reparto de octubre por unidad, el contenido por persona, los costos por unidad, 0800, growth, el saldo por cuenta bancaria y el trámite de la LLC."
  },
  "glosario": {
   "trabajo": "El trabajo del mes = lo facturado por el trabajo del mes + sus costos, se haya cobrado/pagado o no. ¿El negocio da plata? NO usar 'devengado'.",
@@ -2742,6 +2742,110 @@
      }
     ],
     "total": 16
+   },
+   "unidades": {
+    "fuente": "Gestión 2026 · hoja Distribución",
+    "detalle": [
+     {
+      "unidad": "Cáscara Founders",
+      "facturado": 24000,
+      "cobrado": 31930,
+      "costos": 7435,
+      "resultado": 24495,
+      "margen": 77
+     },
+     {
+      "unidad": "La cáscara · B2C",
+      "facturado": 13100,
+      "cobrado": 21723,
+      "costos": 13257,
+      "resultado": 8466,
+      "margen": 39
+     },
+     {
+      "unidad": "Livo",
+      "facturado": 5000,
+      "cobrado": 5000,
+      "nota": "Cuenta de servicio, sin costos cargados."
+     },
+     {
+      "unidad": "0800",
+      "facturado": 3775,
+      "cobrado": 3775,
+      "nota": "Todavía no tiene hoja de unidad con sus costos."
+     }
+    ],
+    "reparto": {
+     "personas": [
+      "Franco",
+      "Facu",
+      "Fede",
+      "Teo",
+      "Cáscara",
+      "Juana",
+      "Segundo"
+     ],
+     "cascara": [
+      1558,
+      880,
+      1490,
+      1355,
+      1693,
+      1151,
+      339
+     ],
+     "founders": [
+      6736,
+      6736,
+      3062,
+      3061,
+      2450,
+      2450,
+      0
+     ],
+     "total": [
+      8294,
+      7616,
+      4552,
+      4416,
+      4143,
+      3601,
+      339
+     ],
+     "reglaCascara": "Cáscara se queda el 20% del resultado del curso y el 10% del de Founders."
+    }
+   },
+   "cajaEmpresa": {
+    "base": "octubre",
+    "porVertical": [
+     {
+      "vertical": "Cáscara Founders",
+      "regla": "10% del resultado de la unidad",
+      "hoy": 2450
+     },
+     {
+      "vertical": "La cáscara · B2C",
+      "regla": "20% del resultado de la unidad",
+      "hoy": 1693
+     },
+     {
+      "vertical": "0800",
+      "regla": "Todavía sin tasa definida",
+      "hoy": 0
+     },
+     {
+      "vertical": "Growth",
+      "regla": "Sin registrar en el informe",
+      "hoy": 0
+     }
+    ],
+    "quedo": 4143,
+    "saldoCierre": 92387,
+    "cuentaSocios": -3546,
+    "saldoAlDia": {
+     "fecha": "2026-11-06",
+     "valor": 91387
+    }
    }
   }
  ],
@@ -8981,7 +9085,7 @@
       "fin": 25
      }
     ],
-    "nota": "Reconciliado contra el libro diario de Gestión 2026 hasta el 29 de octubre: hasta esa fecha habían entrado US$29.534 y salido US$92.371. El cierre del mes —entraron US$62.428, salieron US$95.825— sale de la hoja de Informes; los últimos dos días del mes suman US$32.894 de cobros. Octubre arranca en US$125.784, el saldo que el libro diario tiene al 30 de septiembre. El diario cierra octubre en US$95.387,82 y la hoja de Informes en US$92.387: quedan US$3.000,47 por conciliar. La línea <b>Evento</b> (US$13.107) es el viaje a España, que no tiene costo económico cargado a ningún mes. El reparto por unidad, el contenido por persona y los costos por unidad todavía no tienen la fila de octubre."
+    "nota": "Reconciliado contra el libro diario de Gestión 2026: octubre cuadra exacto —entraron US$62.428,47 y salieron US$95.825,00— y el saldo cierra en US$92.387,82 en las dos planillas. Octubre arranca en US$125.784, que es donde cierra el diario el 30 de septiembre; la hoja de Informes cierra septiembre en US$126.001, con US$217,18 de diferencia por un movimiento de ese día que figura dos veces en el diario. El reparto por unidad sale de la hoja Distribución y el contenido por persona de la hoja Equipo. La línea <b>Evento</b> (US$13.107) es el viaje a España, que no tiene costo económico cargado a ningún mes."
    },
    "slides": [
     {
@@ -9065,7 +9169,7 @@
        "accent": true
       }
      ],
-     "foot": "<div>US$45.875 facturados contra US$68.312 de costos dan −US$22.437 de resultado del trabajo. Entraron US$62.428 y salieron US$95.825, y el saldo pasa de US$125.784 a US$92.387. Octubre arranca del libro diario, que cierra septiembre en US$125.784; la hoja de Informes cierra en US$126.001, con US$217,18 de diferencia por un movimiento del 30 de septiembre que figura dos veces en el diario. Al cierre de octubre pasa al revés: el diario marca US$95.388 y la hoja de Informes US$92.387.</div>",
+     "foot": "<div>US$45.875 facturados contra US$68.312 de costos dan −US$22.437 de resultado del trabajo. Entraron US$62.428 y salieron US$95.825, y el saldo pasa de US$125.784 a US$92.387. El libro diario cierra octubre en US$92.387,82 y la hoja de Informes en US$92.387: el mes cuadra exacto. Octubre arranca en US$125.784, que es donde cierra el diario el 30 de septiembre; la hoja de Informes cierra septiembre en US$126.001, con US$217,18 de diferencia por un movimiento de ese día que figura dos veces en el diario.</div>",
      "pageNum": "01"
     },
     {
@@ -9262,30 +9366,37 @@
      "type": "tabla",
      "label": "Las unidades",
      "kicker": "Las unidades",
-     "title": "Lo que facturó y cobró <span class=\"em\">cada unidad</span>",
-     "sub": "Lo que facturó y cobró cada unidad en octubre. Los costos por unidad todavía no están cargados: la hoja de unidades llega hasta septiembre. Montos en dólares, sin el US$.",
+     "title": "Cada unidad, con su <span class=\"em\">propia cuenta</span>",
+     "sub": "Lo que facturó y cobró cada unidad en octubre y el resultado sobre el que se calcula el reparto, según la hoja Distribución. Montos en dólares, sin el US$.",
      "cols": [
       {
        "l": "Unidad",
-       "w": "2.4fr"
+       "w": "2.2fr"
       },
       {
        "l": "Facturado",
        "s": "del mes",
-       "w": "1.1fr"
+       "w": "1fr"
       },
       {
        "l": "Cobrado",
        "s": "en el mes",
-       "w": "1.1fr"
-      },
-      {
-       "l": "% de la caja",
        "w": "1fr"
       },
       {
-       "l": "Costos de la unidad",
-       "w": "1.4fr"
+       "l": "Costos",
+       "s": "de la unidad",
+       "w": "1fr"
+      },
+      {
+       "l": "Resultado",
+       "s": "a repartir",
+       "w": "1.1fr"
+      },
+      {
+       "l": "Margen",
+       "s": "sobre lo cobrado",
+       "w": "1fr"
       }
      ],
      "rows": [
@@ -9294,14 +9405,15 @@
        "s": "Aceleradora",
        "cells": [
         "24.000",
+        "31.930",
+        "7.435",
         {
-         "v": "31.930",
+         "v": "24.495",
          "em": true
         },
-        "51%",
         {
-         "v": "Sin cargar",
-         "dim": true
+         "v": "77%",
+         "em": true
         }
        ]
       },
@@ -9310,14 +9422,15 @@
        "s": "Curso propio",
        "cells": [
         "13.100",
+        "21.723",
+        "13.257",
         {
-         "v": "21.723",
+         "v": "8.466",
          "em": true
         },
-        "35%",
         {
-         "v": "Sin cargar",
-         "dim": true
+         "v": "39%",
+         "em": true
         }
        ]
       },
@@ -9326,13 +9439,17 @@
        "s": "Cuenta de servicio",
        "cells": [
         "5.000",
-        {
-         "v": "5.000",
-         "em": true
-        },
-        "8%",
+        "5.000",
         {
          "v": "Sin cargar",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
          "dim": true
         }
        ]
@@ -9342,13 +9459,17 @@
        "s": "Pedidos creativos",
        "cells": [
         "3.775",
-        {
-         "v": "3.775",
-         "em": true
-        },
-        "6%",
+        "3.775",
         {
          "v": "Sin cargar",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "—",
          "dim": true
         }
        ]
@@ -9358,11 +9479,12 @@
        "tot": true,
        "cells": [
         "45.875",
+        "62.428",
+        "20.692",
         {
-         "v": "62.428",
+         "v": "32.961",
          "em": true
         },
-        "100%",
         {
          "v": "—",
          "dim": true
@@ -9370,33 +9492,42 @@
        ]
       }
      ],
-     "foot": "El comercial de las dos unidades de formación figura en una sola línea de la planilla: US$9.616 de costo de octubre y US$11.381 pagados en el mes. El contenido y el diseño —US$19.615 de costo— tampoco están repartidos por cuenta todavía. Las hojas <i>Unidades - Cascara</i> y <i>Equipo</i> llegan hasta septiembre.",
-     "footMarginTop": "24px"
+     "foot": "El resultado sale de la hoja <i>Distribución</i>; los costos son la diferencia contra lo cobrado. El desglose de esos costos —comercial, contenido, herramientas y equipo por unidad— todavía no está cargado: la hoja <i>Unidades - Cascara</i> llega hasta septiembre. El comercial del mes, US$9.616, figura en una sola línea para las dos unidades.",
+     "footMarginTop": "22px",
+     "dense": true
     },
     {
      "type": "tabla",
      "label": "El reparto",
      "kicker": "El reparto",
-     "title": "Lo que le toca a <span class=\"em\">cada uno</span>",
-     "sub": "La columna del medio es el económico de octubre: el trabajo del mes, que se paga en la primera quincena de noviembre. Al lado, lo que cada uno cobró durante octubre, que paga el trabajo de septiembre. Montos en dólares, sin el US$.",
+     "title": "Cómo se <span class=\"em\">reparte</span> el resultado de cada unidad",
+     "sub": "Todo en económico: es el trabajo de octubre, que se paga en la primera quincena de noviembre. El reparto se calcula sobre el resultado de cada unidad, no sobre lo facturado. Montos en dólares, sin el US$.",
      "cols": [
       {
        "l": "Persona",
-       "w": "1.8fr"
-      },
-      {
-       "l": "Costo de octubre",
-       "s": "se paga del 1 al 15 de nov",
        "w": "1.3fr"
       },
       {
-       "l": "Pagado en octubre",
-       "s": "es el costo de septiembre",
-       "w": "1.3fr"
+       "l": "% curso",
+       "s": "del resultado",
+       "w": ".85fr"
       },
       {
-       "l": "Costo de septiembre",
-       "w": "1.3fr"
+       "l": "La cáscara",
+       "w": "1fr"
+      },
+      {
+       "l": "% Founders",
+       "s": "del resultado",
+       "w": ".85fr"
+      },
+      {
+       "l": "Founders",
+       "w": "1fr"
+      },
+      {
+       "l": "Total del mes",
+       "w": "1.05fr"
       }
      ],
      "rows": [
@@ -9404,13 +9535,18 @@
        "nm": "Franco",
        "cells": [
         {
+         "v": "18,4%",
+         "dim": true
+        },
+        "1.558",
+        {
+         "v": "27,5%",
+         "dim": true
+        },
+        "6.736",
+        {
          "v": "8.294",
          "em": true
-        },
-        "13.700",
-        {
-         "v": "13.711",
-         "dim": true
         }
        ]
       },
@@ -9418,13 +9554,18 @@
        "nm": "Facu",
        "cells": [
         {
+         "v": "10,4%",
+         "dim": true
+        },
+        "880",
+        {
+         "v": "27,5%",
+         "dim": true
+        },
+        "6.736",
+        {
          "v": "7.616",
          "em": true
-        },
-        "10.750",
-        {
-         "v": "10.806",
-         "dim": true
         }
        ]
       },
@@ -9432,13 +9573,18 @@
        "nm": "Fede",
        "cells": [
         {
+         "v": "17,6%",
+         "dim": true
+        },
+        "1.490",
+        {
+         "v": "12,5%",
+         "dim": true
+        },
+        "3.062",
+        {
          "v": "4.552",
          "em": true
-        },
-        "11.753",
-        {
-         "v": "10.192",
-         "dim": true
         }
        ]
       },
@@ -9446,27 +9592,57 @@
        "nm": "Teo",
        "cells": [
         {
+         "v": "16%",
+         "dim": true
+        },
+        "1.355",
+        {
+         "v": "12,5%",
+         "dim": true
+        },
+        "3.061",
+        {
          "v": "4.416",
          "em": true
-        },
-        "3.741",
-        {
-         "v": "8.211",
-         "dim": true
         }
        ]
+      },
+      {
+       "nm": "Cáscara",
+       "cells": [
+        {
+         "v": "20%",
+         "dim": true
+        },
+        "1.693",
+        {
+         "v": "10%",
+         "dim": true
+        },
+        "2.450",
+        {
+         "v": "4.143",
+         "em": true
+        }
+       ],
+       "s": "La casa"
       },
       {
        "nm": "Juana",
        "cells": [
         {
+         "v": "13,6%",
+         "dim": true
+        },
+        "1.151",
+        {
+         "v": "10%",
+         "dim": true
+        },
+        "2.450",
+        {
          "v": "3.601",
          "em": true
-        },
-        "7.243",
-        {
-         "v": "7.309",
-         "dim": true
         }
        ]
       },
@@ -9474,35 +9650,338 @@
        "nm": "Segundo",
        "cells": [
         {
-         "v": "2.000",
+         "v": "4%",
+         "dim": true
+        },
+        "339",
+        {
+         "v": "—",
+         "dim": true
+        },
+        "—",
+        {
+         "v": "339",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Total repartido",
+       "tot": true,
+       "cells": [
+        {
+         "v": "100%",
+         "dim": true
+        },
+        "8.466",
+        {
+         "v": "100%",
+         "dim": true
+        },
+        "24.495",
+        {
+         "v": "32.961",
+         "em": true
+        }
+       ]
+      }
+     ],
+     "foot": "<b>De dónde salen los porcentajes.</b> El curso usa un tablero de puntos: los acuerdos puntúan a cada uno en cuatro ejes —growth y estrategia comercial (40%), impacto del departamento (30%), marca personal (15%) y gerencia (15%)— y el tablero vigente da Franco 24, Fede 23, Teo 21, Juana 18 y Facu 14. La planilla reserva un 5% para Segundo y reparte el resto en esa misma proporción, después de que Cáscara se queda el 20%. <b>Cáscara Founders no tiene puntaje</b>: es una tabla fija por rol — Facu y Franco 27,5% cada uno, Teo y Fede 12,5%, Juana y Cáscara 10%. Octubre usa los mismos porcentajes que septiembre.",
+     "footMarginTop": "20px",
+     "dense": true
+    },
+    {
+     "type": "tabla",
+     "label": "El contenido",
+     "kicker": "El contenido",
+     "title": "Quién hace el <span class=\"em\">contenido</span>, y cuánto cobra",
+     "sub": "El costo de octubre por persona, que se paga en la primera quincena de noviembre. Sale de la hoja Equipo. Montos en dólares, sin el US$.",
+     "dense": true,
+     "cols": [
+      {
+       "l": "Persona",
+       "w": "2.1fr"
+      },
+      {
+       "l": "Trabajo",
+       "w": "1.1fr"
+      },
+      {
+       "l": "Costo de octubre",
+       "w": "1.2fr"
+      },
+      {
+       "l": "% del total",
+       "w": "1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Tomás Etchandy",
+       "cells": [
+        "Contenido",
+        "2.801",
+        "14%"
+       ]
+      },
+      {
+       "nm": "Facundo Suárez",
+       "cells": [
+        "Contenido",
+        "1.899",
+        "10%"
+       ]
+      },
+      {
+       "nm": "Milagros",
+       "cells": [
+        "Contenido",
+        "1.500",
+        "8%"
+       ]
+      },
+      {
+       "nm": "Milone",
+       "cells": [
+        "Contenido",
+        "1.230",
+        "6%"
+       ]
+      },
+      {
+       "nm": "Pedro Principi",
+       "cells": [
+        "Contenido",
+        "1.199",
+        "6%"
+       ]
+      },
+      {
+       "nm": "Otros once",
+       "cells": [
+        "Contenido",
+        "3.352",
+        "17%"
+       ]
+      },
+      {
+       "nm": "Subtotal contenido",
+       "tot": true,
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "11.981",
          "em": true
         },
-        "2.000",
+        "61%"
+       ]
+      },
+      {
+       "nm": "Aldi",
+       "cells": [
+        "Diseño",
+        "2.673",
+        "14%"
+       ]
+      },
+      {
+       "nm": "Valentín Castro",
+       "cells": [
+        "Diseño",
+        "1.466",
+        "7%"
+       ]
+      },
+      {
+       "nm": "Paulina",
+       "cells": [
+        "Diseño",
+        "1.030",
+        "5%"
+       ]
+      },
+      {
+       "nm": "Juana Morales",
+       "cells": [
+        "Diseño",
+        "1.020",
+        "5%"
+       ]
+      },
+      {
+       "nm": "Nic Mellone",
+       "cells": [
+        "Diseño",
+        "915",
+        "5%"
+       ]
+      },
+      {
+       "nm": "Santiago Barragán y Olivia Díaz",
+       "cells": [
+        "Diseño",
+        "530",
+        "3%"
+       ]
+      },
+      {
+       "nm": "Subtotal diseño",
+       "tot": true,
+       "cells": [
         {
-         "v": "2.000",
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "7.634",
+         "em": true
+        },
+        "39%"
+       ]
+      },
+      {
+       "nm": "Costo de octubre",
+       "tot": true,
+       "cells": [
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "19.615",
+         "em": true
+        },
+        "100%"
+       ]
+      }
+     ],
+     "foot": "Son 23 personas. Los US$19.615 son el costo del mes, no lo pagado: durante octubre se pagaron US$12.810, que corresponden al trabajo de septiembre. A qué cuenta va cada peso todavía no está abierto para octubre."
+    },
+    {
+     "type": "tabla",
+     "label": "La caja de la empresa",
+     "kicker": "La caja de la empresa",
+     "title": "Cuánta plata queda en <span class=\"em\">Cáscara</span>",
+     "sub": "La parte del resultado de cada unidad que no se reparte y queda en la empresa. Montos en dólares, sin el US$.",
+     "cols": [
+      {
+       "l": "Unidad",
+       "w": "2.6fr"
+      },
+      {
+       "l": "Qué queda en Cáscara",
+       "w": "1.6fr"
+      },
+      {
+       "l": "Octubre",
+       "w": "1.2fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Cáscara Founders",
+       "s": "Aceleradora",
+       "cells": [
+        {
+         "v": "10% del resultado",
+         "dim": true
+        },
+        {
+         "v": "2.450",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "La cáscara · B2C",
+       "s": "Curso propio",
+       "cells": [
+        {
+         "v": "20% del resultado",
+         "dim": true
+        },
+        {
+         "v": "1.693",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "0800",
+       "s": "Estudio creativo",
+       "cells": [
+        {
+         "v": "Sin definir",
+         "dim": true
+        },
+        {
+         "v": "—",
          "dim": true
         }
        ]
       },
       {
-       "nm": "Total del mes",
+       "nm": "Growth",
+       "s": "MySaint, Delfi Ferro y Daniela",
+       "cells": [
+        {
+         "v": "Sin registrar",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Quedó para la empresa",
        "tot": true,
        "cells": [
         {
-         "v": "30.479",
-         "em": true
+         "v": "",
+         "dim": true
         },
-        "49.187",
         {
-         "v": "52.229",
+         "v": "4.143",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Saldo en la cuenta",
+       "s": "Al cierre de octubre",
+       "cells": [
+        {
+         "v": "",
+         "dim": true
+        },
+        {
+         "v": "92.387",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Cuenta de socios al 31 de octubre",
+       "s": "En negativo: cobraron por encima de lo repartido",
+       "cells": [
+        {
+         "v": "",
+         "dim": true
+        },
+        {
+         "v": "−3.546",
          "dim": true
         }
        ]
       }
      ],
-     "foot": "El reparto se calcula sobre el resultado de cada unidad. La hoja <i>Distribución</i> todavía no tiene la fila de octubre, así que el mes no está abierto por unidad y tampoco figura la parte que queda en Cáscara: en septiembre fueron US$8.726. Teo cobró US$3.741 en octubre contra un costo de septiembre de US$8.211.",
-     "footMarginTop": "22px",
-     "dense": true
+     "foot": "En septiembre habían quedado US$8.726 en la empresa. La cuenta de socios cerró octubre en −US$3.546: el reparto de septiembre se pagó completo y hay US$3.000 de adelanto de Fede. El reparto de octubre —US$28.479 entre los cinco más US$339 de Segundo— todavía no está cargado en esa cuenta.",
+     "footMarginTop": "18px"
     },
     {
      "type": "tabla",
@@ -9527,33 +10006,7 @@
      ],
      "rows": [
       {
-       "nm": "El reparto por unidad",
-       "cells": [
-        {
-         "v": "Hoja Distribución · Gestión 2026",
-         "dim": true
-        },
-        {
-         "v": "Sólo septiembre",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "El contenido por persona",
-       "cells": [
-        {
-         "v": "Hoja Equipo · Gestión 2026",
-         "dim": true
-        },
-        {
-         "v": "Llega a septiembre",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Los costos por unidad",
+       "nm": "El desglose de costos por unidad",
        "cells": [
         {
          "v": "Unidades - Cascara.xlsx",
@@ -9579,6 +10032,19 @@
        ]
       },
       {
+       "nm": "El contenido por cuenta",
+       "cells": [
+        {
+         "v": "Informe de contenido · Notion",
+         "dim": true
+        },
+        {
+         "v": "Llega a septiembre",
+         "dim": true
+        }
+       ]
+      },
+      {
        "nm": "El cierre de septiembre",
        "cells": [
         {
@@ -9587,19 +10053,6 @@
         },
         {
          "v": "217,18 duplicados",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "El cierre de octubre",
-       "cells": [
-        {
-         "v": "Libro diario al 31 de octubre",
-         "dim": true
-        },
-        {
-         "v": "3.000 de diferencia",
          "dim": true
         }
        ]
@@ -9642,9 +10095,22 @@
          "dim": true
         }
        ]
+      },
+      {
+       "nm": "El trámite de la LLC",
+       "cells": [
+        {
+         "v": "No figura en ninguna planilla",
+         "dim": true
+        },
+        {
+         "v": "Sin dato",
+         "dim": true
+        }
+       ]
       }
      ],
-     "foot": "El libro diario cierra octubre en US$95.387,82 y la hoja de Informes en US$92.387: quedan US$3.000,47 por conciliar en los dos últimos días del mes. El informe usa la hoja de Informes, que cierra exacta contra sus propios ingresos y egresos. El trámite de la LLC no figura en ninguna planilla.",
+     "foot": "El libro diario llega al 6 de noviembre: después del cierre de octubre sólo registra US$1.000 pagados a Teo, y el saldo queda en US$91.387. Octubre, en cambio, cuadra exacto entre el diario y la hoja de Informes.",
      "footMarginTop": "18px"
     },
     {
@@ -9730,7 +10196,7 @@
      "variant": "blue",
      "kicker": "05 · La lectura del mes",
      "big": "Octubre en <span class=\"em\" style=\"color:#fff;\">cuatro</span> números.",
-     "note": "Facturado US$45.875 contra US$68.312 de costos: resultado del trabajo −US$22.437. Entraron US$62.428 y salieron US$95.825: resultado de caja −US$33.397. El saldo pasa de US$125.784 a US$92.387. El reparto del mes es US$28.479 entre los cinco más US$2.000 de Segundo; la parte que queda en Cáscara todavía no está calculada. Dentro de los pagos del mes hay US$13.107 del viaje a España. El libro diario cierra octubre en US$95.388: quedan US$3.000 por conciliar.",
+     "note": "Facturado US$45.875 contra US$68.312 de costos: resultado del trabajo −US$22.437. Entraron US$62.428 y salieron US$95.825: resultado de caja −US$33.397. El saldo pasa de US$125.784 a US$92.387. El reparto del mes es US$28.479 entre los cinco, US$4.143 para Cáscara y US$339 para Segundo, calculado sobre US$32.961 de resultado entre las dos unidades. Dentro de los pagos del mes hay US$13.107 del viaje a España.",
      "pageLabel": "10 · Octubre 2026",
      "noteOpacity": "0.85",
      "pageNum": "05"
@@ -11345,10 +11811,31 @@
        ]
       },
       {
-       "nm": "Costo de octubre a pagar del 1 al 15",
+       "nm": "Pagado del 1 al 6 de noviembre",
+       "s": "Un pago a Teo",
        "cells": [
         {
-         "v": "−68.312",
+         "v": "−1.000",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Saldo al 6 de noviembre",
+       "s": "Última fila del libro diario",
+       "tot": true,
+       "cells": [
+        {
+         "v": "91.387",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Costo de octubre que queda por pagar",
+       "cells": [
+        {
+         "v": "−67.312",
          "dim": true
         }
        ]
@@ -11385,7 +11872,7 @@
        ]
       }
      ],
-     "foot": "Después de pagar el costo de octubre quedan US$24.075 del saldo de cierre, más lo que entre en noviembre. El reparto va atado al cobro de cada mes: lo que entre en noviembre define el reparto de noviembre, que se paga en diciembre. El libro diario que tiene el informe llega al 29 de octubre, así que el cobro de noviembre todavía no está cargado.",
+     "foot": "Después de pagar el costo de octubre quedan US$24.075 del saldo de cierre, más lo que entre en noviembre. El reparto va atado al cobro de cada mes: lo que entre en noviembre define el reparto de noviembre, que se paga en diciembre. El libro diario llega al 6 de noviembre y todavía no registra cobros del mes.",
      "footMarginTop": "22px",
      "pageNum": "02"
     },
@@ -11404,7 +11891,7 @@
       {
        "label": "Costó el trabajo de octubre",
        "fig": "US$68.312",
-       "note": "Reparto US$28.479, contenido y diseño US$19.615, comercial US$9.616, resto del equipo US$6.560 y herramientas, pauta e inversión US$4.042.",
+       "note": "Reparto US$28.479 a los cinco, US$4.143 que quedan en Cáscara y US$339 de Segundo; contenido y diseño US$19.615, comercial US$9.616, resto del equipo US$6.560 y herramientas, pauta e inversión US$4.042.",
        "key": true
       },
       {
@@ -11415,7 +11902,7 @@
       {
        "label": "Saldo al cierre de octubre",
        "fig": "US$92.387",
-       "note": "Septiembre cierra en US$125.784 según el libro diario. Octubre incluye US$13.107 del viaje a España."
+       "note": "El libro diario cierra octubre en US$92.387,82 y la hoja de Informes en US$92.387: el mes cuadra exacto. Al 6 de noviembre el saldo es US$91.387. Octubre incluye US$13.107 del viaje a España."
       }
      ],
      "pageNum": "03"
@@ -11428,24 +11915,24 @@
      "sub": "Cuatro puntos abiertos, tal como están hoy en las planillas y en los acuerdos.",
      "items": [
       {
-       "label": "El reparto de octubre por unidad",
+       "label": "El desglose de costos por unidad",
        "fig": "01",
-       "note": "La hoja Distribución sólo tiene septiembre: octubre no está abierto por unidad y no figura la parte que queda en Cáscara. En septiembre fueron US$8.726."
+       "note": "El resultado de cada unidad ya está en la hoja Distribución, pero el desglose de sus costos no: la hoja Unidades - Cascara llega a septiembre y el comercial figura en una sola línea de US$9.616."
       },
       {
-       "label": "El contenido por persona",
+       "label": "El contenido por cuenta",
        "fig": "02",
-       "note": "La hoja Equipo llega hasta septiembre: no se sabe qué parte del pago de cada persona va a cada unidad."
+       "note": "La hoja Equipo ya tiene octubre por persona (23 personas, US$19.615), pero no a qué unidad se carga el trabajo de cada una."
       },
       {
        "label": "0800 y growth",
        "fig": "03",
-       "note": "0800 cobró US$3.775 en octubre y no tiene hoja de unidad con costos ni tasa de caja. MySaint, Delfi Ferro y Daniela no figuran en el informe."
+       "note": "0800 cobró US$3.775 en octubre y no tiene hoja de unidad con costos ni tasa de caja, así que no pasa por el reparto. MySaint, Delfi Ferro y Daniela no figuran en el informe."
       },
       {
        "label": "El mínimo de caja",
        "fig": "04",
-       "note": "No hay un piso definido. El saldo al cierre de octubre es US$92.387 y el costo de octubre a pagar del 1 al 15 es US$68.312."
+       "note": "No hay un piso definido. El saldo al 6 de noviembre es US$91.387 y el costo de octubre que queda por pagar es US$67.312."
       }
      ],
      "pageNum": "04"
@@ -11457,7 +11944,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "Noviembre en <span class=\"em\" style=\"color:#fff;\">tres</span> números.",
-     "note": "Saldo al cierre de octubre: US$92.387. Del 1 al 15 de noviembre se paga el costo de octubre: US$68.312, de los cuales US$28.479 son el reparto a los cinco. Después de esa quincena quedan US$24.075 del saldo de cierre, más lo que entre en noviembre. Octubre cobró US$62.428 y pagó US$95.825.",
+     "note": "Saldo al cierre de octubre: US$92.387, y US$91.387 al 6 de noviembre. Del 1 al 15 de noviembre se paga el costo de octubre: US$68.312, de los cuales US$28.479 son el reparto a los cinco y US$4.143 quedan en Cáscara. Después de esa quincena quedan US$24.075 del saldo de cierre, más lo que entre en noviembre. Octubre cobró US$62.428 y pagó US$95.825.",
      "noteOpacity": ".7",
      "pageLabel": "Proyección · 1 – 15 nov 2026"
     }
@@ -12097,8 +12584,8 @@
         "cls": "num"
        },
        {
-        "label": "Saldo al cierre de oct",
-        "value": "US$92.387",
+        "label": "Saldo al 6 de nov",
+        "value": "US$91.387",
         "cls": "num"
        }
       ]
@@ -12106,7 +12593,7 @@
     ]
    }
   ],
-  "footer": "<b>Moneda:</b> dólares (US$). &nbsp;·&nbsp; <b>Cómo se lee:</b> \"trabajo\" = lo facturado por el trabajo del mes y sus costos; \"caja\" = lo que realmente entró y salió de la cuenta. &nbsp;·&nbsp; Números según planillas <b>Informes 2026</b> y <b>Gestión 2026</b> (Informes actualizada a octubre; libro diario al 29 de octubre)."
+  "footer": "<b>Moneda:</b> dólares (US$). &nbsp;·&nbsp; <b>Cómo se lee:</b> \"trabajo\" = lo facturado por el trabajo del mes y sus costos; \"caja\" = lo que realmente entró y salió de la cuenta. &nbsp;·&nbsp; Números según planillas <b>Informes 2026</b> y <b>Gestión 2026</b> (Informes actualizada a octubre; libro diario al 6 de noviembre)."
  },
  "unidades": [
   {
@@ -12236,7 +12723,7 @@
  "proyeccion": {
   "generada": "2026-11-07",
   "ventana": "2026-11-01 a 2026-11-15",
-  "base": "Planilla Informes 2026 con octubre cerrado; libro diario de Gestión 2026 al 29 de octubre",
+  "base": "Informes 2026 (4) con octubre cerrado y Gestión 2026 (4), libro diario al 6 de noviembre",
   "saldoCierreOctubre": 92387,
   "cobradoOctubre": 62428,
   "pagadoOctubre": 95825,
@@ -12252,9 +12739,18 @@
   "supuestos": [
    "El costo de octubre (US$68.312) es el que figura en la planilla, no una estimación.",
    "No incluye lo que se gaste de nuevo en noviembre, que se paga dentro del mismo mes.",
-   "El libro diario llega al 29 de octubre: el cobro de noviembre todavía no está cargado.",
-   "La hoja Distribución no tiene la fila de octubre, así que el reparto no está abierto por unidad.",
+   "El libro diario llega al 6 de noviembre: todavía no registra cobros de noviembre.",
    "Los US$3.775 que cobró 0800 no pasan por el reparto: la unidad todavía no tiene costos cargados."
-  ]
+  ],
+  "saldoAlDia": {
+   "fecha": "2026-11-06",
+   "valor": 91387
+  },
+  "repartoOctubre": {
+   "cinco": 28479,
+   "cascara": 4143,
+   "segundo": 339,
+   "resultado": 32961
+  }
  }
 }
