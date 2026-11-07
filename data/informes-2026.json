@@ -11832,19 +11832,19 @@
      "no": "1 al 15 de noviembre",
      "month": "La caja que viene",
      "monthSize": "116px",
-     "sub": "Qué se paga en la primera quincena de noviembre, con qué calendario, y qué queda por definir. Es una proyección, no un cierre.",
+     "sub": "Qué falta pagar del costo de octubre, con qué calendario, y cómo queda la caja hasta diciembre. Es una proyección, no un cierre.",
      "meta": [
       {
-       "label": "Saldo al cierre de octubre",
-       "value": "US$92.387"
+       "label": "Saldo al 6 de noviembre",
+       "value": "US$91.387"
       },
       {
-       "label": "Costo de octubre a pagar",
-       "value": "US$68.312"
+       "label": "Falta pagar de octubre",
+       "value": "US$67.312"
       },
       {
-       "label": "De eso, reparto a los cinco",
-       "value": "US$28.479"
+       "label": "Saldo al 30 de noviembre",
+       "value": "US$28.289"
       }
      ]
     },
@@ -11988,46 +11988,34 @@
     },
     {
      "type": "tabla",
-     "label": "De dónde sale",
-     "kicker": "02 · De dónde sale",
-     "title": "De dónde <span class=\"em\">sale</span> esa plata",
-     "sub": "El saldo con el que arranca noviembre y lo que ya está comprometido. Montos en dólares, sin el US$.",
+     "label": "El cashflow",
+     "kicker": "02 · Lo que falta pagar",
+     "title": "El <span class=\"em\">cashflow</span> hasta diciembre",
+     "sub": "Todo lo que ya está comprometido, en orden. Los cobros son sólo las cuotas ya vendidas. Montos en dólares, sin el US$.",
+     "dense": true,
      "cols": [
       {
        "l": "Concepto",
-       "w": "3fr"
+       "w": "2.9fr"
+      },
+      {
+       "l": "Cuándo",
+       "w": "1.2fr"
       },
       {
        "l": "Monto",
-       "w": "1.4fr"
+       "w": "1.2fr"
       }
      ],
      "rows": [
       {
-       "nm": "Saldo al cierre de octubre",
-       "s": "Lo que hay en la cuenta",
-       "cells": [
-        {
-         "v": "92.387",
-         "em": true
-        }
-       ]
-      },
-      {
-       "nm": "Pagado del 1 al 6 de noviembre",
-       "s": "Un pago a Teo",
-       "cells": [
-        {
-         "v": "−1.000",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Saldo al 6 de noviembre",
+       "nm": "Saldo en la cuenta",
        "s": "Última fila del libro diario",
-       "tot": true,
        "cells": [
+        {
+         "v": "6 nov",
+         "dim": true
+        },
         {
          "v": "91.387",
          "em": true
@@ -12035,19 +12023,56 @@
        ]
       },
       {
-       "nm": "Costo de octubre que queda por pagar",
+       "nm": "Comercial, herramientas, pauta e inversión de octubre",
+       "s": "Closers, setters, dirección comercial y débitos",
        "cells": [
         {
-         "v": "−67.312",
+         "v": "1 – 15 nov",
          "dim": true
-        }
+        },
+        "−13.658"
        ]
       },
       {
-       "nm": "Queda del saldo de cierre",
-       "s": "Antes de lo que entre en noviembre",
+       "nm": "Reparto a los cinco",
+       "s": "De los US$28.479, ya salieron US$1.000 a Teo",
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        "−27.479"
+       ]
+      },
+      {
+       "nm": "Contenido y diseño de octubre",
+       "s": "Las 23 personas",
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        "−19.615"
+       ]
+      },
+      {
+       "nm": "Resto del equipo de octubre",
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        "−6.560"
+       ]
+      },
+      {
+       "nm": "Queda después de la quincena",
        "tot": true,
        "cells": [
+        {
+         "v": "16 nov",
+         "dim": true
+        },
         {
          "v": "24.075",
          "em": true
@@ -12055,28 +12080,81 @@
        ]
       },
       {
-       "nm": "Cobrado en octubre",
-       "s": "Para referencia",
+       "nm": "Gastos del propio noviembre",
+       "s": "Herramientas, comisiones, contador, pauta y cowork",
        "cells": [
         {
-         "v": "62.428",
+         "v": "todo el mes",
          "dim": true
+        },
+        "−5.200"
+       ]
+      },
+      {
+       "nm": "Cuotas ya vendidas que vencen en noviembre",
+       "s": "Curso 6.414, Founders 2.000 y Founders Group 1.000",
+       "cells": [
+        {
+         "v": "7 – 30 nov",
+         "dim": true
+        },
+        "+9.414"
+       ]
+      },
+      {
+       "nm": "Saldo al 30 de noviembre",
+       "s": "Sin ninguna venta nueva",
+       "tot": true,
+       "cells": [
+        {
+         "v": "30 nov",
+         "dim": true
+        },
+        {
+         "v": "28.289",
+         "em": true
         }
        ]
       },
       {
-       "nm": "Cobrado en septiembre",
-       "s": "Para referencia",
+       "nm": "Costo de noviembre que no depende del cobro",
+       "s": "Contenido, diseño, resto del equipo y herramientas",
        "cells": [
         {
-         "v": "104.139",
+         "v": "1 – 15 dic",
          "dim": true
+        },
+        "−30.217"
+       ]
+      },
+      {
+       "nm": "Cuotas ya vendidas que vencen en diciembre",
+       "cells": [
+        {
+         "v": "dic",
+         "dim": true
+        },
+        "+4.100"
+       ]
+      },
+      {
+       "nm": "Saldo a mediados de diciembre",
+       "s": "Sin ninguna venta nueva",
+       "tot": true,
+       "cells": [
+        {
+         "v": "15 dic",
+         "dim": true
+        },
+        {
+         "v": "2.172",
+         "em": true
         }
        ]
       }
      ],
-     "foot": "Después de pagar el costo de octubre quedan US$24.075 del saldo de cierre, más lo que entre en noviembre. El reparto va atado al cobro de cada mes: lo que entre en noviembre define el reparto de noviembre, que se paga en diciembre. El libro diario llega al 6 de noviembre y todavía no registra cobros del mes.",
-     "footMarginTop": "22px",
+     "foot": "El reparto y el comercial de noviembre son un porcentaje de lo que cobre el mes. Las cuotas no incluyen ventas nuevas.",
+     "footMarginTop": "14px",
      "pageNum": "02"
     },
     {
@@ -12147,9 +12225,9 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "Noviembre en <span class=\"em\" style=\"color:#fff;\">tres</span> números.",
-     "note": "Saldo al cierre de octubre: US$92.387, y US$91.387 al 6 de noviembre. Del 1 al 15 de noviembre se paga el costo de octubre: US$68.312, de los cuales US$28.479 son el reparto a los cinco y US$4.143 quedan en Cáscara. Después de esa quincena quedan US$24.075 del saldo de cierre, más lo que entre en noviembre. Octubre cobró US$62.428 y pagó US$95.825.",
+     "note": "Saldo al 6 de noviembre: US$91.387. Falta pagar US$67.312 del costo de octubre, de los cuales US$27.479 son el reparto a los cinco. Después de esa quincena quedan US$24.075. Contando los gastos del propio mes y las cuotas ya vendidas, noviembre cierra en US$28.289 sin ninguna venta nueva, y a mediados de diciembre quedarían US$2.172 después de pagar el costo de noviembre.",
      "noteOpacity": ".7",
-     "pageLabel": "Proyección · 1 – 15 nov 2026"
+     "pageLabel": "Proyección · noviembre y diciembre 2026"
     }
    ]
   }
@@ -12779,16 +12857,16 @@
       "no": "→",
       "noStyle": "color:var(--cc-blue-lt);",
       "month": "La caja que viene",
-      "head": "Qué se paga del 1 al 15 de noviembre, con qué calendario y qué queda por definir.",
+      "head": "Qué falta pagar del costo de octubre y cómo queda la caja hasta diciembre.",
       "metrics": [
        {
-        "label": "Del 1 al 15 de nov",
-        "value": "US$68.312",
+        "label": "Falta pagar de oct",
+        "value": "US$67.312",
         "cls": "num"
        },
        {
-        "label": "Saldo al 6 de nov",
-        "value": "US$91.387",
+        "label": "Saldo al 30 de nov",
+        "value": "US$28.289",
         "cls": "num"
        }
       ]
@@ -12954,6 +13032,24 @@
    "cascara": 4143,
    "segundo": 339,
    "resultado": 32961
+  },
+  "cashflow": {
+   "saldo": {
+    "fecha": "2026-11-06",
+    "valor": 91387
+   },
+   "noviembre": {
+    "costoOctubrePendiente": 67312,
+    "gastosDelMes": 5200,
+    "cuotas": 9414,
+    "saldoFin": 28289
+   },
+   "diciembre": {
+    "costoNoviembreFijo": 30217,
+    "cuotas": 4100,
+    "saldoMedio": 2172
+   },
+   "nota": "Sin ventas nuevas. El reparto y el comercial de noviembre dependen de lo que cobre el mes."
   }
  }
 }
