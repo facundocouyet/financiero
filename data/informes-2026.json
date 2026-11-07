@@ -2429,7 +2429,6 @@
     "conAcuerdo": 14450,
     "diferencia": 5723,
     "saldoCierre": 126002,
-    "comprometidoSocios": 23367,
     "saldoAlDia": {
      "fecha": "2026-10-29",
      "valor": 82948,
@@ -2713,18 +2712,18 @@
     "nota": "El valor de contrato es lo vendido, no lo facturado del mes: la planilla usa el criterio real (sin reservas caídas) y los planes de pago reparten el cobro.",
     "productos": [
      {
-      "producto": "La cáscara · B2C",
-      "unidades": 8,
-      "valorContrato": 16600,
+      "producto": "Cáscara Founders",
+      "unidades": 7,
+      "valorContrato": 25500,
       "moneda": "USD",
-      "ticket": 2075
+      "ticket": 3643
      },
      {
-      "producto": "Cáscara Founders",
-      "unidades": 6,
-      "valorContrato": 22000,
+      "producto": "La cáscara · B2C",
+      "unidades": 7,
+      "valorContrato": 13100,
       "moneda": "USD",
-      "ticket": 3667
+      "ticket": 1871
      },
      {
       "producto": "Upsell Aceleradora",
@@ -2778,7 +2777,8 @@
       "unidad": "0800",
       "facturado": 3775,
       "cobrado": 3775,
-      "nota": "Todavía no tiene hoja de unidad con sus costos."
+      "nota": "Sólo tiene cargado el diseño (Aldi, Juana Morales, Nic Mellone y Santiago Barragán).",
+      "contenido": 4938
      }
     ],
     "reparto": {
@@ -2850,6 +2850,14 @@
       60
      ],
      "nota": "Closers 8%, setters 3% y dirección comercial 6%. El curso suma US$600 fijos para los dos setters."
+    },
+    "contenidoPorCuenta": {
+     "curso": 5062,
+     "founders": 1773,
+     "ochocientos": 4938,
+     "sinAsignar": 7842,
+     "total": 19615,
+     "nota": "El curso y Founders salen de las hojas de unidad; 0800 son los cuatro de diseño de la hoja Equipo."
     }
    },
    "cajaEmpresa": {
@@ -2878,7 +2886,6 @@
     ],
     "quedo": 4143,
     "saldoCierre": 92387,
-    "cuentaSocios": -3546,
     "saldoAlDia": {
      "fecha": "2026-11-06",
      "valor": 91387
@@ -7798,7 +7805,7 @@
        ]
       },
       {
-       "nm": "Comercial · growth",
+       "nm": "Comercial",
        "cells": [
         "9.873",
         "5.966",
@@ -8094,8 +8101,8 @@
     },
     {
      "type": "tabla",
-     "label": "El equipo de growth",
-     "kicker": "Growth",
+     "label": "El equipo comercial",
+     "kicker": "Comercial",
      "title": "Quién <span class=\"em\">cerró</span> y cuánto cobra por eso",
      "sub": "El equipo comercial de las dos unidades que lo tienen. \"Cerró\" es la plata que entró por sus ventas; \"a cobrar\", su comisión del mes. Montos en dólares, sin el US$.",
      "cols": [
@@ -8711,23 +8718,9 @@
          "em": true
         }
        ]
-      },
-      {
-       "nm": "De eso, comprometido con los socios",
-       "s": "Cuenta de socios al 9 de octubre",
-       "cells": [
-        {
-         "v": "",
-         "dim": true
-        },
-        {
-         "v": "−23.367",
-         "dim": true
-        }
-       ]
       }
      ],
-     "foot": "De los US$126.002 al cierre de septiembre, US$23.367 figuran en la cuenta de socios a favor de Facu, Fede y Juana; Franco y Teo llevan cuenta aparte. El libro diario registra el movimiento pero no el banco, así que el saldo no se puede abrir por cuenta.",
+     "foot": "De los US$126.002 al cierre de septiembre, US$8.727 son lo que quedó de las dos unidades del mes. El libro diario registra el movimiento pero no el banco, así que el saldo no se puede abrir por cuenta.",
      "footMarginTop": "18px"
     },
     {
@@ -9278,25 +9271,25 @@
      ],
      "rows": [
       {
-       "nm": "La cáscara · B2C",
-       "s": "Curso propio",
-       "cells": [
-        {
-         "v": "8",
-         "em": true
-        },
-        "US$2.075"
-       ]
-      },
-      {
        "nm": "Cáscara Founders",
        "s": "Aceleradora",
        "cells": [
         {
-         "v": "6",
+         "v": "7",
          "em": true
         },
-        "US$3.667"
+        "US$3.643"
+       ]
+      },
+      {
+       "nm": "La cáscara · B2C",
+       "s": "Curso propio",
+       "cells": [
+        {
+         "v": "7",
+         "em": true
+        },
+        "US$1.871"
        ]
       },
       {
@@ -9336,7 +9329,7 @@
        ]
       }
      ],
-     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades: los cuatro productos suman US$43.600 de valor de contrato. La planilla factura el curso en US$13.100: la diferencia es una venta de US$3.500 —Tomás Visser— que Airtable clasifica como curso y la planilla cobra en la hoja de Founders. Septiembre había cerrado 115 unidades, 49 de ellas de Board Room."
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades: los cuatro productos suman US$43.600 de valor de contrato. Los US$13.100 del curso son los mismos que factura la planilla. La venta de Tomás Visser (US$3.500) va en Founders; en Airtable todavía figura como curso. Septiembre había cerrado 115 unidades, 49 de ellas de Board Room."
     },
     {
      "type": "egresos",
@@ -9447,7 +9440,7 @@
        ]
       },
       {
-       "nm": "Comercial · growth",
+       "nm": "Comercial",
        "cells": [
         "4.293",
         "5.323",
@@ -9460,7 +9453,7 @@
        "cells": [
         "5.062",
         "1.773",
-        "—",
+        "4.938",
         "—"
        ]
       },
@@ -9528,7 +9521,7 @@
        ]
       }
      ],
-     "foot": "<b>Lo cobrado entró en octubre; los costos de al lado se pagan en la primera quincena de noviembre.</b> Los US$9.616 de comercial del mes se abren en US$4.293 del curso y US$5.323 de Founders. 0800 cobró US$3.775 y Livo US$5.000: ninguna de las dos tiene hoja de unidad con sus costos, así que no pasan por el reparto.",
+     "foot": "<b>Lo cobrado entró en octubre; los costos de al lado se pagan en la primera quincena de noviembre.</b> Los US$9.616 de comercial del mes se abren en US$4.293 del curso y US$5.323 de Founders. Los US$4.938 de 0800 son los cuatro de diseño que trabajan para la unidad; el resto de sus costos no está cargado, así que todavía no tiene resultado. Livo tampoco tiene hoja de unidad.",
      "footMarginTop": "20px",
      "dense": true
     },
@@ -9728,8 +9721,8 @@
     },
     {
      "type": "tabla",
-     "label": "El equipo de growth",
-     "kicker": "Growth",
+     "label": "El equipo comercial",
+     "kicker": "Comercial",
      "title": "Quién <span class=\"em\">cerró</span> y cuánto cobra por eso",
      "sub": "El equipo comercial de las dos unidades que lo tienen. \"Cerró\" es la plata que entró por sus ventas; \"a cobrar\", su comisión del mes. Montos en dólares, sin el US$.",
      "dense": true,
@@ -9850,34 +9843,11 @@
        ]
       },
       {
-       "nm": "Franco",
-       "s": "Cerró una venta de Founders",
-       "cells": [
-        {
-         "v": "—",
-         "dim": true
-        },
-        "956",
-        {
-         "v": "—",
-         "dim": true
-        },
-        {
-         "v": "—",
-         "dim": true
-        },
-        {
-         "v": "—",
-         "dim": true
-        }
-       ]
-      },
-      {
        "nm": "El equipo",
        "tot": true,
        "cells": [
         "21.723",
-        "31.930",
+        "30.974",
         "4.293",
         "5.323",
         {
@@ -9887,7 +9857,7 @@
        ]
       }
      ],
-     "foot": "Los closers cobran el 8% de lo que cobran sus ventas y los setters el 3%; la dirección comercial suma un 6% sobre el total de cada unidad —en septiembre era el 7%—. El comercial del curso incluye además US$600 fijos repartidos entre los dos setters. De los US$4.400 de Francisca, US$1.000 ya los tiene a cuenta.",
+     "foot": "Los closers cobran el 8% de lo que cobran sus ventas y los setters el 3%; la dirección comercial suma un 6% sobre el total de cada unidad —en septiembre era el 7%—. El comercial del curso incluye además US$600 fijos repartidos entre los dos setters. De los US$4.400 de Francisca, US$1.000 ya los tiene a cuenta. Founders cobró US$31.930 en el mes: los US$956 que faltan para llegar son una venta que cerró Franco, que no cobra comisión por sus ventas.",
      "footMarginTop": "18px"
     },
     {
@@ -9982,7 +9952,7 @@
       {
        "nm": "Aldi",
        "cells": [
-        "Diseño",
+        "Diseño · 0800",
         "2.673",
         "14%"
        ]
@@ -10006,7 +9976,7 @@
       {
        "nm": "Juana Morales",
        "cells": [
-        "Diseño",
+        "Diseño · 0800",
         "1.020",
         "5%"
        ]
@@ -10014,17 +9984,25 @@
       {
        "nm": "Nic Mellone",
        "cells": [
-        "Diseño",
+        "Diseño · 0800",
         "915",
         "5%"
        ]
       },
       {
-       "nm": "Santiago Barragán y Olivia Díaz",
+       "nm": "Santiago Barragán",
+       "cells": [
+        "Diseño · 0800",
+        "330",
+        "2%"
+       ]
+      },
+      {
+       "nm": "Olivia Díaz",
        "cells": [
         "Diseño",
-        "530",
-        "3%"
+        "200",
+        "1%"
        ]
       },
       {
@@ -10058,7 +10036,7 @@
        ]
       }
      ],
-     "foot": "Son 23 personas. Los US$19.615 son el costo del mes, no lo pagado: durante octubre se pagaron US$12.810, que corresponden al trabajo de septiembre. De ese costo, la hoja de unidades carga US$5.062 al curso y US$1.773 a Founders: los otros US$12.780 todavía no tienen unidad asignada."
+     "foot": "Son 23 personas y los US$19.615 son el costo del mes, no lo pagado. Los cuatro de <b>diseño · 0800</b> —Aldi, Juana Morales, Nic Mellone y Santiago Barragán— suman US$4.938, contra los US$3.775 que cobró esa unidad. Las hojas de unidad cargan además US$5.062 al curso y US$1.773 a Founders: quedan US$7.842 sin asignar."
     },
     {
      "type": "tabla",
@@ -10164,23 +10142,9 @@
          "em": true
         }
        ]
-      },
-      {
-       "nm": "Cuenta de socios al 31 de octubre",
-       "s": "En negativo: cobraron por encima de lo repartido",
-       "cells": [
-        {
-         "v": "",
-         "dim": true
-        },
-        {
-         "v": "−3.546",
-         "dim": true
-        }
-       ]
       }
      ],
-     "foot": "En septiembre habían quedado US$8.726 en la empresa. La cuenta de socios cerró octubre en −US$3.546: el reparto de septiembre se pagó completo y hay US$3.000 de adelanto de Fede. El reparto de octubre —US$28.479 entre los cinco más US$339 de Segundo— todavía no está cargado en esa cuenta.",
+     "foot": "En septiembre habían quedado US$8.726 en la empresa. Octubre deja US$4.143: US$2.450 de Cáscara Founders y US$1.693 del curso. 0800 y los proyectos de growth todavía no tienen tasa definida, así que no aportan a la caja de la empresa.",
      "footMarginTop": "18px"
     },
     {
@@ -10219,6 +10183,45 @@
        ]
       },
       {
+       "nm": "La venta de Tomás Visser",
+       "cells": [
+        {
+         "v": "Airtable la clasifica como curso",
+         "dim": true
+        },
+        {
+         "v": "Va en Founders",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "La venta de Sofía Galvis",
+       "cells": [
+        {
+         "v": "En la hoja de Founders, no en Airtable",
+         "dim": true
+        },
+        {
+         "v": "3.000",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "El facturado de Founders",
+       "cells": [
+        {
+         "v": "Hoja Octubre Founders, celda Totales",
+         "dim": true
+        },
+        {
+         "v": "24.000 contra 30.500",
+         "dim": true
+        }
+       ]
+      },
+      {
        "nm": "El 10% de Cáscara en Founders",
        "cells": [
         {
@@ -10227,19 +10230,6 @@
         },
         {
          "v": "La celda dice 4.899",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Dos ventas de octubre",
-       "cells": [
-        {
-         "v": "Airtable contra Unidades - Cascara",
-         "dim": true
-        },
-        {
-         "v": "3.500 y 3.000",
          "dim": true
         }
        ]
@@ -10278,7 +10268,7 @@
          "dim": true
         },
         {
-         "v": "Cobró 3.775",
+         "v": "Sólo el diseño: 4.938",
          "dim": true
         }
        ]
@@ -10323,7 +10313,7 @@
        ]
       }
      ],
-     "foot": "En la hoja <i>Octubre Founders</i> la línea de Cáscara figura como 10% pero trae US$4.899, que es el 20%: con ese número la unidad repartiría más de lo que tiene. El informe usa US$2.450, que es lo que cierra contra el 90% de los cinco. El libro diario llega al 6 de noviembre y el saldo queda en US$91.387.",
+     "foot": "La columna de facturación de la hoja <i>Octubre Founders</i> suma US$30.500 y la celda de totales —que es la que usa la planilla de Informes— dice US$24.000. Con Tomás Visser en Founders, las ventas cerradas del mes en Airtable dan los mismos US$30.500. El libro diario llega al 6 de noviembre y el saldo queda en US$91.387.",
      "footMarginTop": "18px"
     },
     {
@@ -12365,9 +12355,9 @@
        67,
        22,
        47,
-       8
+       7
       ],
-      "t": 290
+      "t": 289
      },
      {
       "p": "Workshop · junio",
@@ -12440,9 +12430,9 @@
        0,
        5,
        12,
-       6
+       7
       ],
-      "t": 23
+      "t": 24
      },
      {
       "p": "Upsell Aceleradora",
@@ -12487,7 +12477,7 @@
      16
     ],
     "total": 751,
-    "foot": "751 unidades entre febrero y octubre. El curso suma 290 y los dos workshops 353, a un ticket de US$27. Son ventas cerradas por fecha de cierre, no facturación: la planilla descuenta las reservas caídas y los planes de pago reparten el cobro en cuotas."
+    "foot": "751 unidades entre febrero y octubre. El curso suma 289 y los dos workshops 353, a un ticket de US$27. Son ventas cerradas por fecha de cierre, no facturación: la planilla descuenta las reservas caídas y los planes de pago reparten el cobro en cuotas."
    }
   },
   "sections": [
