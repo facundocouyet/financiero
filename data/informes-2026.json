@@ -2890,6 +2890,18 @@
      "fecha": "2026-11-06",
      "valor": 91387
     }
+   },
+   "growth": {
+    "fuente": "Notion · Delfi Ferro gastos contenido, al 22 de octubre",
+    "delfiFerro": {
+     "rodajes": 1740,
+     "edicion": 1002,
+     "diseno": 890,
+     "total": 3632,
+     "enCurso": 228,
+     "facturado": 0,
+     "nota": "La página muestra US$3.254: dos subtotales quedaron sin actualizar (edición 1.002 y diseño 890)."
+    }
    }
   }
  ],
@@ -9865,7 +9877,7 @@
      "label": "El contenido",
      "kicker": "El contenido",
      "title": "Quién hace el <span class=\"em\">contenido</span>, y cuánto cobra",
-     "sub": "El costo de octubre por persona, que se paga en la primera quincena de noviembre. Sale de la hoja Equipo. Montos en dólares, sin el US$.",
+     "sub": "El costo de octubre por persona, de la hoja Equipo. Montos en dólares, sin el US$.",
      "dense": true,
      "cols": [
       {
@@ -9966,11 +9978,11 @@
        ]
       },
       {
-       "nm": "Paulina",
+       "nm": "Paulina y Olivia Díaz",
        "cells": [
         "Diseño",
-        "1.030",
-        "5%"
+        "1.230",
+        "6%"
        ]
       },
       {
@@ -9995,14 +10007,6 @@
         "Diseño · 0800",
         "330",
         "2%"
-       ]
-      },
-      {
-       "nm": "Olivia Díaz",
-       "cells": [
-        "Diseño",
-        "200",
-        "1%"
        ]
       },
       {
@@ -10036,7 +10040,8 @@
        ]
       }
      ],
-     "foot": "Son 23 personas y los US$19.615 son el costo del mes, no lo pagado. Los cuatro de <b>diseño · 0800</b> —Aldi, Juana Morales, Nic Mellone y Santiago Barragán— suman US$4.938, contra los US$3.775 que cobró esa unidad. Las hojas de unidad cargan además US$5.062 al curso y US$1.773 a Founders: quedan US$7.842 sin asignar."
+     "foot": "Los US$19.615 son el costo del mes, no lo pagado. Los cuatro de <b>diseño · 0800</b> suman US$4.938, contra los US$3.775 que cobró esa unidad. Las hojas de unidad cargan US$5.062 al curso y US$1.773 a Founders: quedan US$7.842 sin asignar.",
+     "footMarginTop": "8px"
     },
     {
      "type": "tabla",
@@ -10149,6 +10154,102 @@
     },
     {
      "type": "tabla",
+     "label": "Delfi Ferro",
+     "kicker": "Growth",
+     "title": "Lo que se invirtió en <span class=\"em\">Delfi Ferro</span>",
+     "sub": "El contenido que Cáscara pagó para la cuenta entre septiembre y octubre. Montos en dólares, sin el US$.",
+     "cols": [
+      {
+       "l": "Concepto",
+       "w": "1.6fr"
+      },
+      {
+       "l": "Detalle",
+       "w": "3fr"
+      },
+      {
+       "l": "Importe",
+       "w": "1.1fr"
+      }
+     ],
+     "rows": [
+      {
+       "nm": "Rodajes",
+       "s": "Tres jornadas",
+       "cells": [
+        {
+         "v": "Filmmakers, dirección de arte, viáticos y alquiler de equipo",
+         "dim": true
+        },
+        {
+         "v": "1.740",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Edición de video",
+       "s": "Dieciséis trabajos",
+       "cells": [
+        {
+         "v": "De US$12 a US$180 cada uno; US$228 todavía en curso",
+         "dim": true
+        },
+        {
+         "v": "1.002",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Diseño gráfico",
+       "s": "Cuatro trabajos",
+       "cells": [
+        {
+         "v": "Branding US$500, sistema digital US$300, portadas y Atrevida",
+         "dim": true
+        },
+        {
+         "v": "890",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Invertido en contenido",
+       "s": "Septiembre y octubre",
+       "tot": true,
+       "cells": [
+        {
+         "v": "",
+         "dim": true
+        },
+        {
+         "v": "3.632",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Facturado por la cuenta",
+       "s": "Delfi Ferro no figura en la planilla",
+       "cells": [
+        {
+         "v": "Sin registrar",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
+      }
+     ],
+     "foot": "Sale de la página <i>Delfi Ferro gastos contenido</i>, actualizada al 22 de octubre. Esa página muestra un total de US$3.254 porque dos subtotales quedaron sin actualizar: la edición suma US$1.002 y no US$924, y el diseño US$890 y no US$590. Parte de este gasto está adentro de los US$1.082 de contenido que septiembre cargó a 0800; octubre todavía no tiene el contenido abierto por cuenta.",
+     "footMarginTop": "20px"
+    },
+    {
+     "type": "tabla",
      "label": "Lo que falta",
      "kicker": "Lo que falta",
      "title": "Lo que falta para <span class=\"em\">cerrar</span> octubre",
@@ -10177,7 +10278,7 @@
          "dim": true
         },
         {
-         "v": "12.780 sin unidad",
+         "v": "Octubre sin cargar",
          "dim": true
         }
        ]
@@ -10281,7 +10382,7 @@
          "dim": true
         },
         {
-         "v": "Sin registrar",
+         "v": "Sin facturación",
          "dim": true
         }
        ]
@@ -11840,11 +11941,11 @@
       },
       {
        "label": "Falta pagar de octubre",
-       "value": "US$67.312"
+       "value": "US$63.270"
       },
       {
        "label": "Saldo al 30 de noviembre",
-       "value": "US$28.289"
+       "value": "US$32.331"
       }
      ]
     },
@@ -11853,7 +11954,7 @@
      "label": "Del 1 al 15",
      "kicker": "01 · Del 1 al 15 de noviembre",
      "title": "Qué se paga del <span class=\"em\">1 al 15 de noviembre</span>",
-     "sub": "Es el costo de octubre: cada mes se paga en la primera quincena del mes siguiente. Son los montos que ya están cargados en la planilla de octubre, no estimaciones.",
+     "sub": "Es el costo de octubre que todavía no salió. Cada mes se paga en la primera quincena del siguiente, salvo las herramientas y la pauta, que se pagan en el mes.",
      "dense": true,
      "cols": [
       {
@@ -11894,7 +11995,7 @@
       },
       {
        "nm": "Contenido y diseño",
-       "s": "Producción, diseño, Mila y Aldi",
+       "s": "Las 23 personas de la hoja Equipo",
        "cells": [
         {
          "v": "10 – 16 nov",
@@ -11930,7 +12031,7 @@
       },
       {
        "nm": "Resto del equipo",
-       "s": "Segundo, Carlota, Azul, Anto, Flor, Mora y Ayelén",
+       "s": "Carlota, Azul, Anto, Flor, Segundo, Mora y Ayelén",
        "cells": [
         {
          "v": "10 – 16 nov",
@@ -11947,25 +12048,7 @@
        ]
       },
       {
-       "nm": "Herramientas, pauta e inversión",
-       "s": "Débitos automáticos y pauta del mes",
-       "cells": [
-        {
-         "v": "1 – 15 nov",
-         "dim": true
-        },
-        {
-         "v": "US$4.042",
-         "em": true
-        },
-        {
-         "v": "Cargado",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Total a pagar",
+       "nm": "Costo de octubre a pagar",
        "tot": true,
        "cells": [
         {
@@ -11973,7 +12056,42 @@
          "dim": true
         },
         {
-         "v": "US$68.312",
+         "v": "US$64.270",
+         "em": true
+        },
+        {
+         "v": "",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Ya pagado a Teo",
+       "cells": [
+        {
+         "v": "6 nov",
+         "dim": true
+        },
+        {
+         "v": "−US$1.000",
+         "dim": true
+        },
+        {
+         "v": "Hecho",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Queda por pagar",
+       "tot": true,
+       "cells": [
+        {
+         "v": "1 – 15 nov",
+         "dim": true
+        },
+        {
+         "v": "US$63.270",
          "em": true
         },
         {
@@ -11983,7 +12101,7 @@
        ]
       }
      ],
-     "foot": "Son los US$68.312 de costo de octubre que figuran en la planilla. No incluye lo que se gaste de nuevo en noviembre —herramientas, comisiones y gastos del mes—, que se paga dentro del mismo mes: en octubre eso fueron US$18.317, con US$13.107 del viaje a España adentro.",
+     "foot": "Los US$4.042 de <b>herramientas, pauta e inversión</b> del costo de octubre no están acá: esas líneas se pagan dentro del mismo mes y ya salieron en octubre. Lo mismo va a pasar con las de noviembre.",
      "pageNum": "01"
     },
     {
@@ -12023,30 +12141,17 @@
        ]
       },
       {
-       "nm": "Comercial, herramientas, pauta e inversión de octubre",
-       "s": "Closers, setters, dirección comercial y débitos",
+       "nm": "Comercial de octubre",
        "cells": [
         {
-         "v": "1 – 15 nov",
+         "v": "5 – 8 nov",
          "dim": true
         },
-        "−13.658"
-       ]
-      },
-      {
-       "nm": "Reparto a los cinco",
-       "s": "De los US$28.479, ya salieron US$1.000 a Teo",
-       "cells": [
-        {
-         "v": "10 – 16 nov",
-         "dim": true
-        },
-        "−27.479"
+        "−9.616"
        ]
       },
       {
        "nm": "Contenido y diseño de octubre",
-       "s": "Las 23 personas",
        "cells": [
         {
          "v": "10 – 16 nov",
@@ -12066,6 +12171,17 @@
        ]
       },
       {
+       "nm": "Reparto a los cinco",
+       "s": "De los US$28.479, ya salieron US$1.000 a Teo",
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        "−27.479"
+       ]
+      },
+      {
        "nm": "Queda después de la quincena",
        "tot": true,
        "cells": [
@@ -12074,14 +12190,14 @@
          "dim": true
         },
         {
-         "v": "24.075",
+         "v": "28.117",
          "em": true
         }
        ]
       },
       {
        "nm": "Gastos del propio noviembre",
-       "s": "Herramientas, comisiones, contador, pauta y cowork",
+       "s": "Herramientas, pauta, inversión, comisiones y contador",
        "cells": [
         {
          "v": "todo el mes",
@@ -12111,20 +12227,20 @@
          "dim": true
         },
         {
-         "v": "28.289",
+         "v": "32.331",
          "em": true
         }
        ]
       },
       {
        "nm": "Costo de noviembre que no depende del cobro",
-       "s": "Contenido, diseño, resto del equipo y herramientas",
+       "s": "Contenido, diseño y resto del equipo",
        "cells": [
         {
          "v": "1 – 15 dic",
          "dim": true
         },
-        "−30.217"
+        "−26.175"
        ]
       },
       {
@@ -12147,13 +12263,13 @@
          "dim": true
         },
         {
-         "v": "2.172",
+         "v": "10.256",
          "em": true
         }
        ]
       }
      ],
-     "foot": "El reparto y el comercial de noviembre son un porcentaje de lo que cobre el mes. Las cuotas no incluyen ventas nuevas.",
+     "foot": "De los US$27.479 del reparto, unos US$5.535 ya están en las cajas de Juana (US$3.805) y Fede (US$1.730): esa parte no sale de la cuenta. Fede además cobró US$1.500 el 1 de noviembre que todavía no entraron al diario.",
      "footMarginTop": "14px",
      "pageNum": "02"
     },
@@ -12172,7 +12288,7 @@
       {
        "label": "Costó el trabajo de octubre",
        "fig": "US$68.312",
-       "note": "Reparto US$28.479 a los cinco, US$4.143 que quedan en Cáscara y US$339 de Segundo; contenido y diseño US$19.615, comercial US$9.616, resto del equipo US$6.560 y herramientas, pauta e inversión US$4.042.",
+       "note": "Reparto US$28.479 a los cinco, US$4.143 que quedan en Cáscara y US$339 de Segundo; contenido y diseño US$19.615, comercial US$9.616, resto del equipo US$6.560 y herramientas, pauta e inversión US$4.042, que se pagan dentro del mismo mes.",
        "key": true
       },
       {
@@ -12213,7 +12329,7 @@
       {
        "label": "El mínimo de caja",
        "fig": "04",
-       "note": "No hay un piso definido. El saldo al 6 de noviembre es US$91.387 y el costo de octubre que queda por pagar es US$67.312."
+       "note": "No hay un piso definido. El saldo al 6 de noviembre es US$91.387 y el costo de octubre que queda por pagar es US$63.270."
       }
      ],
      "pageNum": "04"
@@ -12225,7 +12341,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "Noviembre en <span class=\"em\" style=\"color:#fff;\">tres</span> números.",
-     "note": "Saldo al 6 de noviembre: US$91.387. Falta pagar US$67.312 del costo de octubre, de los cuales US$27.479 son el reparto a los cinco. Después de esa quincena quedan US$24.075. Contando los gastos del propio mes y las cuotas ya vendidas, noviembre cierra en US$28.289 sin ninguna venta nueva, y a mediados de diciembre quedarían US$2.172 después de pagar el costo de noviembre.",
+     "note": "Saldo al 6 de noviembre: US$91.387. Falta pagar US$63.270 del costo de octubre: US$27.479 de reparto, US$19.615 de contenido y diseño, US$9.616 de comercial y US$6.560 del resto del equipo. Las herramientas, la pauta y la inversión ya se pagaron dentro de octubre. Después de la quincena quedan US$28.117; contando los gastos del propio mes y las cuotas ya vendidas, noviembre cierra en US$32.331 sin ninguna venta nueva.",
      "noteOpacity": ".7",
      "pageLabel": "Proyección · noviembre y diciembre 2026"
     }
@@ -12861,12 +12977,12 @@
       "metrics": [
        {
         "label": "Falta pagar de oct",
-        "value": "US$67.312",
+        "value": "US$63.270",
         "cls": "num"
        },
        {
         "label": "Saldo al 30 de nov",
-        "value": "US$28.289",
+        "value": "US$32.331",
         "cls": "num"
        }
       ]
@@ -13009,13 +13125,6 @@
   "cobradoOctubre": 62428,
   "pagadoOctubre": 95825,
   "costoOctubreAPagar": 68312,
-  "detalle": {
-   "repartoCinco": 28479,
-   "contenidoYDiseno": 19615,
-   "comercialB2C": 9616,
-   "restoEquipo": 6560,
-   "herramientasPautaInversion": 4042
-  },
   "quedaDespues": 24075,
   "supuestos": [
    "El costo de octubre (US$68.312) es el que figura en la planilla, no una estimación.",
@@ -13038,18 +13147,34 @@
     "fecha": "2026-11-06",
     "valor": 91387
    },
+   "costoOctubrePendiente": 63270,
+   "detalle": {
+    "repartoCinco": 27479,
+    "contenidoYDiseno": 19615,
+    "comercialB2C": 9616,
+    "restoEquipo": 6560
+   },
+   "pagadoDentroDeOctubre": {
+    "herramientasPautaInversion": 4042
+   },
+   "enCajaDeSocios": {
+    "Juana": 3805,
+    "Fede": 1730,
+    "total": 5535
+   },
    "noviembre": {
-    "costoOctubrePendiente": 67312,
+    "quedaTrasQuincena": 28117,
     "gastosDelMes": 5200,
     "cuotas": 9414,
-    "saldoFin": 28289
+    "saldoFin": 32331
    },
    "diciembre": {
-    "costoNoviembreFijo": 30217,
+    "costoNoviembreFijo": 26175,
     "cuotas": 4100,
-    "saldoMedio": 2172
+    "saldoMedio": 10256
    },
-   "nota": "Sin ventas nuevas. El reparto y el comercial de noviembre dependen de lo que cobre el mes."
+   "nota": "Sin ventas nuevas. El reparto y el comercial de noviembre dependen de lo que cobre el mes.",
+   "cobradoSinCargarEnDiario": 1500
   }
  }
 }
