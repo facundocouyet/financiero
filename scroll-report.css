@@ -109,6 +109,7 @@ h2 .em{ color:var(--blue); }
 .dhead span:not(:first-child){ font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); min-width:70px; text-align:right; }
 .drow{ display:grid; grid-template-columns:1fr auto auto; gap:14px; align-items:baseline; padding:10px 0; border-bottom:1px solid var(--line); }
 .drow__n{ font-size:15px; font-weight:500; }
+.drow__n small{ display:block; font-size:12px; font-weight:400; color:var(--muted); margin-top:2px; line-height:1.35; }
 .drow.dev .drow__n{ color:var(--muted); font-style:italic; }
 .drow__e, .drow__f{ font-size:15px; min-width:70px; text-align:right; }
 .drow__e{ font-weight:500; }
