@@ -9336,7 +9336,7 @@
        ]
       }
      ],
-     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades: los cuatro productos suman US$43.600 de valor de contrato. Septiembre había cerrado 115 unidades, 49 de ellas de Board Room. Sale de Airtable, por fecha de cierre."
+     "foot": "<b>Son ventas cerradas en el mes, no facturación.</b> El ticket es el valor del contrato dividido por las unidades: los cuatro productos suman US$43.600 de valor de contrato. La planilla factura el curso en US$13.100: la diferencia es una venta de US$3.500 —Tomás Visser— que Airtable clasifica como curso y la planilla cobra en la hoja de Founders. Septiembre había cerrado 115 unidades, 49 de ellas de Board Room."
     },
     {
      "type": "egresos",
@@ -10227,6 +10227,19 @@
         },
         {
          "v": "La celda dice 4.899",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "Dos ventas de octubre",
+       "cells": [
+        {
+         "v": "Airtable contra Unidades - Cascara",
+         "dim": true
+        },
+        {
+         "v": "3.500 y 3.000",
          "dim": true
         }
        ]
