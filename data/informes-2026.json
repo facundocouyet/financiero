@@ -2894,16 +2894,19 @@
    "growth": {
     "fuente": "Notion · Delfi Ferro gastos contenido, al 22 de octubre",
     "delfiFerro": {
+     "dentroDe": "Growth",
+     "modelo": "Cáscara es socia del proyecto: no factura la cuenta, invierte.",
      "rodajes": 1740,
      "edicion": 1002,
      "diseno": 890,
-     "total": 4832,
+     "puestoPorCascara": 3632,
      "enCurso": 228,
-     "facturado": 1200,
-     "nota": "La página muestra US$3.254: dos subtotales quedaron sin actualizar (edición 1.002 y diseño 890).",
-     "estrategia": 1200,
-     "notaEstrategia": "Delfina Ferro pagó US$1.200 del costo de Agos Solari como estratega creativa. No figura en el diario ni en la planilla.",
-     "netoInvertido": 3632
+     "estrategiaPagadaPorDelfina": 1200,
+     "costoTotalDelProyecto": 4832,
+     "facturado": 0,
+     "cobrado": 0,
+     "primerasVentas": "Previstas para noviembre, a la espera del ok de Tienda Nube.",
+     "nota": "La página de Notion muestra US$3.254: dos subtotales quedaron sin actualizar (edición 1.002 y diseño 890)."
     }
    }
   }
@@ -10160,7 +10163,7 @@
      "label": "Delfi Ferro",
      "kicker": "Growth",
      "title": "Lo que se invirtió en <span class=\"em\">Delfi Ferro</span>",
-     "sub": "Lo que Cáscara pagó para la cuenta entre septiembre y octubre. Montos en dólares, sin el US$.",
+     "sub": "Cáscara es socia del proyecto, no proveedora: no le factura, pone contenido. Montos en dólares, sin el US$.",
      "cols": [
       {
        "l": "Concepto",
@@ -10219,21 +10222,7 @@
        ]
       },
       {
-       "nm": "Estrategia creativa",
-       "s": "Agos Solari",
-       "cells": [
-        {
-         "v": "Lo pagó Delfina Ferro: US$1.200",
-         "dim": true
-        },
-        {
-         "v": "1.200",
-         "em": true
-        }
-       ]
-      },
-      {
-       "nm": "Invertido en la cuenta",
+       "nm": "Puesto por Cáscara",
        "s": "Septiembre y octubre",
        "tot": true,
        "cells": [
@@ -10242,17 +10231,17 @@
          "dim": true
         },
         {
-         "v": "4.832",
+         "v": "3.632",
          "em": true
         }
        ]
       },
       {
-       "nm": "Cobrado de la cuenta",
-       "s": "Los US$1.200 de la estrategia",
+       "nm": "Estrategia creativa",
+       "s": "Agos Solari",
        "cells": [
         {
-         "v": "Único ingreso de Delfi Ferro",
+         "v": "Lo pagó Delfina Ferro: no sale de Cáscara",
          "dim": true
         },
         {
@@ -10260,9 +10249,23 @@
          "em": true
         }
        ]
+      },
+      {
+       "nm": "Facturado a la cuenta",
+       "s": "Todavía no hay ventas",
+       "cells": [
+        {
+         "v": "Las primeras se esperan en noviembre",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        }
+       ]
       }
      ],
-     "foot": "Los rodajes, la edición y el diseño salen de la página <i>Delfi Ferro gastos contenido</i>, al 22 de octubre: esa página muestra US$3.254 porque la edición suma US$1.002 y no US$924, y el diseño US$890 y no US$590. <b>Neto de la cuenta: US$3.632 invertidos.</b> Los US$1.200 de Agos Solari y el pago de Delfina Ferro no figuran en el diario ni en la planilla.",
+     "foot": "Los rodajes, la edición y el diseño salen de la página <i>Delfi Ferro gastos contenido</i>, al 22 de octubre: esa página muestra US$3.254 porque la edición suma US$1.002 y no US$924, y el diseño US$890 y no US$590. <b>El proyecto lleva US$4.832 de costo: US$3.632 los puso Cáscara y US$1.200 los pagó Delfina.</b> Las primeras ventas están previstas para noviembre, a la espera del ok de Tienda Nube.",
      "footMarginTop": "16px"
     },
     {
@@ -10399,20 +10402,7 @@
          "dim": true
         },
         {
-         "v": "Sin facturación registrada",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "El pago de Delfina Ferro",
-       "cells": [
-        {
-         "v": "Cubrió a Agos Solari, estratega creativa",
-         "dim": true
-        },
-        {
-         "v": "1.200 sin registrar",
+         "v": "Sin facturación",
          "dim": true
         }
        ]
