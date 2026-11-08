@@ -2897,10 +2897,13 @@
      "rodajes": 1740,
      "edicion": 1002,
      "diseno": 890,
-     "total": 3632,
+     "total": 4832,
      "enCurso": 228,
-     "facturado": 0,
-     "nota": "La página muestra US$3.254: dos subtotales quedaron sin actualizar (edición 1.002 y diseño 890)."
+     "facturado": 1200,
+     "nota": "La página muestra US$3.254: dos subtotales quedaron sin actualizar (edición 1.002 y diseño 890).",
+     "estrategia": 1200,
+     "notaEstrategia": "Delfina Ferro pagó US$1.200 del costo de Agos Solari como estratega creativa. No figura en el diario ni en la planilla.",
+     "netoInvertido": 3632
     }
    }
   }
@@ -10157,7 +10160,7 @@
      "label": "Delfi Ferro",
      "kicker": "Growth",
      "title": "Lo que se invirtió en <span class=\"em\">Delfi Ferro</span>",
-     "sub": "El contenido que Cáscara pagó para la cuenta entre septiembre y octubre. Montos en dólares, sin el US$.",
+     "sub": "Lo que Cáscara pagó para la cuenta entre septiembre y octubre. Montos en dólares, sin el US$.",
      "cols": [
       {
        "l": "Concepto",
@@ -10216,7 +10219,21 @@
        ]
       },
       {
-       "nm": "Invertido en contenido",
+       "nm": "Estrategia creativa",
+       "s": "Agos Solari",
+       "cells": [
+        {
+         "v": "Lo pagó Delfina Ferro: US$1.200",
+         "dim": true
+        },
+        {
+         "v": "1.200",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Invertido en la cuenta",
        "s": "Septiembre y octubre",
        "tot": true,
        "cells": [
@@ -10225,28 +10242,28 @@
          "dim": true
         },
         {
-         "v": "3.632",
+         "v": "4.832",
          "em": true
         }
        ]
       },
       {
-       "nm": "Facturado por la cuenta",
-       "s": "Delfi Ferro no figura en la planilla",
+       "nm": "Cobrado de la cuenta",
+       "s": "Los US$1.200 de la estrategia",
        "cells": [
         {
-         "v": "Sin registrar",
+         "v": "Único ingreso de Delfi Ferro",
          "dim": true
         },
         {
-         "v": "—",
-         "dim": true
+         "v": "1.200",
+         "em": true
         }
        ]
       }
      ],
-     "foot": "Sale de la página <i>Delfi Ferro gastos contenido</i>, actualizada al 22 de octubre. Esa página muestra un total de US$3.254 porque dos subtotales quedaron sin actualizar: la edición suma US$1.002 y no US$924, y el diseño US$890 y no US$590. Parte de este gasto está adentro de los US$1.082 de contenido que septiembre cargó a 0800; octubre todavía no tiene el contenido abierto por cuenta.",
-     "footMarginTop": "20px"
+     "foot": "Los rodajes, la edición y el diseño salen de la página <i>Delfi Ferro gastos contenido</i>, al 22 de octubre: esa página muestra US$3.254 porque la edición suma US$1.002 y no US$924, y el diseño US$890 y no US$590. <b>Neto de la cuenta: US$3.632 invertidos.</b> Los US$1.200 de Agos Solari y el pago de Delfina Ferro no figuran en el diario ni en la planilla.",
+     "footMarginTop": "16px"
     },
     {
      "type": "tabla",
@@ -10382,7 +10399,20 @@
          "dim": true
         },
         {
-         "v": "Sin facturación",
+         "v": "Sin facturación registrada",
+         "dim": true
+        }
+       ]
+      },
+      {
+       "nm": "El pago de Delfina Ferro",
+       "cells": [
+        {
+         "v": "Cubrió a Agos Solari, estratega creativa",
+         "dim": true
+        },
+        {
+         "v": "1.200 sin registrar",
          "dim": true
         }
        ]
