@@ -137,3 +137,18 @@ h2 .em{ color:var(--blue); }
 .ofr__chips{ display:flex; flex-wrap:wrap; gap:7px; margin-top:13px; }
 .chip{ font-size:13px; font-weight:700; border:1px solid var(--line); padding:6px 11px;
        font-variant-numeric:tabular-nums; }
+
+/* ---- cascada: la barra que lee como un P&L ---- */
+.mcasc{ display:flex; flex-direction:column; gap:3px; margin-top:20px; }
+.mcasc__row{ display:grid; grid-template-columns:58px 108px 1fr; gap:12px; align-items:center; }
+.mcasc__pc{ font-family:var(--serif); font-style:italic; font-size:26px; line-height:1;
+  color:var(--ink); font-variant-numeric:tabular-nums; }
+.mcasc__pc.em{ color:var(--blue); }
+.mcasc__track{ height:26px; background:rgba(10,10,12,.07); }
+.mcasc__fill{ display:block; height:26px; }
+.mcasc__nm{ font-size:15px; font-weight:700; line-height:1.2; }
+.mcasc__nm small{ display:block; font-size:13px; font-weight:400; color:var(--muted); margin-top:2px; }
+.mcasc__tots{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:22px; padding-top:16px; border-top:1px solid var(--line); }
+.mcasc__tots div span{ display:block; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+.mcasc__tots div b{ display:block; font-family:var(--serif); font-style:italic; font-weight:400;
+  font-size:28px; line-height:1; color:var(--blue); margin-top:6px; }

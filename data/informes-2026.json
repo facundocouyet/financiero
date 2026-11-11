@@ -10347,15 +10347,85 @@
      "pageNum": "04"
     },
     {
+     "type": "cascada",
+     "label": "Cómo funciona Cáscara",
+     "kicker": "05 · Cómo funciona",
+     "title": "De cada <span class=\"em\">US$100</span> que entra",
+     "sub": "Enero a octubre, sobre los <b>US$585.593</b> que entraron a la cuenta. Las cinco primeras porciones son lo que se fue; la última es lo que quedó.",
+     "segs": [
+      {
+       "nm": "Socios",
+       "pc": "21%",
+       "amt": "123.596",
+       "w": "21.11%",
+       "c": "#0A0A0C"
+      },
+      {
+       "nm": "Equipo",
+       "pc": "21%",
+       "amt": "121.355",
+       "w": "20.72%",
+       "c": "#3A3A40"
+      },
+      {
+       "nm": "Comercial",
+       "pc": "11%",
+       "amt": "63.304",
+       "w": "10.81%",
+       "c": "#6A6A70"
+      },
+      {
+       "nm": "Contenido<br>y diseño",
+       "pc": "14%",
+       "amt": "85.198",
+       "w": "14.55%",
+       "c": "#9A9AA0"
+      },
+      {
+       "nm": "Todo lo<br>demás",
+       "pc": "15%",
+       "amt": "88.231",
+       "w": "15.07%",
+       "c": "#C9C9CE"
+      },
+      {
+       "nm": "Queda en<br>la cuenta",
+       "pc": "18%",
+       "amt": "103.909",
+       "w": "17.74%",
+       "c": "#10069F",
+       "accent": true
+      }
+     ],
+     "totales": [
+      {
+       "l": "Se va en gente",
+       "v": "67%"
+      },
+      {
+       "l": "Herramientas y estructura",
+       "v": "15%"
+      },
+      {
+       "l": "Queda",
+       "v": "18%"
+      }
+     ],
+     "foot": "<b>Gente</b> son los socios, el equipo, el comercial y los que hacen contenido y diseño: US$393.453 de los US$585.593. <b>Todo lo demás</b> junta herramientas, pauta e inversión, eventos, administración, revenue share y devoluciones.",
+     "footRight": "Los <b>US$103.909</b> que quedan son exactamente lo que subió la cuenta en diez meses: de −US$5.428 el 1 de enero a US$98.481 el 31 de octubre.",
+     "footMarginTop": "22px",
+     "pageNum": "05"
+    },
+    {
      "type": "cierre",
      "label": "Cierre · Octubre",
      "variant": "blue",
-     "kicker": "05 · La lectura del mes",
+     "kicker": "06 · La lectura del mes",
      "big": "Octubre en <span class=\"em\" style=\"color:#fff;\">cuatro</span> números.",
      "note": "Facturado US$45.875 contra US$68.264 de costos: resultado del trabajo −US$22.389. Entraron US$67.428 y salieron US$95.825: resultado de caja −US$28.397. El saldo pasa de US$126.002 a US$97.605. El reparto del mes es US$28.479 entre los cinco, US$4.143 para Cáscara y US$339 para Segundo, calculado sobre US$32.961 de resultado entre las dos unidades. Dentro de los pagos del mes hay US$13.107 del viaje a España.",
      "pageLabel": "10 · Octubre 2026",
      "noteOpacity": "0.85",
-     "pageNum": "05"
+     "pageNum": "06"
     }
    ]
   },

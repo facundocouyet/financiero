@@ -460,3 +460,19 @@ a.g-doc{ color:var(--klein); }
 
 /* entrada: el contenido siempre visible; deck-stage maneja las transiciones */
 .anim, .anim2, .anim3{ opacity:1; transform:none; }
+
+/* ---- cascada: una barra segmentada que lee como un P&L ---- */
+.casc{ display:flex; gap:4px; height:104px; margin-top:14px; }
+.cseg{ height:100%; flex:0 0 auto; }
+.casclabs{ display:flex; gap:4px; margin-top:20px; }
+.clab{ flex:0 0 auto; padding-right:10px; }
+.clab__pc{ font-family:var(--serif); font-style:italic; font-weight:400; font-size:46px;
+  line-height:1; color:var(--ink); font-variant-numeric:tabular-nums; }
+.clab__pc.em{ color:var(--klein); }
+.clab__nm{ font-size:19px; font-weight:300; color:var(--sec); margin-top:10px; line-height:1.28; }
+.clab__amt{ font-size:17px; font-weight:400; color:var(--meta); margin-top:6px; font-variant-numeric:tabular-nums; }
+.casctots{ display:flex; gap:72px; margin-top:38px; padding-top:26px; border-top:1px solid var(--line); }
+.ctot span{ display:block; font-size:16px; color:var(--meta); text-transform:uppercase;
+  letter-spacing:.16em; font-weight:500; }
+.ctot b{ display:block; font-family:var(--serif); font-style:italic; font-weight:400;
+  font-size:42px; line-height:1; color:var(--klein); margin-top:10px; font-variant-numeric:tabular-nums; }

@@ -256,6 +256,35 @@
       '</div>';
     },
 
+    cascada: function (s) {
+      var segs = s.segs.map(function (g) {
+        return '<div class="cseg" style="width:' + g.w + ';background:' + g.c + ';"></div>';
+      }).join('');
+      var labs = s.segs.map(function (g) {
+        return '<div class="clab" style="width:' + g.w + ';">' +
+          '<div class="clab__pc num' + (g.accent ? ' em' : '') + '">' + g.pc + '</div>' +
+          '<div class="clab__nm">' + g.nm + '</div>' +
+          (g.amt ? '<div class="clab__amt num">' + g.amt + '</div>' : '') +
+        '</div>';
+      }).join('');
+      var tots = (s.totales || []).map(function (t) {
+        return '<div class="ctot"><span>' + t.l + '</span><b class="num">' + t.v + '</b></div>';
+      }).join('');
+      var footStyle = s.footMarginTop ? ' style="margin-top:' + s.footMarginTop + ';"' : '';
+      var foot = s.foot ? '<div class="foot anim3"' + footStyle + '><div>' + s.foot + '</div>' +
+        (s.footRight ? '<div>' + s.footRight + '</div>' : '') + '</div>' : '';
+      return '<div class="frame">' + WM_INLINE +
+        '<div class="kicker anim">' + s.kicker + '</div>' +
+        '<h2 class="title anim">' + s.title + '</h2>' +
+        (s.sub ? '<p class="lead anim">' + s.sub + '</p>' : '') +
+        '<div class="casc anim2">' + segs + '</div>' +
+        '<div class="casclabs anim2">' + labs + '</div>' +
+        (tots ? '<div class="casctots anim3">' + tots + '</div>' : '') +
+        foot +
+        '<div class="pagenum">' + s.pageNum + '</div>' +
+      '</div>';
+    },
+
     cierre: function (s) {
       var wm = s.wordmarkWhite
         ? '<img class="cover__wm" style="height:62px;align-self:flex-start;width:auto;" src="assets/wordmark-stacked-white.png" alt="Cáscara Collective">'
