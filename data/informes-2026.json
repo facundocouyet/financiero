@@ -11919,10 +11919,10 @@
      "type": "cover",
      "label": "Portada",
      "kicker": "Proyección · noviembre 2026",
-     "no": "1 al 15 de noviembre",
+     "no": "al 10 de noviembre",
      "month": "La caja que viene",
      "monthSize": "116px",
-     "sub": "Qué falta pagar del costo de octubre, con qué calendario, y cómo queda la caja hasta diciembre. Es una proyección, no un cierre.",
+     "sub": "Qué ya salió y qué falta del costo de octubre, con qué calendario, y cómo queda la caja hasta diciembre. Es una proyección, no un cierre.",
      "meta": [
       {
        "label": "Saldo al 10 de noviembre",
@@ -11930,20 +11930,20 @@
       },
       {
        "label": "Falta pagar de octubre",
-       "value": "US$63.270"
+       "value": "US$33.672"
       },
       {
        "label": "Saldo al 30 de noviembre",
-       "value": "US$32.331"
+       "value": "US$47.058"
       }
      ]
     },
     {
      "type": "tabla",
-     "label": "Del 1 al 15",
-     "kicker": "01 · Del 1 al 15 de noviembre",
-     "title": "Qué se paga del <span class=\"em\">1 al 15 de noviembre</span>",
-     "sub": "Es el costo de octubre que todavía no salió. Cada mes se paga en la primera quincena del siguiente, salvo las herramientas y la pauta, que se pagan en el mes.",
+     "label": "Ya pagado y falta",
+     "kicker": "01 · Del costo de octubre",
+     "title": "Qué <span class=\"em\">ya salió</span> y qué falta",
+     "sub": "El costo de octubre se paga en la primera quincena de noviembre. Al 10 de noviembre ya salió casi la mitad. Montos en dólares, sin el US$.",
      "dense": true,
      "cols": [
       {
@@ -11951,70 +11951,52 @@
        "w": "2.6fr"
       },
       {
-       "l": "Cuándo",
-       "w": "1.2fr"
-      },
-      {
-       "l": "Monto",
+       "l": "Del costo de octubre",
        "w": "1.3fr"
       },
       {
-       "l": "Qué tan firme",
+       "l": "Ya pagado",
+       "w": "1.2fr"
+      },
+      {
+       "l": "Falta",
        "w": "1.2fr"
       }
      ],
      "rows": [
       {
+       "nm": "Contenido y diseño",
+       "s": "Las 23 personas de la hoja Equipo, con Mila y Aldi",
+       "cells": [
+        {
+         "v": "19.615",
+         "dim": true
+        },
+        {
+         "v": "3.465",
+         "dim": true
+        },
+        {
+         "v": "16.150",
+         "em": true
+        }
+       ]
+      },
+      {
        "nm": "Reparto a los cinco",
        "s": "Franco, Facu, Fede, Teo y Juana",
        "cells": [
         {
-         "v": "10 – 16 nov",
+         "v": "28.479",
          "dim": true
         },
         {
-         "v": "US$28.479",
+         "v": "19.917",
+         "dim": true
+        },
+        {
+         "v": "8.562",
          "em": true
-        },
-        {
-         "v": "Cargado",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Contenido y diseño",
-       "s": "Las 23 personas de la hoja Equipo",
-       "cells": [
-        {
-         "v": "10 – 16 nov",
-         "dim": true
-        },
-        {
-         "v": "US$19.615",
-         "em": true
-        },
-        {
-         "v": "Cargado",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Comercial · B2C",
-       "s": "Closers, setters y dirección comercial",
-       "cells": [
-        {
-         "v": "5 – 8 nov",
-         "dim": true
-        },
-        {
-         "v": "US$9.616",
-         "em": true
-        },
-        {
-         "v": "Cargado",
-         "dim": true
         }
        ]
       },
@@ -12023,82 +12005,65 @@
        "s": "Carlota, Azul, Anto, Flor, Segundo, Mora y Ayelén",
        "cells": [
         {
-         "v": "10 – 16 nov",
+         "v": "6.560",
          "dim": true
         },
         {
-         "v": "US$6.560",
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "6.560",
          "em": true
-        },
-        {
-         "v": "Cargado",
-         "dim": true
         }
        ]
       },
       {
-       "nm": "Costo de octubre a pagar",
+       "nm": "Comercial · B2C",
+       "s": "Closers, setters y dirección comercial",
+       "cells": [
+        {
+         "v": "9.616",
+         "dim": true
+        },
+        {
+         "v": "7.216",
+         "dim": true
+        },
+        {
+         "v": "2.400",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Costo de octubre que se paga en noviembre",
        "tot": true,
        "cells": [
         {
-         "v": "1 – 15 nov",
+         "v": "64.270",
          "dim": true
         },
         {
-         "v": "US$64.270",
+         "v": "30.598",
+         "dim": true
+        },
+        {
+         "v": "33.672",
          "em": true
-        },
-        {
-         "v": "",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Ya pagado a Teo",
-       "cells": [
-        {
-         "v": "6 nov",
-         "dim": true
-        },
-        {
-         "v": "−US$1.000",
-         "dim": true
-        },
-        {
-         "v": "Hecho",
-         "dim": true
-        }
-       ]
-      },
-      {
-       "nm": "Queda por pagar",
-       "tot": true,
-       "cells": [
-        {
-         "v": "1 – 15 nov",
-         "dim": true
-        },
-        {
-         "v": "US$63.270",
-         "em": true
-        },
-        {
-         "v": "",
-         "dim": true
         }
        ]
       }
      ],
-     "foot": "Los US$3.994 de <b>herramientas, pauta e inversión</b> del costo de octubre no están acá: esas líneas se pagan dentro del mismo mes y ya salieron en octubre. Lo mismo va a pasar con las de noviembre.",
+     "foot": "<b>Del 1 al 10 de noviembre ya salieron US$27.613 del costo de octubre:</b> el reparto a Facu, Juana, Fede y Teo el 9, y el comercial, el contenido y el diseño el 10. A Fede se le había adelantado US$3.000 el 31 de octubre, así que su parte queda saldada —por eso el reparto muestra US$19.917 pagados y no US$16.932—. Los US$3.994 de <b>herramientas, pauta e inversión</b> no están acá: esas líneas se pagan dentro del mismo mes y ya salieron en octubre.",
      "pageNum": "01"
     },
     {
      "type": "tabla",
      "label": "El cashflow",
-     "kicker": "02 · Lo que falta pagar",
+     "kicker": "02 · El cashflow",
      "title": "El <span class=\"em\">cashflow</span> hasta diciembre",
-     "sub": "Todo lo que ya está comprometido, en orden. Los cobros son sólo las cuotas ya vendidas. Montos en dólares, sin el US$.",
+     "sub": "Todo lo que ya está comprometido, en orden, arrancando del saldo real del libro diario. Los cobros son sólo las cuotas ya vendidas. Montos en dólares, sin el US$.",
      "dense": true,
      "cols": [
       {
@@ -12117,26 +12082,15 @@
      "rows": [
       {
        "nm": "Saldo en la cuenta",
-       "s": "Última fila del libro diario",
        "cells": [
         {
-         "v": "6 nov",
+         "v": "10 nov",
          "dim": true
         },
         {
-         "v": "91.387",
+         "v": "75.411",
          "em": true
         }
-       ]
-      },
-      {
-       "nm": "Comercial de octubre",
-       "cells": [
-        {
-         "v": "5 – 8 nov",
-         "dim": true
-        },
-        "−9.616"
        ]
       },
       {
@@ -12146,7 +12100,18 @@
          "v": "10 – 16 nov",
          "dim": true
         },
-        "−19.615"
+        "−16.150"
+       ]
+      },
+      {
+       "nm": "Reparto a los cinco",
+       "s": "Franco 8.294 y Teo 316; a Facu y Juana se les pagó 47 de más",
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        "−8.562"
        ]
       },
       {
@@ -12160,14 +12125,13 @@
        ]
       },
       {
-       "nm": "Reparto a los cinco",
-       "s": "De los US$28.479, ya salieron US$1.000 a Teo",
+       "nm": "Comercial de octubre",
        "cells": [
         {
          "v": "10 – 16 nov",
          "dim": true
         },
-        "−27.479"
+        "−2.400"
        ]
       },
       {
@@ -12179,28 +12143,27 @@
          "dim": true
         },
         {
-         "v": "28.117",
+         "v": "41.739",
          "em": true
         }
        ]
       },
       {
        "nm": "Gastos del propio noviembre",
-       "s": "Herramientas, pauta, inversión, comisiones y contador",
+       "s": "Se estiman 5.200 y ya salieron 1.105",
        "cells": [
         {
-         "v": "todo el mes",
+         "v": "11 – 30 nov",
          "dim": true
         },
-        "−5.200"
+        "−4.095"
        ]
       },
       {
        "nm": "Cuotas ya vendidas que vencen en noviembre",
-       "s": "Curso 6.414, Founders 2.000 y Founders Group 1.000",
        "cells": [
         {
-         "v": "7 – 30 nov",
+         "v": "11 – 30 nov",
          "dim": true
         },
         "+9.414"
@@ -12216,7 +12179,7 @@
          "dim": true
         },
         {
-         "v": "32.331",
+         "v": "47.058",
          "em": true
         }
        ]
@@ -12244,7 +12207,6 @@
       },
       {
        "nm": "Saldo a mediados de diciembre",
-       "s": "Sin ninguna venta nueva",
        "tot": true,
        "cells": [
         {
@@ -12252,13 +12214,13 @@
          "dim": true
         },
         {
-         "v": "10.256",
+         "v": "24.983",
          "em": true
         }
        ]
       }
      ],
-     "foot": "De los US$27.479 del reparto, unos US$5.535 ya están en las cajas de Juana (US$3.805) y Fede (US$1.730): esa parte no sale de la cuenta. Fede además cobró US$1.500 el 1 de noviembre que todavía no entraron al diario.",
+     "foot": "El reparto que falta es casi todo de <b>Franco</b>, que todavía no cobró octubre. <b>Juana y Fede</b> usaron además el 9 de noviembre la plata de sus cajas —US$3.742 y US$1.568— para terminar de saldar su cuenta: esa parte no sale del banco. Las cuotas no incluyen ventas nuevas.",
      "footMarginTop": "14px",
      "pageNum": "02"
     },
@@ -12288,7 +12250,7 @@
       {
        "label": "Saldo al cierre de octubre",
        "fig": "US$97.605",
-       "note": "El El informe cierra octubre en US$97.605 y el libro diario en US$98.481: la diferencia son US$876 en la línea del evento, a revisar. Al 10 de noviembre el saldo del diario es US$75.411: en el medio se pagó el reparto de octubre a los socios. Octubre incluye US$13.107 del viaje a España."
+       "note": "El informe cierra octubre en US$97.605 y el libro diario en US$98.481: la diferencia son US$876 en la línea del evento, a revisar. Al 10 de noviembre el saldo del diario es US$75.411: en el medio entraron US$5.648 de 0800 y salieron US$27.613 del costo de octubre más US$1.105 de gastos del propio noviembre. Octubre incluye US$13.107 del viaje a España."
       }
      ],
      "pageNum": "03"
@@ -12318,7 +12280,7 @@
       {
        "label": "El mínimo de caja",
        "fig": "04",
-       "note": "No hay un piso definido. El saldo al 10 de noviembre es US$75.411 y el costo de octubre que queda por pagar es US$63.270."
+       "note": "No hay un piso definido. El saldo al 10 de noviembre es US$75.411 y el costo de octubre que queda por pagar es US$33.672."
       }
      ],
      "pageNum": "04"
@@ -12330,7 +12292,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "Noviembre en <span class=\"em\" style=\"color:#fff;\">tres</span> números.",
-     "note": "Saldo al 10 de noviembre: US$75.411. Falta pagar US$63.270 del costo de octubre: US$27.479 de reparto, US$19.615 de contenido y diseño, US$9.616 de comercial y US$6.560 del resto del equipo. Las herramientas, la pauta y la inversión ya se pagaron dentro de octubre. Después de la quincena quedan US$28.117; contando los gastos del propio mes y las cuotas ya vendidas, noviembre cierra en US$32.331 sin ninguna venta nueva.",
+     "note": "Saldo al 10 de noviembre: US$75.411. Del costo de octubre ya salieron US$27.613 en los primeros diez días y quedan US$33.672: US$16.150 de contenido y diseño, US$8.562 de reparto —casi todo de Franco—, US$6.560 del resto del equipo y US$2.400 de comercial. Las herramientas, la pauta y la inversión ya se pagaron dentro de octubre. Después de la quincena quedan US$41.739; contando los gastos del propio mes y las cuotas ya vendidas, noviembre cierra en US$47.058 sin ninguna venta nueva.",
      "noteOpacity": ".7",
      "pageLabel": "Proyección · noviembre y diciembre 2026"
     }
@@ -12351,34 +12313,34 @@
     },
     {
      "l": "Cobrado de eso",
-     "v": "US$567.942",
+     "v": "US$572.942",
      "s": "La parte de esa facturación que <b>ya entró</b> a la cuenta."
     },
     {
      "l": "Falta cobrar",
-     "v": "US$49.466",
+     "v": "US$44.466",
      "s": "<b>Facturado que todavía no entró</b> — cuotas del curso y de Founders ya vendidas."
     },
     {
      "key": true,
      "l": "Saldo en cuenta",
      "v": "US$97.605",
-     "s": "La plata que <b>hay al cierre de octubre</b> según la hoja de Informes; el libro diario marca US$95.388. Arrancó el año en −US$5.428 y el máximo fue septiembre, con US$126.002."
+     "s": "La plata que <b>hay al cierre de octubre</b> según la hoja de Informes; el libro diario marca US$98.481. Arrancó el año en −US$5.428 y el máximo fue septiembre, con US$126.002."
     }
    ],
    "donuts": [
     {
      "t": "De dónde vino la caja",
-     "sub": "US$580.592 cobrados · 10 meses",
-     "donut": "conic-gradient(var(--cc-blue) 0 60.9%, var(--cc-ink) 60.9% 75.1%, var(--cc-ink-muted) 75.1% 80.9%, var(--cc-ink-faint) 80.9% 100%)",
-     "centerBig": "US$581k",
+     "sub": "US$585.592 cobrados · 10 meses",
+     "donut": "conic-gradient(var(--cc-blue) 0 60.41%, var(--cc-ink) 60.41% 74.49%, var(--cc-ink-muted) 74.49% 81.01%, var(--cc-ink-faint) 81.01% 100%)",
+     "centerBig": "US$586k",
      "centerLabel": "Cobrado",
      "legend": [
       {
        "dot": "var(--cc-blue)",
        "nm": "Curso B2C",
        "amt": "US$353.765",
-       "pc": "61%"
+       "pc": "60%"
       },
       {
        "dot": "var(--cc-ink)",
@@ -12389,8 +12351,8 @@
       {
        "dot": "var(--cc-ink-muted)",
        "nm": "0800",
-       "amt": "US$33.197",
-       "pc": "6%"
+       "amt": "US$38.197",
+       "pc": "7%"
       },
       {
        "dot": "var(--cc-ink-faint)",
@@ -12962,16 +12924,16 @@
       "no": "→",
       "noStyle": "color:var(--cc-blue-lt);",
       "month": "La caja que viene",
-      "head": "Qué falta pagar del costo de octubre y cómo queda la caja hasta diciembre.",
+      "head": "Qué ya salió y qué falta del costo de octubre, y cómo queda la caja hasta diciembre.",
       "metrics": [
        {
         "label": "Falta pagar de oct",
-        "value": "US$63.270",
+        "value": "US$33.672",
         "cls": "num"
        },
        {
         "label": "Saldo al 30 de nov",
-        "value": "US$32.331",
+        "value": "US$47.058",
         "cls": "num"
        }
       ]
@@ -13114,7 +13076,7 @@
   "cobradoOctubre": 67428,
   "pagadoOctubre": 95825,
   "costoOctubreAPagar": 68264,
-  "quedaDespues": 34760,
+  "quedaDespues": 41739,
   "saldoAlDia": {
    "fecha": "2026-11-10",
    "valor": 75411
@@ -13126,12 +13088,13 @@
    "salio": 28718,
    "delCostoDeOctubre": 27613,
    "gastosPropiosDeNoviembre": 1105,
-   "faltaPagarDeOctubre": 40651
+   "faltaPagarDeOctubre": 33672
   },
   "supuestos": [
-   "El costo de octubre (US$68.264) es el que figura en la planilla, no una estimación.",
-   "Del costo de octubre ya se pagaron US$27.613 en la primera quincena de noviembre: el reparto a los socios el 9, y el comercial, el contenido y el diseño el 10.",
-   "Quedan US$40.651 del costo de octubre por pagar. Si se paga todo y no entra nada más, el saldo queda en US$34.760.",
+   "El costo de octubre (US$68.264) es el que figura en la planilla, no una estimación. De ese total, US$3.994 de herramientas, pauta e inversión ya se pagaron dentro de octubre: lo que se paga en noviembre son US$64.270.",
+   "Del costo de octubre ya salieron US$27.613 entre el 1 y el 10 de noviembre: el reparto a Facu, Juana, Fede y Teo el 9, y el comercial, el contenido y el diseño el 10.",
+   "Quedan US$33.672 por pagar: US$16.150 de contenido y diseño, US$8.562 de reparto —casi todo de Franco, que todavía no cobró—, US$6.560 del resto del equipo y US$2.400 de comercial. A Fede se le había adelantado US$3.000 el 31 de octubre, así que su parte queda saldada.",
+   "Si se paga todo y no entra nada más, después de la quincena el saldo queda en US$41.739.",
    "En noviembre todavía no hay ventas nuevas.",
    "El libro diario llega al 10 de noviembre y todavía no tiene cargados los cobros del curso ni de Cáscara Founders de noviembre: lo único que entró son US$5.648 de 0800."
   ],
@@ -13141,6 +13104,7 @@
    "segundo": 339,
    "resultado": 32961
   },
-  "pendiente": "Falta cargar en el diario los cobros de noviembre del curso y de Cáscara Founders. Hasta que estén, el saldo proyectado es el piso, no el número."
+  "pendiente": "Falta cargar en el diario los cobros de noviembre del curso y de Cáscara Founders. Hasta que estén, el saldo proyectado es el piso, no el número.",
+  "saldo30Noviembre": 47058
  }
 }
