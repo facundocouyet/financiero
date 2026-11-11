@@ -6,14 +6,14 @@
   "actualizado": "2026-11",
   "fuentes": [
    "Informes 2026 (4).xlsx (resumen mensual, octubre cerrado)",
-   "Gestión 2026 (4).xlsx (libro diario al 6 de noviembre + económico + cuentas + distribución)",
+   "Gestión 2026 (4).xlsx (libro diario al 10 de noviembre + económico + cuentas + distribución)",
    "Facturación Real - Cáscara.xlsx (curso B2C: señas y reservas caídas)",
    "Unidades - Cascara (2).xlsx (cuenta por unidad de negocio y comisiones de growth, hasta octubre)",
    "Resumen de contenido Mensual (Notion) — informe de contenido por cuenta",
    "Acuerdos principales V4 (agosto 2026) — tasas de caja central y reparto",
    "Airtable · Reporte de Venta (unidades vendidas por producto)"
   ],
-  "auditoria": "Auditoría de noviembre 2026 contra Informes 2026 (4) y el libro diario de Gestión 2026. <b>Octubre:</b> facturado US$45.875, costo del mes US$68.312, cobrado US$62.428, pagado US$95.825; el saldo pasa de US$125.784 a US$92.387. El libro diario cierra octubre en US$92.387,82: el mes cuadra exacto entre las dos planillas. El reparto del mes sale de la hoja Distribución (US$28.479 a los cinco, US$4.143 a Cáscara y US$339 a Segundo, sobre US$32.961 de resultado), la cuenta de cada unidad de Unidades - Cascara (2) y el contenido por persona de la hoja Equipo (23 personas, US$19.615). El comercial del mes de la planilla, US$9.615,86, se abre exacto en US$4.292,92 del curso y US$5.322,94 de Founders. De los US$19.615 de contenido y diseño, las hojas de unidad sólo cargan US$6.835: quedan US$12.780 sin unidad asignada. <b>Error de planilla:</b> en la hoja <i>Octubre Founders</i> la línea de Cáscara está rotulada 10% pero trae US$4.899, que es el 20% del resultado; con ese número la unidad repartiría 110%. El informe usa US$2.449,50, que es lo que cierra contra el 90% que se llevan los cinco. Al 6 de noviembre el saldo es US$91.387. <b>Septiembre:</b> la planilla corrigió el contenido (US$5.822 → US$7.917) y el diseño (US$2.878 → US$3.393), así que el costo del mes pasó de US$83.998 a US$86.608 y el resultado del trabajo de +US$58.902 a +US$56.292. El informe de contenido por cuenta de Azu sigue sumando US$8.700,10: quedan US$2.610 sin asignar a una cuenta. <b>Diferencias abiertas en las planillas:</b> (1) el libro diario cierra septiembre en US$125.784,35 y la hoja de Informes en US$126.000,52 — la diferencia son US$217,18 de un movimiento del 30/9 que figura dos veces en el diario, una como “Vivienne Westwood S.R.L.” y otra como “adelanto a Facu”; octubre arranca del diario. (2) Julio cierra en US$80.328,43 en la hoja de Informes y agosto abre en US$79.207: el libro diario paga a Teo US$2.736 en julio y la hoja tiene US$1.614, así que faltan US$1.121,43 de egreso en julio. El sitio ya usa la cifra corregida; la planilla todavía no. (3) Septiembre no tiene económico cargado en Herramientas (fin US$2.472), Pauta (US$479) ni Inversión (US$2.470). (4) El reparto por oferta de la hoja Distribución suma US$27 menos que el económico de los cinco. <b>Facturación:</b> el sitio usa criterio REAL para el curso B2C (reservas caídas descontadas) hasta agosto; septiembre va provisorio con señas (US$72.205) y octubre toma los US$13.100 de la planilla. Por eso la facturación del sitio (US$617.408 en diez meses) no coincide con la suma de “Total facturado” de la planilla (US$689.310): los US$71.902 de diferencia son las reservas caídas del curso y dos cobros de trabajo previo de febrero (Acrule US$3.000 y Wires US$3.500) que no se cuentan como facturación del mes. Airtable, por fecha de cierre, da otra cifra más: en octubre el curso cerró US$16.600 contra los US$13.100 de la planilla. <b>Pendiente de cargar:</b> el reparto de octubre por unidad, el contenido por persona, los costos por unidad, 0800, growth, el saldo por cuenta bancaria y el trámite de la LLC."
+  "auditoria": "Auditoría de noviembre 2026 contra Informes 2026 (4) y el libro diario de Gestión 2026. <b>Octubre:</b> facturado US$45.875, costo del mes US$68.264, cobrado US$67.428, pagado US$94.949; el saldo pasa de US$126.002 a US$98.481. El libro diario cierra octubre en US$98.481,82: el mes cuadra exacto entre las dos planillas. El reparto del mes sale de la hoja Distribución (US$28.479 a los cinco, US$4.143 a Cáscara y US$339 a Segundo, sobre US$32.961 de resultado), la cuenta de cada unidad de Unidades - Cascara (2) y el contenido por persona de la hoja Equipo (23 personas, US$19.615). El comercial del mes de la planilla, US$9.615,86, se abre exacto en US$4.292,92 del curso y US$5.322,94 de Founders. De los US$19.615 de contenido y diseño, las hojas de unidad sólo cargan US$6.835: quedan US$12.780 sin unidad asignada. <b>Error de planilla:</b> en la hoja <i>Octubre Founders</i> la línea de Cáscara está rotulada 10% pero trae US$4.899, que es el 20% del resultado; con ese número la unidad repartiría 110%. El informe usa US$2.449,50, que es lo que cierra contra el 90% que se llevan los cinco. Al 10 de noviembre el saldo es US$75.411. <b>Septiembre:</b> la planilla corrigió el contenido (US$5.822 → US$7.917) y el diseño (US$2.878 → US$3.393), así que el costo del mes pasó de US$83.998 a US$92.029 y el resultado del trabajo de +US$58.902 a +US$50.871. El informe de contenido por cuenta de Azu sigue sumando US$8.700,10: quedan US$2.610 sin asignar a una cuenta. <b>Diferencias abiertas en las planillas:</b> (1) el libro diario cierra septiembre en US$126.002,35 y la hoja de Informes en US$126.000,52 — la diferencia son US$217,18 de un movimiento del 30/9 que figura dos veces en el diario, una como “Vivienne Westwood S.R.L.” y otra como “adelanto a Facu”; octubre arranca del diario. (2) Julio cierra en US$80.328,43 en la hoja de Informes y agosto abre en US$79.207: el libro diario paga a Teo US$2.736 en julio y la hoja tiene US$1.614, así que faltan US$1.121,43 de egreso en julio. El sitio ya usa la cifra corregida; la planilla todavía no. (3) Septiembre no tiene económico cargado en Herramientas (fin US$2.472), Pauta (US$479) ni Inversión (US$2.470). (4) El reparto por oferta de la hoja Distribución suma US$27 menos que el económico de los cinco. <b>Facturación:</b> el sitio usa criterio REAL para el curso B2C (reservas caídas descontadas) hasta agosto; septiembre va provisorio con señas (US$72.205) y octubre toma los US$13.100 de la planilla. Por eso la facturación del sitio (US$617.408 en diez meses) no coincide con la suma de “Total facturado” de la planilla (US$689.310): los US$71.902 de diferencia son las reservas caídas del curso y dos cobros de trabajo previo de febrero (Acrule US$3.000 y Wires US$3.500) que no se cuentan como facturación del mes. Airtable, por fecha de cierre, da otra cifra más: en octubre el curso cerró US$16.600 contra los US$13.100 de la planilla. <b>Pendiente de cargar:</b> el reparto de octubre por unidad, el contenido por persona, los costos por unidad, 0800, growth, el saldo por cuenta bancaria y el trámite de la LLC."
  },
  "glosario": {
   "trabajo": "El trabajo del mes = lo facturado por el trabajo del mes + sus costos, se haya cobrado/pagado o no. ¿El negocio da plata? NO usar 'devengado'.",
@@ -1881,13 +1881,13 @@
    "label": "Septiembre",
    "n": 9,
    "facturado": 142900,
-   "costos": 86608,
-   "resTrabajo": 56292,
+   "costos": 92029,
+   "resTrabajo": 50871,
    "cobrado": 104139,
    "pagado": 68016,
    "resCaja": 36123,
-   "saldoInicial": 89878.38,
-   "saldoFinal": 126001.82,
+   "saldoInicial": 89878.1,
+   "saldoFinal": 126001.53,
    "socios": {
     "Facu": 10806,
     "Fede": 10192,
@@ -1999,12 +1999,12 @@
     {
      "n": "Costos de contenido",
      "eco": 9417,
-     "fin": 7239
+     "fin": 7739
     },
     {
      "n": "Costos de diseño",
      "eco": 4893,
-     "fin": 4536
+     "fin": 4036
     },
     {
      "n": "La cáscara · Comercial",
@@ -2014,12 +2014,12 @@
     },
     {
      "n": "Herramientas",
-     "eco": 0,
+     "eco": 2472,
      "fin": 2472
     },
     {
      "n": "Inversión",
-     "eco": 0,
+     "eco": 2470,
      "fin": 2470
     },
     {
@@ -2034,7 +2034,7 @@
     },
     {
      "n": "Pauta",
-     "eco": 0,
+     "eco": 479,
      "fin": 479
     },
     {
@@ -2053,10 +2053,10 @@
     "cobrado": 104139.26
    },
    "totalEgresos": {
-    "costo": 86608.11,
+    "costo": 92029.09,
     "pagado": 68015.82
    },
-   "nota": "Facturado US$142.900 con US$86.608 de costos: resultado del trabajo +US$56.292. Entraron US$104.139 y salieron US$68.016: resultado de caja +US$36.123. El saldo pasa de US$89.878 a US$126.002. <b>Cáscara Founders</b> facturó US$48.200 y el curso US$72.205. La facturación del curso va provisoria, con señas: falta descontar las reservas caídas del mes. El contenido y el diseño del mes se corrigieron en noviembre a US$11.310, el mismo monto que se pagó en octubre.",
+   "nota": "Facturado US$142.900 con US$92.029 de costos: resultado del trabajo +US$50.871. Entraron US$104.139 y salieron US$68.016: resultado de caja +US$36.123. El saldo pasa de US$89.878 a US$126.002. <b>Cáscara Founders</b> facturó US$48.200 y el curso US$72.205. La facturación del curso va provisoria, con señas: falta descontar las reservas caídas del mes. <b>Corregido en noviembre:</b> las herramientas (US$2.472), la pauta (US$479) y la inversión (US$2.470) no estaban contadas como costo del mes y ahora sí, por eso el costo sube US$5.421. Con eso septiembre cierra exacto contra el libro diario.",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -2086,27 +2086,27 @@
     },
     "egresos": {
      "base": "costo del mes",
-     "total": 86608,
+     "total": 92029,
      "partes": [
       {
        "cat": "Reparto a los cinco",
        "val": 50229,
-       "pct": 58
+       "pct": 55
       },
       {
        "cat": "Comercial del curso B2C",
        "val": 15839,
-       "pct": 18
+       "pct": 17
       },
       {
        "cat": "Contenido y diseño",
        "val": 14310,
-       "pct": 17
+       "pct": 15
       },
       {
-       "cat": "Resto del equipo",
-       "val": 6230,
-       "pct": 7
+       "cat": "Resto del equipo y herramientas",
+       "val": 11651,
+       "pct": 13
       }
      ]
     }
@@ -2491,13 +2491,13 @@
    "label": "Octubre",
    "n": 10,
    "facturado": 45875,
-   "costos": 68312,
-   "resTrabajo": -22437,
-   "cobrado": 62428,
-   "pagado": 95825,
-   "resCaja": -33397,
-   "saldoInicial": 125784.35,
-   "saldoFinal": 92387.35,
+   "costos": 68264,
+   "resTrabajo": -22389,
+   "cobrado": 67428,
+   "pagado": 94949,
+   "resCaja": -27521,
+   "saldoInicial": 126001.53,
+   "saldoFinal": 98481.0,
    "socios": {
     "Facu": 7616,
     "Fede": 4552,
@@ -2523,7 +2523,7 @@
     {
      "n": "0800",
      "eco": 3775,
-     "fin": 3775
+     "fin": 8775
     }
    ],
    "egresos": [
@@ -2615,13 +2615,13 @@
     },
     {
      "n": "Inversión",
-     "eco": 1300,
+     "eco": 1252,
      "fin": 1252
     },
     {
      "n": "Evento · viaje a España",
      "eco": 0,
-     "fin": 13106
+     "fin": 12230
     },
     {
      "n": "Otros gastos",
@@ -2646,27 +2646,27 @@
    ],
    "totalIngresos": {
     "facturado": 45875.0,
-    "cobrado": 62428.0
+    "cobrado": 67428.47
    },
    "totalEgresos": {
-    "costo": 68311.86,
-    "pagado": 95825.0
+    "costo": 68263.62,
+    "pagado": 94949.0
    },
-   "nota": "<b>Facturado / del mes</b> = el trabajo de este mes y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió de la cuenta. Octubre facturó US$45.875 con US$68.312 de costos: resultado del trabajo −US$22.437. Entraron US$62.428 y salieron US$95.825: resultado de caja −US$33.397. Lo cobrado por Cáscara Founders (US$31.930) y por el curso (US$21.723) está por encima de lo facturado del mes porque son cuotas de ventas de meses anteriores. La línea <b>Evento</b> (US$13.107) es el viaje a España. Octubre arranca en US$125.784, el saldo que el libro diario tiene al 30 de septiembre.",
+   "nota": "<b>Facturado / del mes</b> = el trabajo de este mes y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió de la cuenta. Octubre facturó US$45.875 con US$68.264 de costos: resultado del trabajo −US$22.389. Entraron US$67.428 y salieron US$94.949: resultado de caja −US$27.521. Lo cobrado por Cáscara Founders (US$31.930) y por el curso (US$21.723) está por encima de lo facturado del mes porque son cuotas de ventas de meses anteriores. La línea <b>Evento</b> (US$12.230) es el viaje a España. <b>Corregido en noviembre:</b> faltaban los US$5.000 que 0800 cobró de Coderhouse el 13 de octubre y la inversión bajó de US$1.300 a US$1.252. Octubre arranca en US$126.002, el cierre de septiembre, y termina en US$98.481, que es lo que marca el libro diario al 31 de octubre.",
    "proporciones": {
     "ingresos": {
      "base": "caja",
-     "total": 62428,
+     "total": 67428,
      "partes": [
       {
        "cat": "Founders",
        "val": 31930,
-       "pct": 51
+       "pct": 47
       },
       {
        "cat": "Curso B2C",
        "val": 21723,
-       "pct": 35
+       "pct": 32
       },
       {
        "cat": "Livo",
@@ -2675,14 +2675,14 @@
       },
       {
        "cat": "0800",
-       "val": 3775,
-       "pct": 6
+       "val": 8775,
+       "pct": 13
       }
      ]
     },
     "egresos": {
      "base": "costo del mes",
-     "total": 68312,
+     "total": 68264,
      "partes": [
       {
        "cat": "Reparto a los cinco",
@@ -2701,7 +2701,7 @@
       },
       {
        "cat": "Resto del equipo y herramientas",
-       "val": 10602,
+       "val": 10554,
        "pct": 15
       }
      ]
@@ -2726,7 +2726,7 @@
       "ticket": 1871
      },
      {
-      "producto": "Upsell Aceleradora",
+      "producto": "Upsell Founders",
       "unidades": 1,
       "valorContrato": 3000,
       "moneda": "USD",
@@ -2743,7 +2743,7 @@
     "total": 16
    },
    "unidades": {
-    "fuente": "Unidades - Cascara (2).xlsx y Gestión 2026 · hoja Distribución",
+    "fuente": "Unidades - Cascara (3).xlsx y Gestión 2026 · hoja Distribución",
     "detalle": [
      {
       "unidad": "Cáscara Founders",
@@ -2776,8 +2776,8 @@
      {
       "unidad": "0800",
       "facturado": 3775,
-      "cobrado": 3775,
-      "nota": "Sólo tiene cargado el diseño (Aldi, Juana Morales, Nic Mellone y Santiago Barragán).",
+      "cobrado": 8775,
+      "nota": "Sólo tiene cargado el diseño (Aldi, Juana Morales, Nic Mellone y Santiago Barragán). De los US$8.775 cobrados, US$5.000 son de Coderhouse, que pagó el 13 de octubre.",
       "contenido": 4938
      }
     ],
@@ -2885,10 +2885,10 @@
      }
     ],
     "quedo": 4143,
-    "saldoCierre": 92387,
+    "saldoCierre": 98481,
     "saldoAlDia": {
-     "fecha": "2026-11-06",
-     "valor": 91387
+     "fecha": "2026-11-10",
+     "valor": 75411
     }
    },
    "growth": {
@@ -2981,13 +2981,13 @@
   "q3": {
    "label": "Tercer trimestre (Jul–Sep)",
    "facturado": 318886,
-   "costos": 205949,
-   "resTrabajo": 112937,
+   "costos": 211370,
+   "resTrabajo": 107516,
    "cobrado": 269785,
    "pagado": 179034,
    "resCaja": 90751,
    "saldoInicial": 35250.45,
-   "saldoFinal": 126001.82,
+   "saldoFinal": 126001.53,
    "ventaB2C": 187321
   }
  },
@@ -3053,14 +3053,14 @@
    "cobrado": 104139.26,
    "pagado": 68015.82,
    "resCaja": 36123.44,
-   "saldoFinal": 126001.82
+   "saldoFinal": 126001.53
   },
   {
    "mes": "Octubre",
-   "cobrado": 62428,
-   "pagado": 95825,
-   "resCaja": -33397,
-   "saldoFinal": 92387.35
+   "cobrado": 67428.47,
+   "pagado": 94949.0,
+   "resCaja": -27520.53,
+   "saldoFinal": 98481.0
   }
  ],
  "cursoB2CMensual": [
@@ -7479,7 +7479,7 @@
      "meta": [
       {
        "label": "Resultado del trabajo",
-       "value": "+US$56.292"
+       "value": "+US$50.871"
       },
       {
        "label": "Resultado de caja",
@@ -7506,11 +7506,11 @@
        },
        {
         "l": "Costos",
-        "v": "US$86.608"
+        "v": "US$92.029"
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$56.292"
+      "resFig": "+US$50.871"
      },
      "caja": {
       "tag": "La caja del mes",
@@ -7548,7 +7548,7 @@
        "accent": true
       }
      ],
-     "foot": "<div>US$142.900 facturados contra US$86.608 de costos dan +US$56.292 de resultado del trabajo. Entraron US$104.139 y salieron US$68.016, y el saldo pasa de US$89.878 a US$126.002. En noviembre la planilla corrigió el contenido y el diseño del mes a US$11.310: el costo pasó de US$83.998 a US$86.608. El curso figura provisorio, con señas.</div>",
+     "foot": "<div>US$142.900 facturados contra US$92.029 de costos dan +US$50.871 de resultado del trabajo. Entraron US$104.139 y salieron US$68.016, y el saldo pasa de US$89.878 a US$126.002. En noviembre la planilla corrigió el contenido y el diseño del mes a US$11.310: el costo pasó de US$83.998 a US$92.029. El curso figura provisorio, con señas.</div>",
      "pageNum": "01"
     },
     {
@@ -7718,7 +7718,7 @@
      "groups": [
       {
        "label": "Reparto a los cinco",
-       "pct": "58%",
+       "pct": "55%",
        "small": "Socios, Franco y Teo",
        "eco": "US$50.229",
        "ecoW": "100%",
@@ -7727,7 +7727,7 @@
       },
       {
        "label": "Comercial · B2C",
-       "pct": "18%",
+       "pct": "17%",
        "small": "Comercial del curso",
        "eco": "US$15.839",
        "ecoW": "32%",
@@ -7736,7 +7736,7 @@
       },
       {
        "label": "Contenido y diseño",
-       "pct": "17%",
+       "pct": "15%",
        "small": "Producción y diseño",
        "eco": "US$14.310",
        "ecoW": "28%",
@@ -7754,15 +7754,16 @@
       },
       {
        "label": "Herramientas y otros",
-       "small": "Herramientas e impuestos",
-       "eco": "—",
-       "ecoW": "0%",
+       "pct": "6%",
+       "small": "Herramientas, pauta e inversión",
+       "eco": "US$5.421",
+       "ecoW": "11%",
        "fin": "US$9.016",
        "finW": "18%"
       }
      ],
      "foot": "Durante septiembre se pagaron US$68.016, que corresponden al trabajo de agosto.",
-     "footRight": "Costo del mes · <b>US$86.608</b> &nbsp;·&nbsp; pagado · <b>US$68.016</b>",
+     "footRight": "Costo del mes · <b>US$92.029</b> &nbsp;·&nbsp; pagado · <b>US$68.016</b>",
      "footMarginTop": "26px",
      "pageNum": "03",
      "sub": "El <b>costo de septiembre</b> se paga en la primera quincena de octubre. Lo <b>pagado durante septiembre</b> corresponde al trabajo de agosto.",
@@ -8784,33 +8785,33 @@
       {
        "t": "En qué se fue la plata",
        "s": "Sobre el costo del mes (lo que costó)",
-       "donut": "conic-gradient(var(--cc-ink) 0 58%, var(--cc-blue) 58% 76.3%, var(--cc-ink-muted) 76.3% 92.8%, var(--cc-ink-faint) 92.8% 100%)",
-       "centerBig": "US$86.608",
+       "donut": "conic-gradient(var(--cc-ink) 0 54.6%, var(--cc-blue) 54.6% 71.8%, var(--cc-ink-muted) 71.8% 87.3%, var(--cc-ink-faint) 87.3% 100%)",
+       "centerBig": "US$92.029",
        "centerLabel": "Costo",
        "legend": [
         {
-         "pc": "58%",
+         "pc": "55%",
          "dot": "var(--cc-ink)",
          "nm": "Reparto a los cinco",
          "amt": "US$50.229"
         },
         {
-         "pc": "18%",
+         "pc": "17%",
          "dot": "var(--cc-blue)",
          "nm": "Comercial del curso B2C",
          "amt": "US$15.839"
         },
         {
-         "pc": "17%",
+         "pc": "15%",
          "dot": "var(--cc-ink-muted)",
          "nm": "Contenido y diseño",
          "amt": "US$14.310"
         },
         {
-         "pc": "7%",
+         "pc": "13%",
          "dot": "var(--cc-ink-faint)",
-         "nm": "Resto del equipo",
-         "amt": "US$6.230"
+         "nm": "Resto del equipo y herramientas",
+         "amt": "US$11.651"
         }
        ]
       }
@@ -8825,7 +8826,7 @@
      "variant": "blue",
      "kicker": "05 · La lectura del mes",
      "big": "Septiembre en <span class=\"em\" style=\"color:#fff;\">cuatro</span> números.",
-     "note": "Facturado US$142.900 contra US$86.608 de costos: resultado del trabajo +US$56.292. Entraron US$104.139 y salieron US$68.016: resultado de caja +US$36.123. El saldo pasa de US$89.878 a US$126.002. El reparto del mes es US$50.229 entre los cinco, US$8.726 para Cáscara y US$1.201 para Segundo. La facturación del curso va provisoria: falta descontar las reservas caídas de septiembre.",
+     "note": "Facturado US$142.900 contra US$92.029 de costos: resultado del trabajo +US$50.871. Entraron US$104.139 y salieron US$68.016: resultado de caja +US$36.123. El saldo pasa de US$89.878 a US$126.002. El reparto del mes es US$50.229 entre los cinco, US$8.726 para Cáscara y US$1.201 para Segundo. La facturación del curso va provisoria: falta descontar las reservas caídas de septiembre.",
      "pageLabel": "09 · Septiembre 2026",
      "noteOpacity": "0.85",
      "pageNum": "05"
@@ -8984,7 +8985,7 @@
       "fin": 244
      }
     ],
-    "nota": "Reconciliado contra el libro diario de Gestión 2026: entraron US$104.139,26 y salieron US$68.015,82. El reparto por oferta sale de la hoja Distribución. El curso figura provisorio con señas (US$72.205): falta descontar las reservas caídas del mes. La cuenta por unidad sale de Unidades - Cascara.xlsx; el reparto se calcula sobre el resultado de cada unidad. Cero no es una venta: es el recupero de lo que Cáscara pagó de contenido de ese proyecto. En noviembre la planilla corrigió el contenido y el diseño del mes a US$11.310 —el mismo monto que se pagó en octubre—, y el costo del mes pasó de US$83.998 a US$86.608."
+    "nota": "Reconciliado contra el libro diario de Gestión 2026: entraron US$104.139,26 y salieron US$68.015,82. El reparto por oferta sale de la hoja Distribución. El curso figura provisorio con señas (US$72.205): falta descontar las reservas caídas del mes. La cuenta por unidad sale de Unidades - Cascara.xlsx; el reparto se calcula sobre el resultado de cada unidad. Cero no es una venta: es el recupero de lo que Cáscara pagó de contenido de ese proyecto. En noviembre la planilla corrigió el contenido y el diseño del mes a US$11.310 —el mismo monto que se pagó en octubre—, y el costo del mes pasó de US$83.998 a US$92.029."
    }
   },
   "octubre": {
@@ -9133,7 +9134,7 @@
       "fin": 25
      }
     ],
-    "nota": "Reconciliado contra el libro diario de Gestión 2026: octubre cuadra exacto —entraron US$62.428,47 y salieron US$95.825,00— y el saldo cierra en US$92.387,82 en las dos planillas. Octubre arranca en US$125.784, que es donde cierra el diario el 30 de septiembre; la hoja de Informes cierra septiembre en US$126.001, con US$217,18 de diferencia por un movimiento de ese día que figura dos veces en el diario. El reparto por unidad sale de la hoja Distribución, la cuenta de cada unidad de Unidades - Cascara y el contenido por persona de la hoja Equipo. La línea <b>Evento</b> (US$13.107) es el viaje a España, que no tiene costo económico cargado a ningún mes."
+    "nota": "Reconciliado contra el libro diario de Gestión 2026: entraron US$67.428,47 y salieron US$94.949,00, y el saldo cierra en US$98.481,00. Octubre arranca en US$126.002, que es donde cierra septiembre en el diario y en la hoja de Informes: la planilla se corrigió en noviembre y los US$217,18 que figuraban dos veces ya no están. El reparto por unidad sale de la hoja Distribución, la cuenta de cada unidad de Unidades - Cascara y el contenido por persona de la hoja Equipo. La línea <b>Evento</b> (US$12.230) es el viaje a España, que no tiene costo económico cargado a ningún mes."
    },
    "slides": [
     {
@@ -9146,15 +9147,15 @@
      "meta": [
       {
        "label": "Resultado del trabajo",
-       "value": "−US$22.437"
+       "value": "−US$22.389"
       },
       {
        "label": "Resultado de caja",
-       "value": "−US$33.397"
+       "value": "−US$27.521"
       },
       {
        "label": "Saldo final",
-       "value": "US$92.387"
+       "value": "US$98.481"
       }
      ]
     },
@@ -9173,11 +9174,11 @@
        },
        {
         "l": "Costos",
-        "v": "US$68.312"
+        "v": "US$68.264"
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "−US$22.437",
+      "resFig": "−US$22.389",
       "resNeg": true
      },
      "caja": {
@@ -9186,38 +9187,38 @@
       "io": [
        {
         "l": "Entró",
-        "v": "US$62.428"
+        "v": "US$67.428"
        },
        {
         "l": "Salió",
-        "v": "US$95.825"
+        "v": "US$94.949"
        }
       ],
       "resL": "Resultado de caja",
-      "resFig": "−US$33.397",
+      "resFig": "−US$27.521",
       "resNeg": true
      },
      "flow": [
       {
        "l": "Saldo inicial",
-       "v": "US$125.784"
+       "v": "US$126.002"
       },
       {
        "l": "+ Cobros",
-       "v": "US$62.428",
+       "v": "US$67.428",
        "blue": true
       },
       {
        "l": "− Pagos",
-       "v": "US$95.825"
+       "v": "US$94.949"
       },
       {
        "l": "Saldo final",
-       "v": "US$92.387",
+       "v": "US$98.481",
        "accent": true
       }
      ],
-     "foot": "<div>US$45.875 facturados contra US$68.312 de costos dan −US$22.437 de resultado del trabajo. Entraron US$62.428 y salieron US$95.825, y el saldo pasa de US$125.784 a US$92.387. El libro diario cierra octubre en US$92.387,82 y la hoja de Informes en US$92.387: el mes cuadra exacto. Octubre arranca en US$125.784, que es donde cierra el diario el 30 de septiembre; la hoja de Informes cierra septiembre en US$126.001, con US$217,18 de diferencia por un movimiento de ese día que figura dos veces en el diario.</div>",
+     "foot": "<div>US$45.875 facturados contra US$68.264 de costos dan −US$22.389 de resultado del trabajo. Entraron US$67.428 y salieron US$94.949, y el saldo pasa de US$126.002 a US$98.481. El libro diario cierra octubre en US$98.481,00. Octubre arranca en US$126.002, que es donde cierra septiembre en el diario y en la hoja de Informes: la planilla se corrigió en noviembre y los US$217,18 que figuraban dos veces ya no están.</div>",
      "pageNum": "01"
     },
     {
@@ -9228,7 +9229,7 @@
      "totals": {
       "fact": "US$45.875",
       "factSmall": "Trabajo facturado en octubre",
-      "cob": "US$62.428",
+      "cob": "US$67.428",
       "cobSmall": "Incluye cuotas de ventas de meses anteriores"
      },
      "rowsMarginTop": "20px",
@@ -9238,14 +9239,14 @@
        "small": "Aceleradora",
        "width": "100%",
        "amount": "US$31.930",
-       "amountSpan": "51% de la caja"
+       "amountSpan": "47% de la caja"
       },
       {
        "label": "La cáscara",
        "small": "Curso propio",
        "width": "68%",
        "amount": "US$21.723",
-       "amountSpan": "35% de la caja",
+       "amountSpan": "32% de la caja",
        "b2c": true
       },
       {
@@ -9253,17 +9254,17 @@
        "small": "Cuenta de servicio",
        "width": "16%",
        "amount": "US$5.000",
-       "amountSpan": "8% de la caja"
+       "amountSpan": "7% de la caja"
       },
       {
        "label": "0800",
        "small": "Pedidos creativos",
-       "width": "12%",
-       "amount": "US$3.775",
-       "amountSpan": "6% de la caja"
+       "width": "27%",
+       "amount": "US$8.775",
+       "amountSpan": "13% de la caja"
       }
      ],
-     "foot": "<div>Cáscara Founders facturó US$24.000 y cobró US$31.930. El curso facturó US$13.100 y cobró US$21.723. Livo facturó y cobró US$5.000, y 0800 US$3.775. En las dos unidades de formación lo cobrado está por encima de lo facturado del mes: son cuotas de ventas anteriores.</div>",
+     "foot": "<div>Cáscara Founders facturó US$24.000 y cobró US$31.930. El curso facturó US$13.100 y cobró US$21.723. Livo facturó y cobró US$5.000, y 0800 US$8.775. En las dos unidades de formación lo cobrado está por encima de lo facturado del mes: son cuotas de ventas anteriores.</div>",
      "footMarginTop": "18px",
      "pageNum": "02"
     },
@@ -9399,14 +9400,14 @@
        "label": "Herramientas y otros",
        "pct": "6%",
        "small": "Herramientas, pauta, inversión y el viaje",
-       "eco": "US$4.042",
-       "ecoW": "9%",
-       "fin": "US$18.317",
-       "finW": "39%"
+       "eco": "US$3.994",
+       "ecoW": "8%",
+       "fin": "US$17.441",
+       "finW": "37%"
       }
      ],
-     "foot": "Durante octubre salieron US$95.825 de la cuenta. Dentro de eso hay US$13.107 del viaje a España, que no tiene costo económico cargado a ningún mes. El resto paga el trabajo de septiembre, cuyo costo fue US$86.608.",
-     "footRight": "Costo del mes · <b>US$68.312</b> &nbsp;·&nbsp; pagado · <b>US$95.825</b>",
+     "foot": "Durante octubre salieron US$94.949 de la cuenta. Dentro de eso hay US$12.230 del viaje a España, que no tiene costo económico cargado a ningún mes. El resto paga el trabajo de septiembre, cuyo costo fue US$92.029.",
+     "footRight": "Costo del mes · <b>US$68.264</b> &nbsp;·&nbsp; pagado · <b>US$94.949</b>",
      "footMarginTop": "26px",
      "pageNum": "03"
     },
@@ -10046,7 +10047,7 @@
        ]
       }
      ],
-     "foot": "Los US$19.615 son el costo del mes, no lo pagado. Los cuatro de <b>diseño · 0800</b> suman US$4.938, contra los US$3.775 que cobró esa unidad. Las hojas de unidad cargan US$5.062 al curso y US$1.773 a Founders: quedan US$7.842 sin asignar.",
+     "foot": "Los US$19.615 son el costo del mes, no lo pagado. Los cuatro de <b>diseño · 0800</b> suman US$4.938, contra los US$8.775 que cobró esa unidad. Las hojas de unidad cargan US$5.062 al curso y US$1.773 a Founders: quedan US$7.842 sin asignar.",
      "footMarginTop": "8px"
     },
     {
@@ -10277,18 +10278,18 @@
       {
        "t": "De dónde entró la plata",
        "s": "Sobre la caja del mes (lo que entró)",
-       "donut": "conic-gradient(var(--cc-ink) 0 51.1%, var(--cc-blue) 51.1% 85.9%, var(--cc-ink-muted) 85.9% 94%, var(--cc-ink-faint) 94% 100%)",
-       "centerBig": "US$62.428",
+       "donut": "conic-gradient(var(--cc-ink) 0 47.4%, var(--cc-blue) 47.4% 79.6%, var(--cc-ink-muted) 79.6% 87%, var(--cc-ink-faint) 87% 100%)",
+       "centerBig": "US$67.428",
        "centerLabel": "Entró",
        "legend": [
         {
-         "pc": "51%",
+         "pc": "47%",
          "dot": "var(--cc-ink)",
          "nm": "Founders",
          "amt": "US$31.930"
         },
         {
-         "pc": "35%",
+         "pc": "32%",
          "dot": "var(--cc-blue)",
          "nm": "Curso B2C",
          "amt": "US$21.723"
@@ -10300,10 +10301,10 @@
          "amt": "US$5.000"
         },
         {
-         "pc": "6%",
+         "pc": "13%",
          "dot": "var(--cc-ink-faint)",
          "nm": "0800",
-         "amt": "US$3.775"
+         "amt": "US$8.775"
         }
        ]
       },
@@ -10311,7 +10312,7 @@
        "t": "En qué se fue la plata",
        "s": "Sobre el costo del mes (lo que costó)",
        "donut": "conic-gradient(var(--cc-ink) 0 41.7%, var(--cc-ink-muted) 41.7% 70.4%, var(--cc-blue) 70.4% 84.5%, var(--cc-ink-faint) 84.5% 100%)",
-       "centerBig": "US$68.312",
+       "centerBig": "US$68.264",
        "centerLabel": "Costo",
        "legend": [
         {
@@ -10336,7 +10337,7 @@
          "pc": "15%",
          "dot": "var(--cc-ink-faint)",
          "nm": "Resto del equipo y herramientas",
-         "amt": "US$10.602"
+         "amt": "US$10.554"
         }
        ]
       }
@@ -10351,7 +10352,7 @@
      "variant": "blue",
      "kicker": "05 · La lectura del mes",
      "big": "Octubre en <span class=\"em\" style=\"color:#fff;\">cuatro</span> números.",
-     "note": "Facturado US$45.875 contra US$68.312 de costos: resultado del trabajo −US$22.437. Entraron US$62.428 y salieron US$95.825: resultado de caja −US$33.397. El saldo pasa de US$125.784 a US$92.387. El reparto del mes es US$28.479 entre los cinco, US$4.143 para Cáscara y US$339 para Segundo, calculado sobre US$32.961 de resultado entre las dos unidades. Dentro de los pagos del mes hay US$13.107 del viaje a España.",
+     "note": "Facturado US$45.875 contra US$68.264 de costos: resultado del trabajo −US$22.389. Entraron US$67.428 y salieron US$94.949: resultado de caja −US$27.521. El saldo pasa de US$126.002 a US$98.481. El reparto del mes es US$28.479 entre los cinco, US$4.143 para Cáscara y US$339 para Segundo, calculado sobre US$32.961 de resultado entre las dos unidades. Dentro de los pagos del mes hay US$12.230 del viaje a España.",
      "pageLabel": "10 · Octubre 2026",
      "noteOpacity": "0.85",
      "pageNum": "05"
@@ -10938,7 +10939,7 @@
       },
       {
        "label": "Resultado del trabajo",
-       "value": "+US$112.937"
+       "value": "+US$107.516"
       }
      ]
     },
@@ -10966,8 +10967,8 @@
       },
       {
        "label": "Resultado del trabajo",
-       "fig": "+US$112.937",
-       "note": "Se facturó US$318.886 contra US$205.949 de costos. Septiembre aportó US$142.900."
+       "fig": "+US$107.516",
+       "note": "Se facturó US$318.886 contra US$211.370 de costos. Septiembre aportó US$142.900."
       }
      ],
      "pageNum": "01"
@@ -11204,11 +11205,11 @@
        },
        {
         "l": "Costos",
-        "v": "US$205.949"
+        "v": "US$211.370"
        }
       ],
       "resL": "Resultado del trabajo",
-      "resFig": "+US$112.937"
+      "resFig": "+US$107.516"
      },
      "caja": {
       "tag": "La caja · Q3",
@@ -11258,7 +11259,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "El trimestre en <span class=\"em\" style=\"color:#fff;\">cuatro</span> números.",
-     "note": "Facturado US$318.886 contra US$205.949 de costos: resultado del trabajo +US$112.937. Entraron US$269.785 y salieron US$179.034: resultado de caja +US$90.751. El saldo pasa de US$35.250 a US$126.002. El curso aportó el 60% de la caja del trimestre, Cáscara Founders el 18% y 0800 el 11%. La facturación del curso de septiembre va provisoria.",
+     "note": "Facturado US$318.886 contra US$211.370 de costos: resultado del trabajo +US$107.516. Entraron US$269.785 y salieron US$179.034: resultado de caja +US$90.751. El saldo pasa de US$35.250 a US$126.002. El curso aportó el 60% de la caja del trimestre, Cáscara Founders el 18% y 0800 el 11%. La facturación del curso de septiembre va provisoria.",
      "noteOpacity": ".7",
      "pageLabel": "Julio – Septiembre 2026"
     }
@@ -11787,8 +11788,8 @@
      "sub": "Qué falta pagar del costo de octubre, con qué calendario, y cómo queda la caja hasta diciembre. Es una proyección, no un cierre.",
      "meta": [
       {
-       "label": "Saldo al 6 de noviembre",
-       "value": "US$91.387"
+       "label": "Saldo al 10 de noviembre",
+       "value": "US$75.411"
       },
       {
        "label": "Falta pagar de octubre",
@@ -11952,7 +11953,7 @@
        ]
       }
      ],
-     "foot": "Los US$4.042 de <b>herramientas, pauta e inversión</b> del costo de octubre no están acá: esas líneas se pagan dentro del mismo mes y ya salieron en octubre. Lo mismo va a pasar con las de noviembre.",
+     "foot": "Los US$3.994 de <b>herramientas, pauta e inversión</b> del costo de octubre no están acá: esas líneas se pagan dentro del mismo mes y ya salieron en octubre. Lo mismo va a pasar con las de noviembre.",
      "pageNum": "01"
     },
     {
@@ -12133,24 +12134,24 @@
      "items": [
       {
        "label": "Cobró octubre",
-       "fig": "US$62.428",
-       "note": "Cáscara Founders US$31.930, el curso US$21.723, Livo US$5.000 y 0800 US$3.775. Septiembre había cobrado US$104.139."
+       "fig": "US$67.428",
+       "note": "Cáscara Founders US$31.930, el curso US$21.723, Livo US$5.000 y 0800 US$8.775. Septiembre había cobrado US$104.139."
       },
       {
        "label": "Costó el trabajo de octubre",
-       "fig": "US$68.312",
-       "note": "Reparto US$28.479 a los cinco, US$4.143 que quedan en Cáscara y US$339 de Segundo; contenido y diseño US$19.615, comercial US$9.616, resto del equipo US$6.560 y herramientas, pauta e inversión US$4.042, que se pagan dentro del mismo mes.",
+       "fig": "US$68.264",
+       "note": "Reparto US$28.479 a los cinco, US$4.143 que quedan en Cáscara y US$339 de Segundo; contenido y diseño US$19.615, comercial US$9.616, resto del equipo US$6.560 y herramientas, pauta e inversión US$3.994, que se pagan dentro del mismo mes.",
        "key": true
       },
       {
        "label": "Resultado del trabajo",
-       "fig": "−US$22.437",
-       "note": "Se facturó US$45.875 contra US$68.312 de costos. Septiembre había facturado US$142.900 contra US$86.608."
+       "fig": "−US$22.389",
+       "note": "Se facturó US$45.875 contra US$68.264 de costos. Septiembre había facturado US$142.900 contra US$92.029."
       },
       {
        "label": "Saldo al cierre de octubre",
-       "fig": "US$92.387",
-       "note": "El libro diario cierra octubre en US$92.387,82 y la hoja de Informes en US$92.387: el mes cuadra exacto. Al 6 de noviembre el saldo es US$91.387. Octubre incluye US$13.107 del viaje a España."
+       "fig": "US$98.481",
+       "note": "El libro diario cierra octubre en US$98.481,00. Al 10 de noviembre el saldo es US$75.411: en el medio se pagó el reparto de octubre a los socios. Octubre incluye US$12.230 del viaje a España."
       }
      ],
      "pageNum": "03"
@@ -12175,12 +12176,12 @@
       {
        "label": "0800 y growth",
        "fig": "03",
-       "note": "0800 cobró US$3.775 en octubre y no tiene hoja de unidad con costos ni tasa de caja, así que no pasa por el reparto. MySaint, Delfi Ferro y Daniela no figuran en el informe."
+       "note": "0800 cobró US$8.775 en octubre —US$5.000 de Coderhouse, el 13— y no tiene hoja de unidad con costos ni tasa de caja, así que casi no pasa por el reparto. MySaint, Delfi Ferro y Daniela no figuran en el informe."
       },
       {
        "label": "El mínimo de caja",
        "fig": "04",
-       "note": "No hay un piso definido. El saldo al 6 de noviembre es US$91.387 y el costo de octubre que queda por pagar es US$63.270."
+       "note": "No hay un piso definido. El saldo al 10 de noviembre es US$75.411 y el costo de octubre que queda por pagar es US$63.270."
       }
      ],
      "pageNum": "04"
@@ -12192,7 +12193,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "Noviembre en <span class=\"em\" style=\"color:#fff;\">tres</span> números.",
-     "note": "Saldo al 6 de noviembre: US$91.387. Falta pagar US$63.270 del costo de octubre: US$27.479 de reparto, US$19.615 de contenido y diseño, US$9.616 de comercial y US$6.560 del resto del equipo. Las herramientas, la pauta y la inversión ya se pagaron dentro de octubre. Después de la quincena quedan US$28.117; contando los gastos del propio mes y las cuotas ya vendidas, noviembre cierra en US$32.331 sin ninguna venta nueva.",
+     "note": "Saldo al 10 de noviembre: US$75.411. Falta pagar US$63.270 del costo de octubre: US$27.479 de reparto, US$19.615 de contenido y diseño, US$9.616 de comercial y US$6.560 del resto del equipo. Las herramientas, la pauta y la inversión ya se pagaron dentro de octubre. Después de la quincena quedan US$28.117; contando los gastos del propio mes y las cuotas ya vendidas, noviembre cierra en US$32.331 sin ninguna venta nueva.",
      "noteOpacity": ".7",
      "pageLabel": "Proyección · noviembre y diciembre 2026"
     }
@@ -12224,7 +12225,7 @@
     {
      "key": true,
      "l": "Saldo en cuenta",
-     "v": "US$92.387",
+     "v": "US$98.481",
      "s": "La plata que <b>hay al cierre de octubre</b> según la hoja de Informes; el libro diario marca US$95.388. Arrancó el año en −US$5.428 y el máximo fue septiembre, con US$126.002."
     }
    ],
@@ -12365,13 +12366,13 @@
      },
      {
       "v": "US$45.875",
-      "vCob": "US$62.428",
+      "vCob": "US$67.428",
       "factH": 48,
       "cobH": 66,
       "m": "Octubre"
      }
     ],
-    "foot": "Octubre facturó US$45.875 y cobró US$62.428; septiembre había facturado US$142.900 y cobrado US$104.139. La barra llena es lo facturado por el trabajo del mes; la de contorno, lo que se cobró."
+    "foot": "Octubre facturó US$45.875 y cobró US$67.428; septiembre había facturado US$142.900 y cobrado US$104.139. La barra llena es lo facturado por el trabajo del mes; la de contorno, lo que se cobró."
    },
    "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$617.408 = 567.942 + 49.466). A la cuenta entraron US$580.592 en total: esos US$567.942 de facturación más US$12.650 de aportes de socios, que no son ventas.",
    "unidades": {
@@ -12698,11 +12699,11 @@
       "href": "mes.html?m=septiembre",
       "no": "09",
       "month": "Septiembre",
-      "head": "Facturado US$142.900, trabajo +US$56.292 y saldo US$126.002.",
+      "head": "Facturado US$142.900, trabajo +US$50.871 y saldo US$126.002.",
       "metrics": [
        {
         "label": "Trabajo",
-        "value": "+US$56.292",
+        "value": "+US$50.871",
         "cls": "pos"
        },
        {
@@ -12717,16 +12718,16 @@
       "href": "mes.html?m=octubre",
       "no": "10",
       "month": "Octubre",
-      "head": "Facturado US$45.875 con US$68.312 de costos. El saldo baja a US$92.387.",
+      "head": "Facturado US$45.875 con US$68.264 de costos. El saldo baja a US$98.481.",
       "metrics": [
        {
         "label": "Trabajo",
-        "value": "−US$22.437",
+        "value": "−US$22.389",
         "cls": "neg"
        },
        {
         "label": "Caja",
-        "value": "−US$33.397",
+        "value": "−US$27.521",
         "cls": "neg"
        }
       ]
@@ -12841,7 +12842,7 @@
     ]
    }
   ],
-  "footer": "<b>Moneda:</b> dólares (US$). &nbsp;·&nbsp; <b>Cómo se lee:</b> \"trabajo\" = lo facturado por el trabajo del mes y sus costos; \"caja\" = lo que realmente entró y salió de la cuenta. &nbsp;·&nbsp; Números según planillas <b>Informes 2026</b> y <b>Gestión 2026</b> (Informes actualizada a octubre; libro diario al 6 de noviembre)."
+  "footer": "<b>Moneda:</b> dólares (US$). &nbsp;·&nbsp; <b>Cómo se lee:</b> \"trabajo\" = lo facturado por el trabajo del mes y sus costos; \"caja\" = lo que realmente entró y salió de la cuenta. &nbsp;·&nbsp; Números según planillas <b>Informes 2026</b> y <b>Gestión 2026</b> (Informes actualizada a octubre; libro diario al 10 de noviembre)."
  },
  "unidades": [
   {
@@ -12969,23 +12970,23 @@
   }
  ],
  "proyeccion": {
-  "generada": "2026-11-07",
-  "ventana": "2026-11-01 a 2026-11-15",
-  "base": "Informes 2026 (4) con octubre cerrado y Gestión 2026 (4), libro diario al 6 de noviembre",
-  "saldoCierreOctubre": 92387,
-  "cobradoOctubre": 62428,
-  "pagadoOctubre": 95825,
-  "costoOctubreAPagar": 68312,
+  "generada": "2026-11-11",
+  "ventana": "2026-11-11 a 2026-11-30",
+  "base": "Informes 2026 (5) y Gestión 2026 (6), libro diario al 10 de noviembre",
+  "saldoCierreOctubre": 98481,
+  "cobradoOctubre": 67428,
+  "pagadoOctubre": 94949,
+  "costoOctubreAPagar": 68264,
   "quedaDespues": 24075,
   "supuestos": [
-   "El costo de octubre (US$68.312) es el que figura en la planilla, no una estimación.",
+   "El costo de octubre (US$68.264) es el que figura en la planilla, no una estimación.",
    "No incluye lo que se gaste de nuevo en noviembre, que se paga dentro del mismo mes.",
-   "El libro diario llega al 6 de noviembre: todavía no registra cobros de noviembre.",
-   "Los US$3.775 que cobró 0800 no pasan por el reparto: la unidad todavía no tiene costos cargados."
+   "El libro diario llega al 10 de noviembre: el reparto de octubre a los socios ya está pagado.",
+   "Los US$8.775 que cobró 0800 todavía no pasan por el reparto completo: sólo se repartió Coderhouse (US$1.900)."
   ],
   "saldoAlDia": {
-   "fecha": "2026-11-06",
-   "valor": 91387
+   "fecha": "2026-11-10",
+   "valor": 75411
   },
   "repartoOctubre": {
    "cinco": 28479,
@@ -12995,8 +12996,8 @@
   },
   "cashflow": {
    "saldo": {
-    "fecha": "2026-11-06",
-    "valor": 91387
+    "fecha": "2026-11-10",
+    "valor": 75411
    },
    "costoOctubrePendiente": 63270,
    "detalle": {
@@ -13026,6 +13027,7 @@
    },
    "nota": "Sin ventas nuevas. El reparto y el comercial de noviembre dependen de lo que cobre el mes.",
    "cobradoSinCargarEnDiario": 1500
-  }
+  },
+  "desactualizado": "El cashflow proyectado se armó el 7 de noviembre sobre los números viejos. Hay que rehacerlo."
  }
 }
