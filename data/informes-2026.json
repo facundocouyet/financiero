@@ -23,14 +23,15 @@
   "economicoSocios": "El económico de cada socio/persona = lo que generó su trabajo en los clientes del mes (NO un retiro fijo).",
   "cuentaPersonal": "Salvedades 2025, ya saldadas en cero. No darle importancia en la lectura del negocio.",
   "b2c": "Curso B2C 'La cáscara' = producto propio. Costos: Comercial + Distribución (rev-share Rein 30% cruzado, luego Franco).",
-  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$617.408 = 567.942 + 49.466; el curso sin las reservas caídas hasta agosto, septiembre provisorio, octubre con el número de la planilla). A la cuenta entran además los aportes de socios (US$12.650, no son ventas), por eso el total que entró en caja es US$580.592.",
+  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$617.408 = 572.942 + 44.466; el curso sin las reservas caídas hasta agosto, septiembre provisorio, octubre con el número de la planilla). A la cuenta entran además los aportes de socios (US$12.650, no son ventas), por eso el total que entró en caja es US$585.592.",
   "unidad": "Una unidad de negocio lleva su propia cuenta: lo que cobró menos su comercial, su contenido, sus herramientas y su equipo. Lo que queda es el resultado de la unidad, y sobre eso se reparte. Hoy son La cáscara (curso B2C), Cáscara Founders, 0800 y Board Room.",
-  "growth": "El equipo de growth son los closers y setters que venden las unidades. Cobran por comisión: closers 8% de lo que cobran sus ventas, setters 3%, y la dirección comercial un 7% sobre el total de la unidad.",
+  "growth": "El equipo de growth son los closers y setters que venden las unidades. Cobran por comisión: closers 8% de lo que cobran sus ventas, setters 3%, y la dirección comercial sobre el total de la unidad: 7% en septiembre y 6% en octubre.",
   "reparto": "El reparto = cómo se divide el resultado de cada unidad. No es un porcentaje único: en el curso Cáscara se queda el 20% y el 80% restante se divide entre Franco, Fede, Teo, Juana, Facu y Segundo; en Founders va directo sobre el resultado, con Facu y Franco en 27,5% cada uno.",
   "contenido": "El equipo de contenido y diseño son las personas que producen el material de las cuentas. Cobran por trabajo entregado, con un mes de desfasaje: lo que se paga en septiembre es el trabajo de agosto. El informe de contenido por cuenta reparte ese gasto entre La cáscara, 0800 (donde está Delfi Ferro), Livo, Collab, My Saint · Cero y Founders.",
   "recupero": "Un recupero es plata que entra a la cuenta pero no es una venta: el proyecto devuelve lo que Cáscara pagó por él. En septiembre, el proyecto Cero devolvió US$2.482 de contenido y herramientas.",
   "unidadesVendidas": "Las unidades vendidas son los contratos cerrados en el mes, uno por alumno o miembro, según la fecha de cierre en Airtable. No coinciden con lo facturado: la planilla descuenta las reservas caídas y los planes de pago reparten el cobro en cuotas.",
-  "cajaCentral": "La caja central es la parte del resultado de cada unidad que no se reparte y queda en la empresa. En septiembre fue el 20% del curso y el 10% de Cáscara Founders: US$8.727 en total. 0800 y growth todavía no tienen tasa asignada."
+  "cajaCentral": "La caja central es la parte del resultado de cada unidad que no se reparte y queda en la empresa. En septiembre fue el 20% del curso y el 10% de Cáscara Founders: US$8.727 en total. 0800 y growth todavía no tienen tasa asignada.",
+  "economicoVsFinanciero": "Las dos lecturas miran la misma plata con relojes distintos. Económico = el trabajo: cuenta cuando se hace. Financiero = la caja: cuenta cuando se mueve. En el año enero–octubre dan +US$121.244 y +US$103.033; la diferencia son los US$44.466 facturados sin cobrar, menos los US$13.605 de costo sin pagar, menos los US$12.650 de aportes de socios."
  },
  "anioInicio": {
   "saldoInicial": -5428.2
@@ -9134,7 +9135,7 @@
       "fin": 25
      }
     ],
-    "nota": "Reconciliado contra el libro diario de Gestión 2026: lo que entró es lo mismo en las dos planillas, US$67.428,47. En los egresos hay US$876 de diferencia en la línea del evento —el informe dice US$13.107 y el diario US$12.231—, así que el informe cierra octubre en US$97.605 y el diario en US$97.605. Está a revisar. Octubre arranca en US$126.002, que es donde cierra septiembre en el diario y en la hoja de Informes: la planilla se corrigió en noviembre y los US$217,18 que figuraban dos veces ya no están. El reparto por unidad sale de la hoja Distribución, la cuenta de cada unidad de Unidades - Cascara y el contenido por persona de la hoja Equipo. La línea <b>Evento</b> (US$13.107) es el viaje a España, que no tiene costo económico cargado a ningún mes."
+    "nota": "Reconciliado contra el libro diario de Gestión 2026: lo que entró es lo mismo en las dos planillas, US$67.428,47. En los egresos hay US$876 de diferencia en la línea del evento —el informe dice US$13.107 y el diario US$12.231—, así que el informe cierra octubre en US$97.605 y el diario en US$98.481. Está a revisar. Octubre arranca en US$126.002, que es donde cierra septiembre en el diario y en la hoja de Informes: la planilla se corrigió en noviembre y los US$217,18 que figuraban dos veces ya no están. El reparto por unidad sale de la hoja Distribución, la cuenta de cada unidad de Unidades - Cascara y el contenido por persona de la hoja Equipo. La línea <b>Evento</b> (US$13.107) es el viaje a España, que no tiene costo económico cargado a ningún mes."
    },
    "slides": [
     {
@@ -9218,7 +9219,7 @@
        "accent": true
       }
      ],
-     "foot": "<div>US$45.875 facturados contra US$68.264 de costos dan −US$22.389 de resultado del trabajo. Entraron US$67.428 y salieron US$95.825, y el saldo pasa de US$126.002 a US$97.605. El informe cierra octubre en US$97.605 y el libro diario en US$97.605: la diferencia son US$876 en la línea del evento, a revisar. Octubre arranca en US$126.002, que es donde cierra septiembre en el diario y en la hoja de Informes: la planilla se corrigió en noviembre y los US$217,18 que figuraban dos veces ya no están.</div>",
+     "foot": "<div>US$45.875 facturados contra US$68.264 de costos dan −US$22.389 de resultado del trabajo. Entraron US$67.428 y salieron US$95.825, y el saldo pasa de US$126.002 a US$97.605. El informe cierra octubre en US$97.605 y el libro diario en US$98.481: la diferencia son US$876 en la línea del evento, a revisar. Octubre arranca en US$126.002, que es donde cierra septiembre en el diario y en la hoja de Informes: la planilla se corrigió en noviembre y los US$217,18 que figuraban dos veces ya no están.</div>",
      "pageNum": "01"
     },
     {
@@ -10347,11 +10348,77 @@
      "pageNum": "04"
     },
     {
+     "type": "lecturas",
+     "label": "Económico y financiero",
+     "kicker": "05 · Las dos lecturas, en el año",
+     "title": "Por qué hay <span class=\"em\">dos números</span>",
+     "trabajo": {
+      "tag": "El trabajo · lo económico",
+      "sub": "¿El negocio da plata? Cuenta lo facturado por el trabajo de cada mes y sus costos, se haya cobrado y pagado o no.",
+      "io": [
+       {
+        "l": "Facturado",
+        "v": "US$617.408"
+       },
+       {
+        "l": "Costos",
+        "v": "US$496.164"
+       }
+      ],
+      "resL": "Resultado del trabajo",
+      "resFig": "+US$121.244",
+      "chip": "19,6% de lo facturado"
+     },
+     "caja": {
+      "tag": "La caja · lo financiero",
+      "sub": "¿Tenemos plata? Cuenta lo que entró y salió de la cuenta, sin importar de qué mes era el trabajo.",
+      "io": [
+       {
+        "l": "Entró",
+        "v": "US$585.592"
+       },
+       {
+        "l": "Salió",
+        "v": "US$482.559"
+       }
+      ],
+      "resL": "Resultado de caja",
+      "resFig": "+US$103.033",
+      "chip": "17,6% de lo que entró"
+     },
+     "flow": [
+      {
+       "l": "Resultado del trabajo",
+       "v": "+US$121.244"
+      },
+      {
+       "l": "− Facturado sin cobrar",
+       "v": "US$44.466",
+       "blue": true
+      },
+      {
+       "l": "+ Costo sin pagar",
+       "v": "US$13.605"
+      },
+      {
+       "l": "+ Aportes de socios",
+       "v": "US$12.650"
+      },
+      {
+       "l": "Resultado de caja",
+       "v": "+US$103.033",
+       "accent": true
+      }
+     ],
+     "foot": "Son la misma plata mirada con dos relojes. El <b>trabajo</b> la cuenta cuando se hace; la <b>caja</b>, cuando se mueve. En el año dicen casi lo mismo. Mes a mes se separan, porque lo que se factura en septiembre se cobra en cuotas y su costo se paga en octubre: por eso el informe muestra las dos todos los meses, y por eso ningún mes suelto alcanza para saber cómo va el negocio.",
+     "pageNum": "05"
+    },
+    {
      "type": "cascada",
      "label": "Cómo funciona Cáscara",
-     "kicker": "05 · Cómo funciona",
+     "kicker": "06 · Cómo funciona",
      "title": "De cada <span class=\"em\">US$100</span> que entra",
-     "sub": "Enero a octubre, sobre los <b>US$585.593</b> que entraron a la cuenta. Las cinco primeras porciones son lo que se fue; la última es lo que quedó.",
+     "sub": "Es la lectura de <b>caja</b>: enero a octubre, sobre los <b>US$585.593</b> que realmente entraron a la cuenta. Las cinco primeras porciones son lo que salió; la última es lo que quedó.",
      "segs": [
       {
        "nm": "Socios",
@@ -10414,18 +10481,18 @@
      "foot": "<b>Gente</b> son los socios, el equipo, el comercial y los que hacen contenido y diseño: US$393.453 de los US$585.593. <b>Todo lo demás</b> junta herramientas, pauta e inversión, eventos, administración, revenue share y devoluciones.",
      "footRight": "Los <b>US$103.909</b> que quedan son exactamente lo que subió la cuenta en diez meses: de −US$5.428 el 1 de enero a US$98.481 el 31 de octubre.",
      "footMarginTop": "22px",
-     "pageNum": "05"
+     "pageNum": "06"
     },
     {
      "type": "cierre",
      "label": "Cierre · Octubre",
      "variant": "blue",
-     "kicker": "06 · La lectura del mes",
+     "kicker": "07 · La lectura del mes",
      "big": "Octubre en <span class=\"em\" style=\"color:#fff;\">cuatro</span> números.",
      "note": "Facturado US$45.875 contra US$68.264 de costos: resultado del trabajo −US$22.389. Entraron US$67.428 y salieron US$95.825: resultado de caja −US$28.397. El saldo pasa de US$126.002 a US$97.605. El reparto del mes es US$28.479 entre los cinco, US$4.143 para Cáscara y US$339 para Segundo, calculado sobre US$32.961 de resultado entre las dos unidades. Dentro de los pagos del mes hay US$13.107 del viaje a España.",
      "pageLabel": "10 · Octubre 2026",
      "noteOpacity": "0.85",
-     "pageNum": "06"
+     "pageNum": "07"
     }
    ]
   },
@@ -12221,7 +12288,7 @@
       {
        "label": "Saldo al cierre de octubre",
        "fig": "US$97.605",
-       "note": "El El informe cierra octubre en US$97.605 y el libro diario en US$97.605: la diferencia son US$876 en la línea del evento, a revisar. Al 10 de noviembre el saldo del diario es US$75.411: en el medio se pagó el reparto de octubre a los socios. Octubre incluye US$13.107 del viaje a España."
+       "note": "El El informe cierra octubre en US$97.605 y el libro diario en US$98.481: la diferencia son US$876 en la línea del evento, a revisar. Al 10 de noviembre el saldo del diario es US$75.411: en el medio se pagó el reparto de octubre a los socios. Octubre incluye US$13.107 del viaje a España."
       }
      ],
      "pageNum": "03"

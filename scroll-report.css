@@ -152,3 +152,9 @@ h2 .em{ color:var(--blue); }
 .mcasc__tots div span{ display:block; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
 .mcasc__tots div b{ display:block; font-family:var(--serif); font-style:italic; font-weight:400;
   font-size:28px; line-height:1; color:var(--blue); margin-top:6px; }
+
+/* cifras del año: seis dígitos no entran a 26px en pantallas angostas */
+@media (max-width:420px){
+  .book__io{ gap:18px; }
+  .book__io b{ font-size:22px; }
+}
