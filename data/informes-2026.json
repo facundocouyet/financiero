@@ -31,7 +31,8 @@
   "recupero": "Un recupero es plata que entra a la cuenta pero no es una venta: el proyecto devuelve lo que Cáscara pagó por él. En septiembre, el proyecto Cero devolvió US$2.482 de contenido y herramientas.",
   "unidadesVendidas": "Las unidades vendidas son los contratos cerrados en el mes, uno por alumno o miembro, según la fecha de cierre en Airtable. No coinciden con lo facturado: la planilla descuenta las reservas caídas y los planes de pago reparten el cobro en cuotas.",
   "cajaCentral": "La caja central es la parte del resultado de cada unidad que no se reparte y queda en la empresa. En septiembre fue el 20% del curso y el 10% de Cáscara Founders: US$8.727 en total. 0800 y growth todavía no tienen tasa asignada.",
-  "economicoVsFinanciero": "Las dos lecturas miran la misma plata con relojes distintos. Económico = el trabajo: cuenta cuando se hace. Financiero = la caja: cuenta cuando se mueve. En el año enero–octubre dan +US$121.244 y +US$103.033; la diferencia son los US$44.466 facturados sin cobrar, menos los US$13.605 de costo sin pagar, menos los US$12.650 de aportes de socios."
+  "economicoVsFinanciero": "Las dos lecturas miran la misma plata con relojes distintos. Económico = el trabajo: cuenta cuando se hace. Financiero = la caja: cuenta cuando se mueve. Enero–octubre dan +US$121.244 y +US$90.383. La diferencia son los US$44.466 facturados sin cobrar, los US$67.905 de costo cargado que todavía no salieron y los US$54.300 que salieron sin estar cargados como costo de ningún mes.",
+  "aportesDeSocios": "US$12.650 que pusieron los socios, no son ventas: Juana US$9.000 y Fede US$3.000 en enero, cuando la caja arrancó el año en −US$5.428, más US$250 de Juana en febrero y US$400 en marzo. Quedan fuera de la lectura del negocio y sólo aparecen al explicar cuánto subió la cuenta."
  },
  "anioInicio": {
   "saldoInicial": -5428.2
@@ -10371,11 +10372,11 @@
      },
      "caja": {
       "tag": "La caja · lo financiero",
-      "sub": "¿Tenemos plata? Cuenta lo que entró y salió de la cuenta, sin importar de qué mes era el trabajo.",
+      "sub": "¿Tenemos plata? Cuenta lo que entró y salió de la cuenta, sin importar de qué mes era el trabajo. Sin los aportes de socios, que no son ventas.",
       "io": [
        {
-        "l": "Entró",
-        "v": "US$585.592"
+        "l": "Cobró el negocio",
+        "v": "US$572.942"
        },
        {
         "l": "Salió",
@@ -10383,8 +10384,8 @@
        }
       ],
       "resL": "Resultado de caja",
-      "resFig": "+US$103.033",
-      "chip": "17,6% de lo que entró"
+      "resFig": "+US$90.383",
+      "chip": "15,8% de lo que cobró"
      },
      "flow": [
       {
@@ -10397,20 +10398,20 @@
        "blue": true
       },
       {
-       "l": "+ Costo sin pagar",
-       "v": "US$13.605"
+       "l": "+ Costo cargado sin pagar",
+       "v": "US$67.905"
       },
       {
-       "l": "+ Aportes de socios",
-       "v": "US$12.650"
+       "l": "− Salió sin ser costo del mes",
+       "v": "US$54.300"
       },
       {
        "l": "Resultado de caja",
-       "v": "+US$103.033",
+       "v": "+US$90.383",
        "accent": true
       }
      ],
-     "foot": "Son la misma plata mirada con dos relojes. El <b>trabajo</b> la cuenta cuando se hace; la <b>caja</b>, cuando se mueve. En el año dicen casi lo mismo. Mes a mes se separan, porque lo que se factura en septiembre se cobra en cuotas y su costo se paga en octubre: por eso el informe muestra las dos todos los meses, y por eso ningún mes suelto alcanza para saber cómo va el negocio.",
+     "foot": "Son la misma plata mirada con dos relojes. El <b>trabajo</b> la cuenta cuando se hace; la <b>caja</b>, cuando se mueve. Las dos líneas del medio son el desfasaje: <b>US$67.905</b> de costo ya cargado todavía no salieron de la cuenta —casi todo el costo de octubre, que se paga en noviembre— y <b>US$54.300</b> salieron sin estar cargados como costo de ningún mes, sobre todo los viajes y eventos. Mes a mes las dos lecturas se separan; en el año terminan cerca.",
      "pageNum": "05"
     },
     {
@@ -10418,48 +10419,48 @@
      "label": "Cómo funciona Cáscara",
      "kicker": "06 · Cómo funciona",
      "title": "De cada <span class=\"em\">US$100</span> que entra",
-     "sub": "Es la lectura de <b>caja</b>: enero a octubre, sobre los <b>US$585.593</b> que realmente entraron a la cuenta. Las cinco primeras porciones son lo que salió; la última es lo que quedó.",
+     "sub": "Es la lectura de <b>caja</b>: enero a octubre, sobre los <b>US$572.943</b> que cobró el negocio. Las cinco primeras porciones son lo que salió; la última es lo que quedó.",
      "segs": [
       {
        "nm": "Socios",
-       "pc": "21%",
+       "pc": "22%",
        "amt": "123.596",
-       "w": "21.11%",
+       "w": "21.57%",
        "c": "#0A0A0C"
       },
       {
        "nm": "Equipo",
        "pc": "21%",
        "amt": "121.355",
-       "w": "20.72%",
+       "w": "21.18%",
        "c": "#3A3A40"
       },
       {
        "nm": "Comercial",
        "pc": "11%",
        "amt": "63.304",
-       "w": "10.81%",
+       "w": "11.05%",
        "c": "#6A6A70"
       },
       {
        "nm": "Contenido<br>y diseño",
-       "pc": "14%",
+       "pc": "15%",
        "amt": "85.198",
-       "w": "14.55%",
+       "w": "14.87%",
        "c": "#9A9AA0"
       },
       {
        "nm": "Todo lo<br>demás",
        "pc": "15%",
-       "amt": "88.231",
-       "w": "15.07%",
+       "amt": "89.107",
+       "w": "15.55%",
        "c": "#C9C9CE"
       },
       {
        "nm": "Queda en<br>la cuenta",
-       "pc": "18%",
-       "amt": "103.909",
-       "w": "17.74%",
+       "pc": "16%",
+       "amt": "90.384",
+       "w": "15.78%",
        "c": "#10069F",
        "accent": true
       }
@@ -10467,7 +10468,7 @@
      "totales": [
       {
        "l": "Se va en gente",
-       "v": "67%"
+       "v": "69%"
       },
       {
        "l": "Herramientas y estructura",
@@ -10475,11 +10476,11 @@
       },
       {
        "l": "Queda",
-       "v": "18%"
+       "v": "16%"
       }
      ],
-     "foot": "<b>Gente</b> son los socios, el equipo, el comercial y los que hacen contenido y diseño: US$393.453 de los US$585.593. <b>Todo lo demás</b> junta herramientas, pauta e inversión, eventos, administración, revenue share y devoluciones.",
-     "footRight": "Los <b>US$103.909</b> que quedan son exactamente lo que subió la cuenta en diez meses: de −US$5.428 el 1 de enero a US$98.481 el 31 de octubre.",
+     "foot": "<b>Gente</b> son los socios, el equipo, el comercial y los que hacen contenido y diseño: US$393.453 de los US$572.943. <b>Todo lo demás</b> junta herramientas, pauta e inversión, eventos, administración, revenue share y devoluciones.",
+     "footRight": "Los <b>US$90.384</b> que quedan, más los <b>US$12.650</b> que pusieron Juana y Fede en enero, son lo que subió la cuenta: de −US$5.428 el 1 de enero a US$97.605 el 31 de octubre.",
      "footMarginTop": "22px",
      "pageNum": "06"
     },
