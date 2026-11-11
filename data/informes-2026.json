@@ -21,9 +21,9 @@
   "resultadoTrabajo": "facturado − costos (del mes).",
   "resultadoCaja": "cobrado − pagado (del mes).",
   "economicoSocios": "El económico de cada socio/persona = lo que generó su trabajo en los clientes del mes (NO un retiro fijo).",
-  "cuentaPersonal": "Salvedades 2025, ya saldadas en cero. No darle importancia en la lectura del negocio.",
+  "cuentaPersonal": "Juana y Fede tenían plata propia dentro de la caja de Cáscara, de cobros que no eran del negocio. Son US$12.650 que en el libro diario figuran como ingreso bajo la categoría Socio: Juana US$9.000, US$250 y US$400, y Fede US$3.000. Se usaron para saldar las cuentas de 2025 y para sus retiros, y las dos cuentas quedaron en cero el 11 de mayo de 2026. No son ventas ni aportes de capital: quedan fuera de la lectura del negocio.",
   "b2c": "Curso B2C 'La cáscara' = producto propio. Costos: Comercial + Distribución (rev-share Rein 30% cruzado, luego Franco).",
-  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$617.408 = 572.942 + 44.466; el curso sin las reservas caídas hasta agosto, septiembre provisorio, octubre con el número de la planilla). A la cuenta entran además los aportes de socios (US$12.650, no son ventas), por eso el total que entró en caja es US$585.592.",
+  "reconciliacion": "Facturación = Cobrado de facturación + Por cobrar (US$617.408 = 572.942 + 44.466; el curso sin las reservas caídas hasta agosto, septiembre provisorio, octubre con el número de la planilla). A la cuenta entran además US$12.650 de las cuentas personales de Juana y Fede, que no son ventas, por eso el total que entró en caja es US$585.592.",
   "unidad": "Una unidad de negocio lleva su propia cuenta: lo que cobró menos su comercial, su contenido, sus herramientas y su equipo. Lo que queda es el resultado de la unidad, y sobre eso se reparte. Hoy son La cáscara (curso B2C), Cáscara Founders, 0800 y Board Room.",
   "growth": "El equipo de growth son los closers y setters que venden las unidades. Cobran por comisión: closers 8% de lo que cobran sus ventas, setters 3%, y la dirección comercial sobre el total de la unidad: 7% en septiembre y 6% en octubre.",
   "reparto": "El reparto = cómo se divide el resultado de cada unidad. No es un porcentaje único: en el curso Cáscara se queda el 20% y el 80% restante se divide entre Franco, Fede, Teo, Juana, Facu y Segundo; en Founders va directo sobre el resultado, con Facu y Franco en 27,5% cada uno.",
@@ -31,8 +31,7 @@
   "recupero": "Un recupero es plata que entra a la cuenta pero no es una venta: el proyecto devuelve lo que Cáscara pagó por él. En septiembre, el proyecto Cero devolvió US$2.482 de contenido y herramientas.",
   "unidadesVendidas": "Las unidades vendidas son los contratos cerrados en el mes, uno por alumno o miembro, según la fecha de cierre en Airtable. No coinciden con lo facturado: la planilla descuenta las reservas caídas y los planes de pago reparten el cobro en cuotas.",
   "cajaCentral": "La caja central es la parte del resultado de cada unidad que no se reparte y queda en la empresa. En septiembre fue el 20% del curso y el 10% de Cáscara Founders: US$8.727 en total. 0800 y growth todavía no tienen tasa asignada.",
-  "economicoVsFinanciero": "Las dos lecturas miran la misma plata con relojes distintos. Económico = el trabajo: cuenta cuando se hace. Financiero = la caja: cuenta cuando se mueve. Enero–octubre dan +US$121.244 y +US$90.383. La diferencia son los US$44.466 facturados sin cobrar, los US$67.905 de costo cargado que todavía no salieron y los US$54.300 que salieron sin estar cargados como costo de ningún mes.",
-  "aportesDeSocios": "US$12.650 que pusieron los socios, no son ventas: Juana US$9.000 y Fede US$3.000 en enero, cuando la caja arrancó el año en −US$5.428, más US$250 de Juana en febrero y US$400 en marzo. Quedan fuera de la lectura del negocio y sólo aparecen al explicar cuánto subió la cuenta."
+  "economicoVsFinanciero": "Las dos lecturas miran la misma plata con relojes distintos. Económico = el trabajo: cuenta cuando se hace. Financiero = la caja: cuenta cuando se mueve. Enero–octubre dan +US$121.244 y +US$90.383. La diferencia son los US$44.466 facturados sin cobrar, los US$67.905 de costo cargado que todavía no salieron y los US$54.300 que salieron sin estar cargados como costo de ningún mes."
  },
  "anioInicio": {
   "saldoInicial": -5428.2
@@ -164,7 +163,7 @@
     "costo": 13414,
     "pagado": 11043
    },
-   "nota": "<b>Facturado / del mes</b> = el trabajo de este mes y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió de la cuenta. Las líneas <b>Juana · devolución</b> y <b>Fede · devolución</b> no son ventas: son aportes que los socios hicieron desde afuera para saldar su cuenta personal con Cáscara (habían usado las cuentas de la empresa para cobrar servicios personales en 2025). Por eso la caja del mes (US$24.777) queda muy por encima de lo cobrado por trabajo (US$12.777). En enero todavía no hay actividad del curso <b>B2C La cáscara</b>.",
+   "nota": "<b>Facturado / del mes</b> = el trabajo de este mes y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió de la cuenta. Las líneas <b>Juana · devolución</b> y <b>Fede · devolución</b> no son ventas: era plata de ellos que ya estaba en la caja de Cáscara —habían usado las cuentas de la empresa para cobrar servicios personales en 2025— y se usó para saldar su cuenta personal con la empresa. Por eso la caja del mes (US$24.777) queda muy por encima de lo cobrado por trabajo (US$12.777). En enero todavía no hay actividad del curso <b>B2C La cáscara</b>.",
    "proporciones": {
     "ingresos": {
      "base": "caja",
@@ -3215,7 +3214,7 @@
        "accent": true
       }
      ],
-     "foot": "<div><b>El trabajo casi empata; la caja sube fuerte.</b> La diferencia: entraron aportes de socios y cobros adelantados que no son trabajo de enero.</div>",
+     "foot": "<div><b>El trabajo casi empata; la caja sube fuerte.</b> La diferencia: entraron cobros adelantados y plata de las cuentas personales de Juana y Fede, que no es trabajo de enero.</div>",
      "pageNum": "01"
     },
     {
@@ -3227,7 +3226,7 @@
       "fact": "US$12.669",
       "factSmall": "Por el trabajo del mes",
       "cob": "US$24.777",
-      "cobSmall": "Incluye US$12.000 de aportes de socios"
+      "cobSmall": "Incluye US$12.000 de las cuentas de Juana y Fede"
      },
      "rowsMarginTop": "20px",
      "bars": [
@@ -3260,7 +3259,7 @@
        "amountSpan": "6% de la caja"
       }
      ],
-     "foot": "<div><b>Ingreso por trabajo del mes: US$12.777.</b> Los US$12.000 de aportes de socios no son venta: son plata propia que pusieron para saldar su cuenta personal con Cáscara (ver slide 04).</div>",
+     "foot": "<div><b>Ingreso por trabajo del mes: US$12.777.</b> Los US$12.000 de Juana y Fede no son venta: era plata de ellos que ya estaba en la caja de Cáscara y se usó para saldar su cuenta personal con la empresa (ver slide 04).</div>",
      "footMarginTop": "24px",
      "pageNum": "02"
     },
@@ -3365,7 +3364,7 @@
        "Fede aporta · US$3.000"
       ]
      },
-     "foot": "<div>Estos montos son el <b>económico de cada uno</b> según el trabajo que hizo en los clientes del mes —no un retiro fijo—. En enero, Fede generó más por su trabajo (US$4.200). Aparte, el aporte a la cuenta personal (derecha) entró a la caja pero <b>no es resultado del negocio</b>.</div>",
+     "foot": "<div>Estos montos son el <b>económico de cada uno</b> según el trabajo que hizo en los clientes del mes —no un retiro fijo—. En enero, Fede generó más por su trabajo (US$4.200). Aparte, lo de la cuenta personal (derecha) ya estaba en la caja pero <b>no es resultado del negocio</b>.</div>",
      "pageNum": "05"
     },
     {
@@ -3428,7 +3427,7 @@
      "variant": "blue",
      "kicker": "06 · La lectura del mes",
      "big": "Arrancamos el año dando vuelta el saldo: <span class=\"em\" style=\"color:#fff;\">de rojo a azul</span>.",
-     "note": "Por el trabajo del mes cerramos casi empatados (−US$745), pero la caja se recuperó fuerte: el saldo pasó de −US$5.428 a +US$8.306, empujado por cobros adelantados y el aporte de socios para saldar cuentas. Base saneada para arrancar.",
+     "note": "Por el trabajo del mes cerramos casi empatados (−US$745), pero la caja se recuperó fuerte: el saldo pasó de −US$5.428 a +US$8.306, empujado por cobros adelantados y por las cuentas personales de los socios, que se saldaron contra la caja. Base saneada para arrancar.",
      "pageLabel": "06 · Enero 2026",
      "noteOpacity": "0.82"
     }
@@ -3539,7 +3538,7 @@
     "totIngFin": 24777,
     "totEgrEco": 13414,
     "totEgrFin": 11043,
-    "nota": "<b>Facturado / del mes</b> = el trabajo de este mes y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió de la cuenta. Las líneas <b>Juana · devolución</b> y <b>Fede · devolución</b> no son ventas: son aportes que los socios hicieron desde afuera para saldar su cuenta personal con Cáscara (habían usado las cuentas de la empresa para cobrar servicios personales en 2025). Por eso la caja del mes (US$24.777) queda muy por encima de lo cobrado por trabajo (US$12.777). En enero todavía no hay actividad del curso <b>B2C La cáscara</b>."
+    "nota": "<b>Facturado / del mes</b> = el trabajo de este mes y sus costos, se haya cobrado o no. <b>Caja</b> = lo que realmente entró y salió de la cuenta. Las líneas <b>Juana · devolución</b> y <b>Fede · devolución</b> no son ventas: era plata de ellos que ya estaba en la caja de Cáscara —habían usado las cuentas de la empresa para cobrar servicios personales en 2025— y se usó para saldar su cuenta personal con la empresa. Por eso la caja del mes (US$24.777) queda muy por encima de lo cobrado por trabajo (US$12.777). En enero todavía no hay actividad del curso <b>B2C La cáscara</b>."
    }
   },
   "febrero": {
@@ -10372,7 +10371,7 @@
      },
      "caja": {
       "tag": "La caja · lo financiero",
-      "sub": "¿Tenemos plata? Cuenta lo que entró y salió de la cuenta, sin importar de qué mes era el trabajo. Sin los aportes de socios, que no son ventas.",
+      "sub": "¿Tenemos plata? Cuenta lo que entró y salió de la cuenta, sin importar de qué mes era el trabajo. Sin la plata de las cuentas personales de Juana y Fede, que no es del negocio.",
       "io": [
        {
         "l": "Cobró el negocio",
@@ -10480,7 +10479,7 @@
       }
      ],
      "foot": "<b>Gente</b> son los socios, el equipo, el comercial y los que hacen contenido y diseño: US$393.453 de los US$572.943. <b>Todo lo demás</b> junta herramientas, pauta e inversión, eventos, administración, revenue share y devoluciones.",
-     "footRight": "Los <b>US$90.384</b> que quedan, más los <b>US$12.650</b> que pusieron Juana y Fede en enero, son lo que subió la cuenta: de −US$5.428 el 1 de enero a US$97.605 el 31 de octubre.",
+     "footRight": "Los <b>US$90.384</b> que quedan son lo que generó el negocio en diez meses: entró a la cuenta y no volvió a salir.",
      "footMarginTop": "22px",
      "pageNum": "06"
     },
@@ -11407,7 +11406,7 @@
    "screenLabel": "Resumen 6 meses",
    "title": "Resumen Primer Semestre 2026 · Cáscara Collective",
    "detail": "summary",
-   "summaryNote": "El <b>trabajo facturado del semestre (US$252.647)</b> supera a lo cobrado de facturación (US$235.729): la diferencia (≈US$16.900) es trabajo ya hecho — sobre todo el curso B2C, que se vende en cuotas — que entra en caja más adelante. A la cuenta entraron US$248.379 en total, incluyendo US$12.650 de aportes de socios.",
+   "summaryNote": "El <b>trabajo facturado del semestre (US$252.647)</b> supera a lo cobrado de facturación (US$235.729): la diferencia (≈US$16.900) es trabajo ya hecho — sobre todo el curso B2C, que se vende en cuotas — que entra en caja más adelante. A la cuenta entraron US$248.379 en total, incluyendo US$12.650 de las cuentas personales de Juana y Fede.",
    "slides": [
     {
      "type": "cover",
@@ -11474,7 +11473,7 @@
       {
        "label": "Entró en caja",
        "fig": "US$248.379",
-       "note": "Lo que realmente entró a la cuenta. Incluye <b>US$12.650 de aportes de socios</b>, que no son ventas."
+       "note": "Lo que realmente entró a la cuenta. Incluye <b>US$12.650 de las cuentas personales de Juana y Fede</b>, que no son ventas."
       },
       {
        "label": "Resultado de caja",
@@ -11616,7 +11615,7 @@
       "resL": "Resultado de caja",
       "resFig": "+US$40.679"
      },
-     "foot": "<b>De lo facturado (US$253k), ya entró US$234k y faltan ~US$18k.</b> Casi todo lo que falta es del curso B2C, que se vende en cuotas. A la caja además llegaron US$12.650 de aportes de socios, que no son ventas.",
+     "foot": "<b>De lo facturado (US$253k), ya entró US$234k y faltan ~US$18k.</b> Casi todo lo que falta es del curso B2C, que se vende en cuotas. A la caja además llegaron US$12.650 de las cuentas personales de Juana y Fede, que no son ventas.",
      "pageNum": "05"
     },
     {
@@ -12512,7 +12511,7 @@
     ],
     "foot": "Octubre facturó US$45.875 y cobró US$67.428; septiembre había facturado US$142.900 y cobrado US$104.139. La barra llena es lo facturado por el trabajo del mes; la de contorno, lo que se cobró."
    },
-   "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$617.408 = 567.942 + 49.466). A la cuenta entraron US$580.592 en total: esos US$567.942 de facturación más US$12.650 de aportes de socios, que no son ventas.",
+   "dashNote": "<b>Facturación = cobrado + falta cobrar</b> (US$617.408 = 572.942 + 44.466). A la cuenta entraron US$585.592 en total: esos US$572.942 de facturación más US$12.650 de las cuentas personales de Juana y Fede, que no son ventas.",
    "unidades": {
     "t": "Las unidades vendidas, mes a mes",
     "sub": "Ventas cerradas por producto, según la fecha de cierre en Airtable",
@@ -12685,7 +12684,7 @@
       "href": "mes.html?m=enero",
       "no": "01",
       "month": "Enero",
-      "head": "De rojo a azul: el saldo se da vuelta con cobros y el aporte de socios.",
+      "head": "De rojo a azul: el saldo se da vuelta con cobros y con las cuentas de los socios.",
       "metrics": [
        {
         "label": "Trabajo",
@@ -13041,7 +13040,7 @@
    "id": "otros",
    "n": "Movimientos de socios",
    "corto": "socios",
-   "d": "Devoluciones y aportes, no es facturación",
+   "d": "Cuentas de socios y devoluciones, no es facturación",
    "ingresos": [
     "Juana · devolución",
     "Fede · devolución",
