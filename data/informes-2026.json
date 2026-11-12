@@ -11930,11 +11930,11 @@
       },
       {
        "label": "Falta pagar de octubre",
-       "value": "US$33.672"
+       "value": "US$35.572"
       },
       {
        "label": "Saldo al 30 de noviembre",
-       "value": "US$47.058"
+       "value": "US$45.158"
       }
      ]
     },
@@ -12037,11 +12037,29 @@
        ]
       },
       {
-       "nm": "Costo de octubre que se paga en noviembre",
+       "nm": "0800 · Coderhouse",
+       "s": "Reparto a los socios: Juana 400, Fede 1.000 y Facu 500",
+       "cells": [
+        {
+         "v": "1.900",
+         "dim": true
+        },
+        {
+         "v": "—",
+         "dim": true
+        },
+        {
+         "v": "1.900",
+         "em": true
+        }
+       ]
+      },
+      {
+       "nm": "Lo que se paga en noviembre por octubre",
        "tot": true,
        "cells": [
         {
-         "v": "64.270",
+         "v": "66.170",
          "dim": true
         },
         {
@@ -12049,13 +12067,13 @@
          "dim": true
         },
         {
-         "v": "33.672",
+         "v": "35.572",
          "em": true
         }
        ]
       }
      ],
-     "foot": "<b>Del 1 al 10 de noviembre ya salieron US$27.613 del costo de octubre:</b> el reparto a Facu, Juana, Fede y Teo el 9, y el comercial, el contenido y el diseño el 10. A Fede se le había adelantado US$3.000 el 31 de octubre, así que su parte queda saldada —por eso el reparto muestra US$19.917 pagados y no US$16.932—. Los US$3.994 de <b>herramientas, pauta e inversión</b> no están acá: esas líneas se pagan dentro del mismo mes y ya salieron en octubre.",
+     "foot": "<b>Del 1 al 10 de noviembre ya salieron US$27.613 del costo de octubre:</b> el reparto a Facu, Juana, Fede y Teo el 9, y el comercial, el contenido y el diseño el 10. A Fede se le había adelantado US$3.000 el 31 de octubre, así que su parte queda saldada —por eso el reparto muestra US$19.917 pagados y no US$16.932—. El <b>0800 · Coderhouse</b> se reparte aparte: no está dentro de los US$68.264 de costo del mes y todavía no salió. Los US$3.994 de <b>herramientas, pauta e inversión</b> tampoco están acá: esas líneas se pagan dentro del mismo mes y ya salieron en octubre.",
      "pageNum": "01"
     },
     {
@@ -12135,6 +12153,16 @@
        ]
       },
       {
+       "nm": "0800 · Coderhouse a los socios",
+       "cells": [
+        {
+         "v": "10 – 16 nov",
+         "dim": true
+        },
+        "−1.900"
+       ]
+      },
+      {
        "nm": "Queda después de la quincena",
        "tot": true,
        "cells": [
@@ -12143,7 +12171,7 @@
          "dim": true
         },
         {
-         "v": "41.739",
+         "v": "39.839",
          "em": true
         }
        ]
@@ -12179,14 +12207,13 @@
          "dim": true
         },
         {
-         "v": "47.058",
+         "v": "45.158",
          "em": true
         }
        ]
       },
       {
        "nm": "Costo de noviembre que no depende del cobro",
-       "s": "Contenido, diseño y resto del equipo",
        "cells": [
         {
          "v": "1 – 15 dic",
@@ -12214,7 +12241,7 @@
          "dim": true
         },
         {
-         "v": "24.983",
+         "v": "23.083",
          "em": true
         }
        ]
@@ -12239,7 +12266,7 @@
       {
        "label": "Costó el trabajo de octubre",
        "fig": "US$68.264",
-       "note": "Reparto US$28.479 a los cinco, US$4.143 que quedan en Cáscara y US$339 de Segundo; contenido y diseño US$19.615, comercial US$9.616, resto del equipo US$6.560 y herramientas, pauta e inversión US$3.994, que se pagan dentro del mismo mes.",
+       "note": "Reparto US$28.479 a los cinco, US$4.143 que quedan en Cáscara y US$339 de Segundo; contenido y diseño US$19.615, comercial US$9.616, resto del equipo US$6.560 y herramientas, pauta e inversión US$3.994, que se pagan dentro del mismo mes. Aparte de estos US$68.264 se reparten US$1.900 de <b>0800 · Coderhouse</b>, que no entran en el costo del mes.",
        "key": true
       },
       {
@@ -12275,7 +12302,7 @@
       {
        "label": "0800 y growth",
        "fig": "03",
-       "note": "0800 cobró US$8.775 en octubre —US$5.000 de Coderhouse, el 13— y no tiene hoja de unidad con costos ni tasa de caja, así que casi no pasa por el reparto. MySaint, Delfi Ferro y Daniela no figuran en el informe."
+       "note": "0800 cobró US$13.775 en octubre —Coderhouse 5.000 el 13, LIVO 5.000, Newro 3.000, Piel 651 y Francisca 124— y no tiene hoja de unidad con costos ni tasa de caja, así que casi no pasa por el reparto. Lo único que se reparte son US$1.900 de Coderhouse, por fuera del costo del mes. MySaint, Delfi Ferro y Daniela no figuran en el informe."
       },
       {
        "label": "El mínimo de caja",
@@ -12292,7 +12319,7 @@
      "wordmarkWhite": true,
      "bigTiza": true,
      "big": "Noviembre en <span class=\"em\" style=\"color:#fff;\">tres</span> números.",
-     "note": "Saldo al 10 de noviembre: US$75.411. Del costo de octubre ya salieron US$27.613 en los primeros diez días y quedan US$33.672: US$16.150 de contenido y diseño, US$8.562 de reparto —casi todo de Franco—, US$6.560 del resto del equipo y US$2.400 de comercial. Las herramientas, la pauta y la inversión ya se pagaron dentro de octubre. Después de la quincena quedan US$41.739; contando los gastos del propio mes y las cuotas ya vendidas, noviembre cierra en US$47.058 sin ninguna venta nueva.",
+     "note": "Saldo al 10 de noviembre: US$75.411. De octubre ya salieron US$27.613 en los primeros diez días y quedan US$35.572: US$16.150 de contenido y diseño, US$8.562 de reparto —casi todo de Franco—, US$6.560 del resto del equipo, US$2.400 de comercial y US$1.900 del 0800 de Coderhouse. Las herramientas, la pauta y la inversión ya se pagaron dentro de octubre. Después de la quincena quedan US$39.839; contando los gastos del propio mes y las cuotas ya vendidas, noviembre cierra en US$45.158 sin ninguna venta nueva.",
      "noteOpacity": ".7",
      "pageLabel": "Proyección · noviembre y diciembre 2026"
     }
@@ -12928,12 +12955,12 @@
       "metrics": [
        {
         "label": "Falta pagar de oct",
-        "value": "US$33.672",
+        "value": "US$35.572",
         "cls": "num"
        },
        {
         "label": "Saldo al 30 de nov",
-        "value": "US$47.058",
+        "value": "US$45.158",
         "cls": "num"
        }
       ]
@@ -13076,7 +13103,7 @@
   "cobradoOctubre": 67428,
   "pagadoOctubre": 95825,
   "costoOctubreAPagar": 68264,
-  "quedaDespues": 41739,
+  "quedaDespues": 39839,
   "saldoAlDia": {
    "fecha": "2026-11-10",
    "valor": 75411
@@ -13088,13 +13115,13 @@
    "salio": 28718,
    "delCostoDeOctubre": 27613,
    "gastosPropiosDeNoviembre": 1105,
-   "faltaPagarDeOctubre": 33672
+   "faltaPagarDeOctubre": 35572
   },
   "supuestos": [
    "El costo de octubre (US$68.264) es el que figura en la planilla, no una estimación. De ese total, US$3.994 de herramientas, pauta e inversión ya se pagaron dentro de octubre: lo que se paga en noviembre son US$64.270.",
    "Del costo de octubre ya salieron US$27.613 entre el 1 y el 10 de noviembre: el reparto a Facu, Juana, Fede y Teo el 9, y el comercial, el contenido y el diseño el 10.",
-   "Quedan US$33.672 por pagar: US$16.150 de contenido y diseño, US$8.562 de reparto —casi todo de Franco, que todavía no cobró—, US$6.560 del resto del equipo y US$2.400 de comercial. A Fede se le había adelantado US$3.000 el 31 de octubre, así que su parte queda saldada.",
-   "Si se paga todo y no entra nada más, después de la quincena el saldo queda en US$41.739.",
+   "Quedan US$35.572 por pagar: US$16.150 de contenido y diseño, US$8.562 de reparto —casi todo de Franco, que todavía no cobró—, US$6.560 del resto del equipo, US$2.400 de comercial y US$1.900 del reparto de 0800 · Coderhouse. A Fede se le había adelantado US$3.000 el 31 de octubre, así que su parte queda saldada.",
+   "Si se paga todo y no entra nada más, después de la quincena el saldo queda en US$39.839.",
    "En noviembre todavía no hay ventas nuevas.",
    "El libro diario llega al 10 de noviembre y todavía no tiene cargados los cobros del curso ni de Cáscara Founders de noviembre: lo único que entró son US$5.648 de 0800."
   ],
@@ -13105,6 +13132,13 @@
    "resultado": 32961
   },
   "pendiente": "Falta cargar en el diario los cobros de noviembre del curso y de Cáscara Founders. Hasta que estén, el saldo proyectado es el piso, no el número.",
-  "saldo30Noviembre": 47058
+  "saldo30Noviembre": 45158,
+  "repartoOcho": {
+   "juana": 400,
+   "fede": 1000,
+   "facu": 500,
+   "total": 1900,
+   "nota": "Reparto de 0800 · Coderhouse de octubre. No está dentro de los US$68.264 de costo del mes y al 10 de noviembre todavía no salió."
+  }
  }
 }
